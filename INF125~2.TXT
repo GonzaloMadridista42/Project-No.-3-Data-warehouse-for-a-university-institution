@@ -1,0 +1,41 @@
+USE projet_jegere;
+
+SELECT IDProjet,NomProjet,DateDebut,DateFin,IDResponsable
+FROM projet
+WHERE (IDProjet>=2);
+
+
+SELECT IDProjet,NomProjet,IDEtape,NomEtape,Livrable
+FROM projet,etape
+JOIN etapesxprojet ON projet.IDProjet=etapesxprojet.IDProjet
+JOIN etape ON etape.IDetape=etapesxprojet.IDetape
+WHERE etapesxprojet.IDetape= (SELECT max(IDEtape)
+			      FROM etapesxprojet
+                              WHERE projet.IDProjet=etapesxprojet.IDProjet);
+       
+       
+SELECT NomÉtape,Livrable
+FROM étape 
+WHERE IDÉtape=3  OR IDÉtape=4  OR IDÉtape=5; 
+            
+SELECT IDÉtape,IDProjet
+FROM étapesxprojet
+WHERE IDÉtape=4 AND IDProjet=1 OR IDÉtape=5 AND IDProjet=2 OR IDÉtape=3 AND IDProjet=3;
+
+SELECT IDProjet,DateDébut,DateFin
+FROM étapesxprojet
+WHERE DateDébut IS NOT NULL AND DateFin IS NOT NULL;
+
+SELECT IDEmploye,nomEmploye,AdresseCourriel,nbrHeures,SommeGagnee
+FROM employe,ressourcesprojet
+JOIN ressourcesprojet ON employe.IDEmploye=ressourcesprojet.IDEmploye
+JOIN projet ON projet.IDProjet=ressourcesprojet.IDProjet
+WHERE ressourcesprojet.IDProjet (SELECT sum(nbrHeures*prixHeure)
+                                 FROM ressourcesprojet
+                                 WHERE employe.IDEmploye=ressourcesprojet.IDEmploye);
+
+
+SELECT IDProjet,NomProjet,IDEtape,NomEtape,Livrable
+FROM projet,etape 
+WHERE IDProjet=1 AND IDEtape=4 OR IDProjet=2 AND IDEtape=5 OR IDProjet=3 AND IDEtape=3
+       
