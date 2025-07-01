@@ -1,0 +1,14 @@
+pr_NomDuprogramme,pr_NuméroDuProgramme,pr_TypeDeProgramme,pr_CycleÉtudes,pr_ProfilDeFormationDuprogramme,pr_Département
+"Baccalauréat en administration (cheminement général)",7764,Baccalauréat,"Premier cycle","Administration (cheminement général)",Administration
+"Baccalauréat en administration (cheminement général bilingue- français/anglais)",7364,Baccalauréat,"Premier cycle","Administration (cheminement général bilingue - français/anglais)",Administration
+"Baccalauréat en administration (concentration en développement local et économie sociale)",6771,Baccalauréat,"Premier cycle","Administration (développement local et économie sociale)",Administration
+"Baccalauréat en administration (concentration en gestion des services de santé et des services sociaux)",6773,Baccalauréat,"Premier cycle","Administration ( gestion des services de santé et des services sociaux)",Administration
+"Baccalauréat en administration (concentration en management)",6768,Baccalauréat,"Premier cycle","Administration (management)",Administration
+"Baccalauréat en administration (concentration en marketing)",6769,Baccalauréat,"Premier cycle","Administration (marketing)",Administration
+"Baccalauréat en communication",7887,Baccalauréat,"Premier cycle",Communication,Communication
+"Baccalauréat en administration (concentration en comptabilité et finance)",6774,Baccalauréat,"Premier cycle","Administration (comptabilité et finance)",Comptabilité
+"Baccalauréat en administration (concentration en économie)",6775,Baccalauréat,"Premier cycle","Administration (économie)",Économie
+"Baccalauréat en administration (concentration en entrepreneuriat)",6772,Baccalauréat,"Premier cycle","Administration (entrepreneuriat)",Entrepreneuriat
+"Baccalauréat en administration (concentration en comptabilité et finance)",6774,Baccalauréat,"Premier cycle","Administration (comptabilité et finance)",Finance
+"Baccalauréat en administration (concentration en planification financière)",6770,Baccalauréat,"Premier cycle","Administration (planification financière)",Finance
+"Baccalauréat en administration (concentration en gestion des ressources humaines)",7564,Baccalauréat,"Premier cycle","Administration (gestion des ressources humaines)","Gestion des ressources humaines et relations de travail"

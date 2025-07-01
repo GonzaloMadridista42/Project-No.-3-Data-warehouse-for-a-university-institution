@@ -1,0 +1,42 @@
+Requêtes de base fonctionnelles à 100% - Version Finale
+
+Requête #13:
+
+SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_ProfilDeFormationÉtudiant,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours,e_NomDuProgramme,e_NuméroDuProgramme,e_ProfilDeFormationDuProgramme 
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant
+WHERE e_ProfilDeFormationÉtudiant='Administration';
+
+Requête #14:
+
+SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_ProfilDeFormationÉtudiant,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours,e_NomDuprogramme,e_NuméroDuProgramme,e_ProfilDeFormationDuProgramme 
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant
+WHERE e_NomDuprogramme='Baccalauréat en administration (cheminement général)' AND e_NuméroDuProgramme='7764';
+
+Requête #15:
+
+SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_ProfilDeFormationÉtudiant,e_SessionÉtudes,e_NoteFinaleDuCours,e_NomDuProgramme,e_NuméroDuProgramme,e_ProfilDeFormationDuProgramme 
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant
+WHERE e_NuméroDuProgramme=6010;
+
+Requête #16:
+
+SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_ProfilDeFormationÉtudiant,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours,e_NomDuProgramme,e_NuméroDuProgramme,e_ProfilDeFormationDuProgramme 
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant
+WHERE e_ProfilDeFormationDuProgramme='Science des données';
+
+Requête #17:
+
+SELECT e_Prénom,e_Nom,e_Sexe,e_CodePermanent,e_ProfilDeFormationÉtudiant,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours,e_NomDuProgramme,e_NuméroDuProgramme,e_ProfilDeFormationDuProgramme
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant
+WHERE e_NuméroDuProgramme=1810 AND e_Sexe='MAsculin';
+
+Requête #18:
+
+SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_ProfilDeFormationÉtudiant,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours,e_NomDuProgramme,e_NuméroDuProgramme,e_ProfilDeFormationDuProgramme 
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant
+WHERE e_NuméroDuProgramme=6010 AND e_SessionÉtudes='Automne 2020';
+
+Requête #19:
+SELECT c_SigleDuCours,c_TitreDuCours,c_TypeDuCours,c_NuméroDuProgramme,c_ProfilDeFormationDuprogramme,c_DépartementResponsable 
+FROM Entrepôt_De_Données_Université_Téluq.Cours
+WHERE c_TypeDuCours='Cours avec examen';

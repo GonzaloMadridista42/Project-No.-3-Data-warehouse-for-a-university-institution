@@ -1,0 +1,14 @@
+pr_NomDuprogramme,pr_NuméroDuProgramme,pr_TypeDeProgramme,pr_ProfilDeFormationDuprogramme
+"Baccalauréat en administration (cheminement général)",7764,Baccalauréat,"Administration (cheminement général)"
+"Baccalauréat en administration (cheminement général bilingue- français/anglais)",7364,Baccalauréat,"Administration (cheminement général bilingue - français/anglais)"
+"Baccalauréat en administration (concentration en développement local et économie sociale)",6771,Baccalauréat,"Administration (développement local et économie sociale)"
+"Baccalauréat en administration (concentration en gestion des services de santé et des services sociaux)",6773,Baccalauréat,"Administration ( gestion des services de santé et des services sociaux)"
+"Baccalauréat en administration (concentration en management)",6768,Baccalauréat,"Administration (management)"
+"Baccalauréat en administration (concentration en marketing)",6769,Baccalauréat,"Administration (marketing)"
+"Baccalauréat en communication",7887,Baccalauréat,Communication
+"Baccalauréat en administration (concentration en comptabilité et finance)",6774,Baccalauréat,"Administration (comptabilité et finance)"
+"Baccalauréat en administration (concentration en économie)",6775,Baccalauréat,"Administration (économie)"
+"Baccalauréat en administration (concentration en entrepreneuriat)",6772,Baccalauréat,"Administration (entrepreneuriat)"
+"Baccalauréat en administration (concentration en comptabilité et finance)",6774,Baccalauréat,"Administration (comptabilité et finance)"
+"Baccalauréat en administration (concentration en planification financière)",6770,Baccalauréat,"Administration (planification financière)"
+"Baccalauréat en administration (concentration en gestion des ressources humaines)",7564,Baccalauréat,"Administration (gestion des ressources humaines)"

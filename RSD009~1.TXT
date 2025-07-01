@@ -1,0 +1,27 @@
+pr_NomDuprogramme,pr_NuméroDuProgramme,pr_CycleÉtudes,pr_TypeDeProgramme,pr_ProfilDeFormationDuprogramme,pr_Département
+"Programme court en gestion de projets créatifs",740,"Deuxième cycle","Attestation d'études","Gestion de projets créatifs",Administration
+"Programme court en organisation des services de santé et des services sociaux",684,"Deuxième cycle","Attestation d'études","Organisation des services de santé et des services sociaux",Administration
+"Programme court en design pédagogique",638,"Deuxième cycle","Attestation d'études","Design pédagogique",Éducation
+"Programme court en efficacité de l'enseignement et des écoles",666,"Deuxième cycle","Attestation d'études","Efficacité de l'enseignement et des écoles",Éducation
+"Programme court en formation à distance",892,"Deuxième cycle","Attestation d'études","Formation à distance",Éducation
+"Programme court en technologie éducative",584,"Deuxième cycle","Attestation d'études","Technologie éducative",Éducation
+"Programme court en environnement international",639,"Deuxième cycle","Attestation d'études","Environnement international",Environnement
+"Programme court en gestion intégrée des zones côtières",961,"Deuxième cycle","Attestation d'études","Gestion intégrée dez zones côtières",Environnement
+"Diplôme d'études supérieures spécialisées en environnement international (profil professionnel)",1937,"Deuxième cycle","Diplôme de deuxième cycle","Environnement international (profil professionnel)",Environnement
+"Diplôme d'études supérieures spécialisées en environnement international (profil recherche appliquée)",1938,"Deuxième cycle","Diplôme de deuxième cycle","Environnement international (profil recherche appliquée)",Environnement
+"Diplôme d'études supérieures spécialisées en gestion intégrée des zones côtières (profil professionnel)",2477,"Deuxième cycle","Diplôme de deuxième cycle","Gestion intégrée des zones côtières (profil professionnel)",Environnement
+"Diplôme d'études supérieures spécialisées en gestion intégrée des zones côtières (profil profil recherche appliquée)",2478,"Deuxième cycle","Diplôme de deuxième cycle","Gestion intégrée des zones côtières (profil recherche appliquée)",Environnement
+"Diplôme d'études supérieures spécialisées en finance d'entreprise",3116,"Deuxième cycle","Diplôme de deuxième cycle","Finance d'entreprise",Finance
+"Programme court en gestion contemporaine des ressources humaines",679,"Deuxième cycle","Attestation d'études","Gestion contemporaine des ressources humaines","Gestion des ressources humaines et relations de travail"
+"Programme court en gestion des ressources humaines en contexte de projet",767,"Deuxième cycle","Attestation d'études","Gestion des ressources humaines en contexte de projet","Gestion des ressources humaines et relations de travail"
+"Diplôme d'études supérieures spécialisées en gestion des ressources humaines dans l'économie du savoir",1658,"Deuxième cycle","Diplôme de deuxième cycle","Gestion des ressources humaines dans l'économie du savoir","Gestion des ressources humaines et relations de travail"
+"Programme court en gestion de la transformation numérique",9362,"Deuxième cycle","Attestation d'études","Gestion de la transformation numérique","Gestion des technologies de l'information"
+"Programme court en gouvernance des technologies de l'information",589,"Deuxième cycle","Attestation d'études","Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"Diplôme d'études supérieures spécialisées en gouvernance des technologies de l'information",1910,"Deuxième cycle","Diplôme de deuxième cycle","Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"Maîtrise en sciences (technologies de l'information), profil avec mémoire",1811,"Deuxième cycle",Maîtrise,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"Maîtrise en sciences (technologies de l'information), profil sans mémoire",1810,"Deuxième cycle",Maîtrise,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"Programme court en technologie de l'information",810,"Deuxième cycle","Attestation d'études","Technologie de l'information","Informatique et technologies de l'information"
+"Maîtrise en sciences (technologie de l'information), profil avec mémoire",1811,"Deuxième cycle",Maîtrise,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"Maîtrise en sciences (technologie de l'information), profil sans mémoire",1810,"Deuxième cycle",Maîtrise,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"Programme court Sens et projet de vie",571,"Deuxième cycle","Attestation d'études","Sens et projet de vie",Pluridisciplinaire
+"Diplôme d'études supérieures spécialisées en santé mentale",3578,"Deuxième cycle","Diplôme de deuxième cycle","Santé mentale","Sciences humaines et sociales"

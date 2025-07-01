@@ -1,0 +1,354 @@
+e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours
+Charlotte,Lavoie,39563852,LAVC26069203,"Automne 2020","SCI 1016","Introduction à la science des données",A
+Charlotte,Lavoie,39563852,LAVC26069203,"Automne 2020","SCI 1018","Statistiques avec R",Abandon
+Charlotte,Lavoie,39563852,LAVC26069203,"Automne 2020","SCI 1402","Projet e science des données",A
+Charlotte,Lavoie,39563852,LAVC26069203,"Automne 2020","INF 1220","Introduction à la programmation",B
+Léa,Bergeron,72940563,BERL11098813,"Été 2021","INF 1220","Introduction à la programmation",A
+Léa,Bergeron,72940563,BERL11098813,"Été 2021","INF 1250","Introduction aux bases de données",A
+Léa,Bergeron,72940563,BERL11098813,"Été 2021","INF 1425","Algorithmique et structures de données",B
+Léa,Bergeron,72940563,BERL11098813,"Été 2021","INF 1427","Architecture des ordinateurs",C
+Nathan,Deschênes,92547350,DESN14128304,"Hiver 2020","ADM 6050","Analytique d'affaires",A
+Nathan,Deschênes,92547350,DESN14128304,"Hiver 2020","ENV 6008","Modélisation et systèmes d'aide à la décision en environnement",B
+Nathan,Deschênes,92547350,DESN14128304,"Hiver 2020","INF 6104","Recherche d'informations et web",C
+Nathan,Deschênes,92547350,DESN14128304,"Hiver 2020","INF 6408","Informatique de l'analyse multidimensionnelle",C
+Sara,Gendron,47634970,GENS22108608,"Été 2020","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",B
+Sara,Gendron,47634970,GENS22108608,"Été 2020","INF 6065","Sécurité des réseaux et des systèmes informatiques",C
+Sara,Gendron,47634970,GENS22108608,"Été 2020","INF 6070","Technologies sémantiques pour la gestion des connaissances",A
+Sara,Gendron,47634970,GENS22108608,"Été 2020","INF 6107","Web social",B
+Annie,Lafrance,50346858,LAFA22069115,"Hiver 2020","SCI 1018","Statistiques avec R",C
+Annie,Lafrance,50346858,LAFA22069115,"Hiver 2020","INF 1165","Réseaux et sécurité informatique",C
+Annie,Lafrance,50346858,LAFA22069115,"Hiver 2020","INF 1427","Architecture des ordinateurs",A
+Annie,Lafrance,50346858,LAFA22069115,"Hiver 2020","ADM 2006","Les systèmes d'information de gestion",B
+Benjamin,Morin,18364859,MORB04028918,"Hiver 2022","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",C
+Benjamin,Morin,18364859,MORB04028918,"Hiver 2022","INF 6065","Sécurité des réseaux et des systèmes informatiques",A
+Benjamin,Morin,18364859,MORB04028918,"Hiver 2022","INF 6070","Technologies sémantiques pour la gestion des connaissances",B
+Benjamin,Morin,18364859,MORB04028918,"Hiver 2022","INF 6107","Web social",C
+Fabrice,Gauthier,10243758,GAUF26018259,"Hiver 2020","INF 1250","Introduction aux bases de données",B
+Fabrice,Gauthier,10243758,GAUF26018259,"Hiver 2020","INF 1410","Génie logiciel",A
+Fabrice,Gauthier,10243758,GAUF26018259,"Hiver 2020","INF 1420","Interfaces humain-machine",C
+Fabrice,Gauthier,10243758,GAUF26018259,"Hiver 2020","INF 6450","Gestion de l'information avec XML",B
+Elsa,Riviere,19835476,RIVE19039061,"Hiver 2021","INF 1165","Réseaux et sécurité informatique",A
+Elsa,Riviere,19835476,RIVE19039061,"Hiver 2021","ADM 2006","Les systèmes d'information de gestion",B
+Elsa,Riviere,19835476,RIVE19039061,"Hiver 2021","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",A
+Elsa,Riviere,19835476,RIVE19039061,"Hiver 2021","MQT 2420","Récherche opérationnelle",A
+Isabella,Weber,37460596,WEBI18089283,"Été 2020","SCI 1018","Statistiques avec R",B
+Isabella,Weber,37460596,WEBI18089283,"Été 2020","SCI 1402","Projet e science des données",C
+Isabella,Weber,37460596,WEBI18089283,"Été 2020","INF 1220","Introduction à la programmation",A
+Isabella,Weber,37460596,WEBI18089283,"Été 2020","INF 1250","Introduction aux bases de données",A
+Lucile,"Le Roux",81547359,LERL09018858,"Automne 2022","ADM 6050","Analytique d'affaires",A
+Lucile,"Le Roux",81547359,LERL09018858,"Automne 2022","ENV 6008","Modélisation et systèmes d'aide à la décision en environnement",B
+Lucile,"Le Roux",81547359,LERL09018858,"Automne 2022","INF 6104","Recherche d'informations et web",A
+Lucile,"Le Roux",81547359,LERL09018858,"Automne 2022","INF 6408","Informatique de l'analyse multidimensionnelle",A
+Milène,Chauvin,10826458,CHAM03019074,"Été 2021","INF 9004","Informatique des entrepôts de données",B
+Milène,Chauvin,10826458,CHAM03019074,"Été 2021","SCI 1016","Introduction à la science des données",B
+Milène,Chauvin,10826458,CHAM03019074,"Été 2021","INF 1165","Réseaux et sécurité informatique",A
+Milène,Chauvin,10826458,CHAM03019074,"Été 2021","INF 1427","Architecture des ordinateurs",A
+Chang,Chung,56184538,CHUC23089024,"Été 2020","INF 2005","Programmation orientée objet avec C++",B
+Chang,Chung,56184538,CHUC23089024,"Été 2020","INF 2007","Programmation avancée",C
+Chang,Chung,56184538,CHUC23089024,"Été 2020","INF 2009","Projet de programmation web",A
+Chang,Chung,56184538,CHUC23089024,"Été 2020","INF 6400","Gestion de connaissances en informatique",B
+Tao,Hwang,19845376,HWAT27059124,"Hiver 2020","INF 6104","Recherche d'informations et web",C
+Tao,Hwang,19845376,HWAT27059124,"Hiver 2020","INF 6408","Informatique de l'analyse multidimensionnelle",B
+Tao,Hwang,19845376,HWAT27059124,"Hiver 2020","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",A
+Tao,Hwang,19845376,HWAT27059124,"Hiver 2020","INF 6065","Sécurité des réseaux et des systèmes informatiques",B
+Chakrit,Saetang,90243754,SAEC01069235,"Hiver 2021","INF 6104","Recherche d'informations et web",A
+Chakrit,Saetang,90243754,SAEC01069235,"Hiver 2021","INF 6408","Informatique de l'analyse multidimensionnelle",A
+Chakrit,Saetang,90243754,SAEC01069235,"Hiver 2021","ADM 6044","Gestion de projet en technologie de l'information",B
+Chakrit,Saetang,90243754,SAEC01069235,"Hiver 2021","ADM 6046","Gestion de la sécurité des technologies de l'information",A
+Anela,Bunma,60453827,BUNA12108755,"Hiver 2023","INF 1220","Introduction à la programmation",A
+Anela,Bunma,60453827,BUNA12108755,"Hiver 2023","INF 1250","Introduction aux bases de données",B
+Anela,Bunma,60453827,BUNA12108755,"Hiver 2023","INF 1410","Génie logiciel",B
+Anela,Bunma,60453827,BUNA12108755,"Hiver 2023","INF 1420","Interfaces humain-machine",C
+Jintara,Chomchuen,10298453,CHOJ21048963,"Été 2021","INF 1250","Introduction aux bases de données",B
+Jintara,Chomchuen,10298453,CHOJ21048963,"Été 2021","INF 1410","Génie logiciel",A
+Jintara,Chomchuen,10298453,CHOJ21048963,"Été 2021","INF 1420","Interfaces humain-machine",A
+Jintara,Chomchuen,10298453,CHOJ21048963,"Été 2021","INF 6450","Gestion de l'information avec XML",A
+Kmnan,Samat,35284768,SAMK23069088,"Hiver 2023","INF 6104","Recherche d'informations et web",B
+Kmnan,Samat,35284768,SAMK23069088,"Hiver 2023","INF 6408","Informatique de l'analyse multidimensionnelle",C
+Kmnan,Samat,35284768,SAMK23069088,"Hiver 2023","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",A
+Kmnan,Samat,35284768,SAMK23069088,"Hiver 2023","INF 6065","Sécurité des réseaux et des systèmes informatiques",C
+Basma,Belmadi,50198274,BELB30016498,"Hiver 2020","INF 1220","Introduction à la programmation",B
+Basma,Belmadi,50198274,BELB30016498,"Hiver 2020","INF 1250","Introduction aux bases de données",C
+Basma,Belmadi,50198274,BELB30016498,"Hiver 2020","INF 1410","Génie logiciel",B
+Basma,Belmadi,50198274,BELB30016498,"Hiver 2020","INF 1425","Algorithmique et structures de données",B
+Chaddad,Jarir,90187352,JARC26048750,"Été 2021","ADM 6050","Analytique d'affaires",B
+Chaddad,Jarir,90187352,JARC26048750,"Été 2021","ENV 6008","Modélisation et systèmes d'aide à la décision en environnement",C
+Chaddad,Jarir,90187352,JARC26048750,"Été 2021","INF 6426","Vision par ordinateur et apprentissage profond",A
+Chaddad,Jarir,90187352,JARC26048750,"Été 2021","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",B
+Dalia,Chouraqui,46385869,CHOD12129066,"Hiver 2021","INF 1410","Génie logiciel",B
+Dalia,Chouraqui,46385869,CHOD12129066,"Hiver 2021","INF 1425","Algorithmique et structures de données",A
+Dalia,Chouraqui,46385869,CHOD12129066,"Hiver 2021","INF 1421","Apprentissage machine",A
+Dalia,Chouraqui,46385869,CHOD12129066,"Hiver 2021","INF 1426","Traitement d'images",B
+Echir,Mazari,50671543,MAZE04058945,"Hiver 2021","SCI 1031","Visualisation et analyse de données spatiales avec R",B
+Echir,Mazari,50671543,MAZE04058945,"Hiver 2021","INF 1160","Les réseaux d'entreprise",A
+Echir,Mazari,50671543,MAZE04058945,"Hiver 2021","INF 1161","Réseaux et communication sans fil",B
+Echir,Mazari,50671543,MAZE04058945,"Hiver 2021","INF 1165","Réseaux et sécurité informatique",A
+Eiliyah,Chibane,81658392,CHIE27129365,"Automne 2021","INF 1420","Interfaces humain-machine",B
+Eiliyah,Chibane,81658392,CHIE27129365,"Automne 2021","INF 1424","Projet de développement logiciel en informatique appliquée",A
+Eiliyah,Chibane,81658392,CHIE27129365,"Automne 2021","INF 2005","Programmation orientée objet avec C++",D
+Eiliyah,Chibane,81658392,CHIE27129365,"Automne 2021","INF 6450","Gestion de l'information avec XML",A
+Félix,Ruiz,16354867,RUIF27039496,"Hiver 2023","INF 6460","Recherche et filtrage d'informations",C
+Félix,Ruiz,16354867,RUIF27039496,"Hiver 2023","INF 9004","Informatique des entrepôts de données",A
+Félix,Ruiz,16354867,RUIF27039496,"Hiver 2023","SCI 1031","Visualisation et analyse de données spatiales avec R",B
+Félix,Ruiz,16354867,RUIF27039496,"Hiver 2023","SCI 1035","Apprentissage profond",B
+Silvia,Zúñiga,56479380,ZUNS27058408,"Hiver 2021","INF 1250","Introduction aux bases de données",A
+Silvia,Zúñiga,56479380,ZUNS27058408,"Hiver 2021","INF 1410","Génie logiciel",B
+Silvia,Zúñiga,56479380,ZUNS27058408,"Hiver 2021","INF 1420","Interfaces humain-machine",B
+Silvia,Zúñiga,56479380,ZUNS27058408,"Hiver 2021","INF 6450","Gestion de l'information avec XML",D
+Héctor,Tapia,64538768,TAPH15108747,"Automne 2022","ADM 6050","Analytique d'affaires",B
+Héctor,Tapia,64538768,TAPH15108747,"Automne 2022","ENV 6008","Modélisation et systèmes d'aide à la décision en environnement",C
+Héctor,Tapia,64538768,TAPH15108747,"Automne 2022","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",A
+Héctor,Tapia,64538768,TAPH15108747,"Automne 2022","INF 6065","Sécurité des réseaux et des systèmes informatiques",A
+Gary,Leiva,80198562,LEIG28118682,"Hiver 2022","INF 1250","Introduction aux bases de données",A
+Gary,Leiva,80198562,LEIG28118682,"Hiver 2022","INF 1410","Génie logiciel",B
+Gary,Leiva,80198562,LEIG28118682,"Hiver 2022","INF 1420","Interfaces humain-machine",A
+Gary,Leiva,80198562,LEIG28118682,"Hiver 2022","INF 6450","Gestion de l'information avec XML",B
+Hernán,Rojas,67859704,ROJH16119584,"Hiver 2021","INF 2005","Programmation orientée objet avec C++",B
+Hernán,Rojas,67859704,ROJH16119584,"Hiver 2021","INF 2007","Programmation avancée",Abandon
+Hernán,Rojas,67859704,ROJH16119584,"Hiver 2021","INF 2009","Projet de programmation web",A
+Hernán,Rojas,67859704,ROJH16119584,"Hiver 2021","INF 6400","Gestion de connaissances en informatique",A
+Andrea,Godoy,82756493,GODA18019701,"Hiver 2022","INF 6104","Recherche d'informations et web",B
+Andrea,Godoy,82756493,GODA18019701,"Hiver 2022","INF 6408","Informatique de l'analyse multidimensionnelle",A
+Andrea,Godoy,82756493,GODA18019701,"Hiver 2022","INF 6409","Forage de données",A
+Andrea,Godoy,82756493,GODA18019701,"Hiver 2022","INF 6426","Vision par ordinateur et apprentissage profond",B
+Javier,Reyes,17328589,REYJ16029444,"Été 2021","INF 1220","Introduction à la programmation",C
+Javier,Reyes,17328589,REYJ16029444,"Été 2021","INF 1250","Introduction aux bases de données",B
+Javier,Reyes,17328589,REYJ16029444,"Été 2021","SCI 1016","Introduction à la science des données",C
+Javier,Reyes,17328589,REYJ16029444,"Été 2021","SCI 1018","Statistiques avec R",Échec
+José,Mejía,17648350,MEJJ17098206,"Été 2021","ENV 6008","Modélisation et systèmes d'aide à la décision en environnement",B
+José,Mejía,17648350,MEJJ17098206,"Été 2021","INF 6104","Recherche d'informations et web",A
+José,Mejía,17648350,MEJJ17098206,"Été 2021","INF 6408","Informatique de l'analyse multidimensionnelle",A
+José,Mejía,17648350,MEJJ17098206,"Été 2021","INF 6409","Forage de données",C
+Amadi,Mamou,29357850,MAMA18039806,"Été 2020","INF 1250","Introduction aux bases de données",B
+Amadi,Mamou,29357850,MAMA18039806,"Été 2020","INF 1410","Génie logiciel",B
+Amadi,Mamou,29357850,MAMA18039806,"Été 2020","INF 1420","Interfaces humain-machine",A
+Amadi,Mamou,29357850,MAMA18039806,"Été 2020","INF 6450","Gestion de l'information avec XML",A
+Ramia,Sabal,19826560,SABR18069164,"Automne 2022","INF 1165","Réseaux et sécurité informatique",D
+Ramia,Sabal,19826560,SABR18069164,"Automne 2022","INF 1427","Architecture des ordinateurs",B
+Ramia,Sabal,19826560,SABR18069164,"Automne 2022","INF 1425","Algorithmique et structures de données",C
+Ramia,Sabal,19826560,SABR18069164,"Automne 2022","INF 4018","Projet d'intégration",A
+Jazil,Rabhi,76548392,RABJ12109329,"Automne 2020","INF 1429","Systèmes d'exploitation",B
+Jazil,Rabhi,76548392,RABJ12109329,"Automne 2020","INF 1420","Interfaces humain-machine",B
+Jazil,Rabhi,76548392,RABJ12109329,"Automne 2020","INF 6460","Recherche et filtrage d'informations",A
+Jazil,Rabhi,76548392,RABJ12109329,"Automne 2020","INF 9004","Informatique des entrepôts de données",C
+Nahema,Kalulu,68563829,KALN08059460,"Été 2020","INF 1220","Introduction à la programmation",Échec
+Nahema,Kalulu,68563829,KALN08059460,"Été 2020","INF 1250","Introduction aux bases de données",A
+Nahema,Kalulu,68563829,KALN08059460,"Été 2020","INF 1410","Génie logiciel",B
+Nahema,Kalulu,68563829,KALN08059460,"Été 2020","INF 1420","Interfaces humain-machine",A
+Hasma,Diawara,48756908,DIAH13119491,"Été 2022","INF 6408","Informatique de l'analyse multidimensionnelle",C
+Hasma,Diawara,48756908,DIAH13119491,"Été 2022","INF 6409","Forage de données",A
+Hasma,Diawara,48756908,DIAH13119491,"Été 2022","INF 6065","Sécurité des réseaux et des systèmes informatiques",B
+Hasma,Diawara,48756908,DIAH13119491,"Été 2022","INF 6070","Technologies sémantiques pour la gestion des connaissances",A
+Hannane,Tsonga,84569783,TSOH16109540,"Hiver 2023","INF 1250","Introduction aux bases de données",A
+Hannane,Tsonga,84569783,TSOH16109540,"Hiver 2023","INF 1410","Génie logiciel",B
+Hannane,Tsonga,84569783,TSOH16109540,"Hiver 2023","INF 1420","Interfaces humain-machine",A
+Hannane,Tsonga,84569783,TSOH16109540,"Hiver 2023","INF 6450","Gestion de l'information avec XML",A
+dhalila,Hached,31857463,HACD26069019,"Hiver 2023","INF 9004","Informatique des entrepôts de données",C
+dhalila,Hached,31857463,HACD26069019,"Hiver 2023","SCI 1031","Visualisation et analyse de données spatiales avec R",A
+dhalila,Hached,31857463,HACD26069019,"Hiver 2023","SCI 1035","Apprentissage profond",A
+dhalila,Hached,31857463,HACD26069019,"Hiver 2023","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",B
+Charlotte,Lavoie,39563852,LAVC26069203,"Hiver 2021","INF 1250","Introduction aux bases de données",C
+Charlotte,Lavoie,39563852,LAVC26069203,"Hiver 2021","INF 6460","Recherche et filtrage d'informations",A
+Charlotte,Lavoie,39563852,LAVC26069203,"Hiver 2021","INF 9004","Informatique des entrepôts de données",B
+Charlotte,Lavoie,39563852,LAVC26069203,"Hiver 2021","SCI 1031","Visualisation et analyse de données spatiales avec R",A
+Léa,Bergeron,72940563,BERL11098813,"Automne 2021","INF 6450","Gestion de l'information avec XML",C
+Léa,Bergeron,72940563,BERL11098813,"Automne 2021","INF 1428","Théorie des langages et des automates",A
+Léa,Bergeron,72940563,BERL11098813,"Automne 2021","INF 6460","Recherche et filtrage d'informations",C
+Léa,Bergeron,72940563,BERL11098813,"Automne 2021","SCI 1017","Traitement de données massives",B
+Nathan,Deschênes,92547350,DESN14128304,"Été 2020","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",A
+Nathan,Deschênes,92547350,DESN14128304,"Été 2020","INF 6065","Sécurité des réseaux et des systèmes informatiques",A
+Nathan,Deschênes,92547350,DESN14128304,"Été 2020","INF 6070","Technologies sémantiques pour la gestion des connaissances",B
+Nathan,Deschênes,92547350,DESN14128304,"Été 2020","INF 6107","Web social",B
+Sara,Gendron,47634970,GENS22108608,"Automne 2020","ADM 6046","Gestion de la sécurité des technologies de l'information",C
+Sara,Gendron,47634970,GENS22108608,"Automne 2020","ADM 6048","Impartition des technologies de l'information",B
+Sara,Gendron,47634970,GENS22108608,"Automne 2020","ADM 6050","Analytique d'affaires",B
+Sara,Gendron,47634970,GENS22108608,"Automne 2020","ENV 6008","Modélisation et systèmes d'aide à la décision en environnement",A
+Annie,Lafrance,50346858,LAFA22069115,"Été 2020","INF 2005","Programmation orientée objet avec C++",A
+Annie,Lafrance,50346858,LAFA22069115,"Été 2020","INF 1160","Les réseaux d'entreprise",A
+Annie,Lafrance,50346858,LAFA22069115,"Été 2020","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",B
+Annie,Lafrance,50346858,LAFA22069115,"Été 2020","INF 6400","Gestion de connaissances en informatique",A
+Benjamin,Morin,18364859,MORB04028918,"Été 2022","ADM 6050","Analytique d'affaires",B
+Benjamin,Morin,18364859,MORB04028918,"Été 2022","ENV 6008","Modélisation et systèmes d'aide à la décision en environnement",A
+Benjamin,Morin,18364859,MORB04028918,"Été 2022","INF 6104","Recherche d'informations et web",A
+Benjamin,Morin,18364859,MORB04028918,"Été 2022","INF 6408","Informatique de l'analyse multidimensionnelle",Abandon
+Elsa,Riviere,19835476,RIVE19039061,"Été 2021","INF 9004","Informatique des entrepôts de données",B
+Elsa,Riviere,19835476,RIVE19039061,"Été 2021","SCI 1016","Introduction à la science des données",B
+Elsa,Riviere,19835476,RIVE19039061,"Été 2021","SCI 1017","Traitement de données massives",C
+Elsa,Riviere,19835476,RIVE19039061,"Été 2021","SCI 1018","Statistiques avec R",A
+Isabella,Weber,37460596,WEBI18089283,"Automne 2020","INF 1421","Apprentissage machine",D
+Isabella,Weber,37460596,WEBI18089283,"Automne 2020","SCI 1016","Introduction à la science des données",A
+Isabella,Weber,37460596,WEBI18089283,"Automne 2020","SCI 1017","Traitement de données massives",B
+Isabella,Weber,37460596,WEBI18089283,"Automne 2020","INF 6460","Recherche et filtrage d'informations",A
+Lucile,"Le Roux",81547359,LERL09018858,"Hiver 2023","INF 6409","Forage de données",Échec
+Lucile,"Le Roux",81547359,LERL09018858,"Hiver 2023","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",A
+Lucile,"Le Roux",81547359,LERL09018858,"Hiver 2023","INF 6065","Sécurité des réseaux et des systèmes informatiques",B
+Lucile,"Le Roux",81547359,LERL09018858,"Hiver 2023","INF 6070","Technologies sémantiques pour la gestion des connaissances",C
+Milène,Chauvin,10826458,CHAM03019074,"Automne 2021","INF 1426","Traitement d'images",C
+Milène,Chauvin,10826458,CHAM03019074,"Automne 2021","INF 1420","Interfaces humain-machine",B
+Milène,Chauvin,10826458,CHAM03019074,"Automne 2021","INF 1424","Projet de développement logiciel en informatique appliquée",D
+Milène,Chauvin,10826458,CHAM03019074,"Automne 2021","INF 2005","Programmation orientée objet avec C++",Abandon
+Chang,Chung,56184538,CHUC23089024,"Automne 2020","INF 1426","Traitement d'images",A
+Chang,Chung,56184538,CHUC23089024,"Automne 2020","INF 1428","Théorie des langages et des automates",B
+Chang,Chung,56184538,CHUC23089024,"Automne 2020","INF 6460","Recherche et filtrage d'informations",B
+Chang,Chung,56184538,CHUC23089024,"Automne 2020","INF 9004","Informatique des entrepôts de données",C
+Tao,Hwang,19845376,HWAT27059124,"Été 2020","ADM 6050","Analytique d'affaires",A
+Tao,Hwang,19845376,HWAT27059124,"Été 2020","ENV 6008","Modélisation et systèmes d'aide à la décision en environnement",A
+Tao,Hwang,19845376,HWAT27059124,"Été 2020","INF 6409","Forage de données",B
+Tao,Hwang,19845376,HWAT27059124,"Été 2020","INF 6070","Technologies sémantiques pour la gestion des connaissances",C
+Chakrit,Saetang,90243754,SAEC01069235,"Automne 2021","ADM 6030","Gestion des risques en affaires électroniques",C
+Chakrit,Saetang,90243754,SAEC01069235,"Automne 2021","ADM 6040","Gestion stratégique des technologies de l'information",A
+Chakrit,Saetang,90243754,SAEC01069235,"Automne 2021","ADM 6052","Transformation numérique organisationnelle",B
+Chakrit,Saetang,90243754,SAEC01069235,"Automne 2021","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",A
+Anela,Bunma,60453827,BUNA12108755,"Été 2023","INF 6450","Gestion de l'information avec XML",D
+Kmnan,Samat,35284768,SAMK23069088,"Été 2023","ENV 6008","Modélisation et systèmes d'aide à la décision en environnement",B
+Kmnan,Samat,35284768,SAMK23069088,"Été 2023","INF 6104","Recherche d'informations et web",B
+Kmnan,Samat,35284768,SAMK23069088,"Été 2023","INF 6408","Informatique de l'analyse multidimensionnelle",A
+Kmnan,Samat,35284768,SAMK23069088,"Été 2023","INF 6409","Forage de données",B
+Basma,Belmadi,50198274,BELB30016498,"Été 2020","INF 1429","Systèmes d'exploitation",B
+Basma,Belmadi,50198274,BELB30016498,"Été 2020","INF 1420","Interfaces humain-machine",A
+Basma,Belmadi,50198274,BELB30016498,"Été 2020","INF 2007","Programmation avancée",C
+Basma,Belmadi,50198274,BELB30016498,"Été 2020","INF 6450","Gestion de l'information avec XML",A
+Chaddad,Jarir,90187352,JARC26048750,"Automne 2021","INF 6104","Recherche d'informations et web",C
+Chaddad,Jarir,90187352,JARC26048750,"Automne 2021","INF 6408","Informatique de l'analyse multidimensionnelle",B
+Chaddad,Jarir,90187352,JARC26048750,"Automne 2021","MTI 6405","Projet individuel",A
+Chaddad,Jarir,90187352,JARC26048750,"Automne 2021","MTI 6500",Mémoire,C
+Dalia,Chouraqui,46385869,CHOD12129066,"Été 2021","INF 1220","Introduction à la programmation",A
+Dalia,Chouraqui,46385869,CHOD12129066,"Été 2021","INF 1250","Introduction aux bases de données",B
+Dalia,Chouraqui,46385869,CHOD12129066,"Été 2021","SCI 1016","Introduction à la science des données",B
+Dalia,Chouraqui,46385869,CHOD12129066,"Été 2021","SCI 1018","Statistiques avec R",B
+Echir,Mazari,50671543,MAZE04058945,"Été 2021","INF 1426","Traitement d'images",C
+Echir,Mazari,50671543,MAZE04058945,"Été 2021","INF 1428","Théorie des langages et des automates",B
+Echir,Mazari,50671543,MAZE04058945,"Été 2021","INF 6460","Recherche et filtrage d'informations",A
+Echir,Mazari,50671543,MAZE04058945,"Été 2021","INF 9004","Informatique des entrepôts de données",A
+Eiliyah,Chibane,81658392,CHIE27129365,"Hiver 2022","INF 1426","Traitement d'images",A
+Eiliyah,Chibane,81658392,CHIE27129365,"Hiver 2022","INF 1160","Les réseaux d'entreprise",Abandon
+Eiliyah,Chibane,81658392,CHIE27129365,"Hiver 2022","INF 1165","Réseaux et sécurité informatique",A
+Eiliyah,Chibane,81658392,CHIE27129365,"Hiver 2022","INF 1427","Architecture des ordinateurs",C
+Félix,Ruiz,16354867,RUIF27039496,"Été 2023","SCI 1017","Traitement de données massives",Abandon
+Félix,Ruiz,16354867,RUIF27039496,"Été 2023","SCI 1018","Statistiques avec R",B
+Félix,Ruiz,16354867,RUIF27039496,"Été 2023","SCI 1402","Projet en science des données",A
+Félix,Ruiz,16354867,RUIF27039496,"Été 2023","INF 1220","Introduction à la programmation",C
+Héctor,Tapia,64538768,TAPH15108747,"Hiver 2023","ADM 6040","Gestion stratégique des technologies de l'information",C
+Héctor,Tapia,64538768,TAPH15108747,"Hiver 2023","ADM 6052","Transformation numérique organisationnelle",B
+Héctor,Tapia,64538768,TAPH15108747,"Hiver 2023","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",C
+Héctor,Tapia,64538768,TAPH15108747,"Hiver 2023","ADM 6044","Gestion de projet en technologie de l'information",A
+Hernán,Rojas,67859704,ROJH16119584,"Été 2021","INF 1426","Traitement d'images",B
+Hernán,Rojas,67859704,ROJH16119584,"Été 2021","INF 1428","Théorie des langages et des automates",A
+Hernán,Rojas,67859704,ROJH16119584,"Été 2021","INF 6460","Recherche et filtrage d'informations",B
+Hernán,Rojas,67859704,ROJH16119584,"Été 2021","INF 9004","Informatique des entrepôts de données",C
+Andrea,Godoy,82756493,GODA18019701,"Été 2022","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",A
+Andrea,Godoy,82756493,GODA18019701,"Été 2022","INF 6065","Sécurité des réseaux et des systèmes informatiques",A
+Andrea,Godoy,82756493,GODA18019701,"Été 2022","INF 6070","Technologies sémantiques pour la gestion des connaissances",C
+Andrea,Godoy,82756493,GODA18019701,"Été 2022","INF 6107","Web social",B
+Javier,Reyes,17328589,REYJ16029444,"Automne 2021","SCI 1018","Statistiques avec R",C
+Javier,Reyes,17328589,REYJ16029444,"Automne 2021","INF 1421","Apprentissage machine",a
+Javier,Reyes,17328589,REYJ16029444,"Automne 2021","INF 1426","Traitement d'images",Abandon
+Javier,Reyes,17328589,REYJ16029444,"Automne 2021","INF 1420","Interfaces humain-machine",A
+José,Mejía,17648350,MEJJ17098206,"Automne 2021","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",C
+José,Mejía,17648350,MEJJ17098206,"Automne 2021","INF 6065","Sécurité des réseaux et des systèmes informatiques",A
+José,Mejía,17648350,MEJJ17098206,"Automne 2021","INF 6070","Technologies sémantiques pour la gestion des connaissances",B
+José,Mejía,17648350,MEJJ17098206,"Automne 2021","INF 6107","Web social",C
+Jazil,Rabhi,76548392,RABJ12109329,"Hiver 2021","INF 6450","Gestion de l'information avec XML",C
+Jazil,Rabhi,76548392,RABJ12109329,"Hiver 2021","INF 1428","Théorie des langages et des automates",B
+Jazil,Rabhi,76548392,RABJ12109329,"Hiver 2021","SCI 1017","Traitement de données massives",A
+Jazil,Rabhi,76548392,RABJ12109329,"Hiver 2021","SCI 1018","Statistiques avec R",Abandon
+Hasma,Diawara,48756908,DIAH13119491,"Automne 2022","ENV 6008","Modélisation et systèmes d'aide à la décision en environnement",A
+Hasma,Diawara,48756908,DIAH13119491,"Automne 2022","INF 6104","Recherche d'informations et web",B
+Hasma,Diawara,48756908,DIAH13119491,"Automne 2022","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",B
+Hasma,Diawara,48756908,DIAH13119491,"Automne 2022","INF 6107","Web social",A
+dhalila,Hached,31857463,HACD26069019,"Été 2023","INF 1421","Apprentissage machine",A
+dhalila,Hached,31857463,HACD26069019,"Été 2023","SCI 1017","Traitement de données massives",A
+dhalila,Hached,31857463,HACD26069019,"Été 2023","SCI 1402","Projet en science des données",A
+dhalila,Hached,31857463,HACD26069019,"Été 2023","SCI 1031","Visualisation et analyse de données spatiales avec R",B
+Arnaud,Goudreault,39485673,GOUA09089523,"Hiver 2020","INF 1410","Génie logiciel",A
+Arnaud,Goudreault,39485673,GOUA09089523,"Hiver 2020","INF 1425","Algorithmique et structures de données",A
+Arnaud,Goudreault,39485673,GOUA09089523,"Hiver 2020","INF 1427","Architecture des ordinateurs",B
+Arnaud,Goudreault,39485673,GOUA09089523,"Hiver 2020","INF 2005","Programmation orientée objet avec C++",B
+Denis,Masson,68749308,MASD18059672,"Automne 2020","INF 1220","Introduction à la programmation",B
+Denis,Masson,68749308,MASD18059672,"Automne 2020","INF 1250","Introduction aux bases de données",A
+Denis,Masson,68749308,MASD18059672,"Automne 2020","SCI 1016","Introduction à la science des données",A
+Denis,Masson,68749308,MASD18059672,"Automne 2020","SCI 1018","Statistiques avec R",A
+Kasemchai,Pinthong,46374585,PINK18109912,"Hiver 2021","INF 6104","Recherche d'informations et web",C
+Kasemchai,Pinthong,46374585,PINK18109912,"Hiver 2021","INF 6408","Informatique de l'analyse multidimensionnelle",D
+Kasemchai,Pinthong,46374585,PINK18109912,"Hiver 2021","INF 6409","Forage de données",A
+Kasemchai,Pinthong,46374585,PINK18109912,"Hiver 2021","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",C
+Quadiria,Elmaleh,28725349,ELMQ04069829,"Été 2020","INF 1250","Introduction aux bases de données",A
+Quadiria,Elmaleh,28725349,ELMQ04069829,"Été 2020","INF 1410","Génie logiciel",A
+Quadiria,Elmaleh,28725349,ELMQ04069829,"Été 2020","INF 1420","Interfaces humain-machine",A
+Quadiria,Elmaleh,28725349,ELMQ04069829,"Été 2020","INF 6450","Gestion de l'information avec XML",A
+Aldo,Navarro,85269451,NAVA19089477,"Hiver 2021","SCI 1016","Introduction à la science des données",B
+Aldo,Navarro,85269451,NAVA19089477,"Hiver 2021","SCI 1018","Statistiques avec R",D
+Aldo,Navarro,85269451,NAVA19089477,"Hiver 2021","INF 1421","Apprentissage machine",A
+Aldo,Navarro,85269451,NAVA19089477,"Hiver 2021","INF 9004","Informatique des entrepôts de données",A
+Andrea,Salinas,82645760,SALA05079039,"Été 2020","INF 1427","Architecture des ordinateurs",A
+Andrea,Salinas,82645760,SALA05079039,"Été 2020","INF 1430","Projet de fin d'études",A
+Andrea,Salinas,82645760,SALA05079039,"Été 2020","INF 1429","Systèmes d'exploitation",B
+Andrea,Salinas,82645760,SALA05079039,"Été 2020","INF 1420","Interfaces humain-machine",B
+Chloe,Nadeau,97952435,NADC16078819,"Été 2020","INF 1421","Apprentissage machine",A
+Chloe,Nadeau,97952435,NADC16078819,"Été 2020","SCI 1016","Introduction à la science des données",A
+Chloe,Nadeau,97952435,NADC16078819,"Été 2020","SCI 1017","Traitement de données massives",B
+Chloe,Nadeau,97952435,NADC16078819,"Été 2020","SCI 1018","Statistiques avec R",Abandon
+Nolan,Tremblay,85607437,TREN17099664,"Hiver 2020","INF 1427","Architecture des ordinateurs",C
+Nolan,Tremblay,85607437,TREN17099664,"Hiver 2020","INF 1430","Projet de fin d'études",C
+Nolan,Tremblay,85607437,TREN17099664,"Hiver 2020","INF 1429","Systèmes d'exploitation",B
+Nolan,Tremblay,85607437,TREN17099664,"Hiver 2020","INF 1420","Interfaces humain-machine",B
+Leanne,Pelletier,73033453,PELL26078719,"Été 2021","ADM 6010","Marketing en affaires électroniques",A
+Leanne,Pelletier,73033453,PELL26078719,"Été 2021","ADM 6020","Stratégies en affaires électroniques",B
+Leanne,Pelletier,73033453,PELL26078719,"Été 2021","ADM 6030","Gestion des risques en affaires électroniques",C
+Leanne,Pelletier,73033453,PELL26078719,"Été 2021","ADM 6040","Gestion stratégique des technologies de l'information",A
+Alexia,Gauthier,64443373,GAUA14099568,"Hiver 2021","ADM 6050","Analytique d'affaires",C
+Alexia,Gauthier,64443373,GAUA14099568,"Hiver 2021","ENV 6008","Modélisation et systèmes d'aide à la décision en environnement",A
+Alexia,Gauthier,64443373,GAUA14099568,"Hiver 2021","INF 6104","Recherche d'informations et web",A
+Alexia,Gauthier,64443373,GAUA14099568,"Hiver 2021","INF 6408","Informatique de l'analyse multidimensionnelle",B
+Estelle,Allard,78756479,ALLE19028416,"Été 2020","SCI 1016","Introduction à la science des données",B
+Estelle,Allard,78756479,ALLE19028416,"Été 2020","SCI 1018","Statistiques avec R",A
+Estelle,Allard,78756479,ALLE19028416,"Été 2020","INF 1421","Apprentissage machine",A
+Estelle,Allard,78756479,ALLE19028416,"Été 2020","INF 9004","Informatique des entrepôts de données",A
+Jackson,Crenier,56748972,CREJ26098867,"Hiver 2021","INF 1426","Traitement d'images",B
+Jackson,Crenier,56748972,CREJ26098867,"Hiver 2021","INF 1428","Théorie des langages et des automates",C
+Jackson,Crenier,56748972,CREJ26098867,"Hiver 2021","INF 6460","Recherche et filtrage d'informations",A
+Jackson,Crenier,56748972,CREJ26098867,"Hiver 2021","INF 9004","Informatique des entrepôts de données",B
+Elsa,Durand,91523567,DURE26058892,"Hiver 2022","INF 1250","Introduction aux bases de données",A
+Elsa,Durand,91523567,DURE26058892,"Hiver 2022","INF 1410","Génie logiciel",A
+Elsa,Durand,91523567,DURE26058892,"Hiver 2022","SCI 1016","Introduction à la science des données",C
+Elsa,Durand,91523567,DURE26058892,"Hiver 2022","SCI 1018","Statistiques avec R",B
+Géraldine,Faure,49869302,FAUG04088977,"Hiver 2021","SCI 1016","Introduction à la science des données",C
+Géraldine,Faure,49869302,FAUG04088977,"Hiver 2021","SCI 1018","Statistiques avec R",D
+Géraldine,Faure,49869302,FAUG04088977,"Hiver 2021","INF 1421","Apprentissage machine",B
+Géraldine,Faure,49869302,FAUG04088977,"Hiver 2021","INF 9004","Informatique des entrepôts de données",A
+Hector,Perrin,68735479,PERH28079906,"Hiver 2022","ADM 6010","Marketing en affaires électroniques",B
+Hector,Perrin,68735479,PERH28079906,"Hiver 2022","ADM 6020","Stratégies en affaires électroniques",A
+Hector,Perrin,68735479,PERH28079906,"Hiver 2022","ADM 6030","Gestion des risques en affaires électroniques",C
+Hector,Perrin,68735479,PERH28079906,"Hiver 2022","ADM 6040","Gestion stratégique des technologies de l'information",B
+Henriette,Marchand,69487561,MARH18039532,"Hiver 2022","SCI 1016","Introduction à la science des données",A
+Henriette,Marchand,69487561,MARH18039532,"Hiver 2022","SCI 1017","Traitement de données massives",B
+Henriette,Marchand,69487561,MARH18039532,"Hiver 2022","SCI 1018","Statistiques avec R",A
+Henriette,Marchand,69487561,MARH18039532,"Hiver 2022","SCI 1402","Projet en science des données",A
+Jacques,Deschamps,56486870,DESJ16128972,"Automne 2021","INF 1250","Introduction aux bases de données",B
+Jacques,Deschamps,56486870,DESJ16128972,"Automne 2021","INF 1410","Génie logiciel",A
+Jacques,Deschamps,56486870,DESJ16128972,"Automne 2021","INF 1420","Interfaces humain-machine",A
+Jacques,Deschamps,56486870,DESJ16128972,"Automne 2021","INF 6450","Gestion de l'information avec XML",B
+Louise,Brunet,85765870,BRUL10019182,"Hiver 2022","ENV 6008","Modélisation et systèmes d'aide à la décision en environnement",A
+Louise,Brunet,85765870,BRUL10019182,"Hiver 2022","INF 6104","Recherche d'informations et web",B
+Louise,Brunet,85765870,BRUL10019182,"Hiver 2022","INF 6408","Informatique de l'analyse multidimensionnelle",C
+Louise,Brunet,85765870,BRUL10019182,"Hiver 2022","INF 6409","Forage de données",A
+Michel,Barbier,46598210,BARM17099706,"Hiver 2023","INF 1420","Interfaces humain-machine",Abandon
+Michel,Barbier,46598210,BARM17099706,"Hiver 2023","INF 1424","Projet de développement logiciel en informatique appliquée",B
+Michel,Barbier,46598210,BARM17099706,"Hiver 2023","INF 2005","Programmation orientée objet avec C++",A
+Michel,Barbier,46598210,BARM17099706,"Hiver 2023","INF 6450","Gestion de l'information avec XML",B
+Nicole,Colin,91645760,COLN28129423,"Automne 2020","INF 6460","Recherche et filtrage d'informations",D
+Nicole,Colin,91645760,COLN28129423,"Automne 2020","INF 9004","Informatique des entrepôts de données",A
+Nicole,Colin,91645760,COLN28129423,"Automne 2020","SCI 1016","Introduction à la science des données",A
+Nicole,Colin,91645760,COLN28129423,"Automne 2020","SCI 1017","Traitement de données massives",A
+Pascal,Gillet,86742890,GILP23078456,"Hiver 2023","INF 6400","Gestion de connaissances en informatique",A
+Pascal,Gillet,86742890,GILP23078456,"Hiver 2023","INF 1165","Réseaux et sécurité informatique",D
+Pascal,Gillet,86742890,GILP23078456,"Hiver 2023","INF 1427","Architecture des ordinateurs",B
+Pascal,Gillet,86742890,GILP23078456,"Hiver 2023","ADM 2006","Les systèmes d'information de gestion",A
+Patricia,Leger,82645764,LEGP30089552,"Été 2022","INF 1250","Introduction aux bases de données",B
+Patricia,Leger,82645764,LEGP30089552,"Été 2022","INF 1410","Génie logiciel",A
+Patricia,Leger,82645764,LEGP30089552,"Été 2022","INF 1420","Interfaces humain-machine",A
+Patricia,Leger,82645764,LEGP30089552,"Été 2022","INF 6450","Gestion de l'information avec XML",A
+Rémi,Bouvier,46386740,BOUR12129613,"Été 2022","INF 6409","Forage de données",B
+Rémi,Bouvier,46386740,BOUR12129613,"Été 2022","INF 6065","Sécurité des réseaux et des systèmes informatiques",B
+Rémi,Bouvier,46386740,BOUR12129613,"Été 2022","INF 6070","Technologies sémantiques pour la gestion des connaissances",A
+Rémi,Bouvier,46386740,BOUR12129613,"Été 2022","INF 6107","Web social",B

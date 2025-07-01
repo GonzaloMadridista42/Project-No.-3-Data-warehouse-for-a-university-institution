@@ -1,0 +1,604 @@
+c_SigleDuCours,c_TitreDuCours,c_TypeDuCours,c_NuméroDuProgramme,c_ProfilDeFormationDuprogramme,c_DépartementResponsable
+"MKG 3315","Marketing de tourisme et hôtellerie","Cours sans examen",535,"Gestion du tourisme",Administration
+"ADM 1400","Théories de l'organisation","Cours sans examen",4397,Administration,Administration
+"EDU 1033","Gestion de projets et compétence numérique en milieu de travail","Cours sans examen",4397,Administration,Administration
+"ADM 2115A","Simulation SIM-Plan d'affaires","Cours sans examen",4480,"Administration de services",Administration
+"FRA 3006","Rédaction administrative","Cours sans examen",4480,"Administration de services",Administration
+"ADM 1101","Management dans les établissements de santé et de services sociaux","Cours sans examen",4459,"Gestion des services de santé et des services sociaux",Administration
+"ADM 2220","Pratique de la gestion dans le domaine de la santé et des services sociaux","Cours sans examen",4459,"Gestion des services de santé et des services sociaux",Administration
+"ADM 1400","Théories de l'organisation","Cours sans examen",4459,"Gestion des services de santé et des services sociaux",Administration
+"FRA 3006","Rédaction administrative","Cours sans examen",4459,"Gestion des services de santé et des services sociaux",Administration
+"RIN 1012","Droit et pratique des conventions collectives","Cours sans examen",4459,"Gestion des services de santé et des services sociaux",Administration
+"RIN 1013","Problèmes de santé au travail","Cours sans examen",4459,"Gestion des services de santé et des services sociaux",Administration
+"MKG 3315","Marketing de tourisme et hôtellerie","Cours sans examen",4734,"Gestion du tourisme",Administration
+"ADM 2115A","Simulation SIM-Plan d'affaires","Cours sans examen",4734,"Gestion du tourisme",Administration
+"FRA 3006","Rédaction administrative","Cours sans examen",4386,"Gestion du travail de bureau",Administration
+"ADM 1400","Théories de l'organisation","Cours sans examen",4084,Management,Administration
+"EDU 1033","Gestion de projets et compétence numérique en milieu de travail","Cours sans examen",4084,Management,Administration
+"ADM 1400","Théories de l'organisation","Cours sans examen",7764,"Administration (cheminement général)",Administration
+"FIN 2301","Paradis fiscaux et finance offshore","Cours sans examen",7764,"Administration (cheminement général)",Administration
+"ENV 3026","Économie et gestion du développement durable","Cours sans examen",7764,"Administration (cheminement général)",Administration
+"ADM 2014","Devenir entrepreneur","Cours sans examen",7764,"Administration (cheminement général)",Administration
+"ADM 2115A","Simulation SIM-Plan d'affaires","Cours sans examen",7764,"Administration (cheminement général)",Administration
+"ADM 9001","Bâtir une entreprise: des connaissances et des méthodes","Cours sans examen",7764,"Administration (cheminement général)",Administration
+"ADM 9003","Gestion de la TPE/PME","Cours sans examen",7764,"Administration (cheminement général)",Administration
+"ADM 9003A","Gestion TPE/PME: simulation","Cours sans examen",7764,"Administration (cheminement général)",Administration
+"POL 1010","Introductioon aux relations internationales","Cours sans examen",7764,"Administration (cheminement général)",Administration
+"COM 5004","Techniques et dynamique de la fonction "conseil"""","Cours sans examen",7764,"Administration (cheminement général)",Administration
+"ADM 4051","Intervention en management","Cours sans examen",7764,"Administration (cheminement général)",Administration
+"ADM 4061","Observation en management","Cours sans examen",7764,"Administration (cheminement général)",Administration
+"ADM 1400","Théories de l'organisation","Cours sans examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"FIN 2301","Paradis fiscaux et finance offshore","Cours sans examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ENV 3026","Économie et gestion du développement durable","Cours sans examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 2014","Devenir entrepreneur","Cours sans examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 2115A","Simulation SIM-Plan d'affaires","Cours sans examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 9001","Bâtir une entreprise: des connaissances et des méthodes","Cours sans examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 9003","Gestion de la TPE/PME","Cours sans examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 9003A","Gestion TPE/PME: simulation","Cours sans examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"POL 1010","Introductioon aux relations internationales","Cours sans examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"COM 5004","Techniques et dynamique de la fonction "conseil"""","Cours sans examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 4051","Intervention en management","Cours sans examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 4061","Observation en management","Cours sans examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 1400","Théories de l'organisation","Cours sans examen",6771,"Administration (développement local et économie sociale)",Administration
+"EDU 1033","Gestion de projets et compétence numérique en milieu de travail","Cours sans examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 4054","Intervention en développement local et économie sociale","Cours sans examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 4064","Observation en développement local et économie sociale","Cours sans examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 1400","Théories de l'organisation","Cours sans examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 1101","Management dans les établissements de santé et de services sociaux","Cours sans examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 2220","Pratique de la gestion dans le domaine de la santé et des services sociaux","Cours sans examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"FRA 3006","Rédaction administrative","Cours sans examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"RIN 1012","Droit et pratique des conventions collectives","Cours sans examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"RIN 1013","Problèmes de santé au travail","Cours sans examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 1400","Théories de l'organisation","Cours sans examen",6768,"Administration (management)",Administration
+"ADM 1400","Théories de l'organisation","Cours sans examen",6768,"Administration (management)",Administration
+"ADM 3051","Portfolio de formation en management","Cours sans examen",6768,"Administration (management)",Administration
+"ADM 2014","Devenir entrepreneur","Cours sans examen",6768,"Administration (management)",Administration
+"ADM 4051","Intervention en management","Cours sans examen",6768,"Administration (management)",Administration
+"ADM 4061","Observation en management","Cours sans examen",6768,"Administration (management)",Administration
+"ADM 1400","Théories de l'organisation","Cours sans examen",6769,"Administration (marketing)",Administration
+"ADM 3052","Portfolio de formation en marketing","Cours sans examen",6769,"Administration (marketing)",Administration
+"ADM 9001","Bâtir une entreprise: des connaissances et des méthodes","Cours sans examen",6769,"Administration (marketing)",Administration
+"ADM 4053","Intervention en marketing","Cours sans examen",6769,"Administration (marketing)",Administration
+"ADM 4063","Observation en marketing","Cours sans examen",6769,"Administration (marketing)",Administration
+"ADM 6202","Gestion de la créativité","Cours sans examen",740,"Gestion de projets créatifs",Administration
+"ADM 6205","Gestion de projets et créativité","Cours sans examen",740,"Gestion de projets créatifs",Administration
+"ADM 6216","Leadership et travail d'équipe","Cours sans examen",740,"Gestion de projets créatifs",Administration
+"ADM 6218","Gestion des carrières créatives","Cours sans examen",740,"Gestion de projets créatifs",Administration
+"ADM 6220","Gestion, territoire et créativité","Cours sans examen",740,"Gestion de projets créatifs",Administration
+"ADM 6404","Performance et innovation dans les services de santé et services sociaux","Cours sans examen",684,"Organisation des services de santé et des services sociaux",Administration
+"ADM 6410","Acquisition des habilétés de gestion et interdisciplinarité en santé","Cours sans examen",684,"Organisation des services de santé et des services sociaux",Administration
+"ADM 6412","Changement dans les organisations de santé et de services sociaux","Cours sans examen",684,"Organisation des services de santé et des services sociaux",Administration
+"ADM 6415","Activité de synthèse et d'intégration","Cours sans examen",684,"Organisation des services de santé et des services sociaux",Administration
+"ADM 6216","Leadership et travail d'équipe","Cours sans examen",684,"Organisation des services de santé et des services sociaux",Administration
+"ADM 6506","Gestion des conflits en contexte de projet","Cours sans examen",684,"Organisation des services de santé et des services sociaux",Administration
+"ADM 6508","Management et transfert des connaissances","Cours sans examen",684,"Organisation des services de santé et des services sociaux",Administration
+"SAM 4250","Intervention communautaire","Cours sans examen",684,"Organisation des services de santé et des services sociaux",Administration
+"SAM 4320","Histoire de la prise en charge des troubles mentaux au Québec","Cours sans examen",684,"Organisation des services de santé et des services sociaux",Administration
+"COM 3023","Déontologie et éthique de la production de l'information","Cours sans examen",768,"Médias, information et rapports sociaux",Communication
+"SCS 2013","Documentation et rédaction en sciences sociales","Cours sans examen",4381,"Analyse des médias",Communication
+"COM 3020","Médiax, technologies et réseaux","Cours sans examen",4381,"Analyse des médias",Communication
+"COM 3019","Analyse critique des médias socionumériques","Cours sans examen",4381,"Analyse des médias",Communication
+"COM 4020","Activité de synthèse ","Cours sans examen",4381,"Analyse des médias",Communication
+"COM 2005","Cadre politique et institutionnel de la communication","Cours sans examen",4381,"Analyse des médias",Communication
+"COM 3023","Déontologie et éthique de la production de l'information","Cours sans examen",4381,"Analyse des médias",Communication
+"AVM 1001","Introduction aux arts médiatiques","Cours sans examen",4381,"Analyse des médias",Communication
+"COM 4011","Projet d'intégration","Cours sans examen",4379,"Communication organisationnelle",Communication
+"ADM 1400","Théories de l'organisation","Cours sans examen",4379,"Communication organisationnelle",Communication
+"COM 3019","Analyse critique des médias socionumériques","Cours sans examen",4379,"Communication organisationnelle",Communication
+"FRA 3008","Écriture en communication","Cours sans examen",4379,"Communication organisationnelle",Communication
+"SOC 1012","Méthodologie de la recherche sociale 1","Cours sans examen",4379,"Communication organisationnelle",Communication
+"COM 5004","Techniques et dynamique de la fonction "conseil"""","Cours sans examen",4039,"Relations publiques",Communication
+"COM 5020","Communication promotionnelle électronique","Cours sans examen",4039,"Relations publiques",Communication
+"FRA 3008","Écriture en communication","Cours sans examen",4039,"Relations publiques",Communication
+"RPL 2010","Stage en relations publiques","Cours sans examen",4039,"Relations publiques",Communication
+"COM 2014","Pratiques de la recherche en communication","Cours sans examen",7887,Communication,Communication
+"COM 4001","Projet d'intégration","Cours sans examen",7887,Communication,Communication
+"SOC 1012","Méthodologie de la recherche sociale 1","Cours sans examen",7887,Communication,Communication
+"COM 2005","Cadre politique et institutionnel de la communication","Cours sans examen",7887,Communication,Communication
+"COM 3019","Analyse critique des médias socionumériques","Cours sans examen",7887,Communication,Communication
+"COM 3020","Médiax, technologies et réseaux","Cours sans examen",7887,Communication,Communication
+"COM 3023","Déontologie et éthique de la production de l'information","Cours sans examen",7887,Communication,Communication
+"COM 4025","Lectures dirigées","Cours sans examen",7887,Communication,Communication
+"AVM 1001","Introduction aux arts médiatiques","Cours sans examen",7887,Communication,Communication
+"POL 1010","Introductioon aux relations internationales","Cours sans examen",7887,Communication,Communication
+"ADM 1400","Théories de l'organisation","Cours sans examen",7887,Communication,Communication
+"COM 5004","Techniques et dynamique de la fonction "conseil"""","Cours sans examen",7887,Communication,Communication
+"COM 2001","La nouvelle communication","Cours sans examen",7887,Communication,Communication
+"COM 5020","Communication promotionnelle électronique","Cours sans examen",7887,Communication,Communication
+"FRA 3008","Écriture en communication","Cours sans examen",7887,Communication,Communication
+"ADM 1400","Théories de l'organisation","Cours sans examen",4227,"Comptabilité générale","Comptabilité "
+"FIN 2024","Évaluation d'entreprise","Cours sans examen",4138,"Sciences comptables","Comptabilité "
+"FIN 2301","Paradis fiscaux et finance offshore","Cours sans examen",4138,"Sciences comptables","Comptabilité "
+"ADM 1400","Théories de l'organisation","Cours sans examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"FIN 2024","Évaluation d'entreprise","Cours sans examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"FIN 2301","Paradis fiscaux et finance offshore","Cours sans examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"RIN 1012","Droit et pratique des conventions collectives","Cours sans examen",9007,"Droit et gouvernance de l'entreprise",Droit
+"ECO 1200","Méthodologie économique","Cours sans examen",979,Économie,Économie
+"ECO 2023","Corruption, blanchiment d'argent et évasion fiscale internationale: comment s'en protéger?","Cours sans examen",979,Économie,Économie
+"FIN 2301","Paradis fiscaux et finance offshore","Cours sans examen",979,Économie,Économie
+"ECO 1200","Méthodologie économique","Cours sans examen",4013,Économie,Économie
+"FIN 2301","Paradis fiscaux et finance offshore","Cours sans examen",4013,Économie,Économie
+"ADM 1400","Théories de l'organisation","Cours sans examen",6775,"Administration (économie)",Économie
+"ECO 1200","Méthodologie économique","Cours sans examen",6775,"Administration (économie)",Économie
+"FIN 2301","Paradis fiscaux et finance offshore","Cours sans examen",6775,"Administration (économie)",Économie
+"ECO 2023","Corruption, blanchiment d'argent et évasion fiscale internationale: comment s'en protéger?","Cours sans examen",6775,"Administration (économie)",Économie
+"ENV 3026","Économie et gestion du développement durable","Cours sans examen",6775,"Administration (économie)",Économie
+"EDU 1010","Organisation de l'éducation au Québec","Cours sans examen",9012,Éducation,Éducation
+"EDU 1012","Difficultés d'apprentissage, d'adaptation et stratégies d'intervention","Cours sans examen",9012,Éducation,Éducation
+"EDU 1013","Évaluation des apprentissages en milieu scolaire","Cours sans examen",9012,Éducation,Éducation
+"EDU 1022","Français, langue d'enseignement et d'apprentissage","Cours sans examen",9012,Éducation,Éducation
+"EDU 1024","Didactique de l'arithmétique","Cours sans examen",9012,Éducation,Éducation
+"EDU 1020","Stratégies d'intervention éducative auprès des adultes","Cours sans examen",494,"Intervention éducative auprès des adultes",Éducation
+"EDU 1030","Design pédagogique en formation d'adultes","Cours sans examen",494,"Intervention éducative auprès des adultes",Éducation
+"EDU 1035","Gestion stratégique de la formation d'adultes","Cours sans examen",494,"Intervention éducative auprès des adultes",Éducation
+"EDU 1040","Théories de l'apprentissage et éducation des adultes","Cours sans examen",494,"Intervention éducative auprès des adultes",Éducation
+"EDU 1071","Formation en milieu de travail: Des dispositifs aux pratiques","Cours sans examen",494,"Intervention éducative auprès des adultes",Éducation
+"EDU 1072","Travaux pratiques","Cours sans examen",494,"Intervention éducative auprès des adultes",Éducation
+"EDU 1074","Projet personnel","Cours sans examen",494,"Intervention éducative auprès des adultes",Éducation
+"EDU 1080","Évaluation de l'apprentissage et de la formation","Cours sans examen",494,"Intervention éducative auprès des adultes",Éducation
+"PSY 1220","Psychologie de la vie adulte","Cours sans examen",494,"Intervention éducative auprès des adultes",Éducation
+"TED 1272","Les TIC et l'apprentissage en milieu de travail","Cours sans examen",494,"Intervention éducative auprès des adultes",Éducation
+"EDU 1030","Design pédagogique en formation d'adultes","Cours sans examen",9019,"Enseigner et apprendre avec le numérique",Éducation
+"EDU 1074","Projet personnel","Cours sans examen",9019,"Enseigner et apprendre avec le numérique",Éducation
+"TED 1272","Les TIC et l'apprentissage en milieu de travail","Cours sans examen",9019,"Enseigner et apprendre avec le numérique",Éducation
+"TED 1280","Jeux, simulations et jeux de rôle: exploration et analyse pédagogique","Cours sans examen",9019,"Enseigner et apprendre avec le numérique",Éducation
+"TED 3001","Enseigner avec les technologies de l'information","Cours sans examen",9019,"Enseigner et apprendre avec le numérique",Éducation
+"EDU 1020","Stratégies d'intervention éducative auprès des adultes","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"EDU 1030","Design pédagogique en formation d'adultes","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"EDU 1040","Théories de l'apprentissage et éducation des adultes","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"EDU 1050","Analyse sociale de l'éducation","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"EDU 1080","Évaluation de l'apprentissage et de la formation","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"PSY 1220","Psychologie de la vie adulte","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"EDU 1035","Gestion stratégique de la formation d'adultes","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"EDU 1071","Formation en milieu de travail: Des dispositifs aux pratiques","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"LIN 4128","Teaching English as a Second Language to Adults  ","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"TED 1272","Les TIC et l'apprentissage en milieu de travail","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"TED 1280","Jeux, simulations et jeux de rôle: exploration et analyse pédagogique","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"EDU 1070","Clarification des valeurs","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"PSY 1300","Introduction à la psychologie de la personnalité","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"PSY 1323","Motivation et émotions","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"PSY 1400","Introductionà la psychologie de la santé","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"PSY 4001","Introductionà la psychologie cognitive","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"EDU 1033","Gestion de projets et compétence numérique en milieu de travail","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"EDU 1072","Travaux pratiques","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"EDU 1074","Projet personnel","Cours sans examen",6394,"Éducation avec majeure(s)",Éducation
+"TED 6312","Ingénierie pédagogique et technologies éducatives","Cours sans examen",638,"Design pédagogique",Éducation
+"TED 6313","Projet d'ingénierie technopédagogique","Cours sans examen",638,"Design pédagogique",Éducation
+"TED 6210","Stratégies pédagogiques: une approche cognitive","Cours sans examen",638,"Design pédagogique",Éducation
+"TED 6350","Technologie de diffusion de la formation","Cours sans examen",638,"Design pédagogique",Éducation
+"EDU 6011A","Gestion efficace des comportements - volet enseignement","Cours sans examen",666,"Efficacité de l'enseignement et des écoles",Éducation
+"EDU 6510A","L'enseignement efficace: fondements et pratiques - volet enseignement","Cours sans examen",666,"Efficacité de l'enseignement et des écoles",Éducation
+"EDU 6511A","L'enseignement explicite: fondements et pratiques - volet enseignement","Cours sans examen",666,"Efficacité de l'enseignement et des écoles",Éducation
+"EDU 6009B","Gestion efficace des comportements - volet accompagnement 1: école","Cours sans examen",666,"Efficacité de l'enseignement et des écoles",Éducation
+"EDU 6010B","Gestion efficace des comportements - volet accompagnement 2: classe","Cours sans examen",666,"Efficacité de l'enseignement et des écoles",Éducation
+"EDU 6510B","L'enseignement efficace: fondements et pratiques - volet accompagnement","Cours sans examen",666,"Efficacité de l'enseignement et des écoles",Éducation
+"EDU 6511B","L'enseignement explicite: fondements et pratiques - volet accompagnement","Cours sans examen",666,"Efficacité de l'enseignement et des écoles",Éducation
+"EDU 6510C","L'enseignement efficace: fondements et pratiques - volet intervention","Cours sans examen",666,"Efficacité de l'enseignement et des écoles",Éducation
+"EDU 6001","Administration de systèmes de formation à distance","Cours sans examen",892,"Formation à distance",Éducation
+"EDU 6002","Communication pédagogique à distance","Cours sans examen",892,"Formation à distance",Éducation
+"EDU 6003","Visions pédagogiques de l'éducation","Cours sans examen",892,"Formation à distance",Éducation
+"EDU 6013","Soutien à l'apprentissage à distance","Cours sans examen",892,"Formation à distance",Éducation
+"EDU 6014","Formation à distance et développement","Cours sans examen",892,"Formation à distance",Éducation
+"EDU 6022","Technologies et apprentissage à distance","Cours sans examen",892,"Formation à distance",Éducation
+"EDU 6101","La formation à distance maintenant 1","Cours sans examen",892,"Formation à distance",Éducation
+"EDU 6102","La formation à distance maintenant 2","Cours sans examen",892,"Formation à distance",Éducation
+"TED 6512","Apprentissage collaboratif en mode virtuel","Cours sans examen",892,"Formation à distance",Éducation
+"TED 6312","Ingénierie pédagogique et technologies éducatives","Cours sans examen",584,"Technologie éducative",Éducation
+"EDU 6013","Soutien à l'apprentissage à distance","Cours sans examen",584,"Technologie éducative",Éducation
+"EDU 6015","Travail pratique","Cours sans examen",584,"Technologie éducative",Éducation
+"EDU 6022","Technologies et apprentissage à distance","Cours sans examen",584,"Technologie éducative",Éducation
+"TED 6200","Technologies de l'information et développement cognitif","Cours sans examen",584,"Technologie éducative",Éducation
+"TED 6210","Stratégies pédagogiques: une approche cognitive","Cours sans examen",584,"Technologie éducative",Éducation
+"TED 6313","Projet d'ingénierie technopédagogique","Cours sans examen",584,"Technologie éducative",Éducation
+"TED 6350","Technologie de diffusion de la formation","Cours sans examen",584,"Technologie éducative",Éducation
+"TED 6375","Gestion de projets en technologie éducative","Cours sans examen",584,"Technologie éducative",Éducation
+"TED 6501","Intégration des TIC en situation éducative","Cours sans examen",584,"Technologie éducative",Éducation
+"TED 6502","Jeux virtuels et apprentissage","Cours sans examen",584,"Technologie éducative",Éducation
+"TED 6503","Intégration du numérique en éducation et en formation des adultes","Cours sans examen",584,"Technologie éducative",Éducation
+"TED 6504","Apprentissage en ligne: concepts, putils et pratiques","Cours sans examen",584,"Technologie éducative",Éducation
+"TED 6512","Apprentissage colalboratif en mode virtuel","Cours sans examen",584,"Technologie éducative",Éducation
+"TED 6520","Environnements d'apprentissage intelligents","Cours sans examen",584,"Technologie éducative",Éducation
+"ADM 2014","Devenir entrepreneur","Cours sans examen",470,Entrepreneuriat,Entrepreneuriat
+"ADM 9003","Gestion de la TPE/PME","Cours sans examen",470,Entrepreneuriat,Entrepreneuriat
+"ADM 9003A","Gestion TPE/PME: simulation","Cours sans examen",470,Entrepreneuriat,Entrepreneuriat
+"ADM 9001","Bâtir une entreprise: des connaissances et des méthodes","Cours sans examen",470,Entrepreneuriat,Entrepreneuriat
+"ADM 2115A","Simulation SIM-Plan d'affaires","Cours sans examen",470,Entrepreneuriat,Entrepreneuriat
+"ADM 4007B","Rédiger son plan d'affaires","Cours sans examen",470,Entrepreneuriat,Entrepreneuriat
+"ADM 2115A","Simulation SIM-Plan d'affaires","Cours sans examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 9003","Gestion de la TPE/PME","Cours sans examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 9003A","Gestion TPE/PME: simulation","Cours sans examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 4007B","Rédiger son plan d'affaires","Cours sans examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 2014","Devenir entrepreneur","Cours sans examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 9001","Bâtir une entreprise: des connaissances et des méthodes","Cours sans examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 3014","Développement économique et soutien à l'entrepreneuriat","Cours sans examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 3014A","Simulation-Soutien à l'entrepreneuriat et développement économique","Cours sans examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 1400","Théories de l'organisation","Cours sans examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 2014","Devenir entrepreneur","Cours sans examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 9001","Bâtir une entreprise: des connaissances et des méthodes","Cours sans examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 9003","Gestion de la TPE/PME","Cours sans examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 9003A","Gestion TPE/PME: simulation","Cours sans examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 2115A","Simulation SIM-Plan d'affaires","Cours sans examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 4007B","Rédiger son plan d'affaires","Cours sans examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 3014","Développement économique et soutien à l'entrepreneuriat","Cours sans examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 3014A","Simulation-Soutien à l'entrepreneuriat et développement économique","Cours sans examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ENV 1110","Changements climatiques","Cours sans examen",265,"Gestion des ressources fauniques",Environnement
+"ENV 3015","Évaluation environnementale","Cours sans examen",265,"Gestion des ressources fauniques",Environnement
+"ENV 3026","Économie et gestion du développement durable","Cours sans examen",265,"Gestion des ressources fauniques",Environnement
+"ENV 4012","Environnement international","Cours sans examen",265,"Gestion des ressources fauniques",Environnement
+"ENV 1110","Changements climatiques","Cours sans examen",4390,"Sciences de l'environnement",Environnement
+"ENV 3015","Évaluation environnementale","Cours sans examen",4390,"Sciences de l'environnement",Environnement
+"ENV 3017","Santé et environnement","Cours sans examen",4390,"Sciences de l'environnement",Environnement
+"ENV 3026","Économie et gestion du développement durable","Cours sans examen",4390,"Sciences de l'environnement",Environnement
+"ENV 3140","Les normes environnementales ISO 14000","Cours sans examen",4390,"Sciences de l'environnement",Environnement
+"ENV 4012","Environnement international","Cours sans examen",4390,"Sciences de l'environnement",Environnement
+"ENV 1110","Changements climatiques","Cours sans examen",6004,"Sciences de l'environnement",Environnement
+"ENV 3026","Économie et gestion du développement durable","Cours sans examen",6004,"Sciences de l'environnement",Environnement
+"ENV 3015","Évaluation environnementale","Cours sans examen",6004,"Sciences de l'environnement",Environnement
+"ENV 3140","Les normes environnementales ISO 14000","Cours sans examen",6004,"Sciences de l'environnement",Environnement
+"SCI 1013","Introduction aux méthodes de recherche scientifique","Cours sans examen",6004,"Sciences de l'environnement",Environnement
+"ENV 3017","Santé et environnement","Cours sans examen",6004,"Sciences de l'environnement",Environnement
+"ENV 4012","Environnement international","Cours sans examen",6004,"Sciences de l'environnement",Environnement
+"COM 3023","Déontologie et éthique de la production de l'information","Cours sans examen",6004,"Sciences de l'environnement",Environnement
+"SCI 1230","Travail scientifique et technologies de l'information","Cours sans examen",6004,"Sciences de l'environnement",Environnement
+"TED 1272","Les TIC et l'apprentissage en milieu de travail","Cours sans examen",6004,"Sciences de l'environnement",Environnement
+"ENV 4025","Projet d'intégration","Cours sans examen",6004,"Sciences de l'environnement",Environnement
+"ENV 4027",Séminaire,"Cours sans examen",6004,"Sciences de l'environnement",Environnement
+"ENV 6002","Gestion internationale du développement durable","Cours sans examen",639,"Environnement international",Environnement
+"ENV 6000","Pensées écologiques et environnement international","Cours sans examen",639,"Environnement international",Environnement
+"ENV 6003","Changements climatiques: impacts, adaptation, mitigation","Cours sans examen",639,"Environnement international",Environnement
+"ENV 6005","Populations, écosystèmes et services écosystémiques","Cours sans examen",639,"Environnement international",Environnement
+"ENV 6006","Résolution de problèmes environnementaux","Cours sans examen",639,"Environnement international",Environnement
+"ENV 6007","Océans et gestion intégrée des zones côtières","Cours sans examen",639,"Environnement international",Environnement
+"ENV 6008","Modélisation et systèmes d'aide à la décision en environnement","Cours sans examen",639,"Environnement international",Environnement
+"ENV 6010","Gestion des zones côtières: écotourisme et activités d'observation des mammifères marins","Cours sans examen",639,"Environnement international",Environnement
+"ENV 6011","Fondements et pratiques en santé environnementale","Cours sans examen",639,"Environnement international",Environnement
+"ENV 6012","Aires marines protégées : conservation et protection de l'habitat des cétacés","Cours sans examen",639,"Environnement international",Environnement
+"ENV 6007","Océans et gestion intégrée des zones côtières","Cours sans examen",961,"Gestion intégrée dez zones côtières",Environnement
+"ENV 6002","Gestion internationale du développement durable","Cours sans examen",961,"Gestion intégrée dez zones côtières",Environnement
+"ENV 6003","Changements climatiques: impacts, adaptation, mitigation","Cours sans examen",961,"Gestion intégrée dez zones côtières",Environnement
+"ENV 6008","Modélisation et systèmes d'aide à la décision en environnement","Cours sans examen",961,"Gestion intégrée dez zones côtières",Environnement
+"ENV 6010","Gestion des zones côtières: écotourisme et activités d'observation des mammifères marins","Cours sans examen",961,"Gestion intégrée dez zones côtières",Environnement
+"ENV 6011","Fondements et pratiques en santé environnementale","Cours sans examen",961,"Gestion intégrée dez zones côtières",Environnement
+"ENV 6012","Aires marines protégées : conservation et protection de l'habitat des cétacés","Cours sans examen",961,"Gestion intégrée dez zones côtières",Environnement
+"ENV 6002","Gestion internationale du développement durable","Cours sans examen",1937,"Environnement international (profil professionnel)",Environnement
+"ENV 6000","Pensées écologiques et environnement international","Cours sans examen",1937,"Environnement international (profil professionnel)",Environnement
+"ENV 6003","Changements climatiques: impacts, adaptation, mitigation","Cours sans examen",1937,"Environnement international (profil professionnel)",Environnement
+"ENV 6005","Populations, écosystèmes et services écosystémiques","Cours sans examen",1937,"Environnement international (profil professionnel)",Environnement
+"ENV 6006","Résolution de problèmes environnementaux","Cours sans examen",1937,"Environnement international (profil professionnel)",Environnement
+"ENV 6007","Océans et gestion intégrée des zones côtières","Cours sans examen",1937,"Environnement international (profil professionnel)",Environnement
+"ENV 6008","Modélisation et systèmes d'aide à la décision en environnement","Cours sans examen",1937,"Environnement international (profil professionnel)",Environnement
+"ENV 6010","Gestion des zones côtières: écotourisme et activités d'observation des mammifères marins","Cours sans examen",1937,"Environnement international (profil professionnel)",Environnement
+"ENV 6011","Fondements et pratiques en santé environnementale","Cours sans examen",1937,"Environnement international (profil professionnel)",Environnement
+"ENV 6012","Aires marines protégées : conservation et protection de l'habitat des cétacés","Cours sans examen",1937,"Environnement international (profil professionnel)",Environnement
+"ENV 6410","Lectures dirigées","Cours sans examen",1937,"Environnement international (profil professionnel)",Environnement
+"ENV 6415","Projet personnel","Cours sans examen",1937,"Environnement international (profil professionnel)",Environnement
+"ENV 6425",Séminaire,"Cours sans examen",1937,"Environnement international (profil professionnel)",Environnement
+"ENV 6000","Pensées écologiques et environnement international","Cours sans examen",1938,"Environnement international (profil recherche appliquée)",Environnement
+"ENV 6002","Gestion internationale du développement durable","Cours sans examen",1938,"Environnement international (profil recherche appliquée)",Environnement
+"ENV 6003","Changements climatiques: impacts, adaptation, mitigation","Cours sans examen",1938,"Environnement international (profil recherche appliquée)",Environnement
+"ENV 6005","Populations, écosystèmes et services écosystémiques","Cours sans examen",1938,"Environnement international (profil recherche appliquée)",Environnement
+"ENV 6006","Résolution de problèmes environnementaux","Cours sans examen",1938,"Environnement international (profil recherche appliquée)",Environnement
+"ENV 6007","Océans et gestion intégrée des zones côtières","Cours sans examen",1938,"Environnement international (profil recherche appliquée)",Environnement
+"ENV 6008","Modélisation et systèmes d'aide à la décision en environnement","Cours sans examen",1938,"Environnement international (profil recherche appliquée)",Environnement
+"ENV 6010","Gestion des zones côtières: écotourisme et activités d'observation des mammifères marins","Cours sans examen",1938,"Environnement international (profil recherche appliquée)",Environnement
+"ENV 6011","Fondements et pratiques en santé environnementale","Cours sans examen",1938,"Environnement international (profil recherche appliquée)",Environnement
+"ENV 6012","Aires marines protégées : conservation et protection de l'habitat des cétacés","Cours sans examen",1938,"Environnement international (profil recherche appliquée)",Environnement
+"ENV 6410","Lectures dirigées","Cours sans examen",1938,"Environnement international (profil recherche appliquée)",Environnement
+"ENV 6420","Recherche appliquée","Cours sans examen",1938,"Environnement international (profil recherche appliquée)",Environnement
+"ENV 6425",Séminaire,"Cours sans examen",1938,"Environnement international (profil recherche appliquée)",Environnement
+"ENV 6007","Océans et gestion intégrée des zones côtières","Cours sans examen",2477,"Gestion intégrée des zones côtières (profil professionnel)",Environnement
+"ENV 6010","Gestion des zones côtières: écotourisme et activités d'observation des mammifères marins","Cours sans examen",2477,"Gestion intégrée des zones côtières (profil professionnel)",Environnement
+"ENV 6006","Résolution de problèmes environnementaux","Cours sans examen",2477,"Gestion intégrée des zones côtières (profil professionnel)",Environnement
+"ENV 6012","Aires marines protégées : conservation et protection de l'habitat des cétacés","Cours sans examen",2477,"Gestion intégrée des zones côtières (profil professionnel)",Environnement
+"ENV 6003","Changements climatiques: impacts, adaptation, mitigation","Cours sans examen",2477,"Gestion intégrée des zones côtières (profil professionnel)",Environnement
+"ENV 6011","Fondements et pratiques en santé environnementale","Cours sans examen",2477,"Gestion intégrée des zones côtières (profil professionnel)",Environnement
+"ENV 6008","Modélisation et systèmes d'aide à la décision en environnement","Cours sans examen",2477,"Gestion intégrée des zones côtières (profil professionnel)",Environnement
+"ENV 6410","Lectures dirigées","Cours sans examen",2477,"Gestion intégrée des zones côtières (profil professionnel)",Environnement
+"ENV 6415","Projet personnel","Cours sans examen",2477,"Gestion intégrée des zones côtières (profil professionnel)",Environnement
+"ENV 6007","Océans et gestion intégrée des zones côtières","Cours sans examen",2478,"Gestion intégrée des zones côtières (profil recherche appliquée)",Environnement
+"ENV 6006","Résolution de problèmes environnementaux","Cours sans examen",2478,"Gestion intégrée des zones côtières (profil recherche appliquée)",Environnement
+"ENV 6010","Gestion des zones côtières: écotourisme et activités d'observation des mammifères marins","Cours sans examen",2478,"Gestion intégrée des zones côtières (profil recherche appliquée)",Environnement
+"ENV 6012","Aires marines protégées : conservation et protection de l'habitat des cétacés","Cours sans examen",2478,"Gestion intégrée des zones côtières (profil recherche appliquée)",Environnement
+"ENV 6003","Changements climatiques: impacts, adaptation, mitigation","Cours sans examen",2478,"Gestion intégrée des zones côtières (profil recherche appliquée)",Environnement
+"ENV 6011","Fondements et pratiques en santé environnementale","Cours sans examen",2478,"Gestion intégrée des zones côtières (profil recherche appliquée)",Environnement
+"ENV 6008","Modélisation et systèmes d'aide à la décision en environnement","Cours sans examen",2478,"Gestion intégrée des zones côtières (profil recherche appliquée)",Environnement
+"ENV 6410","Lectures dirigées","Cours sans examen",2478,"Gestion intégrée des zones côtières (profil recherche appliquée)",Environnement
+"ENV 6420","Recherche appliquée","Cours sans examen",2478,"Gestion intégrée des zones côtières (profil recherche appliquée)",Environnement
+"ENV 6425",Séminaire,"Cours sans examen",2478,"Gestion intégrée des zones côtières (profil recherche appliquée)",Environnement
+"ADM 1400","Théories de l'organisation","Cours sans examen",6774,"Administration (comptabilité et finance)",Finance
+"FIN 2024","Évaluation d'entreprise","Cours sans examen",6774,"Administration (comptabilité et finance)",Finance
+"FIN 2301","Paradis fiscaux et finance offshore","Cours sans examen",6774,"Administration (comptabilité et finance)",Finance
+"ADM 1400","Théories de l'organisation","Cours sans examen",6770,"Administration (planification financière)",Finance
+"ADM 4052","Intervention en planification financière","Cours sans examen",6770,"Administration (planification financière)",Finance
+"ADM 4062","Observation en planification financière","Cours sans examen",6770,"Administration (planification financière)",Finance
+"FIN 6304","Fusions, acquisitions et restructurations d'entreprises","Cours sans examen",3116,"Finance d'entreprise",Finance
+FIN6402,"Projet personnel","Cours sans examen",3116,"Finance d'entreprise",Finance
+"ADM 6030","Gestion des risques en affaires électroniques","Cours sans examen",3116,"Finance d'entreprise",Finance
+"FIN 6302","Stratégie financière et création de la valeur","Cours sans examen",3116,"Finance d'entreprise",Finance
+"ADM 1400","Théories de l'organisation","Cours sans examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 1400","Théories de l'organisation","Cours sans examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 3053","Portfolio de formation en gestion des ressources humaines","Cours sans examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 4056","Intervention en gestion des ressources humaines","Cours sans examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"RIN 1012","Droit et pratique des conventions collectives","Cours sans examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"RIN 1013","Problèmes de santé au travail","Cours sans examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 6501","Gestion des ressources humaines dans l'économie du savoir","Cours sans examen",679,"Gestion contemporaine des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 6216","Leadership et travail d'équipe","Cours sans examen",679,"Gestion contemporaine des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 6530","Projet d'intégration","Cours sans examen",679,"Gestion contemporaine des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 6508","Management et transfert des connaissances","Cours sans examen",679,"Gestion contemporaine des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 6520","La santé et la sécurité au travail face à la diversification des réalités organiisationnelles","Cours sans examen",679,"Gestion contemporaine des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 6525","Enjeux contemporains dans la gestion de carrières","Cours sans examen",679,"Gestion contemporaine des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"EDU 1033","Gestion de projets et compétence numérique en milieu de travail","Cours sans examen",679,"Gestion contemporaine des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 6510","Gestion des ressources humaines en contexte de projet","Cours sans examen",767,"Gestion des ressources humaines en contexte de projet","Gestion des ressources  humaines et relations de travail"
+"ADM 6508","Management et transfert des connaissances","Cours sans examen",767,"Gestion des ressources humaines en contexte de projet","Gestion des ressources  humaines et relations de travail"
+"ADM 6506","Gestion des conflits en contexte de projet","Cours sans examen",767,"Gestion des ressources humaines en contexte de projet","Gestion des ressources  humaines et relations de travail"
+"ADM 6505","Activité de synthèse","Cours sans examen",767,"Gestion des ressources humaines en contexte de projet","Gestion des ressources  humaines et relations de travail"
+"ADM 6501","Gestion des ressources humaines dans l'économie du savoir","Cours sans examen",1658,"Gestion des ressources humaines dans l'économie du savoir","Gestion des ressources  humaines et relations de travail"
+"ADM 6506","Gestion des conflits en contexte de projet","Cours sans examen",1658,"Gestion des ressources humaines dans l'économie du savoir","Gestion des ressources  humaines et relations de travail"
+"ADM 6508","Management et transfert des connaissances","Cours sans examen",1658,"Gestion des ressources humaines dans l'économie du savoir","Gestion des ressources  humaines et relations de travail"
+"ADM 6525","Enjeux contemporains dans la gestion de carrières","Cours sans examen",1658,"Gestion des ressources humaines dans l'économie du savoir","Gestion des ressources  humaines et relations de travail"
+"ADM 6205","Gestion de projets et créativité","Cours sans examen",1658,"Gestion des ressources humaines dans l'économie du savoir","Gestion des ressources  humaines et relations de travail"
+"ADM 6216","Leadership et travail d'équipe","Cours sans examen",1658,"Gestion des ressources humaines dans l'économie du savoir","Gestion des ressources  humaines et relations de travail"
+"ADM 6510","Gestion des ressources humaines en contexte de projet","Cours sans examen",1658,"Gestion des ressources humaines dans l'économie du savoir","Gestion des ressources  humaines et relations de travail"
+"ADM 6512","Sens du travail","Cours sans examen",1658,"Gestion des ressources humaines dans l'économie du savoir","Gestion des ressources  humaines et relations de travail"
+"ADM 6520","La santé et la sécurité au travail face à la diversification des réalités organiisationnelles","Cours sans examen",1658,"Gestion des ressources humaines dans l'économie du savoir","Gestion des ressources  humaines et relations de travail"
+"ADM 6514","Projet personnel","Cours sans examen",1658,"Gestion des ressources humaines dans l'économie du savoir","Gestion des ressources  humaines et relations de travail"
+"ADM 6515","Activité de synthèse","Cours sans examen",1658,"Gestion des ressources humaines dans l'économie du savoir","Gestion des ressources  humaines et relations de travail"
+"ADM 6010","Marketing en affaires électroniques","Cours sans examen",9362,"Gestion de la transformation numérique","Gestion des technologies de l'information"
+"ADM 6030","Gestion des risques en affaires électroniques","Cours sans examen",9362,"Gestion de la transformation numérique","Gestion des technologies de l'information"
+"ADM 6052","Transformation numérique organisationnelle","Cours sans examen",9362,"Gestion de la transformation numérique","Gestion des technologies de l'information"
+"ADM 6010","Marketing en affaires électroniques","Cours sans examen",589,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6030","Gestion des risques en affaires électroniques","Cours sans examen",589,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6052","Transformation numérique organisationnelle","Cours sans examen",589,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6030","Gestion des risques en affaires électroniques","Cours sans examen",1910,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6052","Transformation numérique organisationnelle","Cours sans examen",1910,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6028R","Lectures dirigées","Cours sans examen",1910,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6010","Marketing en affaires électroniques","Cours sans examen",1910,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"INF 6107","Web social","Cours sans examen",1910,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6010","Marketing en affaires électroniques","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"ADM 6030","Gestion des risques en affaires électroniques","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"ADM 6052","Transformation numérique organisationnelle","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"ENV 6008","Modélisation et systèmes d'aide à la décision en environnement","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"INF 6409","Forage de données","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"INF 6065","Sécurité des réeaux et des systèmes informatiques","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"INF 6070","Technologies sémantiques pour la gestion des connaissances","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"INF 6107","Web social","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"TED 6520","Environnements d'apprentissage intelligents","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"MTI 6405","Projet individuel","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"MTI 6500",Mémoire,"Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"ADM 6010","Marketing en affaires électroniques","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"ADM 6030","Gestion des risques en affaires électroniques","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"ADM 6052","Transformation numérique organisationnelle","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"ENV 6008","Modélisation et systèmes d'aide à la décision en environnement","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"INF 6409","Forage de données","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"INF 6065","Sécurité des réeaux et des systèmes informatiques","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"INF 6070","Technologies sémantiques pour la gestion des connaissances","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"INF 6107","Web social","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"TED 6520","Environnements d'apprentissage intelligents","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"MTI 6012","Travail dirigé","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"MTI 6006R","Cours dirigé","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"INF 1410","Génie logiciel","Cours sans examen",127,"Développement de logiciels","Informatique et technologies de l'information"
+"INF 1410","Génie logiciel","Cours sans examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"INF 4018","Projet d'intégration","Cours sans examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"INF 6400","Gestion de connaissances en informatique","Cours sans examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"SCI 1017","Traitement de données massives","Cours sans examen",4865,"Science des données","Informatique et technologies de l'information"
+"SCI 1402","Projet en science des données","Cours sans examen",4865,"Science des données","Informatique et technologies de l'information"
+"SCI 1035","Apprentissage profond","Cours sans examen",4865,"Science des données","Informatique et technologies de l'information"
+"INF 1410","Génie logiciel","Cours sans examen",6010,"Informatique ","Informatique et technologies de l'information"
+"INF 1430","Projet de fin d'études","Cours sans examen",6010,"Informatique ","Informatique et technologies de l'information"
+"INF 6400","Gestion de connaissances en informatique","Cours sans examen",6010,"Informatique ","Informatique et technologies de l'information"
+"SCI 1017","Traitement de données massives","Cours sans examen",6010,"Informatique ","Informatique et technologies de l'information"
+"ENV 6008","Modélisation et systèmes d'aide à la décision en environnement","Cours sans examen",810,"Technologie de l'information","Informatique et technologies de l'information"
+"INF 6409","Forage de données","Cours sans examen",810,"Technologie de l'information","Informatique et technologies de l'information"
+"INF 6065","Sécurité des réseaux et des systèmes informatiques","Cours sans examen",810,"Technologie de l'information","Informatique et technologies de l'information"
+"INF 6070","Technologies sémantiques pour la gestion des connaissances","Cours sans examen",810,"Technologie de l'information","Informatique et technologies de l'information"
+"INF 6107","Web social","Cours sans examen",810,"Technologie de l'information","Informatique et technologies de l'information"
+"ADM 6010","Marketing en affaires électroniques","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"ADM 6030","Gestion des risques en affaires électroniques","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"ADM 6052","Transformation numérique organisationnelle","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"ENV 6008","Modélisation et systèmes d'aide à la décision en environnement","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"INF 6409","Forage de données","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"INF 6065","Sécurité des réeaux et des systèmes informatiques","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"INF 6070","Technologies sémantiques pour la gestion des connaissances","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"INF 6107","Web social","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"TED 6520","Environnements d'apprentissage intelligents","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"MTI 6405","Projet individuel","Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"MTI 6500",Mémoire,"Cours sans examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"ADM 6010","Marketing en affaires électroniques","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"ADM 6030","Gestion des risques en affaires électroniques","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"ADM 6052","Transformation numérique organisationnelle","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"ENV 6008","Modélisation et systèmes d'aide à la décision en environnement","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"INF 6409","Forage de données","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"INF 6065","Sécurité des réeaux et des systèmes informatiques","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"INF 6070","Technologies sémantiques pour la gestion des connaissances","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"INF 6107","Web social","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"TED 6520","Environnements d'apprentissage intelligents","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"MTI 6012","Travail dirigé","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"MTI 6006R","Cours dirigé","Cours sans examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"ANG 4005","Effective Written Communication","Cours sans examen",82,"Approfondissement de l'anglais","Lettres et langues"
+"ANG 4020","Advanced Written and Oral Productions","Cours sans examen",82,"Approfondissement de l'anglais","Lettres et langues"
+"LIN 4002","Contemporary English Canadian Language and Culture","Cours sans examen",82,"Approfondissement de l'anglais","Lettres et langues"
+"FRA 3006","Rédaction administrative","Cours sans examen",73,"Perfectionnement en français écrit","Lettres et langues"
+"FRA 3008","Écriture en communication","Cours sans examen",73,"Perfectionnement en français écrit","Lettres et langues"
+"LIN 2003","Nouvelles pratiques du français","Cours sans examen",73,"Perfectionnement en français écrit","Lettres et langues"
+"PHI 2015","Pensée critique et argumentation","Cours sans examen",73,"Perfectionnement en français écrit","Lettres et langues"
+"TRA 4035","Reducción de textos","Cours sans examen",9020,"Initiation à la traduction en français et en espagnol","Lettres et langues"
+"LIN 3004","Lexicologie et lexicographie de la languye française","Cours sans examen",9020,"Initiation à la traduction en français et en espagnol","Lettres et langues"
+"ESP 4010","Redacción especializada en español","Cours sans examen",9020,"Initiation à la traduction en français et en espagnol","Lettres et langues"
+"ANG 2001","General Communication","Cours sans examen",81,"Anglais fonctionnel","Lettres et langues"
+"ANG 4005","Effective Written Communication","Cours sans examen",81,"Anglais fonctionnel","Lettres et langues"
+"LIN 4015","Second Language Learning and Bilingualism","Cours sans examen",502,"Enseignement de l'anglais langue seconde","Lettres et langues"
+"LIN 4120","Teaching English as a Secind Language using Communication Technologies","Cours sans examen",502,"Enseignement de l'anglais langue seconde","Lettres et langues"
+"LIN 4125","Teaching English as a Secind Language in Schools","Cours sans examen",502,"Enseignement de l'anglais langue seconde","Lettres et langues"
+"LIN 4128","Teaching English as a Secind Language to Adults","Cours sans examen",502,"Enseignement de l'anglais langue seconde","Lettres et langues"
+"LIN 4130","Reflexive Second Language Teaching","Cours sans examen",502,"Enseignement de l'anglais langue seconde","Lettres et langues"
+"ESP 3001","Español intermedio","Cours sans examen",105,Espagnol,"Lettres et langues"
+"FRA 2100","Trajets interculturels en français 1","Cours sans examen",229,"Français langue seconde","Lettres et langues"
+"FRA 2120","Compétences en frasnçais langue seconde 1","Cours sans examen",229,"Français langue seconde","Lettres et langues"
+"FRA 2130","Trajets interculturels en français 2","Cours sans examen",229,"Français langue seconde","Lettres et langues"
+"LIT 4001","Littérature de masse","Cours sans examen",114,"Littérature populaire","Lettres et langues"
+"LIT 4003","Bandde dessinée et figuration narrative","Cours sans examen",114,"Littérature populaire","Lettres et langues"
+"LIT 4004","Littérature pour enfants","Cours sans examen",114,"Littérature populaire","Lettres et langues"
+"LIT 4005","Le roman d'amour","Cours sans examen",114,"Littérature populaire","Lettres et langues"
+"LIT 4006","Conteurs et nouvelistes québécois :  de Fred Pellerin à Louis Fréchette ","Cours sans examen",114,"Littérature populaire","Lettres et langues"
+"LIN 2001","Langue française: histoire générale et spécifique québécoise","Cours sans examen",921,"Sciences du langage","Lettres et langues"
+"LIN 3001","Le langage et ses usages","Cours sans examen",921,"Sciences du langage","Lettres et langues"
+"LIN 3004","Lexicologie et lexicographie de la languye française","Cours sans examen",921,"Sciences du langage","Lettres et langues"
+"ANG 4005","Effective Written Communication","Cours sans examen",4924,"Langue anglaise","Lettres et langues"
+"ANG 4020","Advanced Written and Oral Productions","Cours sans examen",4924,"Langue anglaise","Lettres et langues"
+"LIN 4002","Contemporary English Canadian Language and Culture","Cours sans examen",4924,"Langue anglaise","Lettres et langues"
+"LIN 4015","Second Language Learning and Bilingualism","Cours sans examen",4924,"Langue anglaise","Lettres et langues"
+"LIN 4008","Individual Reflective Project","Cours sans examen",4924,"Langue anglaise","Lettres et langues"
+"LIN 4125","Teaching English as a Secind Language in Schools","Cours sans examen",4924,"Langue anglaise","Lettres et langues"
+"LIN 4128","Teaching English as a Secind Language to Adults","Cours sans examen",4924,"Langue anglaise","Lettres et langues"
+"LIN 4130","Reflexive Second Language Teaching","Cours sans examen",4924,"Langue anglaise","Lettres et langues"
+"SIM 1001","Stage d'immersion linguistique et interculturelle de langue seconde, à distance","Cours sans examen",4924,"Langue anglaise","Lettres et langues"
+"ESP 3001","Español intermedio","Cours sans examen",4652,"Langue et cultures hispaniques","Lettres et langues"
+"ESP 4010","Redacción especializada en español","Cours sans examen",4652,"Langue et cultures hispaniques","Lettres et langues"
+"ESP 4035","Reducción de textos","Cours sans examen",4652,"Langue et cultures hispaniques","Lettres et langues"
+"ESP 4012","Sociolingüística del mundo hispánico","Cours sans examen",4652,"Langue et cultures hispaniques","Lettres et langues"
+"LIN 4016","Aprendizaje de una segunda lengua y bilingüismo","Cours sans examen",4652,"Langue et cultures hispaniques","Lettres et langues"
+"FRA 3008","Écriture en communication","Cours sans examen",4652,"Langue et cultures hispaniques","Lettres et langues"
+"FRA 3008","Écriture en communication","Cours sans examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"SCS 2013","Documentation et rédaction en sciences sociales","Cours sans examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"FRA 3006","Rédaction administrative","Cours sans examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"LIN 2003","Nouvelles pratiques du français","Cours sans examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"LIN 3004","Lexicologie et lexicographie de la languye française","Cours sans examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"PHI 2015","Pensée critique et argumentation","Cours sans examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"ANG 4005","Effective Written Communication","Cours sans examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"ANG 4020","Advanced Written and Oral Productions","Cours sans examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"ESP 4010","Redacción especializada en español","Cours sans examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"TRA 4035","Reducción de textos","Cours sans examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"COM 2001","La nouvelle communication","Cours sans examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"LIT 4003","Bandde dessinée et figuration narrative","Cours sans examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"COM 3023","Déontologie et éthique de la production de l'information","Cours sans examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"LIT 4101","Création littéraire 1: Pastiches et exercices de style","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"LIT 4102","Création littéraire 2: l'essai","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"PHI 2015","Pensée critique et argumentation","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"LIT 4001","Littérature de masse","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"LIT 4003","Bandde dessinée et figuration narrative","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"LIT 4004","Littérature pour enfants","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"LIT 4005","Le roman d'amour","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"LIT 4006","Conteurs et nouvelistes québécois :  de Fred Pellerin à Louis Fréchette ","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"ANG 4005","Effective Written Communication","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"ESP 4010","Redacción especializada en español","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"FRA 3006","Rédaction administrative","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"FRA 3007","Rédaction scientifique et technique","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"FRA 3008","Écriture en communication","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"LIN 2003","Nouvelles pratiques du français","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"LIN 3004","Lexicologie et lexicographie de la languye française","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"SCS 2013","Documentation et rédaction en sciences sociales","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"TRA 4010","La traduction vers le français : une introduction","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"TRA 4030","Outils, ressources et environnements d'aide à la traduction","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"LIN 2001","Langue française: histoire générale et spécifique québécoise","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"SCI 1021","Sciences, techniques et civilisations: de l'Antiquité à la Rennaissance","Cours sans examen",6378,"Culture et expressions écrites","Lettres et langues"
+"LIN 2001","Langue française: histoire générale et spécifique québécoise","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"LIN 3001","Le langage et ses usages","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"LIN 3004","Lexicologie et lexicographie de la languye française","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"LIT 4001","Littérature de masse","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"LIT 4004","Littérature pour enfants","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"LIT 4005","Le roman d'amour","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"LIT 4006","Conteurs et nouvelistes québécois :  de Fred Pellerin à Louis Fréchette ","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"LIT 4007","Roman et mondialisation","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"LIT 4101","Création littéraire 1: Pastiches et exercices de style","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"ESP 3001","Español intermedio","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"ESP 4012","Sociolingüística del mundo hispánico","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"LIN 4016","Aprendizaje de una segunda lengua y bilingüismo","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"ANG 4005","Effective Written Communication","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"ANG 4020","Advanced Written and Oral Productions","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"LIN 4015","Second Language Learning and Bilingualism","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"LIN 4120","Teaching English as a Secind Language using Communication Technologies","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"LIN 4125","Teaching English as a Secind Language in Schools","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"LIN 4128","Teaching English as a Secind Language to Adults","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"LIN 4130","Reflexive Second Language Teaching","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"ESP 4010","Redacción especializada en español","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"TRA 4035","Reducción de textos","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"FRA 3006","Rédaction administrative","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"FRA 3008","Écriture en communication","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"LIN 2003","Nouvelles pratiques du français","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"PHI 2015","Pensée critique et argumentation","Cours sans examen",6632,"Langue et linguistique","Lettres et langues"
+"PHI 2015","Pensée critique et argumentation","Cours sans examen",4372,"Études pluridisciplinaires",Pluridisciplinaire
+"ADM 1400","Théories de l'organisation","Cours sans examen",7695,Arts,Pluridisciplinaire
+"FRA 3008","Écriture en communication","Cours sans examen",7695,Arts,Pluridisciplinaire
+"PHI 2015","Pensée critique et argumentation","Cours sans examen",7695,Arts,Pluridisciplinaire
+"SOC 1012","Méthodologie de la recherche sociale 1","Cours sans examen",7695,Arts,Pluridisciplinaire
+"ACA 6300","Histoire de vie et construction de sens","Cours sans examen",571,"Sens et projet de vie",Pluridisciplinaire
+"ACA 6620","Sens et projet : définition et anticipation","Cours sans examen",571,"Sens et projet de vie",Pluridisciplinaire
+"ACA 6640","Sens et projet : planification et mise en œuvre","Cours sans examen",571,"Sens et projet de vie",Pluridisciplinaire
+"SCI 1013","Introduction aux méthodes de recherche scientifique","Cours sans examen",4401,"Science et technologie",Sciences
+"SCI 1230","Travail scientifique et technologies de l'information","Cours sans examen",4401,"Science et technologie",Sciences
+"SCI 1021","Sciences, techniques et civilisations: de l'Antiquité à la Rennaissance","Cours sans examen",4401,"Science et technologie",Sciences
+"ENV 3017","Santé et environnement","Cours sans examen",4401,"Science et technologie",Sciences
+"ENV 1110","Changements climatiques","Cours sans examen",4401,"Science et technologie",Sciences
+"ENV 3026","Économie et gestion du développement durable","Cours sans examen",4401,"Science et technologie",Sciences
+"POL 1010","Introductioon aux relations internationales","Cours sans examen",675,"Études internationales et interculturelles","Sciences humaines et sociales"
+"ENV 4012","Environnement international","Cours sans examen",675,"Études internationales et interculturelles","Sciences humaines et sociales"
+"ANG 4020","Advanced Written and Oral Productions","Cours sans examen",675,"Études internationales et interculturelles","Sciences humaines et sociales"
+"ESP 4010","Redacción especializada en español","Cours sans examen",675,"Études internationales et interculturelles","Sciences humaines et sociales"
+"ESP 4012","Sociolingüística del mundo hispánico","Cours sans examen",675,"Études internationales et interculturelles","Sciences humaines et sociales"
+"PSY 1300","Introduction à la psychologie de la personnalité","Cours sans examen",259,"Introduction à la psychologie","Sciences humaines et sociales"
+"PSY 1323","Motivation et émotions","Cours sans examen",259,"Introduction à la psychologie","Sciences humaines et sociales"
+"PSY 1400","Introductionà la psychologie de la santé","Cours sans examen",259,"Introduction à la psychologie","Sciences humaines et sociales"
+"PSY 1405","Psychologie et promotion de la santé","Cours sans examen",259,"Introduction à la psychologie","Sciences humaines et sociales"
+"PSY 4001","Introductionà la psychologie cognitive","Cours sans examen",259,"Introduction à la psychologie","Sciences humaines et sociales"
+"GEO 2005","Géographie du Québec","Cours sans examen",683,"Études québécoises","Sciences humaines et sociales"
+"LIN 2001","Langue française: histoire générale et spécifique québécoise","Cours sans examen",683,"Études québécoises","Sciences humaines et sociales"
+"LIT 4006","Conteurs et nouvelistes québécois :  de Fred Pellerin à Louis Fréchette ","Cours sans examen",683,"Études québécoises","Sciences humaines et sociales"
+"GEO 2001","Introduction à la géographie humaine","Cours sans examen",755,"Géographie humaine","Sciences humaines et sociales"
+"GEO 2005","Géographie du Québec","Cours sans examen",755,"Géographie humaine","Sciences humaines et sociales"
+"GEO 2002","Introduction à la géographie du tourisme","Cours sans examen",755,"Géographie humaine","Sciences humaines et sociales"
+"GEO 2003","Introduction à la géographie urbaine","Cours sans examen",755,"Géographie humaine","Sciences humaines et sociales"
+"GEO 2004","Espaces francophones minoritaires du Canada","Cours sans examen",755,"Géographie humaine","Sciences humaines et sociales"
+"GEO 2006","Espace social","Cours sans examen",755,"Géographie humaine","Sciences humaines et sociales"
+"GEO 2007","États, territoires et sociétés","Cours sans examen",755,"Géographie humaine","Sciences humaines et sociales"
+"PSY 1220","Psychologie de la vie adulte","Cours sans examen",228,"Psychologie du développement","Sciences humaines et sociales"
+"SHS 2502","Récit et projet de formation","Cours sans examen",228,"Psychologie du développement","Sciences humaines et sociales"
+"PSY 1323","Motivation et émotions","Cours sans examen",199,"Psychologie sociale","Sciences humaines et sociales"
+"PSY 1400","Introductionà la psychologie de la santé","Cours sans examen",199,"Psychologie sociale","Sciences humaines et sociales"
+"POL 1010","Introductioon aux relations internationales","Cours sans examen",4076,"Études internationales","Sciences humaines et sociales"
+"ENV 4012","Environnement international","Cours sans examen",4076,"Études internationales","Sciences humaines et sociales"
+"ENV 3026","Économie et gestion du développement durable","Cours sans examen",4076,"Études internationales","Sciences humaines et sociales"
+"GEO 2001","Introduction à la géographie humaine","Cours sans examen",4076,"Études internationales","Sciences humaines et sociales"
+"GEO 2007","États, territoires et sociétés","Cours sans examen",4076,"Études internationales","Sciences humaines et sociales"
+"LIT 4007","Roman et mondialisation","Cours sans examen",4076,"Études internationales","Sciences humaines et sociales"
+"EDU 1010","Organisation de l'éducation au Québec","Cours sans examen",5683,"Études québécoises","Sciences humaines et sociales"
+"GEO 2005","Géographie du Québec","Cours sans examen",5683,"Études québécoises","Sciences humaines et sociales"
+"LIN 2001","Langue française: histoire générale et spécifique québécoise","Cours sans examen",5683,"Études québécoises","Sciences humaines et sociales"
+"LIT 4006","Conteurs et nouvelistes québécois :  de Fred Pellerin à Louis Fréchette ","Cours sans examen",5683,"Études québécoises","Sciences humaines et sociales"
+"PSY 3500","Activité d'intégration","Cours sans examen",4350,Psychologie,"Sciences humaines et sociales"
+"PSY 1300","Introduction à la psychologie de la personnalité","Cours sans examen",4350,Psychologie,"Sciences humaines et sociales"
+"PSY 4001","Introductionà la psychologie cognitive","Cours sans examen",4350,Psychologie,"Sciences humaines et sociales"
+"PSY 1220","Psychologie de la vie adulte","Cours sans examen",4350,Psychologie,"Sciences humaines et sociales"
+"PSY 1310","Approches de la psychopathologie","Cours sans examen",4350,Psychologie,"Sciences humaines et sociales"
+"PSY 1320","Les psychothérapies","Cours sans examen",4350,Psychologie,"Sciences humaines et sociales"
+"PSY 1400","Introductionà la psychologie de la santé","Cours sans examen",4350,Psychologie,"Sciences humaines et sociales"
+"PSY 1405","Psychologie et promotion de la santé","Cours sans examen",4350,Psychologie,"Sciences humaines et sociales"
+"PSY 1323","Motivation et émotions","Cours sans examen",4350,Psychologie,"Sciences humaines et sociales"
+"SCS 2013","Documentation et rédaction en sciences sociales","Cours sans examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"SCS 4001","Enjeux sociaux contemporains","Cours sans examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"GEO 2001","Introduction à la géographie humaine","Cours sans examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"SHS 2502","Récit et projet de formation","Cours sans examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"LIN 2001","Langue française: histoire générale et spécifique québécoise","Cours sans examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"POL 1010","Introductioon aux relations internationales","Cours sans examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"SCI 1021","Sciences, techniques et civilisations: de l'Antiquité à la Rennaissance","Cours sans examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"GEO 2002","Introduction à la géographie du tourisme","Cours sans examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"GEO 2003","Introduction à la géographie urbaine","Cours sans examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"GEO 2004","Espaces francophones minoritaires du Canada","Cours sans examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"GEO 2005","Géographie du Québec","Cours sans examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"GEO 2006","Espace social","Cours sans examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"GEO 2007","États, territoires et sociétés","Cours sans examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"LIT 4001","Littérature de masse","Cours sans examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"LIT 4004","Littérature pour enfants","Cours sans examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"LIT 4006","Conteurs et nouvelistes québécois :  de Fred Pellerin à Louis Fréchette ","Cours sans examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"SAM 4040","Travail dirigé","Cours sans examen",3578,"Santé mentale","Sciences humaines et sociales"
+"SAM 4020","Enjeux cliniques et éthiques","Cours sans examen",3578,"Santé mentale","Sciences humaines et sociales"
+"SAM 4050","Histoire de vie, formation et intervention","Cours sans examen",3578,"Santé mentale","Sciences humaines et sociales"
+"SAM 4100","La médication psychriatrique","Cours sans examen",3578,"Santé mentale","Sciences humaines et sociales"
+"SAM 4120","Jeunes et santé mentale","Cours sans examen",3578,"Santé mentale","Sciences humaines et sociales"
+"SAM 4160","Proches aidants et intervention en santé mentale","Cours sans examen",3578,"Santé mentale","Sciences humaines et sociales"
+"SAM 4220","Clinique des cas difficiles","Cours sans examen",3578,"Santé mentale","Sciences humaines et sociales"
+"SAM 4250","Intervention communautaire","Cours sans examen",3578,"Santé mentale","Sciences humaines et sociales"
+"SAM 4320","Histoire de la prise en charge des troubles mentaux au Québec","Cours sans examen",3578,"Santé mentale","Sciences humaines et sociales"
+"SAM 4350",Psychopathologie,"Cours sans examen",3578,"Santé mentale","Sciences humaines et sociales"
+"SAM 4400","Travail et santé mentale","Cours sans examen",3578,"Santé mentale","Sciences humaines et sociales"
+"SAM 4450","Séminaire de cas clinique 1 ","Cours sans examen",3578,"Santé mentale","Sciences humaines et sociales"
+"SAM 4455","Séminaire de cas clinique 2","Cours sans examen",3578,"Santé mentale","Sciences humaines et sociales"

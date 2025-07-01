@@ -1,0 +1,29 @@
+e_Prénom,e_Nom,e_Sexe,e_CodePermanent,e_NomDuProgramme,e_NuméroDuProgramme,e_ProfilDeFormationDuProgramme,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours
+Hernán,Rojas,Masculin,ROJH16119584,"Majeure en informatique",6010,"Informatique ","Hiver 2021","INF 2005","Programmation orientée objet avec C++",B
+Hernán,Rojas,Masculin,ROJH16119584,"Majeure en informatique",6010,"Informatique ","Hiver 2021","INF 2007","Programmation avancée",Abandon
+Hernán,Rojas,Masculin,ROJH16119584,"Majeure en informatique",6010,"Informatique ","Hiver 2021","INF 2009","Projet de programmation web",A
+Hernán,Rojas,Masculin,ROJH16119584,"Majeure en informatique",6010,"Informatique ","Hiver 2021","INF 6400","Gestion de connaissances en informatique",A
+Jazil,Rabhi,Masculin,RABJ12109329,"Majeure en informatique",6010,"Informatique ","Automne 2020","INF 1429","Systèmes d'exploitation",B
+Jazil,Rabhi,Masculin,RABJ12109329,"Majeure en informatique",6010,"Informatique ","Automne 2020","INF 1420","Interfaces humain-machine",B
+Jazil,Rabhi,Masculin,RABJ12109329,"Majeure en informatique",6010,"Informatique ","Automne 2020","INF 6460","Recherche et filtrage d'informations",A
+Jazil,Rabhi,Masculin,RABJ12109329,"Majeure en informatique",6010,"Informatique ","Automne 2020","INF 9004","Informatique des entrepôts de données",C
+Hernán,Rojas,Masculin,ROJH16119584,"Majeure en informatique",6010,"Informatique ","Été 2021","INF 1426","Traitement d'images",B
+Hernán,Rojas,Masculin,ROJH16119584,"Majeure en informatique",6010,"Informatique ","Été 2021","INF 1428","Théorie des langages et des automates",A
+Hernán,Rojas,Masculin,ROJH16119584,"Majeure en informatique",6010,"Informatique ","Été 2021","INF 6460","Recherche et filtrage d'informations",B
+Hernán,Rojas,Masculin,ROJH16119584,"Majeure en informatique",6010,"Informatique ","Été 2021","INF 9004","Informatique des entrepôts de données",C
+Jazil,Rabhi,Masculin,RABJ12109329,"Majeure en informatique",6010,"Informatique ","Hiver 2021","INF 6450","Gestion de l'information avec XML",C
+Jazil,Rabhi,Masculin,RABJ12109329,"Majeure en informatique",6010,"Informatique ","Hiver 2021","INF 1428","Théorie des langages et des automates",B
+Jazil,Rabhi,Masculin,RABJ12109329,"Majeure en informatique",6010,"Informatique ","Hiver 2021","SCI 1017","Traitement de données massives",A
+Jazil,Rabhi,Masculin,RABJ12109329,"Majeure en informatique",6010,"Informatique ","Hiver 2021","SCI 1018","Statistiques avec R",Abandon
+Arnaud,Goudreault,Masculin,GOUA09089523,"Majeure en informatique",6010,"Informatique ","Hiver 2020","INF 1410","Génie logiciel",A
+Arnaud,Goudreault,Masculin,GOUA09089523,"Majeure en informatique",6010,"Informatique ","Hiver 2020","INF 1425","Algorithmique et structures de données",A
+Arnaud,Goudreault,Masculin,GOUA09089523,"Majeure en informatique",6010,"Informatique ","Hiver 2020","INF 1427","Architecture des ordinateurs",B
+Arnaud,Goudreault,Masculin,GOUA09089523,"Majeure en informatique",6010,"Informatique ","Hiver 2020","INF 2005","Programmation orientée objet avec C++",B
+Nolan,Tremblay,Masculin,TREN17099664,"Majeure en informatique",6010,"Informatique ","Hiver 2020","INF 1427","Architecture des ordinateurs",C
+Nolan,Tremblay,Masculin,TREN17099664,"Majeure en informatique",6010,"Informatique ","Hiver 2020","INF 1430","Projet de fin d'études",C
+Nolan,Tremblay,Masculin,TREN17099664,"Majeure en informatique",6010,"Informatique ","Hiver 2020","INF 1429","Systèmes d'exploitation",B
+Nolan,Tremblay,Masculin,TREN17099664,"Majeure en informatique",6010,"Informatique ","Hiver 2020","INF 1420","Interfaces humain-machine",B
+Jackson,Crenier,Masculin,CREJ26098867,"Majeure en informatique",6010,"Informatique ","Hiver 2021","INF 1426","Traitement d'images",B
+Jackson,Crenier,Masculin,CREJ26098867,"Majeure en informatique",6010,"Informatique ","Hiver 2021","INF 1428","Théorie des langages et des automates",C
+Jackson,Crenier,Masculin,CREJ26098867,"Majeure en informatique",6010,"Informatique ","Hiver 2021","INF 6460","Recherche et filtrage d'informations",A
+Jackson,Crenier,Masculin,CREJ26098867,"Majeure en informatique",6010,"Informatique ","Hiver 2021","INF 9004","Informatique des entrepôts de données",B

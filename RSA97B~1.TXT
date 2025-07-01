@@ -1,0 +1,161 @@
+e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_ProfilDeFormationDuProgramme,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours
+Marianne,Bergeron,46583568,BERM09029012,"Gouvernance des technologies de l'information","Été 2020","ADM 6030","Gestion des risques en affaires électroniques",B
+Marianne,Bergeron,46583568,BERM09029012,"Gouvernance des technologies de l'information","Été 2020","ADM 6040","Gestion stratégique des technologies de l'information",A
+Marianne,Bergeron,46583568,BERM09029012,"Gouvernance des technologies de l'information","Été 2020","ADM 6044","Gestion de projet en technologie de l'information",A
+Marianne,Bergeron,46583568,BERM09029012,"Gouvernance des technologies de l'information","Été 2020","ADM 6046","Gestion de la sécurité des technologies de l'information",B
+Mila,Bouchard,67154859,BOUM31018617,"Gouvernance des technologies de l'information","Été 2020","ADM 6046","Gestion de la sécurité des technologies de l'information",C
+Mila,Bouchard,67154859,BOUM31018617,"Gouvernance des technologies de l'information","Été 2020","ADM 6010","Marketing en affaires électroniques",A
+Mila,Bouchard,67154859,BOUM31018617,"Gouvernance des technologies de l'information","Été 2020","ADM 6020","Stratégies en affaires électroniques",B
+Mila,Bouchard,67154859,BOUM31018617,"Gouvernance des technologies de l'information","Été 2020","ADM 6030","Gestion des risques en affaires électroniques",A
+Benoît,Petit,17249043,PETB19129027,"Gouvernance des technologies de l'information","Hiver 2022","ADM 6044","Gestion de projet en technologie de l'information",B
+Benoît,Petit,17249043,PETB19129027,"Gouvernance des technologies de l'information","Hiver 2022","ADM 6046","Gestion de la sécurité des technologies de l'information",A
+Benoît,Petit,17249043,PETB19129027,"Gouvernance des technologies de l'information","Hiver 2022","ADM 6048","Impartition des technologies de l'information",B
+Benoît,Petit,17249043,PETB19129027,"Gouvernance des technologies de l'information","Hiver 2022","ADM 6050","Analytique d'affaires",C
+Edgard,Prevost,91645386,PREE17098738,"Gouvernance des technologies de l'information","Hiver 2020","ADM 6046","Gestion de la sécurité des technologies de l'information",A
+Edgard,Prevost,91645386,PREE17098738,"Gouvernance des technologies de l'information","Hiver 2020","ADM 6010","Marketing en affaires électroniques",A
+Edgard,Prevost,91645386,PREE17098738,"Gouvernance des technologies de l'information","Hiver 2020","ADM 6030","Gestion des risques en affaires électroniques",B
+Edgard,Prevost,91645386,PREE17098738,"Gouvernance des technologies de l'information","Hiver 2020","ADM 6048","Impartition des technologies de l'information",C
+Hector,Remy,53647597,REMH09039428,"Gouvernance des technologies de l'information","Automne 2022","ADM 6040","Gestion stratégique des technologies de l'information",B
+Hector,Remy,53647597,REMH09039428,"Gouvernance des technologies de l'information","Automne 2022","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",C
+Hector,Remy,53647597,REMH09039428,"Gouvernance des technologies de l'information","Automne 2022","ADM 6044","Gestion de projet en technologie de l'information",A
+Hector,Remy,53647597,REMH09039428,"Gouvernance des technologies de l'information","Automne 2022","ADM 6046","Gestion de la sécurité des technologies de l'information",C
+Han,Zhu,19326037,ZHUH12078439,"Gouvernance des technologies de l'information","Hiver 2020","ADM 6028R","Lectures dirigées",A
+Han,Zhu,19326037,ZHUH12078439,"Gouvernance des technologies de l'information","Hiver 2020","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",B
+Han,Zhu,19326037,ZHUH12078439,"Gouvernance des technologies de l'information","Hiver 2020","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",C
+Han,Zhu,19326037,ZHUH12078439,"Gouvernance des technologies de l'information","Hiver 2020","ADM 6044","Gestion de projet en technologie de l'information",C
+Gong,Miao,30918473,MIAG30018746,"Gouvernance des technologies de l'information","Été 2022","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",B
+Gong,Miao,30918473,MIAG30018746,"Gouvernance des technologies de l'information","Été 2022","ADM 6044","Gestion de projet en technologie de l'information",C
+Gong,Miao,30918473,MIAG30018746,"Gouvernance des technologies de l'information","Été 2022","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",A
+Gong,Miao,30918473,MIAG30018746,"Gouvernance des technologies de l'information","Été 2022","ADM 6010","Marketing en affaires électroniques",A
+Wang,Sheng,70648369,SHEW16028471,"Gouvernance des technologies de l'information","Été 2020","ADM 6046","Gestion de la sécurité des technologies de l'information",A
+Wang,Sheng,70648369,SHEW16028471,"Gouvernance des technologies de l'information","Été 2020","ADM 6010","Marketing en affaires électroniques",A
+Wang,Sheng,70648369,SHEW16028471,"Gouvernance des technologies de l'information","Été 2020","ADM 6020","Stratégies en affaires électroniques",B
+Wang,Sheng,70648369,SHEW16028471,"Gouvernance des technologies de l'information","Été 2020","ADM 6030","Gestion des risques en affaires électroniques",A
+Fade,Hakkar,94750186,HAKF18069208,"Gouvernance des technologies de l'information","Hiver 2022","ADM 6046","Gestion de la sécurité des technologies de l'information",C
+Fade,Hakkar,94750187,HAKF18069208,"Gouvernance des technologies de l'information","Hiver 2023","ADM 6010","Marketing en affaires électroniques",B
+Fade,Hakkar,94750188,HAKF18069208,"Gouvernance des technologies de l'information","Hiver 2024","ADM 6020","Stratégies en affaires électroniques",B
+Fade,Hakkar,94750189,HAKF18069208,"Gouvernance des technologies de l'information","Hiver 2025","ADM 6030","Gestion des risques en affaires électroniques",A
+Faleh,Laroussi,75869154,LARF21129345,"Gouvernance des technologies de l'information","Hiver 2022","ADM 6040","Gestion stratégique des technologies de l'information",B
+Faleh,Laroussi,75869154,LARF21129345,"Gouvernance des technologies de l'information","Hiver 2022","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",C
+Faleh,Laroussi,75869154,LARF21129345,"Gouvernance des technologies de l'information","Hiver 2022","ADM 6044","Gestion de projet en technologie de l'information",B
+Faleh,Laroussi,75869154,LARF21129345,"Gouvernance des technologies de l'information","Hiver 2022","ADM 6046","Gestion de la sécurité des technologies de l'information",C
+Boris,Sosa,17639486,SOSB18088909,"Gouvernance des technologies de l'information","Hiver 2020","ADM 6010","Marketing en affaires électroniques",A
+Boris,Sosa,17639486,SOSB18088909,"Gouvernance des technologies de l'information","Hiver 2020","ADM 6020","Stratégies en affaires électroniques",C
+Boris,Sosa,17639486,SOSB18088909,"Gouvernance des technologies de l'information","Hiver 2020","ADM 6030","Gestion des risques en affaires électroniques",B
+Boris,Sosa,17639486,SOSB18088909,"Gouvernance des technologies de l'information","Hiver 2020","ADM 6048","Impartition des technologies de l'information",C
+César,Saavedra,67534759,SAAC17089693,"Gouvernance des technologies de l'information","Automne 2020","ADM 6028R","Lectures dirigées",C
+César,Saavedra,67534759,SAAC17089693,"Gouvernance des technologies de l'information","Automne 2020","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",C
+César,Saavedra,67534759,SAAC17089693,"Gouvernance des technologies de l'information","Automne 2020","ADM 6010","Marketing en affaires électroniques",A
+César,Saavedra,67534759,SAAC17089693,"Gouvernance des technologies de l'information","Automne 2020","ADM 6048","Impartition des technologies de l'information",A
+Abidemi,Diba,57483978,DIBA17049066,"Gouvernance des technologies de l'information","Automne 2020","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",A
+Abidemi,Diba,57483978,DIBA17049066,"Gouvernance des technologies de l'information","Automne 2020","ADM 6044","Gestion de projet en technologie de l'information",C
+Abidemi,Diba,57483978,DIBA17049066,"Gouvernance des technologies de l'information","Automne 2020","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",A
+Abidemi,Diba,57483978,DIBA17049066,"Gouvernance des technologies de l'information","Automne 2020","ADM 6010","Marketing en affaires électroniques",B
+Kirabo,Elba,51357468,ELBK25069776,"Gouvernance des technologies de l'information","Hiver 2021","ADM 6046","Gestion de la sécurité des technologies de l'information",B
+Kirabo,Elba,51357468,ELBK25069776,"Gouvernance des technologies de l'information","Hiver 2021","ADM 6010","Marketing en affaires électroniques",D
+Kirabo,Elba,51357468,ELBK25069776,"Gouvernance des technologies de l'information","Hiver 2021","ADM 6020","Stratégies en affaires électroniques",A
+Kirabo,Elba,51357468,ELBK25069776,"Gouvernance des technologies de l'information","Hiver 2021","ADM 6030","Gestion des risques en affaires électroniques",C
+Hamadou,Diarra,46387560,DIAH16119980,"Gouvernance des technologies de l'information","Hiver 2023","ADM 6020","Stratégies en affaires électroniques",B
+Hamadou,Diarra,46387560,DIAH16119980,"Gouvernance des technologies de l'information","Hiver 2023","ADM 6030","Gestion des risques en affaires électroniques",B
+Hamadou,Diarra,46387560,DIAH16119980,"Gouvernance des technologies de l'information","Hiver 2023","ADM 6048","Impartition des technologies de l'information",A
+Hamadou,Diarra,46387560,DIAH16119980,"Gouvernance des technologies de l'information","Hiver 2023","ADM 6050","Analytique d'affaires",A
+Marianne,Bergeron,46583568,BERM09029012,"Gouvernance des technologies de l'information","Automne 2020","ADM 6052","Transformation numérique organisationnelle",C
+Marianne,Bergeron,46583568,BERM09029012,"Gouvernance des technologies de l'information","Automne 2020","ADM 6028R","Lectures dirigées",A
+Marianne,Bergeron,46583568,BERM09029012,"Gouvernance des technologies de l'information","Automne 2020","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",B
+Marianne,Bergeron,46583568,BERM09029012,"Gouvernance des technologies de l'information","Automne 2020","ADM 6010","Marketing en affaires électroniques",B
+Mila,Bouchard,67154859,BOUM31018617,"Gouvernance des technologies de l'information","Automne 2020","ADM 6044","Gestion de projet en technologie de l'information",C
+Mila,Bouchard,67154859,BOUM31018617,"Gouvernance des technologies de l'information","Automne 2020","ADM 6048","Impartition des technologies de l'information",A
+Mila,Bouchard,67154859,BOUM31018617,"Gouvernance des technologies de l'information","Automne 2020","ADM 6050","Analytique d'affaires",C
+Mila,Bouchard,67154859,BOUM31018617,"Gouvernance des technologies de l'information","Automne 2020","ADM 6052","Transformation numérique organisationnelle",B
+Benoît,Petit,17249043,PETB19129027,"Gouvernance des technologies de l'information","Été 2022","ADM 6020","Stratégies en affaires électroniques",B
+Benoît,Petit,17249043,PETB19129027,"Gouvernance des technologies de l'information","Été 2022","ADM 6030","Gestion des risques en affaires électroniques",C
+Benoît,Petit,17249043,PETB19129027,"Gouvernance des technologies de l'information","Été 2022","ADM 6028R","Lectures dirigées",A
+Benoît,Petit,17249043,PETB19129027,"Gouvernance des technologies de l'information","Été 2022","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",C
+Edgard,Prevost,91645386,PREE17098738,"Gouvernance des technologies de l'information","Été 2020","ADM 6040","Gestion stratégique des technologies de l'information",A
+Edgard,Prevost,91645386,PREE17098738,"Gouvernance des technologies de l'information","Été 2020","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",C
+Edgard,Prevost,91645386,PREE17098738,"Gouvernance des technologies de l'information","Été 2020","ADM 6044","Gestion de projet en technologie de l'information",B
+Edgard,Prevost,91645386,PREE17098738,"Gouvernance des technologies de l'information","Été 2020","ADM 6046","Gestion de la sécurité des technologies de l'information",C
+Hector,Remy,53647597,REMH09039428,"Gouvernance des technologies de l'information","Hiver 2023","ADM 6052","Transformation numérique organisationnelle",B
+Hector,Remy,53647597,REMH09039428,"Gouvernance des technologies de l'information","Hiver 2023","ADM 6028R","Lectures dirigées",B
+Hector,Remy,53647597,REMH09039428,"Gouvernance des technologies de l'information","Hiver 2023","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",A
+Hector,Remy,53647597,REMH09039428,"Gouvernance des technologies de l'information","Hiver 2023","ADM 6010","Marketing en affaires électroniques",A
+Han,Zhu,19326037,ZHUH12078439,"Gouvernance des technologies de l'information","Été 2020","ADM 6020","Stratégies en affaires électroniques",B
+Han,Zhu,19326037,ZHUH12078439,"Gouvernance des technologies de l'information","Été 2020","ADM 6030","Gestion des risques en affaires électroniques",B
+Han,Zhu,19326037,ZHUH12078439,"Gouvernance des technologies de l'information","Été 2020","ADM 6040","Gestion stratégique des technologies de l'information",C
+Han,Zhu,19326037,ZHUH12078439,"Gouvernance des technologies de l'information","Été 2020","ADM 6046","Gestion de la sécurité des technologies de l'information",A
+Gong,Miao,30918473,MIAG30018746,"Gouvernance des technologies de l'information","Automne 2022","ADM 6020","Stratégies en affaires électroniques",C
+Gong,Miao,30918473,MIAG30018746,"Gouvernance des technologies de l'information","Automne 2022","ADM 6030","Gestion des risques en affaires électroniques",A
+Gong,Miao,30918473,MIAG30018746,"Gouvernance des technologies de l'information","Automne 2022","ADM 6040","Gestion stratégique des technologies de l'information",A
+Gong,Miao,30918473,MIAG30018746,"Gouvernance des technologies de l'information","Automne 2022","ADM 6046","Gestion de la sécurité des technologies de l'information",B
+Wang,Sheng,70648369,SHEW16028471,"Gouvernance des technologies de l'information","Automne 2020","ADM 6040","Gestion stratégique des technologies de l'information",B
+Wang,Sheng,70648369,SHEW16028471,"Gouvernance des technologies de l'information","Automne 2020","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",A
+Wang,Sheng,70648369,SHEW16028471,"Gouvernance des technologies de l'information","Automne 2020","ADM 6044","Gestion de projet en technologie de l'information",A
+Wang,Sheng,70648369,SHEW16028471,"Gouvernance des technologies de l'information","Automne 2020","ADM 6048","Impartition des technologies de l'information",B
+Fade,Hakkar,94750186,HAKF18069208,"Gouvernance des technologies de l'information","Été 2022","ADM 6040","Gestion stratégique des technologies de l'information",C
+Fade,Hakkar,94750187,HAKF18069208,"Gouvernance des technologies de l'information","Été 2022","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",B
+Fade,Hakkar,94750188,HAKF18069208,"Gouvernance des technologies de l'information","Été 2022","ADM 6044","Gestion de projet en technologie de l'information",B
+Fade,Hakkar,94750189,HAKF18069208,"Gouvernance des technologies de l'information","Été 2022","ADM 6048","Impartition des technologies de l'information",A
+Faleh,Laroussi,75869154,LARF21129345,"Gouvernance des technologies de l'information","Été 2022","ADM 6020","Stratégies en affaires électroniques",A
+Faleh,Laroussi,75869154,LARF21129345,"Gouvernance des technologies de l'information","Été 2022","ADM 6030","Gestion des risques en affaires électroniques",C
+Faleh,Laroussi,75869154,LARF21129345,"Gouvernance des technologies de l'information","Été 2022","ADM 6052","Transformation numérique organisationnelle",B
+Faleh,Laroussi,75869154,LARF21129345,"Gouvernance des technologies de l'information","Été 2022","ADM 6028R","Lectures dirigées",A
+Boris,Sosa,17639486,SOSB18088909,"Gouvernance des technologies de l'information","Été 2020","ADM 6040","Gestion stratégique des technologies de l'information",B
+Boris,Sosa,17639486,SOSB18088909,"Gouvernance des technologies de l'information","Été 2020","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",A
+Boris,Sosa,17639486,SOSB18088909,"Gouvernance des technologies de l'information","Été 2020","ADM 6044","Gestion de projet en technologie de l'information",A
+Boris,Sosa,17639486,SOSB18088909,"Gouvernance des technologies de l'information","Été 2020","ADM 6046","Gestion de la sécurité des technologies de l'information",B
+César,Saavedra,67534759,SAAC17089693,"Gouvernance des technologies de l'information","Hiver 2021","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",C
+César,Saavedra,67534759,SAAC17089693,"Gouvernance des technologies de l'information","Hiver 2021","ADM 6044","Gestion de projet en technologie de l'information",B
+César,Saavedra,67534759,SAAC17089693,"Gouvernance des technologies de l'information","Hiver 2021","ADM 6046","Gestion de la sécurité des technologies de l'information",A
+César,Saavedra,67534759,SAAC17089693,"Gouvernance des technologies de l'information","Hiver 2021","ADM 6052","Transformation numérique organisationnelle",A
+Abidemi,Diba,57483978,DIBA17049066,"Gouvernance des technologies de l'information","Hiver 2021","ADM 6020","Stratégies en affaires électroniques",A
+Abidemi,Diba,57483978,DIBA17049066,"Gouvernance des technologies de l'information","Hiver 2021","ADM 6030","Gestion des risques en affaires électroniques",C
+Abidemi,Diba,57483978,DIBA17049066,"Gouvernance des technologies de l'information","Hiver 2021","ADM 6046","Gestion de la sécurité des technologies de l'information",B
+Abidemi,Diba,57483978,DIBA17049066,"Gouvernance des technologies de l'information","Hiver 2021","ADM 6052","Transformation numérique organisationnelle",B
+Kirabo,Elba,51357468,ELBK25069776,"Gouvernance des technologies de l'information","Été 2021","ADM 6040","Gestion stratégique des technologies de l'information",C
+Kirabo,Elba,51357468,ELBK25069776,"Gouvernance des technologies de l'information","Été 2021","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",A
+Kirabo,Elba,51357468,ELBK25069776,"Gouvernance des technologies de l'information","Été 2021","ADM 6044","Gestion de projet en technologie de l'information",B
+Kirabo,Elba,51357468,ELBK25069776,"Gouvernance des technologies de l'information","Été 2021","ADM 6048","Impartition des technologies de l'information",B
+Hamadou,Diarra,46387560,DIAH16119980,"Gouvernance des technologies de l'information","Été 2023","ADM 6040","Gestion stratégique des technologies de l'information",C
+Hamadou,Diarra,46387560,DIAH16119980,"Gouvernance des technologies de l'information","Été 2023","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",A
+Hamadou,Diarra,46387560,DIAH16119980,"Gouvernance des technologies de l'information","Été 2023","ADM 6044","Gestion de projet en technologie de l'information",B
+Hamadou,Diarra,46387560,DIAH16119980,"Gouvernance des technologies de l'information","Été 2023","ADM 6046","Gestion de la sécurité des technologies de l'information",C
+Dong,Yeung,69846460,YEUD14108634,"Gouvernance des technologies de l'information","Été 2020","ADM 6040","Gestion stratégique des technologies de l'information",B
+Dong,Yeung,69846460,YEUD14108634,"Gouvernance des technologies de l'information","Été 2020","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",C
+Dong,Yeung,69846460,YEUD14108634,"Gouvernance des technologies de l'information","Été 2020","ADM 6044","Gestion de projet en technologie de l'information",A
+Dong,Yeung,69846460,YEUD14108634,"Gouvernance des technologies de l'information","Été 2020","ADM 6046","Gestion de la sécurité des technologies de l'information",B
+Laila,Hamidou,74596870,HAML13069552,"Gouvernance des technologies de l'information","Été 2023","ADM 6040","Gestion stratégique des technologies de l'information",C
+Laila,Hamidou,74596870,HAML13069552,"Gouvernance des technologies de l'information","Été 2023","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",B
+Laila,Hamidou,74596870,HAML13069552,"Gouvernance des technologies de l'information","Été 2023","ADM 6044","Gestion de projet en technologie de l'information",B
+Laila,Hamidou,74596870,HAML13069552,"Gouvernance des technologies de l'information","Été 2023","ADM 6046","Gestion de la sécurité des technologies de l'information",A
+Boitumelo,Koné,91735476,KONB27028991,"Gouvernance des technologies de l'information","Été 2020","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",A
+Boitumelo,Koné,91735476,KONB27028991,"Gouvernance des technologies de l'information","Été 2020","ADM 6044","Gestion de projet en technologie de l'information",C
+Boitumelo,Koné,91735476,KONB27028991,"Gouvernance des technologies de l'information","Été 2020","ADM 6046","Gestion de la sécurité des technologies de l'information",B
+Boitumelo,Koné,91735476,KONB27028991,"Gouvernance des technologies de l'information","Été 2020","ADM 6052","Transformation numérique organisationnelle",A
+Haciba,Sabal,67351248,SABH22068436,"Gouvernance des technologies de l'information","Hiver 2022","ADM 6044","Gestion de projet en technologie de l'information",A
+Haciba,Sabal,67351248,SABH22068436,"Gouvernance des technologies de l'information","Hiver 2022","ADM 6046","Gestion de la sécurité des technologies de l'information",C
+Haciba,Sabal,67351248,SABH22068436,"Gouvernance des technologies de l'information","Hiver 2022","ADM 6010","Marketing en affaires électroniques",B
+Haciba,Sabal,67351248,SABH22068436,"Gouvernance des technologies de l'information","Hiver 2022","ADM 6020","Stratégies en affaires électroniques",A
+Clara,Lessard,87831436,LESC14059207,"Gouvernance des technologies de l'information","Été 2021","ADM 6044","Gestion de projet en technologie de l'information",A
+Clara,Lessard,87831436,LESC14059207,"Gouvernance des technologies de l'information","Été 2021","ADM 6046","Gestion de la sécurité des technologies de l'information",B
+Clara,Lessard,87831436,LESC14059207,"Gouvernance des technologies de l'information","Été 2021","ADM 6010","Marketing en affaires électroniques",C
+Clara,Lessard,87831436,LESC14059207,"Gouvernance des technologies de l'information","Été 2021","ADM 6020","Stratégies en affaires électroniques",A
+Matteo,Morin,30534331,MORM28109465,"Gouvernance des technologies de l'information","Été 2022","ADM 6020","Stratégies en affaires électroniques",B
+Matteo,Morin,30534331,MORM28109465,"Gouvernance des technologies de l'information","Été 2022","ADM 6030","Gestion des risques en affaires électroniques",C
+Matteo,Morin,30534331,MORM28109465,"Gouvernance des technologies de l'information","Été 2022","ADM 6040","Gestion stratégique des technologies de l'information",A
+Matteo,Morin,30534331,MORM28109465,"Gouvernance des technologies de l'information","Été 2022","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",B
+Jordan,Lemay,85746389,LEMJ28099173,"Gouvernance des technologies de l'information","Automne 2021","ADM 6046","Gestion de la sécurité des technologies de l'information",B
+Jordan,Lemay,85746389,LEMJ28099173,"Gouvernance des technologies de l'information","Automne 2021","ADM 6010","Marketing en affaires électroniques",A
+Jordan,Lemay,85746389,LEMJ28099173,"Gouvernance des technologies de l'information","Automne 2021","ADM 6020","Stratégies en affaires électroniques",A
+Jordan,Lemay,85746389,LEMJ28099173,"Gouvernance des technologies de l'information","Automne 2021","ADM 6030","Gestion des risques en affaires électroniques",C
+Danielle,Bernard,73659483,BERD17069745,"Gouvernance des technologies de l'information","Été 2022","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",C
+Danielle,Bernard,73659483,BERD17069745,"Gouvernance des technologies de l'information","Été 2022","ADM 6044","Gestion de projet en technologie de l'information",B
+Danielle,Bernard,73659483,BERD17069745,"Gouvernance des technologies de l'information","Été 2022","ADM 6046","Gestion de la sécurité des technologies de l'information",A
+Danielle,Bernard,73659483,BERD17069745,"Gouvernance des technologies de l'information","Été 2022","ADM 6052","Transformation numérique organisationnelle",A
+Renaud,Millet,57649287,MILR21089736,"Gouvernance des technologies de l'information","Été 2022","ADM 6046","Gestion de la sécurité des technologies de l'information",B
+Renaud,Millet,57649287,MILR21089736,"Gouvernance des technologies de l'information","Été 2022","ADM 6052","Transformation numérique organisationnelle",C
+Renaud,Millet,57649287,MILR21089736,"Gouvernance des technologies de l'information","Été 2022","ADM 6028R","Lectures dirigées",B
+Renaud,Millet,57649287,MILR21089736,"Gouvernance des technologies de l'information","Été 2022","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",A
+Robert,Perrot,59386810,PERR17089961,"Gouvernance des technologies de l'information","Hiver 2023","ADM 6020","Stratégies en affaires électroniques",A
+Robert,Perrot,59386810,PERR17089961,"Gouvernance des technologies de l'information","Hiver 2023","ADM 6030","Gestion des risques en affaires électroniques",C
+Robert,Perrot,59386810,PERR17089961,"Gouvernance des technologies de l'information","Hiver 2023","ADM 6048","Impartition des technologies de l'information",B
+Robert,Perrot,59386810,PERR17089961,"Gouvernance des technologies de l'information","Hiver 2023","ADM 6050","Analytique d'affaires",A

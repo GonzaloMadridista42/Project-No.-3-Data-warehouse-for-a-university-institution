@@ -1,0 +1,286 @@
+e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours
+Benjamin,Caron,56197037,CARB31019317,"Hiver 2022","FRA 1002","Maîtrise du farnçais écrit",B
+Benjamin,Caron,56197037,CARB31019317,"Hiver 2022","FRA 3005","Rédaction fondamentale",A
+Benjamin,Caron,56197037,CARB31019317,"Hiver 2022","LIN 2003","Nouvelles pratiques du français",B
+Benjamin,Caron,56197037,CARB31019317,"Hiver 2022","PHI 1010","L'organisation de la pensée",Abandon
+Kayla,Lacombe,39570783,LAKA12018907,"Hiver 2022","ADM 3011","Éthique et responsabilité sociale des entreprises",A
+Kayla,Lacombe,39570783,LAKA12018907,"Hiver 2022","COM 3000","Droits et enjeux de la communication",B
+Kayla,Lacombe,39570783,LAKA12018907,"Hiver 2022","ADM 2006","Les systèmes d'information de gestion",B
+Kayla,Lacombe,39570783,LAKA12018907,"Hiver 2022","COM 1021","Techniques d'animation et d'intervention",A
+Hugo,Provencher,64058736,PROH22019409,"Hiver 2022","TED 6312","Ingénierie pédagogique et technologies éducatives",A
+Hugo,Provencher,64058736,PROH22019409,"Hiver 2022","TED 6313","Projet d'ingénierie technopédagogique",B
+Hugo,Provencher,64058736,PROH22019409,"Hiver 2022","TED 6210","Stratégies pédagogiques: une approche cognitive",C
+Hugo,Provencher,64058736,PROH22019409,"Hiver 2022","TED 6350","Technologie de diffusion de la formation",B
+Benoît,Petit,17249043,PETB19129027,"Hiver 2022","ADM 6044","Gestion de projet en technologie de l'information",B
+Benoît,Petit,17249043,PETB19129027,"Hiver 2022","ADM 6046","Gestion de la sécurité des technologies de l'information",A
+Benoît,Petit,17249043,PETB19129027,"Hiver 2022","ADM 6048","Impartition des technologies de l'information",B
+Benoît,Petit,17249043,PETB19129027,"Hiver 2022","ADM 6050","Analytique d'affaires",C
+Benjamin,Morin,18364859,MORB04028918,"Hiver 2022","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",C
+Benjamin,Morin,18364859,MORB04028918,"Hiver 2022","INF 6065","Sécurité des réseaux et des systèmes informatiques",A
+Benjamin,Morin,18364859,MORB04028918,"Hiver 2022","INF 6070","Technologies sémantiques pour la gestion des connaissances",B
+Benjamin,Morin,18364859,MORB04028918,"Hiver 2022","INF 6107","Web social",C
+Claire,Legrand,18264586,LEGC21109326,"Hiver 2022","ECO 2400","Analyse macroéconomique",B
+Claire,Legrand,18264586,LEGC21109326,"Hiver 2022","ECO 2011","Administration (économie) du Québec",A
+Claire,Legrand,18264586,LEGC21109326,"Hiver 2022","ECO 2015","Administration (économie) internationale",A
+Claire,Legrand,18264586,LEGC21109326,"Hiver 2022","ECO 2021","Administration (économie) responsable",A
+Anette,Guyot,93526498,GUYA19088636,"Hiver 2022","ADM 6020","Stratégies en affaires électroniques",B
+Anette,Guyot,93526498,GUYA19088636,"Hiver 2022","ADM 6030","Gestion des risques en affaires électroniques",B
+Anette,Guyot,93526498,GUYA19088636,"Hiver 2022","ADM 6040","Gestion stratégique des technologies de l'information",B
+Anette,Guyot,93526498,GUYA19088636,"Hiver 2022","ADM 6052","Transformation numérique organisationnelle",A
+Annie,Leger,10564738,LEGA28088815,"Hiver 2022","ENV 3026","Administration (économie) et gestion du développement durable",B
+Annie,Leger,10564738,LEGA28088815,"Hiver 2022","SCI 1018","Statistiques avec R",C
+Annie,Leger,10564738,LEGA28088815,"Hiver 2022","ENV 3015","Évaluation environnementale",B
+Annie,Leger,10564738,LEGA28088815,"Hiver 2022","ENV 3140","Les normes environnementales ISO 14000",C
+Cédric,Roussel,48365870,ROUC10039328,"Hiver 2022","LIT 4001","Littérature de masse",B
+Cédric,Roussel,48365870,ROUC10039328,"Hiver 2022","LIT 4003","Bandde dessinée et figuration narrative",A
+Cédric,Roussel,48365870,ROUC10039328,"Hiver 2022","LIT 4004","Littérature pour enfants",A
+Cédric,Roussel,48365870,ROUC10039328,"Hiver 2022","LIT 4005","Le roman d'amour",B
+"Kim Liên",Bùi,36257859,BUIK21039049,"Hiver 2022","ENV 6006","Résolution de problèmes environnementaux",A
+"Kim Liên",Bùi,36257859,BUIK21039049,"Hiver 2022","ENV 6007","Océans et gestion intégrée des zones côtières",B
+"Kim Liên",Bùi,36257859,BUIK21039049,"Hiver 2022","ENV 6008","Modélisation et systèmes d'aide à la décision en environnement",A
+"Kim Liên",Bùi,36257859,BUIK21039049,"Hiver 2022","ENV 6010","Gestion des zones côtières: écotourisme et activités d'observation des mammifères marins",A
+"Kim Chi",Hong,56475903,HONK22069425,"Hiver 2022","ENV 6007","Océans et gestion intégrée des zones côtières",B
+"Kim Chi",Hong,56475903,HONK22069425,"Hiver 2022","ENV 6006","Résolution de problèmes environnementaux",C
+"Kim Chi",Hong,56475903,HONK22069425,"Hiver 2022","ENV 6010","Gestion des zones côtières: écotourisme et activités d'observation des mammifères marins",C
+"Kim Chi",Hong,56475903,HONK22069425,"Hiver 2022","ENV 6012","Aires marines protégées : conservation et protection de l'habitat des cétacés",A
+Nam,Hoàng,83965810,HOAN25099327,"Hiver 2022","RPL 2003","Introduction aux relations publiques",B
+Nam,Hoàng,83965810,HOAN25099327,"Hiver 2022","RPL 2004","Le plan de communication",A
+Nam,Hoàng,83965810,HOAN25099327,"Hiver 2022","RPL 2005","Théories et modèles de pratique en relations publiques",A
+Nam,Hoàng,83965810,HOAN25099327,"Hiver 2022","RPL 2006","Relations publiques et gestion de crise",C
+"Nam Phuong",Thang,92653753,THAN18039139,"Hiver 2022","ENV 1101","Introduction à la gestion des ressources naturelles",A
+"Nam Phuong",Thang,92653753,THAN18039139,"Hiver 2022","ENV 1110","Changements climatiques",B
+"Nam Phuong",Thang,92653753,THAN18039139,"Hiver 2022","ENV 3015","Évaluation environnementale",B
+"Nam Phuong",Thang,92653753,THAN18039139,"Hiver 2022","ENV 2010","Gestion des ressources: faune et habitat",C
+Phong,Thinh,91062547,THIP27079416,"Hiver 2022","COM 2005","Cadre politique et institutionnel de la communication",A
+Phong,Thinh,91062547,THIP27079416,"Hiver 2022","COM 3023","Déontologie et éthique de la production de l'information",A
+Phong,Thinh,91062547,THIP27079416,"Hiver 2022","COM 3028","Éducation aux médias et littérature médiatique",C
+Phong,Thinh,91062547,THIP27079416,"Hiver 2022","AVM 1001","Introduction aux arts médiatiques",A
+Emina,Nadir,78165483,NADE15029176,"Hiver 2022","DRT 1062","Gouvernance de l'entreprise et responsabilités juridiques des administrateurs",A
+Emina,Nadir,78165483,NADE15029176,"Hiver 2022","DRT 1080","Droit du travail au Québec",B
+Emina,Nadir,78165483,NADE15029176,"Hiver 2022","DRT 1910","Aspects juridiques pour planificateurs financiers",B
+Emina,Nadir,78165483,NADE15029176,"Hiver 2022","RIN 1012","Droit et pratique des conventions collectives",A
+Fade,Hakkar,94750186,HAKF18069208,"Hiver 2022","ADM 6046","Gestion de la sécurité des technologies de l'information",C
+Fadela,Laroussi,36485709,LARF22058656,"Hiver 2022","ADM 6020","Stratégies en affaires électroniques",A
+Fadela,Laroussi,36485709,LARF22058656,"Hiver 2022","ADM 6030","Gestion des risques en affaires électroniques",B
+Fadela,Laroussi,36485709,LARF22058656,"Hiver 2022","ADM 6040","Gestion stratégique des technologies de l'information",A
+Fadela,Laroussi,36485709,LARF22058656,"Hiver 2022","ADM 6052","Transformation numérique organisationnelle",C
+Fadil,Osmani,56489073,OSMF24028780,"Hiver 2022","DRT 1060","Droit des affaires",B
+Fadil,Osmani,56489073,OSMF24028780,"Hiver 2022","DRT 1062","Gouvernance de l'entreprise et responsabilités juridiques des administrateurs",A
+Fadil,Osmani,56489073,OSMF24028780,"Hiver 2022","DRT 1080","Droit du travail au Québec",B
+Fadil,Osmani,56489073,OSMF24028780,"Hiver 2022","DRT 1910","Aspects juridiques pour planificateurs financiers",A
+Faleh,Laroussi,75869154,LARF21129345,"Hiver 2022","ADM 6040","Gestion stratégique des technologies de l'information",B
+Faleh,Laroussi,75869154,LARF21129345,"Hiver 2022","ADM 6042","Les systèmes de l'information et la gestion organisationnelle",C
+Faleh,Laroussi,75869154,LARF21129345,"Hiver 2022","ADM 6044","Gestion de projet en technologie de l'information",B
+Faleh,Laroussi,75869154,LARF21129345,"Hiver 2022","ADM 6046","Gestion de la sécurité des technologies de l'information",C
+Rosario,Valdés,17265098,VALR16098501,"Hiver 2022","GEO 2001","Introduction à la géographie humaine",A
+Rosario,Valdés,17265098,VALR16098501,"Hiver 2022","GEO 2005","Géographie du Québec",C
+Rosario,Valdés,17265098,VALR16098501,"Hiver 2022","GEO 2002","Introduction à la géographie du tourisme",A
+Rosario,Valdés,17265098,VALR16098501,"Hiver 2022","GEO 2003","Introduction à la géographie urbaine",B
+Gerardo,Araya,75649386,ARAG16129742,"Hiver 2022","ECO 2011","Administration (économie) du Québec",B
+Gerardo,Araya,75649386,ARAG16129742,"Hiver 2022","GEO 2005","Géographie du Québec",B
+Gerardo,Araya,75649386,ARAG16129742,"Hiver 2022","HIS 1060","Introduction à l'histoire du Québec",A
+Gerardo,Araya,75649386,ARAG16129742,"Hiver 2022","HIS 2002","Histoire culturelle du comique au Québec",A
+Gary,Leiva,80198562,LEIG28118682,"Hiver 2022","INF 1250","Introduction aux bases de données",A
+Gary,Leiva,80198562,LEIG28118682,"Hiver 2022","INF 1410","Génie logiciel",B
+Gary,Leiva,80198562,LEIG28118682,"Hiver 2022","INF 1420","Interfaces humain-machine",A
+Gary,Leiva,80198562,LEIG28118682,"Hiver 2022","INF 6450","Gestion de l'information avec XML",B
+Andrea,Godoy,82756493,GODA18019701,"Hiver 2022","INF 6104","Recherche d'informations et web",B
+Andrea,Godoy,82756493,GODA18019701,"Hiver 2022","INF 6408","Informatique de l'analyse multidimensionnelle",A
+Andrea,Godoy,82756493,GODA18019701,"Hiver 2022","INF 6409","Forage de données",A
+Andrea,Godoy,82756493,GODA18019701,"Hiver 2022","INF 6426","Vision par ordinateur et apprentissage profond",B
+Rocío,Flores,58746594,FLOR29019802,"Hiver 2022","ECO 2400","Analyse macroéconomique",A
+Rocío,Flores,58746594,FLOR29019802,"Hiver 2022","FIN 1932","Fonds d'inverstissement et produits financiers",B
+Rocío,Flores,58746594,FLOR29019802,"Hiver 2022","FIN 1936","Valeurs mobilières et gestion de portefeuille",C
+Rocío,Flores,58746594,FLOR29019802,"Hiver 2022","FIN 2020","Administration financière 2",A
+Mónica,Rivas,82769064,RIVM28109689,"Hiver 2022","ECO 1300","Analyse microéconomique",B
+Mónica,Rivas,82769064,RIVM28109689,"Hiver 2022","ECO 2400","Analyse macroéconomique",B
+Mónica,Rivas,82769064,RIVM28109689,"Hiver 2022","FIN 2020","Administration financière 2",C
+Mónica,Rivas,82769064,RIVM28109689,"Hiver 2022","MQT 2001","Statistiques appliquées à la gestion",A
+Bosede,Ewodo,20826457,EWOB15089033,"Hiver 2022","ADM 1013","Comportement organisationnel",A
+Bosede,Ewodo,20826457,EWOB15089033,"Hiver 2022","ADM 2007","Introduction au marketing",D
+Bosede,Ewodo,20826457,EWOB15089033,"Hiver 2022","SCO 1205","Initiation à la comptabilité financière",B
+Bosede,Ewodo,20826457,EWOB15089033,"Hiver 2022","ADM 1015","Gestion des ressources humaines",A
+Tendai,Hamadi,50476859,HAMT28099558,"Hiver 2022","RPL 2004","Le plan de communication",C
+Subira,Mbappé,40395749,MBAS20099849,"Hiver 2022","ADM 6412","Changement dans les organisations de santé et de services sociaux",C
+Subira,Mbappé,40395749,MBAS20099849,"Hiver 2022","ADM 6415","Activité de synthèse et d'intégration",D
+Subira,Mbappé,40395749,MBAS20099849,"Hiver 2022","ADM 6508","Management et transfert des connaissances",A
+Subira,Mbappé,40395749,MBAS20099849,"Hiver 2022","SAM 4250","Intervention communautaire",C
+Rudo,Mongo,71234652,MONR14029077,"Hiver 2022","ADM 1404","Travail et société",A
+Rudo,Mongo,71234652,MONR14029077,"Hiver 2022","ADM 1450","Initiation à la gestion de projets",D
+Rudo,Mongo,71234652,MONR14029077,"Hiver 2022","ADM 3012","Gestion de la diversité culturelle",B
+Rudo,Mongo,71234652,MONR14029077,"Hiver 2022","RIN 4120","Innovation, organisation du travail et gestion des ressources humaines",B
+Sophie,Lafontaine,35486791,LAFS28039407,"Hiver 2022","ADM 2011A","Simulation Mark action",B
+Sophie,Lafontaine,35486791,LAFS28039407,"Hiver 2022","ADM 2014","Devenir entrepreneur",B
+Sophie,Lafontaine,35486791,LAFS28039407,"Hiver 2022","ADM 2021","Marketing international",A
+Sophie,Lafontaine,35486791,LAFS28039407,"Hiver 2022","ADM 9001","Bâtir une entreprise: des connaissances et des méthodes",A
+Tyler,Perreault,18465873,PERT28068719,"Hiver 2022","ENV 4014","Technologies d'assainissement et prévention de la pollution",C
+Tyler,Perreault,18465873,PERT28068719,"Hiver 2022","ENV 1110","Changements climatiques",B
+Tyler,Perreault,18465873,PERT28068719,"Hiver 2022","SCI 1016","Introduction à la science des données",C
+Tyler,Perreault,18465873,PERT28068719,"Hiver 2022","INF 1220","Introduction à la programmation",A
+Lily-rose,Demers,80174659,DEML15098907,"Hiver 2022","COM 2000","Histoire des communications",A
+Lily-rose,Demers,80174659,DEML15098907,"Hiver 2022","COM 2005","Cadre politique et institutionnel de la communication",A
+Lily-rose,Demers,80174659,DEML15098907,"Hiver 2022","COM 2007","Télécommunications, déréglementation et nouveaux services",B
+Lily-rose,Demers,80174659,DEML15098907,"Hiver 2022","COM 3019","Analyse critique des médias socionumériques",C
+Lea-rose,Marquis,17453863,MARL18069002,"Hiver 2022","RIN 1012","Droit et pratique des conventions collectives",A
+Logan,Messier,18563479,MESL19059304,"Hiver 2022","SCO 1205","Initiation à la comptabilité financière",B
+Logan,Messier,18563479,MESL19059304,"Hiver 2022","ADM 1015","Gestion des ressources humaines",A
+Logan,Messier,18563479,MESL19059304,"Hiver 2022","ADM 2006","Les systèmes d'information de gestion",A
+Logan,Messier,18563479,MESL19059304,"Hiver 2022","ECO 1300","Analyse microéconomique",B
+Olivie,Marois,70659352,MARO02029006,"Hiver 2022","SCI 1021","Sciences, techniques et civilisations: de l'Antiquité à la Rennaissance",B
+Olivie,Marois,70659352,MARO02029006,"Hiver 2022","ENV 1101","Introduction à la gestion des ressources naturelles",B
+Olivie,Marois,70659352,MARO02029006,"Hiver 2022","ENV 2010","Gestion des ressources: faune et habitat",A
+Olivie,Marois,70659352,MARO02029006,"Hiver 2022","ENV 3111","Gestion environnementale des ressources forestières",A
+Karine,Grondin,24589365,GROK14029239,"Hiver 2022","ADM 1002","Initiation à la gestion",A
+Karine,Grondin,24589365,GROK14029239,"Hiver 2022","ADM 3011","Éthique et responsabilité sociale des entreprises",C
+Karine,Grondin,24589365,GROK14029239,"Hiver 2022","ECO 2400","Analyse macroéconomique",B
+Karine,Grondin,24589365,GROK14029239,"Hiver 2022","ADM 1420","Gestion des opérations",B
+Maxime,Reynaud,73540956,REYM17099296,"Hiver 2022","ENV 4014","Technologies d'assainissement et prévention de la pollution",A
+Maxime,Reynaud,73540956,REYM17099296,"Hiver 2022","ENV 1110","Changements climatiques",A
+Maxime,Reynaud,73540956,REYM17099296,"Hiver 2022","ENV 3026","Administration (économie) et gestion du développement durable",C
+Maxime,Reynaud,73540956,REYM17099296,"Hiver 2022","ENV 4016","Améganement du territoire et environnement",B
+Alphonse,Barre,80264851,BARA18039256,"Hiver 2022","DRT 1060","Droit des affaires",A
+Alphonse,Barre,80264851,BARA18039256,"Hiver 2022","FIN 1020","Administration financière 1",A
+Alphonse,Barre,80264851,BARA18039256,"Hiver 2022","ADM 1002","Initiation à la gestion",B
+Alphonse,Barre,80264851,BARA18039256,"Hiver 2022","ADM 3011","Éthique et responsabilité sociale des entreprises",A
+Aldéric,Bouchet,30298453,BOUA04029242,"Hiver 2022","EDU 6001","Administration de systèmes de formation à distance",B
+Aldéric,Bouchet,30298453,BOUA04029242,"Hiver 2022","EDU 6002","Communication pédagogique à distance",A
+Aldéric,Bouchet,30298453,BOUA04029242,"Hiver 2022","EDU 6003","Visions pédagogiques de l'éducation",A
+Aldéric,Bouchet,30298453,BOUA04029242,"Hiver 2022","EDU 6013","Soutien à l'apprentissage à distance",B
+Cam,Nguyen,91746356,NGUC28019437,"Hiver 2022","LIN 4005","Language Making and Unmaking: From Issues to Planning",B
+Cam,Nguyen,91746356,NGUC28019437,"Hiver 2022","LIN 4008","Individual Reflective Project",B
+Cam,Nguyen,91746356,NGUC28019437,"Hiver 2022","LIN 4125","Teaching English as a Second Language in Schools",B
+Cam,Nguyen,91746356,NGUC28019437,"Hiver 2022","LIN 4128","Teaching English as a Second Language to Adults",b
+Hang,Ngô,47623281,NGOH18049258,"Hiver 2022","ADM 4007","Analyse stratégique de l'entreprise",B
+Hang,Ngô,47623281,NGOH18049258,"Hiver 2022","ADM 1400","Théories de l'organisation",B
+Hang,Ngô,47623281,NGOH18049258,"Hiver 2022","ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI",A
+Hang,Ngô,47623281,NGOH18049258,"Hiver 2022","SCO 2006","Contrôle de gestion",C
+Linh,Nham,67432859,NHAL24069454,"Hiver 2022","SOC 1012","Méthodologie de la recherche sociale 1",C
+Linh,Nham,67432859,NHAL24069454,"Hiver 2022","COM 2000","Histoire des communications",B
+Linh,Nham,67432859,NHAL24069454,"Hiver 2022","COM 2005","Cadre politique et institutionnel de la communication",A
+Linh,Nham,67432859,NHAL24069454,"Hiver 2022","COM 2007","Télécommunications, déréglementation et nouveaux services",C
+"Mai Lan",Quang,78564930,QUAM18099017,"Hiver 2022","COM 4020","Activité de synthèse ",B
+"Mai Lan",Quang,78564930,QUAM18099017,"Hiver 2022","COM 2005","Cadre politique et institutionnel de la communication",A
+"Mai Lan",Quang,78564930,QUAM18099017,"Hiver 2022","COM 3023","Déontologie et éthique de la production de l'information",C
+"Mai Lan",Quang,78564930,QUAM18099017,"Hiver 2022","COM 3028","Éducation aux médias et littérature médiatique",B
+Bachira,Bouhanni,70198365,BOUB24069128,"Hiver 2022","ENV 3017","Santé et environnement",B
+Bachira,Bouhanni,70198365,BOUB24069128,"Hiver 2022","ENV 4014","Technologies d'assainissement et prévention de la pollution",B
+Bachira,Bouhanni,70198365,BOUB24069128,"Hiver 2022","ENV 1110","Changements climatiques",A
+Bachira,Bouhanni,70198365,BOUB24069128,"Hiver 2022","ENV 3026","Administration (économie) et gestion du développement durable",A
+Elarabi,Ababou,18757493,ABAE28039157,"Hiver 2022","ADM 1013","Comportement organisationnel",A
+Elarabi,Ababou,18757493,ABAE28039157,"Hiver 2022","ADM 2007","Introduction au marketing",C
+Elarabi,Ababou,18757493,ABAE28039157,"Hiver 2022","SCO 1205","Initiation à la comptabilité financière",B
+Elarabi,Ababou,18757493,ABAE28039157,"Hiver 2022","ADM 1015","Gestion des ressources humaines",B
+Fakher,Lamari,48375918,LAMF02029084,"Hiver 2022","ADM 6052","Transformation numérique organisationnelle",A
+Eiliyah,Chibane,81658392,CHIE27129365,"Hiver 2022","INF 1426","Traitement d'images",A
+Eiliyah,Chibane,81658392,CHIE27129365,"Hiver 2022","INF 1160","Les réseaux d'entreprise",Abandon
+Eiliyah,Chibane,81658392,CHIE27129365,"Hiver 2022","INF 1165","Réseaux et sécurité informatique",A
+Eiliyah,Chibane,81658392,CHIE27129365,"Hiver 2022","INF 1427","Architecture des ordinateurs",C
+Elma,Mansouri,81023749,MANE13018987,"Hiver 2022","ADM 1015","Gestion des ressources humaines",A
+Elma,Mansouri,81023749,MANE13018987,"Hiver 2022","ADM 2006","Les systèmes d'information de gestion",C
+Elma,Mansouri,81023749,MANE13018987,"Hiver 2022","ECO 1300","Analyse microéconomique",B
+Elma,Mansouri,81023749,MANE13018987,"Hiver 2022","DRT 1060","Droit des affaires",B
+Jaime,Cortés,40938756,CORJ14128341,"Hiver 2022","PSY 1210","Psychologie d l'adolescence",A
+Jaime,Cortés,40938756,CORJ14128341,"Hiver 2022","PSY 1220","Psychologie de la vie adulte",C
+Jaime,Cortés,40938756,CORJ14128341,"Hiver 2022","PSY 1310","Approches de la psychopathologie",B
+Jaime,Cortés,40938756,CORJ14128341,"Hiver 2022","PSY 1320","Les psychothérapies",C
+Teresa,Moreno,57648394,MORT10129587,"Hiver 2022","FIN 1020","Administration financière 1",B
+Teresa,Moreno,57648394,MORT10129587,"Hiver 2022","ADM 1002","Initiation à la gestion",A
+Teresa,Moreno,57648394,MORT10129587,"Hiver 2022","ADM 3011","Éthique et responsabilité sociale des entreprises",A
+Teresa,Moreno,57648394,MORT10129587,"Hiver 2022","ECO 2400","Analyse macroéconomique",C
+Jorge,Lagos,39285740,LAGJ26029832,"Hiver 2022","RIN 1025","Équité en emploi/Équité salariale",A
+Jorge,Lagos,39285740,LAGJ26029832,"Hiver 2022","RIN 2013","Conciliation emploi-famille et temps de travail",B
+Jorge,Lagos,39285740,LAGJ26029832,"Hiver 2022","RIN 2015","Politiques et pratiques de gestion de la main-d'œuvre vieillissante",B
+Luis,Escobar,85673549,ESCL31019140,"Hiver 2022","ADM 2010","Gestion de la formation et développement des ressources humaines",A
+Luis,Escobar,85673549,ESCL31019140,"Hiver 2022","ADM 3012","Gestion de la diversité culturelle",A
+Luis,Escobar,85673549,ESCL31019140,"Hiver 2022","DRT 1080","Droit du travail au Québec",C
+Luis,Escobar,85673549,ESCL31019140,"Hiver 2022","ECO 3003","Administration (économie) du travail",B
+Sandra,Romero,27483986,ROMS27078884,"Hiver 2022","SCO 6914","Module 1 en certification",A
+Sandra,Romero,27483986,ROMS27078884,"Hiver 2022","SCO 6924","Module 2 en certification",C
+Sandra,Romero,27483986,ROMS27078884,"Hiver 2022","SCO 6930","Module 3 en information financière",B
+Sandra,Romero,27483986,ROMS27078884,"Hiver 2022","DRT 1060","Droit des affaires",B
+Kato,Seri,14274588,SERK09049055,"Hiver 2022","RIN 1012","Droit et pratique des conventions collectives",A
+Kato,Seri,14274588,SERK09049055,"Hiver 2022","RIN 1022","Négociation collective contemporaine",C
+Kato,Seri,14274588,SERK09049055,"Hiver 2022","RIN 1024","Arbitrage des griefs",B
+Kato,Seri,14274588,SERK09049055,"Hiver 2022","ADM 1013","Comportement organisationnel",A
+Nomusa,Touati,92758346,TOUN08079737,"Hiver 2022","DRT 1060","Droit des affaires",C
+Zuri,Sebag,58475980,SEBZ26098548,"Hiver 2022","SCO 6910","Module 1 en information financière",A
+Zuri,Sebag,58475980,SEBZ26098548,"Hiver 2022","SCO 6911","Module 1 en  comptabilité de management",B
+Zuri,Sebag,58475980,SEBZ26098548,"Hiver 2022","SCO 6913","Module 1 en comptabilité des décisions financières",C
+Zuri,Sebag,58475980,SEBZ26098548,"Hiver 2022","SCO 6914","Module 1 en certification",A
+Sefu,Badou,78694650,BADS29049555,"Hiver 2022","RIN 1012","Droit et pratique des conventions collectives",B
+Gabrielle,Savard,57398591,SAVG12019604,"Hiver 2022","EUT 5120","Tourisme de nature et d'aventures",A
+Gabrielle,Savard,57398591,SAVG12019604,"Hiver 2022","MKG 3315","Marketing de tourisme et hôtellerie",B
+Gabrielle,Savard,57398591,SAVG12019604,"Hiver 2022","ADM 2115","Réaliser un projet d'affaires",C
+Gabrielle,Savard,57398591,SAVG12019604,"Hiver 2022","ADM 2115A","Simulation SIM-Plan d'affaires",A
+Leticia,Tapia,94875690,TAPL18098658,"Hiver 2022","COM 1001","Théories de la communication 1",C
+Leticia,Tapia,94875690,TAPL18098658,"Hiver 2022","COM 2014","Pratiques de la recherche en communication",B
+Leticia,Tapia,94875690,TAPL18098658,"Hiver 2022","COM 3000","Droits et enjeux de la communication",A
+Leticia,Tapia,94875690,TAPL18098658,"Hiver 2022","COM 3028","Éducation aux médias et littérature médiatique",A
+Cristina,Figueroa,51472368,FIGC18049615,"Hiver 2022","COM 5002","Culture organisationnelle",A
+Cristina,Figueroa,51472368,FIGC18049615,"Hiver 2022","COM 4011","Projet d'intégration",B
+Cristina,Figueroa,51472368,FIGC18049615,"Hiver 2022","ADM 3011","Éthique et responsabilité sociale des entreprises",A
+Cristina,Figueroa,51472368,FIGC18049615,"Hiver 2022","COM 3000","Droits et enjeux de la communication",B
+Octavio,Navarrete,91746246,NAVO07129902,"Hiver 2022","ECO 1200","Méthodologie économique",C
+Octavio,Navarrete,91746246,NAVO07129902,"Hiver 2022","ECO 1300","Analyse microéconomique",A
+Octavio,Navarrete,91746246,NAVO07129902,"Hiver 2022","ECO 2400","Analyse macroéconomique",B
+Octavio,Navarrete,91746246,NAVO07129902,"Hiver 2022","ECO 2011","Administration (économie) du Québec",B
+Imamu,Mandanda,57465839,MANI12108719,"Hiver 2022","ADM 6510","Gestion des ressources humaines en contexte de projet",A
+Imamu,Mandanda,57465839,MANI12108719,"Hiver 2022","ADM 6508","Management et transfert des connaissances",C
+Imamu,Mandanda,57465839,MANI12108719,"Hiver 2022","ADM 6506","Gestion des conflits en contexte de projet",B
+Imamu,Mandanda,57465839,MANI12108719,"Hiver 2022","ADM 6505","Activité de synthèse",A
+Haciba,Sabal,67351248,SABH22068436,"Hiver 2022","ADM 6044","Gestion de projet en technologie de l'information",A
+Haciba,Sabal,67351248,SABH22068436,"Hiver 2022","ADM 6046","Gestion de la sécurité des technologies de l'information",C
+Haciba,Sabal,67351248,SABH22068436,"Hiver 2022","ADM 6010","Marketing en affaires électroniques",B
+Haciba,Sabal,67351248,SABH22068436,"Hiver 2022","ADM 6020","Stratégies en affaires électroniques",A
+Jemil,Brahim,91645730,BRAJ21029746,"Hiver 2022","ADM 1013","Comportement organisationnel",C
+Jemil,Brahim,91645730,BRAJ21029746,"Hiver 2022","ADM 2007","Introduction au marketing",B
+Jemil,Brahim,91645730,BRAJ21029746,"Hiver 2022","SCO 1205","Initiation à la comptabilité financière",A
+Jemil,Brahim,91645730,BRAJ21029746,"Hiver 2022","ADM 1015","Gestion des ressources humaines",A
+Elliot,Beaulieu,89551696,BEAE24048749,"Hiver 2022","LIN 3001","Le langage et ses usages",B
+Elliot,Beaulieu,89551696,BEAE24048749,"Hiver 2022","LIN 3004","Lexicologie et lexicographie de la langue française",A
+Elliot,Beaulieu,89551696,BEAE24048749,"Hiver 2022","LIN 3010","Développement du langage",A
+Elliot,Beaulieu,89551696,BEAE24048749,"Hiver 2022","LIT 4001","Littérature de masse",B
+Caroline,Robin,74658476,ROBC26018904,"Hiver 2022","ADM 2011","Administration marketing",B
+Caroline,Robin,74658476,ROBC26018904,"Hiver 2022","ADM 2014","Devenir entrepreneur",A
+Caroline,Robin,74658476,ROBC26018904,"Hiver 2022","ADM 2115","Réaliser un projet d'affaires",A
+Caroline,Robin,74658476,ROBC26018904,"Hiver 2022","ADM 9003","Gestion de la TPE/PME",B
+Bérénice,Bonnet,82759678,BONB27049487,"Hiver 2022","ENV 6007","Océans et gestion intégrée des zones côtières",B
+Bérénice,Bonnet,82759678,BONB27049487,"Hiver 2022","ENV 6002","Gestion internationale du développement durable",A
+Bérénice,Bonnet,82759678,BONB27049487,"Hiver 2022","ENV 6003","Changements climatiques: impacts, adaptation, mitigation",C
+Bérénice,Bonnet,82759678,BONB27049487,"Hiver 2022","ENV 6008","Modélisation et systèmes d'aide à la décision en environnement",B
+Elsa,Durand,91523567,DURE26058892,"Hiver 2022","INF 1250","Introduction aux bases de données",A
+Elsa,Durand,91523567,DURE26058892,"Hiver 2022","INF 1410","Génie logiciel",A
+Elsa,Durand,91523567,DURE26058892,"Hiver 2022","SCI 1016","Introduction à la science des données",C
+Elsa,Durand,91523567,DURE26058892,"Hiver 2022","SCI 1018","Statistiques avec R",B
+Guylaine,Guerin,72659873,GUEG20079948,"Hiver 2022","ENV 6005","Populations, écosystèmes et services écosystémiques",B
+Guylaine,Guerin,72659873,GUEG20079948,"Hiver 2022","ENV 6006","Résolution de problèmes environnementaux",B
+Guylaine,Guerin,72659873,GUEG20079948,"Hiver 2022","ENV 6007","Océans et gestion intégrée des zones côtières",A
+Guylaine,Guerin,72659873,GUEG20079948,"Hiver 2022","ENV 6008","Modélisation et systèmes d'aide à la décision en environnement",A
+Hector,Perrin,68735479,PERH28079906,"Hiver 2022","ADM 6010","Marketing en affaires électroniques",B
+Hector,Perrin,68735479,PERH28079906,"Hiver 2022","ADM 6020","Stratégies en affaires électroniques",A
+Hector,Perrin,68735479,PERH28079906,"Hiver 2022","ADM 6030","Gestion des risques en affaires électroniques",C
+Hector,Perrin,68735479,PERH28079906,"Hiver 2022","ADM 6040","Gestion stratégique des technologies de l'information",B
+Henriette,Marchand,69487561,MARH18039532,"Hiver 2022","SCI 1016","Introduction à la science des données",A
+Henriette,Marchand,69487561,MARH18039532,"Hiver 2022","SCI 1017","Traitement de données massives",B
+Henriette,Marchand,69487561,MARH18039532,"Hiver 2022","SCI 1018","Statistiques avec R",A
+Henriette,Marchand,69487561,MARH18039532,"Hiver 2022","SCI 1402","Projet en science des données",A
+Henri,Dumont,74859761,DUMH28059631,"Hiver 2022","COM 3028","Éducation aux médias et littérature médiatique",C
+Henri,Dumont,74859761,DUMH28059631,"Hiver 2022","EDU 1030","Design pédagogique en formation d'adultes",B
+Henri,Dumont,74859761,DUMH28059631,"Hiver 2022","EDU 1074","Projet personnel",A
+Henri,Dumont,74859761,DUMH28059631,"Hiver 2022","TED 1272","Les TIC et l'apprentissage en milieu de travail",A
+Jean,Carpentier,76938690,CARJ26119841,"Hiver 2022","ADM 2021","Marketing international",C
+Jean,Carpentier,76938690,CARJ26119841,"Hiver 2022","ADM 9001","Bâtir une entreprise: des connaissances et des méthodes",A
+Jean,Carpentier,76938690,CARJ26119841,"Hiver 2022","FIN 2022","Analyse financière et gestion du fonds de roulement",B
+Jean,Carpentier,76938690,CARJ26119841,"Hiver 2022","FIN 3120","Éléments d'analyse du crédit productif en microfinance",A
+Lionel,Aubry,18758680,AUBL27109708,"Hiver 2022","ENV 6011","Fondements et pratiques en santé environnementale",C
+Lionel,Aubry,18758680,AUBL27109708,"Hiver 2022","ENV 6012","Aires marines protégées : conservation et protection de l'habitat des cétacés",A
+Lionel,Aubry,18758680,AUBL27109708,"Hiver 2022","ENV 6410","Lectures dirigées",C
+Lionel,Aubry,18758680,AUBL27109708,"Hiver 2022","ENV 6415","Projet personnel",B
+Louise,Brunet,85765870,BRUL10019182,"Hiver 2022","ENV 6008","Modélisation et systèmes d'aide à la décision en environnement",A
+Louise,Brunet,85765870,BRUL10019182,"Hiver 2022","INF 6104","Recherche d'informations et web",B
+Louise,Brunet,85765870,BRUL10019182,"Hiver 2022","INF 6408","Informatique de l'analyse multidimensionnelle",C
+Louise,Brunet,85765870,BRUL10019182,"Hiver 2022","INF 6409","Forage de données",A
+Milène,Duval,75698370,DUVM25109509,"Hiver 2022","ENV 1101","Introduction à la gestion des ressources naturelles",C
+Milène,Duval,75698370,DUVM25109509,"Hiver 2022","ENV 1110","Changements climatiques",B
+Milène,Duval,75698370,DUVM25109509,"Hiver 2022","ENV 3026","Administration (économie) et gestion du développement durable",A
+Milène,Duval,75698370,DUVM25109509,"Hiver 2022","SCI 1018","Statistiques avec R",B

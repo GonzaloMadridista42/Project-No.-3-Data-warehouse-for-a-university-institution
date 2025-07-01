@@ -1,0 +1,1189 @@
+c_SigleDuCours,c_TitreDuCours,c_TypeDuCours,c_NuméroDuProgramme,c_ProfilDeFormationDuprogramme,c_DépartementResponsable
+"ADM 1002","Initiation à la gestion","Cours avec examen",477,"Inititation aux fondements de la gestion",Administration
+"ADM 1013","Comportement organisationnel","Cours avec examen",477,"Inititation aux fondements de la gestion",Administration
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",477,"Inititation aux fondements de la gestion",Administration
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",477,"Inititation aux fondements de la gestion",Administration
+ADM2006,"Les systèmes d'information de gestion","Cours avec examen",477,"Inititation aux fondements de la gestion",Administration
+"ADM 2007","Introduction au marketing","Cours avec examen",477,"Inititation aux fondements de la gestion",Administration
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",477,"Inititation aux fondements de la gestion",Administration
+"ADM 4020","Gestion du rendement","Cours avec examen",477,"Inititation aux fondements de la gestion",Administration
+"COM 1021","Techniques d'animation et d'intervention","Cours avec examen",477,"Inititation aux fondements de la gestion",Administration
+"DRT 1060","Droit des affaires","Cours avec examen",477,"Inititation aux fondements de la gestion",Administration
+"ECO 2400","Analyse macroéconomique","Cours avec examen",477,"Inititation aux fondements de la gestion",Administration
+"ADM 3007","Initiatives de développement local et d'économie sociale","Cours avec examen",121,"Développement économique local et communautaire",Administration
+"ADM 1404","Travail et société","Cours avec examen",121,"Développement économique local et communautaire",Administration
+"ADM 4015","Modèles internationaux de gestion des ressources humaines","Cours avec examen",121,"Développement économique local et communautaire",Administration
+"ECO 2011","Économie du Québec","Cours avec examen",121,"Développement économique local et communautaire",Administration
+"ECO 2400","Analyse macroéconomique","Cours avec examen",121,"Développement économique local et communautaire",Administration
+"ECO 3003","Économie du travail","Cours avec examen",121,"Développement économique local et communautaire",Administration
+"ECO 3004","Formation et compétitivité économique","Cours avec examen",121,"Développement économique local et communautaire",Administration
+"ECO 3005","Développement économique et emploi","Cours avec examen",121,"Développement économique local et communautaire",Administration
+"RIN 2013","Conciliation emploi-famille et temps de travail","Cours avec examen",121,"Développement économique local et communautaire",Administration
+"RIN 4120","Innovation, organisation du travail et gestion des ressources humaines","Cours avec examen",121,"Développement économique local et communautaire",Administration
+"ADM 1002","Initiation à la gestion","Cours avec examen",535,"Gestion du tourisme",Administration
+"EUT 1123","Histoire, acteurs et enjeux du tourisme","Cours avec examen",535,"Gestion du tourisme",Administration
+"EUT 4138","Gestion des événements et congrès","Cours avec examen",535,"Gestion du tourisme",Administration
+"EUT 4150","Technologies de l'information et des communications et réseaux de distribution en tourisme","Cours avec examen",535,"Gestion du tourisme",Administration
+"ADM 2007","Introduction au marketing","Cours avec examen",975,Marketing,Administration
+"ADM 2009","Marketing responsable","Cours avec examen",975,Marketing,Administration
+"ADM 2015","Comportement du consommateur","Cours avec examen",975,Marketing,Administration
+"ADM 2112","Recherche marketing","Cours avec examen",975,Marketing,Administration
+"ADM 2116","Stratégie marketing","Cours avec examen",975,Marketing,Administration
+"ADM 1002","Initiation à la gestion","Cours avec examen",421,"Gestion d'entreprise",Administration
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",421,"Gestion d'entreprise",Administration
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",421,"Gestion d'entreprise",Administration
+"ADM 2007","Introduction au marketing","Cours avec examen",421,"Gestion d'entreprise",Administration
+"ADM 1002","Initiation à la gestion","Cours avec examen",4397,Administration,Administration
+"ADM 1013","Comportement organisationnel","Cours avec examen",4397,Administration,Administration
+"ADM 2007","Introduction au marketing","Cours avec examen",4397,Administration,Administration
+"ECO 1300","Analyse microéconomique","Cours avec examen",4397,Administration,Administration
+"FIN 1020","Administration financière 1","Cours avec examen",4397,Administration,Administration
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",4397,Administration,Administration
+"ADM 1700","Principes de l'assurance de personnes","Cours avec examen",4397,Administration,Administration
+"FIN 2022","Analyse financière et gestion du fonds de roulement","Cours avec examen",4397,Administration,Administration
+"SCO 1060","Fiscalité 1","Cours avec examen",4397,Administration,Administration
+"SCO 1065","Fiscalité 2","Cours avec examen",4397,Administration,Administration
+"ADM 1012","Le management du changement","Cours avec examen",4397,Administration,Administration
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",4397,Administration,Administration
+"ADM 1018",Leadership,"Cours avec examen",4397,Administration,Administration
+"ADM 1402","Entreprise et société","Cours avec examen",4397,Administration,Administration
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",4397,Administration,Administration
+"COM 1021","Techniques d'animation et d'intervention","Cours avec examen",4397,Administration,Administration
+"DRT 1062","Gouvernance de l'entreprise et responsabilités juridiques des administrateurs","Cours avec examen",4397,Administration,Administration
+"EUT 4138","Gestion des événements et congrès","Cours avec examen",4397,Administration,Administration
+"ADM 2015","Comportement du consommateur","Cours avec examen",4397,Administration,Administration
+"ADM 2016","Gestion de la relation de vente","Cours avec examen",4397,Administration,Administration
+"ADM 2017","Marketing des commerces de détail et expérience client","Cours avec examen",4397,Administration,Administration
+"ADM 2112","Recherche marketing","Cours avec examen",4397,Administration,Administration
+"ADM 1420","Gestion des opérations","Cours avec examen",4397,Administration,Administration
+ADM2006,"Les systèmes d'information de gestion","Cours avec examen",4397,Administration,Administration
+"MQT 2001","Statistiques appliquées à la gestion","Cours avec examen",4397,Administration,Administration
+"MQT 2420","Récherche opérationnelle","Cours avec examen",4397,Administration,Administration
+"DRT 1060","Droit des affaires","Cours avec examen",4397,Administration,Administration
+"DRT 1080","Droit du travail au Québec","Cours avec examen",4397,Administration,Administration
+"ECO 2011","Économie du Québec","Cours avec examen",4397,Administration,Administration
+"ECO 2400","Analyse macroéconomique","Cours avec examen",4397,Administration,Administration
+"ADM 1002","Initiation à la gestion","Cours avec examen",4480,"Administration de services",Administration
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",4480,"Administration de services",Administration
+"DRT 1060","Droit des affaires","Cours avec examen",4480,"Administration de services",Administration
+"ECO 2400","Analyse macroéconomique","Cours avec examen",4480,"Administration de services",Administration
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",4480,"Administration de services",Administration
+"ADM 1420","Gestion des opérations","Cours avec examen",4480,"Administration de services",Administration
+"ADM 2007","Introduction au marketing","Cours avec examen",4480,"Administration de services",Administration
+"ADM 2016","Gestion de la relation de vente","Cours avec examen",4480,"Administration de services",Administration
+"ADM 2115","Réaliser un projet d'affaires","Cours avec examen",4480,"Administration de services",Administration
+"ADM 7015","Stratégies de sollicitation en planification financière personnelle","Cours avec examen",4480,"Administration de services",Administration
+"FIN 1020","Administration financière 1","Cours avec examen",4480,"Administration de services",Administration
+"FIN 2020","Administration financière 2","Cours avec examen",4480,"Administration de services",Administration
+"FIN 3120","Éléments d'analyse du crédit productif en microfinance","Cours avec examen",4480,"Administration de services",Administration
+"SCO 1060","Fiscalité 1","Cours avec examen",4480,"Administration de services",Administration
+"SCO 1065","Fiscalité 2","Cours avec examen",4480,"Administration de services",Administration
+"SCO 2205","Présentation et analyse des états financiers","Cours avec examen",4480,"Administration de services",Administration
+"SCO 3202","Comptabilité intermédiaire 1","Cours avec examen",4480,"Administration de services",Administration
+"SCO 3212","Comptabilité intermédiaire 2","Cours avec examen",4480,"Administration de services",Administration
+"ADM 1013","Comportement organisationnel","Cours avec examen",4480,"Administration de services",Administration
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",4480,"Administration de services",Administration
+"ADM 1402","Entreprise et société","Cours avec examen",4480,"Administration de services",Administration
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",4480,"Administration de services",Administration
+"COM 1021","Techniques d'animation et d'intervention","Cours avec examen",4480,"Administration de services",Administration
+"DRT 1062","Gouvernance de l'entreprise et responsabilités juridiques des administrateurs","Cours avec examen",4480,"Administration de services",Administration
+"ECO 1300","Analyse microéconomique","Cours avec examen",4480,"Administration de services",Administration
+"MQT 2001","Statistiques appliquées à la gestion","Cours avec examen",4480,"Administration de services",Administration
+"MQT 2420","Récherche opérationnelle","Cours avec examen",4480,"Administration de services",Administration
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",4459,"Gestion des services de santé et des services sociaux",Administration
+"ADM 2205","Le système de santé et des services sociaux du Québec","Cours avec examen",4459,"Gestion des services de santé et des services sociaux",Administration
+"ADM 2210","Droit et éthique de la santé et des services sociaux","Cours avec examen",4459,"Gestion des services de santé et des services sociaux",Administration
+"ADM 2215","La qualité et sa gestion dans les services de santé et services sociaux","Cours avec examen",4459,"Gestion des services de santé et des services sociaux",Administration
+"ADM 1012","Le management du changement","Cours avec examen",4459,"Gestion des services de santé et des services sociaux",Administration
+"COM 3030","La communication interculturelle: une introduction","Cours avec examen",4459,"Gestion des services de santé et des services sociaux",Administration
+"ADM 1013","Comportement organisationnel","Cours avec examen",4459,"Gestion des services de santé et des services sociaux",Administration
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",4459,"Gestion des services de santé et des services sociaux",Administration
+"ADM 1002","Initiation à la gestion","Cours avec examen",4734,"Gestion du tourisme",Administration
+"EUT 1123","Histoire, acteurs et enjeux du tourisme","Cours avec examen",4734,"Gestion du tourisme",Administration
+"EUT 4138","Gestion des événements et congrès","Cours avec examen",4734,"Gestion du tourisme",Administration
+"EUT 4150","Technologies de l'information et des communications et réseaux de distribution en tourisme","Cours avec examen",4734,"Gestion du tourisme",Administration
+"EUT 5045","Stratégies des entreprises touristiques et hôtelières","Cours avec examen",4734,"Gestion du tourisme",Administration
+"EUT 5106","Environnements politiques et administratifs du tourisme","Cours avec examen",4734,"Gestion du tourisme",Administration
+"EUT 5109","Tourisme urbain","Cours avec examen",4734,"Gestion du tourisme",Administration
+"ADM 2115","Réaliser un projet d'affaires","Cours avec examen",4734,"Gestion du tourisme",Administration
+"DRT 1060","Droit des affaires","Cours avec examen",4734,"Gestion du tourisme",Administration
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",4734,"Gestion du tourisme",Administration
+"ADM 1002","Initiation à la gestion","Cours avec examen",4386,"Gestion du travail de bureau",Administration
+"ADM 1013","Comportement organisationnel","Cours avec examen",4386,"Gestion du travail de bureau",Administration
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",4386,"Gestion du travail de bureau",Administration
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",4386,"Gestion du travail de bureau",Administration
+"ADM 1404","Travail et société","Cours avec examen",4386,"Gestion du travail de bureau",Administration
+"COM 5000","Communication organisationnelle","Cours avec examen",4386,"Gestion du travail de bureau",Administration
+"DRT 1080","Droit du travail au Québec","Cours avec examen",4386,"Gestion du travail de bureau",Administration
+"ECO 3003","Économie du travail","Cours avec examen",4386,"Gestion du travail de bureau",Administration
+"FIN 1020","Administration financière 1","Cours avec examen",4386,"Gestion du travail de bureau",Administration
+"RIN 1016","Gestion de la rémunération","Cours avec examen",4386,"Gestion du travail de bureau",Administration
+"RIN 2013","Conciliation emploi-famille et temps de travail","Cours avec examen",4386,"Gestion du travail de bureau",Administration
+"RIN 4120","Innovation, organisation du travail et gestion des ressources humaines","Cours avec examen",4386,"Gestion du travail de bureau",Administration
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",4386,"Gestion du travail de bureau",Administration
+"ADM 1002","Initiation à la gestion","Cours avec examen",4084,Management,Administration
+"ADM 1012","Le management du changement","Cours avec examen",4084,Management,Administration
+"ADM 1013","Comportement organisationnel","Cours avec examen",4084,Management,Administration
+"ADM 1402","Entreprise et société","Cours avec examen",4084,Management,Administration
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",4084,Management,Administration
+"ADM 1018",Leadership,"Cours avec examen",4084,Management,Administration
+"ADM 1404","Travail et société","Cours avec examen",4084,Management,Administration
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",4084,Management,Administration
+"ADM 3012","Gestion de la diversité culturelle","Cours avec examen",4084,Management,Administration
+"COM 1013","Communication et structures organisationnelles","Cours avec examen",4084,Management,Administration
+"COM 5002","Culture organisationnelle","Cours avec examen",4084,Management,Administration
+"RIN 4120","Innovation, organisation du travail et gestion des ressources humaines","Cours avec examen",4084,Management,Administration
+"ADM 1013","Comportement organisationnel","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 2007","Introduction au marketing","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ECO 1300","Analyse microéconomique","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"DRT 1060","Droit des affaires","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"FIN 1020","Administration financière 1","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 1002","Initiation à la gestion","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ECO 2400","Analyse macroéconomique","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 1420","Gestion des opérations","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"MQT 2001","Statistiques appliquées à la gestion","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 1402","Entreprise et société","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 4007","Analyse stratégique de l'entreprise","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"SCO 2006","Contrôle de gestion","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 1012","Le management du changement","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 1018",Leadership,"Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 1404","Travail et société","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 3012","Gestion de la diversité culturelle","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 2009","Marketing responsable","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 2013","Publicité et promotion pour les entreprises de services","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 2015","Comportement du consommateur","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 2016","Gestion de la relation de vente","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 2017","Marketing des commerces de détail et expérience client","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 2112","Recherche marketing","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 2116","Stratégie marketing","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"FIN 2020","Administration financière 2","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"FIN 3120","Éléments d'analyse du crédit productif en microfinance","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"SCO 1060","Fiscalité 1","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"SCO 1065","Fiscalité 2","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"SCO 2205","Présentation et analyse des états financiers","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"SCO 3202","Comptabilité intermédiaire 1","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"SCO 3212","Comptabilité intermédiaire 2","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 1700","Principes de l'assurance de personnes","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 7012","Retraite et planification successorale","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 7014","Approfondissement de la planification successorale","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 7015","Stratégies de sollicitation en planification financière personnelle","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 7030","Activité d'intégration en planification financière","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"DRT 1910","Aspects juridiques pour planificateurs financiers","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"FIN 1932","Fonds d'inverstissement et produits finenciers","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"SCO 1064","Fiscalité 2 pour planificateurs financiers","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 2010","Gestion de la formation et développement des ressources humaines","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 4015","Modèles internationaux de gestion des ressources humaines","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 4020","Gestion du rendement","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"RIN 1008","Introduction aux relations insdustrielles","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"RIN 1011",Dotation,"Cours avec examen",7764,"Administration (cheminement général)",Administration
+"RIN 1012","Droit et pratique des conventions collectives","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"RIN 1013","Problèmes de santé au travail","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"RIN 1015","Gestion du dossier de santé et de sécurité au travail","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"RIN 1016","Gestion de la rémunération","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"RIN 1017","Les défis de l'intervention préventiveen santé et sécurité au travail","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"RIN 1022","Négociation collective contemporaine","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"RIN 2013","Conciliation emploi-famille et temps de travail","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"RIN 2015","Politiques et pratiques de gestion de la main-d'œuvre vieillissante","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"RIN 4120","Innovation, organisation du travail et gestion des ressources humaines","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"INF 1160","Les réseaux d'entreprise","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"INF 1220","Introduction à la programmation","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"INF 1250","Introduction aux bases de données","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"INF 6400","Gestion de connaissances et informatique","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"MQT 2420","Récherche opérationnelle","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 3007","Initiatives de développement local et d'économie sociale","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ECO 2011","Économie du Québec","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ECO 2015","Économie internationale","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ECO 2021","Économie responsable","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ECO 3003","Économie du travail","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ECO 3004","Formation et compétitivité économique","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ECO 3005","Développement économique et emploi","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 2115","Réaliser un projet d'affaires","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 2021","Marketing international","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"INT 1010","Introduction au développement international","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"INT 2010","Migrations internationales","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"INT 2020","Théories internationales et mondialisation","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"INT 2030","Coopération internationale, gouvernance et développement démocratique","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"COM 1013","Communication et structures organisationnelles","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"COM 3030","La communication interculturelle: une introduction","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"COM 5000","Communication organisationnelle","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"COM 5002","Culture organisationnelle","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"COM 5003","Organisation, pouvoir et communication","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"COM 5022","Communication électronique, et dynamique organisationnelle","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"RPL 2003","Introduction aux relations publiques","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"RPL 2004","Le plan de communication","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"DRT 1062","Gouvernance de l'entreprise et responsabilités juridiques des administrateurs","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"DRT 1080","Droit du travail au Québec","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"EUT 4138","Gestion des événements et congrès","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"EUT 5109","Tourisme urbain","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 4010","Stratégie d'entreprise","Cours avec examen",7764,"Administration (cheminement général)",Administration
+"ADM 1013","Comportement organisationnel","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 2007","Introduction au marketing","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ECO 1300","Analyse microéconomique","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"DRT 1060","Droit des affaires","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"FIN 1020","Administration financière 1","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 1002","Initiation à la gestion","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ECO 2400","Analyse macroéconomique","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 1420","Gestion des opérations","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"MQT 2001","Statistiques appliquées à la gestion","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 1402","Entreprise et société","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 4007","Analyse stratégique de l'entreprise","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"SCO 2006","Contrôle de gestion","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 1012","Le management du changement","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 1018",Leadership,"Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 1404","Travail et société","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 3012","Gestion de la diversité culturelle","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 2009","Marketing responsable","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 2013","Publicité et promotion pour les entreprises de services","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 2015","Comportement du consommateur","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 2016","Gestion de la relation de vente","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 2017","Marketing des commerces de détail et expérience client","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 2112","Recherche marketing","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 2116","Stratégie marketing","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"FIN 2020","Administration financière 2","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"FIN 3120","Éléments d'analyse du crédit productif en microfinance","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"SCO 1060","Fiscalité 1","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"SCO 1065","Fiscalité 2","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"SCO 2205","Présentation et analyse des états financiers","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"SCO 3202","Comptabilité intermédiaire 1","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"SCO 3212","Comptabilité intermédiaire 2","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 1700","Principes de l'assurance de personnes","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 7012","Retraite et planification successorale","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 7014","Approfondissement de la planification successorale","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 7015","Stratégies de sollicitation en planification financière personnelle","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 7030","Activité d'intégration en planification financière","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"DRT 1910","Aspects juridiques pour planificateurs financiers","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"FIN 1932","Fonds d'inverstissement et produits finenciers","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"SCO 1064","Fiscalité 2 pour planificateurs financiers","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 2010","Gestion de la formation et développement des ressources humaines","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 4015","Modèles internationaux de gestion des ressources humaines","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 4020","Gestion du rendement","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"RIN 1008","Introduction aux relations insdustrielles","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"RIN 1011",Dotation,"Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"RIN 1012","Droit et pratique des conventions collectives","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"RIN 1013","Problèmes de santé au travail","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"RIN 1015","Gestion du dossier de santé et de sécurité au travail","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"RIN 1016","Gestion de la rémunération","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"RIN 1017","Les défis de l'intervention préventiveen santé et sécurité au travail","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"RIN 1022","Négociation collective contemporaine","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"RIN 2013","Conciliation emploi-famille et temps de travail","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"RIN 2015","Politiques et pratiques de gestion de la main-d'œuvre vieillissante","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"RIN 4120","Innovation, organisation du travail et gestion des ressources humaines","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"INF 1160","Les réseaux d'entreprise","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"INF 1220","Introduction à la programmation","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"INF 1250","Introduction aux bases de données","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"INF 6400","Gestion de connaissances et informatique","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"MQT 2420","Récherche opérationnelle","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 3007","Initiatives de développement local et d'économie sociale","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ECO 2011","Économie du Québec","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ECO 2015","Économie internationale","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ECO 2021","Économie responsable","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ECO 3003","Économie du travail","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ECO 3004","Formation et compétitivité économique","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ECO 3005","Développement économique et emploi","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 2115","Réaliser un projet d'affaires","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 2021","Marketing international","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"INT 1010","Introduction au développement international","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"INT 2010","Migrations internationales","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"INT 2020","Théories internationales et mondialisation","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"INT 2030","Coopération internationale, gouvernance et développement démocratique","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"COM 1013","Communication et structures organisationnelles","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"COM 3030","La communication interculturelle: une introduction","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"COM 5000","Communication organisationnelle","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"COM 5002","Culture organisationnelle","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"COM 5003","Organisation, pouvoir et communication","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"COM 5022","Communication électronique, et dynamique organisationnelle","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"RPL 2003","Introduction aux relations publiques","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"RPL 2004","Le plan de communication","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"DRT 1062","Gouvernance de l'entreprise et responsabilités juridiques des administrateurs","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"DRT 1080","Droit du travail au Québec","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"EUT 4138","Gestion des événements et congrès","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"EUT 5109","Tourisme urbain","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 4010","Stratégie d'entreprise","Cours avec examen",7364,"Administration (cheminement général bilingue - français/anglais)",Administration
+"ADM 1013","Comportement organisationnel","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 2007","Introduction au marketing","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ECO 1300","Analyse microéconomique","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"DRT 1060","Droit des affaires","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"FIN 1020","Administration financière 1","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 1002","Initiation à la gestion","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ECO 2400","Analyse macroéconomique","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 1420","Gestion des opérations","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"MQT 2001","Statistiques appliquées à la gestion","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 1402","Entreprise et société","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 4007","Analyse stratégique de l'entreprise","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"SCO 2006","Contrôle de gestion","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 3007","Initiatives de développement local et d'économie sociale","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ECO 2011","Économie du Québec","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ECO 3005","Développement économique et emploi","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ECO 3003","Économie du travail","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"RIN 4120","Innovation, organisation du travail et gestion des ressources humaines","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 1012","Le management du changement","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 1404","Travail et société","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 3012","Gestion de la diversité culturelle","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 4015","Modèles internationaux de gestion des ressources humaines","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 4025","Séminaire thématique en gestion de ressources humaines","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"FIN 3120","Éléments d'analyse du crédit productif en microfinance","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"RIN 2013","Conciliation emploi-famille et temps de travail","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 4010","Stratégie d'entreprise","Cours avec examen",6771,"Administration (développement local et économie sociale)",Administration
+"ADM 1013","Comportement organisationnel","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 2007","Introduction au marketing","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ECO 1300","Analyse microéconomique","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"DRT 1060","Droit des affaires","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"FIN 1020","Administration financière 1","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 1002","Initiation à la gestion","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ECO 2400","Analyse macroéconomique","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 1420","Gestion des opérations","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"MQT 2001","Statistiques appliquées à la gestion","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 1402","Entreprise et société","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 4007","Analyse stratégique de l'entreprise","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"SCO 2006","Contrôle de gestion","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 2205","Le système de santé et des services sociaux du Québec","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 2210","Droit et éthique de la santé et des services sociaux","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 2215","La qualité et sa gestion dans les services de santé et services sociaux","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 1012","Le management du changement","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 4020","Gestion du rendement","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"COM 3030","La communication interculturelle: une introduction","Cours avec examen",6773,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"ADM 1013","Comportement organisationnel","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 2007","Introduction au marketing","Cours avec examen",6768,"Administration (management)",Administration
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",6768,"Administration (management)",Administration
+"ECO 1300","Analyse microéconomique","Cours avec examen",6768,"Administration (management)",Administration
+"DRT 1060","Droit des affaires","Cours avec examen",6768,"Administration (management)",Administration
+"FIN 1020","Administration financière 1","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 1002","Initiation à la gestion","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",6768,"Administration (management)",Administration
+"ECO 2400","Analyse macroéconomique","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 1420","Gestion des opérations","Cours avec examen",6768,"Administration (management)",Administration
+"MQT 2001","Statistiques appliquées à la gestion","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 1402","Entreprise et société","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 4007","Analyse stratégique de l'entreprise","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",6768,"Administration (management)",Administration
+"SCO 2006","Contrôle de gestion","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 1012","Le management du changement","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 3012","Gestion de la diversité culturelle","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 1018",Leadership,"Cours avec examen",6768,"Administration (management)",Administration
+"ADM 1404","Travail et société","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 2015","Comportement du consommateur","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 4020","Gestion du rendement","Cours avec examen",6768,"Administration (management)",Administration
+"COM 1013","Communication et structures organisationnelles","Cours avec examen",6768,"Administration (management)",Administration
+"COM 5002","Culture organisationnelle","Cours avec examen",6768,"Administration (management)",Administration
+"COM 5003","Organisation, pouvoir et communication","Cours avec examen",6768,"Administration (management)",Administration
+"RIN 4120","Innovation, organisation du travail et gestion des ressources humaines","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 4010","Stratégie d'entreprise","Cours avec examen",6768,"Administration (management)",Administration
+"ADM 1013","Comportement organisationnel","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 2007","Introduction au marketing","Cours avec examen",6769,"Administration (marketing)",Administration
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",6769,"Administration (marketing)",Administration
+"ECO 1300","Analyse microéconomique","Cours avec examen",6769,"Administration (marketing)",Administration
+"DRT 1060","Droit des affaires","Cours avec examen",6769,"Administration (marketing)",Administration
+"FIN 1020","Administration financière 1","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 1002","Initiation à la gestion","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",6769,"Administration (marketing)",Administration
+"ECO 2400","Analyse macroéconomique","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 1420","Gestion des opérations","Cours avec examen",6769,"Administration (marketing)",Administration
+"MQT 2001","Statistiques appliquées à la gestion","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 1402","Entreprise et société","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 4007","Analyse stratégique de l'entreprise","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",6769,"Administration (marketing)",Administration
+"SCO 2006","Contrôle de gestion","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 2015","Comportement du consommateur","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 2009","Marketing responsable","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 2112","Recherche marketing","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 2116","Stratégie marketing","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 2017","Marketing des commerces de détail et expérience client","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 2013","Publicité et promotion pour les entreprises de services","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 2016","Gestion de la relation de vente","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 2021","Marketing international","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 3012","Gestion de la diversité culturelle","Cours avec examen",6769,"Administration (marketing)",Administration
+"COM 5000","Communication organisationnelle","Cours avec examen",6769,"Administration (marketing)",Administration
+"RPL 2003","Introduction aux relations publiques","Cours avec examen",6769,"Administration (marketing)",Administration
+"RPL 2004","Le plan de communication","Cours avec examen",6769,"Administration (marketing)",Administration
+"ADM 4010","Stratégie d'entreprise","Cours avec examen",6769,"Administration (marketing)",Administration
+"RPL 2003","Introduction aux relations publiques","Cours avec examen",225,"Communication appliquée aux relations publiques",Communication
+"RPL 2004","Le plan de communication","Cours avec examen",225,"Communication appliquée aux relations publiques",Communication
+"RPL 2005","Théories et modèles de pratique en relations publiques","Cours avec examen",225,"Communication appliquée aux relations publiques",Communication
+"RPL 2006","Relations publiques et gestion de crise","Cours avec examen",225,"Communication appliquée aux relations publiques",Communication
+"RPL 2008","Pratiques éthiques en relations publiques","Cours avec examen",225,"Communication appliquée aux relations publiques",Communication
+"COM 3000","Droits et enjeux de la communication","Cours avec examen",768,"Médias, information et rapports sociaux",Communication
+"COM 3028","Éducation aux médias et littérature médiatique","Cours avec examen",768,"Médias, information et rapports sociaux",Communication
+"COM 3000","Droits et enjeux de la communication","Cours avec examen",4381,"Analyse des médias",Communication
+"COM 3028","Éducation aux médias et littérature médiatique","Cours avec examen",4381,"Analyse des médias",Communication
+"COM 1001","Théories de la communication 1","Cours avec examen",4381,"Analyse des médias",Communication
+"COM 2000","Histoire des communications","Cours avec examen",4381,"Analyse des médias",Communication
+"COM 2007","Télécommunications, déréglementation et nouveaux services","Cours avec examen",4381,"Analyse des médias",Communication
+"COM 5000","Communication organisationnelle","Cours avec examen",4379,"Communication organisationnelle",Communication
+"PSY 3010","Psychologie du travail et des organisations","Cours avec examen",4379,"Communication organisationnelle",Communication
+"COM 1013","Communication et structures organisationnelles","Cours avec examen",4379,"Communication organisationnelle",Communication
+"COM 5002","Culture organisationnelle","Cours avec examen",4379,"Communication organisationnelle",Communication
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",4379,"Communication organisationnelle",Communication
+"COM 3000","Droits et enjeux de la communication","Cours avec examen",4379,"Communication organisationnelle",Communication
+"ADM 1002","Initiation à la gestion","Cours avec examen",4379,"Communication organisationnelle",Communication
+"ADM 1012","Le management du changement","Cours avec examen",4379,"Communication organisationnelle",Communication
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",4379,"Communication organisationnelle",Communication
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",4379,"Communication organisationnelle",Communication
+"COM 1021","Techniques d'animation et d'intervention","Cours avec examen",4379,"Communication organisationnelle",Communication
+"COM 5003","Organisation, pouvoir et communication","Cours avec examen",4379,"Communication organisationnelle",Communication
+"COM 5008","Communication et environnements organisationnels","Cours avec examen",4379,"Communication organisationnelle",Communication
+"RPL 2004","Le plan de communication","Cours avec examen",4379,"Communication organisationnelle",Communication
+"RPL 2003","Introduction aux relations publiques","Cours avec examen",4039,"Relations publiques",Communication
+"RPL 2004","Le plan de communication","Cours avec examen",4039,"Relations publiques",Communication
+"RPL 2005","Théories et modèles de pratique en relations publiques","Cours avec examen",4039,"Relations publiques",Communication
+"RPL 2006","Relations publiques et gestion de crise","Cours avec examen",4039,"Relations publiques",Communication
+"RPL 2008","Pratiques éthiques en relations publiques","Cours avec examen",4039,"Relations publiques",Communication
+"ADM 1013","Comportement organisationnel","Cours avec examen",4039,"Relations publiques",Communication
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",4039,"Relations publiques",Communication
+"ADM 2007","Introduction au marketing","Cours avec examen",4039,"Relations publiques",Communication
+"ADM 2013","Publicité et promotion pour les entreprises de services","Cours avec examen",4039,"Relations publiques",Communication
+"COM 1021","Techniques d'animation et d'intervention","Cours avec examen",4039,"Relations publiques",Communication
+"COM 3030","La communication interculturelle: une introduction","Cours avec examen",4039,"Relations publiques",Communication
+"COM 5000","Communication organisationnelle","Cours avec examen",4039,"Relations publiques",Communication
+"COM 5003","Organisation, pouvoir et communication","Cours avec examen",4039,"Relations publiques",Communication
+"EUT 4138","Gestion des événements et congrès","Cours avec examen",4039,"Relations publiques",Communication
+"COM 1000","Introduction à la communication","Cours avec examen",7887,Communication,Communication
+"COM 1001","Théories de la communication 1","Cours avec examen",7887,Communication,Communication
+"COM 3000","Droits et enjeux de la communication","Cours avec examen",7887,Communication,Communication
+"COM 3028","Éducation aux médias et littérature médiatique","Cours avec examen",7887,Communication,Communication
+"COM 5000","Communication organisationnelle","Cours avec examen",7887,Communication,Communication
+"SOC 1014","Méthodologie de la recherche sociale 2","Cours avec examen",7887,Communication,Communication
+"COM 2000","Histoire des communications","Cours avec examen",7887,Communication,Communication
+"COM 2007","Télécommunications, déréglementation et nouveaux services","Cours avec examen",7887,Communication,Communication
+"COM 3030","La communication interculturelle: une introduction","Cours avec examen",7887,Communication,Communication
+"ADM 1002","Initiation à la gestion","Cours avec examen",7887,Communication,Communication
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",7887,Communication,Communication
+"ECO 2011","Économie du Québec","Cours avec examen",7887,Communication,Communication
+"PHI 3009","Introduction à la logique et aux probabilités","Cours avec examen",7887,Communication,Communication
+"PSY 3010","Psychologie du travail et des organisations","Cours avec examen",7887,Communication,Communication
+"SOC 3003","Soociologie des réseaux sociaux","Cours avec examen",7887,Communication,Communication
+"SOC 4002","Sociétés industrielle et postindustrielle","Cours avec examen",7887,Communication,Communication
+"COM 5003","Organisation, pouvoir et communication","Cours avec examen",7887,Communication,Communication
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",7887,Communication,Communication
+"COM 1013","Communication et structures organisationnelles","Cours avec examen",7887,Communication,Communication
+"COM 1021","Techniques d'animation et d'intervention","Cours avec examen",7887,Communication,Communication
+"COM 5002","Culture organisationnelle","Cours avec examen",7887,Communication,Communication
+"COM 5005","Méthodes de planification de la communication organisationnelle","Cours avec examen",7887,Communication,Communication
+"COM 5008","Communication et environnements organisationnels","Cours avec examen",7887,Communication,Communication
+"COM 5022","Communication électronique, et dynamique organisationnelle","Cours avec examen",7887,Communication,Communication
+"RPL 2003","Introduction aux relations publiques","Cours avec examen",7887,Communication,Communication
+"RPL 2004","Le plan de communication","Cours avec examen",7887,Communication,Communication
+"RPL 2006","Relations publiques et gestion de crise","Cours avec examen",7887,Communication,Communication
+"ADM 2007","Introduction au marketing","Cours avec examen",7887,Communication,Communication
+"EUT 4138","Gestion des événements et congrès","Cours avec examen",7887,Communication,Communication
+"RPL 2005","Théories et modèles de pratique en relations publiques","Cours avec examen",7887,Communication,Communication
+"RPL 2008","Pratiques éthiques en relations publiques","Cours avec examen",7887,Communication,Communication
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",374,Comptabilité,Comptabilité
+"SCO 2001","Initiation à la comptabilité ed management","Cours avec examen",374,Comptabilité,Comptabilité
+"SCO 2205","Présentation et analyse des états financiers","Cours avec examen",374,Comptabilité,Comptabilité
+"SCO 3202","Comptabilité intermédiaire 1","Cours avec examen",374,Comptabilité,Comptabilité
+"SCO 3212","Comptabilité intermédiaire 2","Cours avec examen",374,Comptabilité,Comptabilité
+"FIN 1020","Administration financière 1","Cours avec examen",6,"Comptabilité et finance",Comptabilité
+"FIN 2020","Administration financière 2","Cours avec examen",6,"Comptabilité et finance",Comptabilité
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",6,"Comptabilité et finance",Comptabilité
+"SCO 2205","Présentation et analyse des états financiers","Cours avec examen",6,"Comptabilité et finance",Comptabilité
+"SCO 6900","Séminaire en information financière","Cours avec examen",674,"Sciences comptables",Comptabilité
+"SCO 6901","Séminaire en comptabilité de management et gestion de performance","Cours avec examen",674,"Sciences comptables",Comptabilité
+"SCO 6903","Séminaire en compatbilité et décisions financières","Cours avec examen",674,"Sciences comptables",Comptabilité
+"SCO 6904","Séminaire en certification","Cours avec examen",674,"Sciences comptables",Comptabilité
+"SCO 6908","Séminaire en fiscalité","Cours avec examen",674,"Sciences comptables",Comptabilité
+"SCO 6910","Module 1 en information financière","Cours avec examen",4445," Préparation CPA",Comptabilité
+"SCO 6911","Module 1 en  comptabilité de management","Cours avec examen",4445,"Préparation CPA",Comptabilité
+"SCO 6913","Module 1 en comptabilité des décisions financières","Cours avec examen",4445,"Préparation CPA",Comptabilité
+"SCO 6914","Module 1 en certification","Cours avec examen",4445,"Préparation CPA",Comptabilité
+"SCO 6918","Module 1 en fiscalité","Cours avec examen",4445,"Préparation CPA",Comptabilité
+"SCO 6920","Module 2 en information financière","Cours avec examen",4445,"Préparation CPA",Comptabilité
+"SCO 6921","Module 2 en  comptabilité de management","Cours avec examen",4445,"Préparation CPA",Comptabilité
+"SCO 6924","Module 2 en certification","Cours avec examen",4445,"Préparation CPA",Comptabilité
+"SCO 6928","Module 2 en fiscalité","Cours avec examen",4445,"Préparation CPA",Comptabilité
+"SCO 6930","Module 3 en information financière","Cours avec examen",4445,"Préparation CPA",Comptabilité
+"ADM 1002","Initiation à la gestion","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"DRT 1060","Droit des affaires","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"FIN 1020","Administration financière 1","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"SCO 1060","Fiscalité 1","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"SCO 2001","Initiation à la comptabilité ed management","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"SCO 2205","Présentation et analyse des états financiers","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"ADM 1013","Comportement organisationnel","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"ADM 2007","Introduction au marketing","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"DRT 1062","Gouvernance de l'entreprise et responsabilités juridiques des administrateurs","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"ECO 1300","Analyse microéconomique","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"ECO 2400","Analyse macroéconomique","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"FIN 2020","Administration financière 2","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"MQT 2001","Statistiques appliquées à la gestion","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"SCO 1065","Fiscalité 2","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"SCO 3001","Comptabilité de management et contr[ole ","Cours avec examen",4227,"Comptabilité générale","Comptabilité "
+"FIN 2022","Analyse financière et gestion du fonds de roulement","Cours avec examen",4138,"Sciences comptables","Comptabilité "
+"SCO 1065","Fiscalité 2","Cours avec examen",4138,"Sciences comptables","Comptabilité "
+"SCO 3001","Comptabilité de management et contr[ole ","Cours avec examen",4138,"Sciences comptables","Comptabilité "
+"SCO 3202","Comptabilité intermédiaire 1","Cours avec examen",4138,"Sciences comptables","Comptabilité "
+"SCO 3212","Comptabilité intermédiaire 2","Cours avec examen",4138,"Sciences comptables","Comptabilité "
+"SCO 3214","Gouvernance d'entreprise: aspects comptables et financiers","Cours avec examen",4138,"Sciences comptables","Comptabilité "
+"SCO 4001","Certification et éthique professionnelle","Cours avec examen",4138,"Sciences comptables","Comptabilité "
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",4138,"Sciences comptables","Comptabilité "
+"ADM 4007","Analyse stratégique de l'entreprise","Cours avec examen",4138,"Sciences comptables","Comptabilité "
+"ECO 1300","Analyse microéconomique","Cours avec examen",4138,"Sciences comptables","Comptabilité "
+"ECO 2400","Analyse macroéconomique","Cours avec examen",4138,"Sciences comptables","Comptabilité "
+"FIN 1932","Fonds d'inverstissement et produits finenciers","Cours avec examen",4138,"Sciences comptables","Comptabilité "
+"FIN 1936","Valeurs mobilières et gestion de portefeuille","Cours avec examen",4138,"Sciences comptables","Comptabilité "
+"FIN 2020","Administration financière 2","Cours avec examen",4138,"Sciences comptables","Comptabilité "
+"ADM 1013","Comportement organisationnel","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"ADM 2007","Introduction au marketing","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"ECO 1300","Analyse microéconomique","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"DRT 1060","Droit des affaires","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"FIN 1020","Administration financière 1","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"ADM 1002","Initiation à la gestion","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"ECO 2400","Analyse macroéconomique","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"ADM 1420","Gestion des opérations","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"MQT 2001","Statistiques appliquées à la gestion","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"ADM 1402","Entreprise et société","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"ADM 4007","Analyse stratégique de l'entreprise","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"FIN 1936","Valeurs mobilières et gestion de portefeuille","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"FIN 2020","Administration financière 2","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"FIN 2022","Analyse financière et gestion du fonds de roulement","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"FIN 3120","Éléments d'analyse du crédit productif en microfinance","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"SCO 1060","Fiscalité 1","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"SCO 2001","Initiation à la comptabilité ed management","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"SCO 3001","Comptabilité de management et contr[ole ","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"SCO 3202","Comptabilité intermédiaire 1","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"SCO 3212","Comptabilité intermédiaire 2","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"SCO 3214","Gouvernance d'entreprise: aspects comptables et financiers","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"DRT 1062","Gouvernance de l'entreprise et responsabilités juridiques des administrateurs","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"ECO 2011","Économie du Québec","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"FIN 1932","Fonds d'inverstissement et produits finenciers","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"SCO 1065","Fiscalité 2","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"SCO 2205","Présentation et analyse des états financiers","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"SCO 4001","Certification et éthique professionnelle","Cours avec examen",6774,"Administration (comptabilité et finance)","Comptabilité "
+"DRT 1060","Droit des affaires","Cours avec examen",9007,"Droit et gouvernance de l'entreprise",Droit
+"DRT 1062","Gouvernance de l'entreprise et responsabilités juridiques des administrateurs","Cours avec examen",9007,"Droit et gouvernance de l'entreprise",Droit
+"DRT 1080","Droit du travail au Québec","Cours avec examen",9007,"Droit et gouvernance de l'entreprise",Droit
+"DRT 1910","Aspects juridiques pour planificateurs financiers","Cours avec examen",9007,"Droit et gouvernance de l'entreprise",Droit
+"ECO 1300","Analyse microéconomique","Cours avec examen",979,Économie,Économie
+"ECO 2400","Analyse macroéconomique","Cours avec examen",979,Économie,Économie
+"ECO 2011","Économie du Québec","Cours avec examen",979,Économie,Économie
+"ECO 2015","Économie internationale","Cours avec examen",979,Économie,Économie
+"ECO 2021","Économie responsable","Cours avec examen",979,Économie,Économie
+"ECO 1300","Analyse microéconomique","Cours avec examen",4013,Économie,Économie
+"ECO 2400","Analyse macroéconomique","Cours avec examen",4013,Économie,Économie
+"ECO 2011","Économie du Québec","Cours avec examen",4013,Économie,Économie
+"ECO 2015","Économie internationale","Cours avec examen",4013,Économie,Économie
+"ECO 2021","Économie responsable","Cours avec examen",4013,Économie,Économie
+"FIN 3120","Éléments d'analyse du crédit productif en microfinance","Cours avec examen",4013,Économie,Économie
+"INT 1010","Introduction au développement international","Cours avec examen",4013,Économie,Économie
+"INT 2020","Théories internationales et mondialisation","Cours avec examen",4013,Économie,Économie
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",4013,Économie,Économie
+"DRT 1062","Gouvernance de l'entreprise et responsabilités juridiques des administrateurs","Cours avec examen",4013,Économie,Économie
+"FIN 1932","Fonds d'inverstissement et produits finenciers","Cours avec examen",4013,Économie,Économie
+"ADM 1013","Comportement organisationnel","Cours avec examen",6775,"Administration (économie)",Économie
+"ADM 2007","Introduction au marketing","Cours avec examen",6775,"Administration (économie)",Économie
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",6775,"Administration (économie)",Économie
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",6775,"Administration (économie)",Économie
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",6775,"Administration (économie)",Économie
+"ECO 1300","Analyse microéconomique","Cours avec examen",6775,"Administration (économie)",Économie
+"DRT 1060","Droit des affaires","Cours avec examen",6775,"Administration (économie)",Économie
+"FIN 1020","Administration financière 1","Cours avec examen",6775,"Administration (économie)",Économie
+"ADM 1002","Initiation à la gestion","Cours avec examen",6775,"Administration (économie)",Économie
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",6775,"Administration (économie)",Économie
+"ECO 2400","Analyse macroéconomique","Cours avec examen",6775,"Administration (économie)",Économie
+"ADM 1420","Gestion des opérations","Cours avec examen",6775,"Administration (économie)",Économie
+"MQT 2001","Statistiques appliquées à la gestion","Cours avec examen",6775,"Administration (économie)",Économie
+"ADM 1402","Entreprise et société","Cours avec examen",6775,"Administration (économie)",Économie
+"ADM 4007","Analyse stratégique de l'entreprise","Cours avec examen",6775,"Administration (économie)",Économie
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",6775,"Administration (économie)",Économie
+"ECO 2011","Économie du Québec","Cours avec examen",6775,"Administration (économie)",Économie
+"ECO 2015","Économie internationale","Cours avec examen",6775,"Administration (économie)",Économie
+"ECO 2021","Économie responsable","Cours avec examen",6775,"Administration (économie)",Économie
+"ECO 3003","Économie du travail","Cours avec examen",6775,"Administration (économie)",Économie
+"SCO 1060","Fiscalité 1","Cours avec examen",6775,"Administration (économie)",Économie
+"ADM 1012","Le management du changement","Cours avec examen",6775,"Administration (économie)",Économie
+"SCO 2205","Présentation et analyse des états financiers","Cours avec examen",6775,"Administration (économie)",Économie
+"ADM 3012","Gestion de la diversité culturelle","Cours avec examen",6775,"Administration (économie)",Économie
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",6775,"Administration (économie)",Économie
+"INT 2020","Théories internationales et mondialisation","Cours avec examen",6775,"Administration (économie)",Économie
+"ADM 2015","Comportement du consommateur","Cours avec examen",6775,"Administration (économie)",Économie
+"SCI 1018","Statistiques avec R","Cours avec examen",6775,"Administration (économie)",Économie
+"FIN 1932","Fonds d'inverstissement et produits finenciers","Cours avec examen",6775,"Administration (économie)",Économie
+"FIN 1936","Valeurs mobilières et gestion de portefeuille","Cours avec examen",6775,"Administration (économie)",Économie
+"ADM 4010","Stratégie d'entreprise","Cours avec examen",6775,"Administration (économie)",Économie
+"COM 3028","Éducation aux médias et littérature médiatique","Cours avec examen",9019,"Enseigner et apprendre avec le numérique",Éducation
+"ECO 3004","Formation et compétitivité économique","Cours avec examen",6394,"Éducation avec majeure(s)",Éducation
+"INF 6400","Gestion de connaissances et informatique","Cours avec examen",6394,"Éducation avec majeure(s)",Éducation
+"COM 1021","Techniques d'animation et d'intervention","Cours avec examen",6394,"Éducation avec majeure(s)",Éducation
+"COM 3030","La communication interculturelle: une introduction","Cours avec examen",6394,"Éducation avec majeure(s)",Éducation
+"COM 5003","Organisation, pouvoir et communication","Cours avec examen",6394,"Éducation avec majeure(s)",Éducation
+"PSY 3010","Psychologie du travail et des organisations","Cours avec examen",6394,"Éducation avec majeure(s)",Éducation
+"PSY 3005","Psychologie sociale","Cours avec examen",6394,"Éducation avec majeure(s)",Éducation
+"RIN 2013","Conciliation emploi-famille et temps de travail","Cours avec examen",6394,"Éducation avec majeure(s)",Éducation
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",6394,"Éducation avec majeure(s)",Éducation
+"ADM 2011","Administration marketing","Cours avec examen",470,Entrepreneuriat,Entrepreneuriat
+"ADM 2115","Réaliser un projet d'affaires","Cours avec examen",470,Entrepreneuriat,Entrepreneuriat
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",470,Entrepreneuriat,Entrepreneuriat
+"ADM 2115","Réaliser un projet d'affaires","Cours avec examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 4007","Analyse stratégique de l'entreprise","Cours avec examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 4007A","Simulation NaviSim","Cours avec examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 2011","Administration marketing","Cours avec examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 2021","Marketing international","Cours avec examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"FIN 2022","Analyse financière et gestion du fonds de roulement","Cours avec examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"FIN 3120","Éléments d'analyse du crédit productif en microfinance","Cours avec examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 3007","Initiatives de développement local et d'économie sociale","Cours avec examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ECO 2021","Économie responsable","Cours avec examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"INT 2030","Coopération internationale, gouvernance et développement démocratique","Cours avec examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 7015","Stratégies de sollicitation en planification financière personnelle","Cours avec examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ECO 3005","Développement économique et emploi","Cours avec examen",4089,"Compétences entrepreneuriales et gestion des PME/PMO",Entrepreneuriat
+"ADM 1013","Comportement organisationnel","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 2007","Introduction au marketing","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ECO 1300","Analyse microéconomique","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"DRT 1060","Droit des affaires","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"FIN 1020","Administration financière 1","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 1002","Initiation à la gestion","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ECO 2400","Analyse macroéconomique","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 1420","Gestion des opérations","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"MQT 2001","Statistiques appliquées à la gestion","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 1402","Entreprise et société","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 4007","Analyse stratégique de l'entreprise","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"SCO 2006","Contrôle de gestion","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 2115","Réaliser un projet d'affaires","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 2011","Administration marketing","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 2021","Marketing international","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 3007","Initiatives de développement local et d'économie sociale","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 7015","Stratégies de sollicitation en planification financière personnelle","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ECO 3005","Développement économique et emploi","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"FIN 2022","Analyse financière et gestion du fonds de roulement","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"FIN 3120","Éléments d'analyse du crédit productif en microfinance","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"INT 2030","Coopération internationale, gouvernance et développement démocratique","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ADM 4010","Stratégie d'entreprise","Cours avec examen",6772,"Administration (entrepreneuriat)",Entrepreneuriat
+"ENV 2010","Gestion des ressources: faune et habitat","Cours avec examen",265,"Gestion des ressources fauniques",Environnement
+"ENV 3111","Gestion environnementale des ressources forestières","Cours avec examen",265,"Gestion des ressources fauniques",Environnement
+"ENV 1101","Introduction à la gestion des ressources naturelles","Cours avec examen",4390,"Sciences de l'environnement",Environnement
+"ENV 2010","Gestion des ressources: faune et habitat","Cours avec examen",4390,"Sciences de l'environnement",Environnement
+"ENV 3013",Écotoxicologie,"Cours avec examen",4390,"Sciences de l'environnement",Environnement
+"ENV 3022","Gestion environnementale du milieu urbain","Cours avec examen",4390,"Sciences de l'environnement",Environnement
+"ENV 3111","Gestion environnementale des ressources forestières","Cours avec examen",4390,"Sciences de l'environnement",Environnement
+"ENV 3114","Agroforesterie et développement durable","Cours avec examen",4390,"Sciences de l'environnement",Environnement
+"ENV 4014","Technologies d'assainissement et prévention de la pollution","Cours avec examen",4390,"Sciences de l'environnement",Environnement
+"ENV 4016","Améganement du territoire et environnement","Cours avec examen",4390,"Sciences de l'environnement",Environnement
+"GEO 1001","Introduction à la géographie physique","Cours avec examen",4390,"Sciences de l'environnement",Environnement
+"SCI 1018","Statistiques avec R","Cours avec examen",4390,"Sciences de l'environnement",Environnement
+"ENV 1101","Introduction à la gestion des ressources naturelles","Cours avec examen",6004,"Sciences de l'environnement",Environnement
+"SCI 1018","Statistiques avec R","Cours avec examen",6004,"Sciences de l'environnement",Environnement
+"ENV 2010","Gestion des ressources: faune et habitat","Cours avec examen",6004,"Sciences de l'environnement",Environnement
+"ENV 3013",Écotoxicologie,"Cours avec examen",6004,"Sciences de l'environnement",Environnement
+"ENV 3022","Gestion environnementale du milieu urbain","Cours avec examen",6004,"Sciences de l'environnement",Environnement
+"ENV 3111","Gestion environnementale des ressources forestières","Cours avec examen",6004,"Sciences de l'environnement",Environnement
+"ENV 3114","Agroforesterie et développement durable","Cours avec examen",6004,"Sciences de l'environnement",Environnement
+"ENV 4014","Technologies d'assainissement et prévention de la pollution","Cours avec examen",6004,"Sciences de l'environnement",Environnement
+"ENV 4016","Améganement du territoire et environnement","Cours avec examen",6004,"Sciences de l'environnement",Environnement
+"GEO 1001","Introduction à la géographie physique","Cours avec examen",6004,"Sciences de l'environnement",Environnement
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",6004,"Sciences de l'environnement",Environnement
+"COM 1021","Techniques d'animation et d'intervention","Cours avec examen",6004,"Sciences de l'environnement",Environnement
+"COM 5000","Communication organisationnelle","Cours avec examen",6004,"Sciences de l'environnement",Environnement
+"ADM 1700","Principes de l'assurance de personnes","Cours avec examen",4731,"Planification financière(cheminement général)",Finance
+"ADM 7012","Retraite et planification successorale","Cours avec examen",4731,"Planification financière(cheminement général)",Finance
+"ADM 7014","Approfondissement de la planification successorale","Cours avec examen",4731,"Planification financière(cheminement général)",Finance
+"ADM 7030","Activité d'intégration en planification financière","Cours avec examen",4731,"Planification financière(cheminement général)",Finance
+"DRT 1910","Aspects juridiques pour planificateurs financiers","Cours avec examen",4731,"Planification financière(cheminement général)",Finance
+"FIN 1932","Fonds d'inverstissement et produits finenciers","Cours avec examen",4731,"Planification financière(cheminement général)",Finance
+"SCO 1060","Fiscalité 1","Cours avec examen",4731,"Planification financière(cheminement général)",Finance
+"SCO 1064","Fiscalité 2 pour planificateurs financiers","Cours avec examen",4731,"Planification financière(cheminement général)",Finance
+"ADM 7015","Stratégies de sollicitation en planification financière personnelle","Cours avec examen",4731,"Planification financière(cheminement général)",Finance
+"ECO 2400","Analyse macroéconomique","Cours avec examen",4731,"Planification financière(cheminement général)",Finance
+"FIN 1020","Administration financière 1","Cours avec examen",4731,"Planification financière(cheminement général)",Finance
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",4731,"Planification financière(cheminement général)",Finance
+"ADM 1700","Principes de l'assurance de personnes","Cours avec examen",4751,"Planification financière (cheminement Mouvement Desjardins)",Finance
+"ADM 7012","Retraite et planification successorale","Cours avec examen",4751,"Planification financière (cheminement Mouvement Desjardins)",Finance
+"ADM 7014","Approfondissement de la planification successorale","Cours avec examen",4751,"Planification financière (cheminement Mouvement Desjardins)",Finance
+"ADM 7030","Activité d'intégration en planification financière","Cours avec examen",4751,"Planification financière (cheminement Mouvement Desjardins)",Finance
+"DRT 1910","Aspects juridiques pour planificateurs financiers","Cours avec examen",4751,"Planification financière (cheminement Mouvement Desjardins)",Finance
+"FIN 1932","Fonds d'inverstissement et produits finenciers","Cours avec examen",4751,"Planification financière (cheminement Mouvement Desjardins)",Finance
+"SCO 1060","Fiscalité 1","Cours avec examen",4751,"Planification financière (cheminement Mouvement Desjardins)",Finance
+"SCO 1064","Fiscalité 2 pour planificateurs financiers","Cours avec examen",4751,"Planification financière (cheminement Mouvement Desjardins)",Finance
+"ADM 7015","Stratégies de sollicitation en planification financière personnelle","Cours avec examen",4751,"Planification financière (cheminement Mouvement Desjardins)",Finance
+"ECO 2400","Analyse macroéconomique","Cours avec examen",4751,"Planification financière (cheminement Mouvement Desjardins)",Finance
+"FIN 1020","Administration financière 1","Cours avec examen",4751,"Planification financière (cheminement Mouvement Desjardins)",Finance
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",4751,"Planification financière (cheminement Mouvement Desjardins)",Finance
+"ADM 1013","Comportement organisationnel","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"ADM 2007","Introduction au marketing","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"ECO 1300","Analyse microéconomique","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"DRT 1060","Droit des affaires","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"FIN 1020","Administration financière 1","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"ADM 1002","Initiation à la gestion","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"ECO 2400","Analyse macroéconomique","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"ADM 1420","Gestion des opérations","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"MQT 2001","Statistiques appliquées à la gestion","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"ADM 1402","Entreprise et société","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"ADM 4007","Analyse stratégique de l'entreprise","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"FIN 1936","Valeurs mobilières et gestion de portefeuille","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"FIN 2020","Administration financière 2","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"FIN 2022","Analyse financière et gestion du fonds de roulement","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"FIN 3120","Éléments d'analyse du crédit productif en microfinance","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"SCO 1060","Fiscalité 1","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"SCO 2001","Initiation à la comptabilité ed management","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"SCO 3001","Comptabilité de management et contr[ole ","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"SCO 3202","Comptabilité intermédiaire 1","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"SCO 3212","Comptabilité intermédiaire 2","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"SCO 3214","Gouvernance d'entreprise: aspects comptables et financiers","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"ADM 1450","Initiation à la gestion de projets","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"DRT 1062","Gouvernance de l'entreprise et responsabilités juridiques des administrateurs","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"ECO 2011","Économie du Québec","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"FIN 1932","Fonds d'inverstissement et produits finenciers","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"SCO 1065","Fiscalité 2","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"SCO 2205","Présentation et analyse des états financiers","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"SCO 4001","Certification et éthique professionnelle","Cours avec examen",6774,"Administration (comptabilité et finance)",Finance
+"ADM 1013","Comportement organisationnel","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ADM 2007","Introduction au marketing","Cours avec examen",6770,"Administration (planification financière)",Finance
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ECO 1300","Analyse microéconomique","Cours avec examen",6770,"Administration (planification financière)",Finance
+"DRT 1060","Droit des affaires","Cours avec examen",6770,"Administration (planification financière)",Finance
+"FIN 1020","Administration financière 1","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ADM 1002","Initiation à la gestion","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ECO 2400","Analyse macroéconomique","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ADM 1420","Gestion des opérations","Cours avec examen",6770,"Administration (planification financière)",Finance
+"MQT 2001","Statistiques appliquées à la gestion","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ADM 1402","Entreprise et société","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ADM 4007","Analyse stratégique de l'entreprise","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ADM 1700","Principes de l'assurance de personnes","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ADM 7012","Retraite et planification successorale","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ADM 7014","Approfondissement de la planification successorale","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ADM 7015","Stratégies de sollicitation en planification financière personnelle","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ADM 7030","Activité d'intégration en planification financière","Cours avec examen",6770,"Administration (planification financière)",Finance
+"DRT 1910","Aspects juridiques pour planificateurs financiers","Cours avec examen",6770,"Administration (planification financière)",Finance
+"FIN 1932","Fonds d'inverstissement et produits finenciers","Cours avec examen",6770,"Administration (planification financière)",Finance
+"SCO 1060","Fiscalité 1","Cours avec examen",6770,"Administration (planification financière)",Finance
+"SCO 1064","Fiscalité 2 pour planificateurs financiers","Cours avec examen",6770,"Administration (planification financière)",Finance
+"FIN 1936","Valeurs mobilières et gestion de portefeuille","Cours avec examen",6770,"Administration (planification financière)",Finance
+"FIN 2020","Administration financière 2","Cours avec examen",6770,"Administration (planification financière)",Finance
+"FIN 2022","Analyse financière et gestion du fonds de roulement","Cours avec examen",6770,"Administration (planification financière)",Finance
+"SCO 2205","Présentation et analyse des états financiers","Cours avec examen",6770,"Administration (planification financière)",Finance
+"ADM 4010","Stratégie d'entreprise","Cours avec examen",6770,"Administration (planification financière)",Finance
+"FIN 6100","Fondements théoriques de la finance","Cours avec examen",3116,"Finance d'entreprise",Finance
+"FIN 6103","Aspects juridiques de la finance d'entreprise","Cours avec examen",3116,"Finance d'entreprise",Finance
+"FIN 6105","Diagnostic financier","Cours avec examen",3116,"Finance d'entreprise",Finance
+"FIN 6111","Analyse des investissements","Cours avec examen",3116,"Finance d'entreprise",Finance
+"FIN 6215","Environnement financier","Cours avec examen",3116,"Finance d'entreprise",Finance
+"FIN 6235","Décisions et sources de financement des entreprises","Cours avec examen",3116,"Finance d'entreprise",Finance
+"FIN 6308","Gestion de la performance et du risque","Cours avec examen",3116,"Finance d'entreprise",Finance
+"FIN 6312","Gestion des risques financiers","Cours avec examen",3116,"Finance d'entreprise",Finance
+"ADM 3012","Gestion de la diversité culturelle","Cours avec examen",629,"Gestion de la diversité","Gestion des ressources  humaines et relations de travail"
+"ADM 4015","Modèles internationaux de gestion des ressources humaines","Cours avec examen",629,"Gestion de la diversité","Gestion des ressources  humaines et relations de travail"
+"ECO 3003","Économie du travail","Cours avec examen",629,"Gestion de la diversité","Gestion des ressources  humaines et relations de travail"
+"ECO 3005","Développement économique et emploi","Cours avec examen",629,"Gestion de la diversité","Gestion des ressources  humaines et relations de travail"
+"RIN 1025","Équité en emploi/Équité salariale","Cours avec examen",629,"Gestion de la diversité","Gestion des ressources  humaines et relations de travail"
+"RIN 2013","Conciliation emploi-famille et temps de travail","Cours avec examen",629,"Gestion de la diversité","Gestion des ressources  humaines et relations de travail"
+"RIN 2015","Politiques et pratiques de gestion de la main-d'œuvre vieillissante","Cours avec examen",629,"Gestion de la diversité","Gestion des ressources  humaines et relations de travail"
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 4015","Modèles internationaux de gestion des ressources humaines","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 1013","Comportement organisationnel","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 4025","Séminaire thématique en gestion de ressources humaines","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 1404","Travail et société","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 2010","Gestion de la formation et développement des ressources humaines","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 3012","Gestion de la diversité culturelle","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"DRT 1080","Droit du travail au Québec","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ECO 3003","Économie du travail","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ECO 3004","Formation et compétitivité économique","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ECO 3005","Développement économique et emploi","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 1011",Dotation,"Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 1012","Droit et pratique des conventions collectives","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 1016","Gestion de la rémunération","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 1022","Négociation collective contemporaine","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 2013","Conciliation emploi-famille et temps de travail","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 2015","Politiques et pratiques de gestion de la main-d'œuvre vieillissante","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 4120","Innovation, organisation du travail et gestion des ressources humaines","Cours avec examen",564,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 1002","Initiation à la gestion","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 1013","Comportement organisationnel","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 4015","Modèles internationaux de gestion des ressources humaines","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 4025","Séminaire thématique en gestion de ressources humaines","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"DRT 1080","Droit du travail au Québec","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 1016","Gestion de la rémunération","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 2013","Conciliation emploi-famille et temps de travail","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 1404","Travail et société","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 2010","Gestion de la formation et développement des ressources humaines","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 3012","Gestion de la diversité culturelle","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 4020","Gestion du rendement","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ECO 3004","Formation et compétitivité économique","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ECO 3005","Développement économique et emploi","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 1011",Dotation,"Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 1012","Droit et pratique des conventions collectives","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 1013","Problèmes de santé au travail","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 1014","Problèmes de sécurité au travail","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 1015","Gestion du dossier de santé et de sécurité au travail","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 1025","Équité en emploi/Équité salariale","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 2015","Politiques et pratiques de gestion de la main-d'œuvre vieillissante","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"RIN 4120","Innovation, organisation du travail et gestion des ressources humaines","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"ADM 1002","Initiation à la gestion","Cours avec examen",4209,"Gestion des ressources humaines","Gestion des ressources  humaines et relations de travail"
+"DRT 1080","Droit du travail au Québec","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"ECO 3003","Économie du travail","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"RIN 1012","Droit et pratique des conventions collectives","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"RIN 1022","Négociation collective contemporaine","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"RIN 1024","Arbitrage des griefs","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"ADM 1013","Comportement organisationnel","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"ADM 1404","Travail et société","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"RIN 1011",Dotation,"Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"RIN 1016","Gestion de la rémunération","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"RIN 2015","Politiques et pratiques de gestion de la main-d'œuvre vieillissante","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"ADM 4025","Séminaire thématique en gestion de ressources humaines","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"ECO 3005","Développement économique et emploi","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"RIN 1025","Équité en emploi/Équité salariale","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"RIN 2013","Conciliation emploi-famille et temps de travail","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"RIN 1013","Problèmes de santé au travail","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"RIN 1014","Problèmes de sécurité au travail","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"RIN 1015","Gestion du dossier de santé et de sécurité au travail","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"RIN 1017","Les défis de l'intervention préventiveen santé et sécurité au travail","Cours avec examen",4099,"Relations du travail","Gestion des ressources  humaines et relations de travail"
+"ADM 1013","Comportement organisationnel","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 2007","Introduction au marketing","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"SCO 1205","Initiation à la comptabilité financière","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 1015","Gestion des ressources humaines","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ECO 1300","Analyse microéconomique","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"DRT 1060","Droit des affaires","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"FIN 1020","Administration financière 1","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 1002","Initiation à la gestion","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 3011","Éthique et responsabilité sociale des entreprises","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ECO 2400","Analyse macroéconomique","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 1420","Gestion des opérations","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"MQT 2001","Statistiques appliquées à la gestion","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 1402","Entreprise et société","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 4007","Analyse stratégique de l'entreprise","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 2010","Gestion de la formation et développement des ressources humaines","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 4015","Modèles internationaux de gestion des ressources humaines","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"DRT 1080","Droit du travail au Québec","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ECO 3003","Économie du travail","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"RIN 1008","Introduction aux relations insdustrielles","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"RIN 1011",Dotation,"Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"RIN 1015","Gestion du dossier de santé et de sécurité au travail","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"RIN 1016","Gestion de la rémunération","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"RIN 1025","Équité en emploi/Équité salariale","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"RIN 2013","Conciliation emploi-famille et temps de travail","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"RIN 2015","Politiques et pratiques de gestion de la main-d'œuvre vieillissante","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 1404","Travail et société","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 3012","Gestion de la diversité culturelle","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 4020","Gestion du rendement","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 4025","Séminaire thématique en gestion de ressources humaines","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ECO 3004","Formation et compétitivité économique","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ECO 3005","Développement économique et emploi","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"RIN 1014","Problèmes de sécurité au travail","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"RIN 1022","Négociation collective contemporaine","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"RIN 1024","Arbitrage des griefs","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"RIN 4120","Innovation, organisation du travail et gestion des ressources humaines","Cours avec examen",7564,"Administration (gestion des ressources humaines)","Gestion des ressources  humaines et relations de travail"
+"ADM 6020","Stratégies en affaires électroniques","Cours avec examen",9362,"Gestion de la transformation numérique","Gestion des technologies de l'information"
+"ADM 6040","Gestion stratégique des technologies de l'information","Cours avec examen",9362,"Gestion de la transformation numérique","Gestion des technologies de l'information"
+"ADM 6040","Gestion stratégique des technologies de l'information","Cours avec examen",589,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6042","Les systèmes de l'information et la gestion organisationnelle","Cours avec examen",589,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6044","Gestion de projet en technologie de l'information","Cours avec examen",589,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6046","Gestion de la sécurité des technologies de l'information","Cours avec examen",589,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6020","Stratégies en affaires électroniques","Cours avec examen",589,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6048","Impartition des technologies de l'information","Cours avec examen",589,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6050","Analytique d'affaires","Cours avec examen",589,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6020","Stratégies en affaires électroniques","Cours avec examen",1910,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6040","Gestion stratégique des technologies de l'information","Cours avec examen",1910,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6042","Les systèmes de l'information et la gestion organisationnelle","Cours avec examen",1910,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6044","Gestion de projet en technologie de l'information","Cours avec examen",1910,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6046","Gestion de la sécurité des technologies de l'information","Cours avec examen",1910,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",1910,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6048","Impartition des technologies de l'information","Cours avec examen",1910,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6050","Analytique d'affaires","Cours avec examen",1910,"Gouvernance des technologies de l'information","Gestion des technologies de l'information"
+"ADM 6020","Stratégies en affaires électroniques","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"ADM 6040","Gestion stratégique des technologies de l'information","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"ADM 6042","Les systèmes de l'information et la gestion organisationnelle","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"ADM 6044","Gestion de projet en technologie de l'information","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"ADM 6046","Gestion de la sécurité des technologies de l'information","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"ADM 6048","Impartition des technologies de l'information","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"ADM 6050","Analytique d'affaires","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"INF 6104","Recherche d'informations et web","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"INF 6408","Informatique de l'analyse multidimensionnelle","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Gestion des technologies de l'information"
+"ADM 6020","Stratégies en affaires électroniques","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"ADM 6040","Gestion stratégique des technologies de l'information","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"ADM 6042","Les systèmes de l'information et la gestion organisationnelle","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"ADM 6044","Gestion de projet en technologie de l'information","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"ADM 6046","Gestion de la sécurité des technologies de l'information","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"ADM 6048","Impartition des technologies de l'information","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"ADM 6050","Analytique d'affaires","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"INF 6104","Recherche d'informations et web","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"INF 6408","Informatique de l'analyse multidimensionnelle","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Gestion des technologies de l'information"
+"INF 1220","Introduction à la programmation","Cours avec examen",127,"Développement de logiciels","Informatique et technologies de l'information"
+"INF 1250","Introduction aux bases de données","Cours avec examen",127,"Développement de logiciels","Informatique et technologies de l'information"
+"INF 1420","Interfaces humain-machine","Cours avec examen",127,"Développement de logiciels","Informatique et technologies de l'information"
+"INF 6450","Gestion de l'information avec XML","Cours avec examen",127,"Développement de logiciels","Informatique et technologies de l'information"
+"SCI 1016","Introduction à la science des données","Cours avec examen",865,"Science des données","Informatique et technologies de l'information"
+"SCI 1018","Statistiques avec R","Cours avec examen",865,"Science des données","Informatique et technologies de l'information"
+"INF 1421","Apprentissage machine","Cours avec examen",865,"Science des données","Informatique et technologies de l'information"
+"INF 9004","Informatique des entrepôts de données","Cours avec examen",865,"Science des données","Informatique et technologies de l'information"
+"INF 1220","Introduction à la programmation","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"INF 1250","Introduction aux bases de données","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"INF 1425","Algorithmique et structures de données","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"INF 6460","Recherche et filtrage d'informations","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"INF 9004","Informatique des entrepôts de données","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"SCI 1016","Introduction à la science des données","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"SCI 1018","Statistiques avec R","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"INF 1421","Apprentissage machine","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"INF 1426","Traitement d'images","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"INF 1420","Interfaces humain-machine","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"INF 2005","Programmation orientée objet avec C++","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"INF 6450","Gestion de l'information avec XML","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"INF 1160","Les réseaux d'entreprise","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"INF 1165","Réseaux et sécurité informatique","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"INF 1427","Architecture des ordinateurs","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",4128,"Informatique appliquée","Informatique et technologies de l'information"
+"INF 1421","Apprentissage machine","Cours avec examen",4865,"Science des données","Informatique et technologies de l'information"
+"SCI 1016","Introduction à la science des données","Cours avec examen",4865,"Science des données","Informatique et technologies de l'information"
+"SCI 1018","Statistiques avec R","Cours avec examen",4865,"Science des données","Informatique et technologies de l'information"
+"INF 1220","Introduction à la programmation","Cours avec examen",4865,"Science des données","Informatique et technologies de l'information"
+"INF 1250","Introduction aux bases de données","Cours avec examen",4865,"Science des données","Informatique et technologies de l'information"
+"INF 6460","Recherche et filtrage d'informations","Cours avec examen",4865,"Science des données","Informatique et technologies de l'information"
+"INF 9004","Informatique des entrepôts de données","Cours avec examen",4865,"Science des données","Informatique et technologies de l'information"
+"SCI 1031","Visualisation et analyse de données spatiales avec R","Cours avec examen",4865,"Science des données","Informatique et technologies de l'information"
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",4865,"Science des données","Informatique et technologies de l'information"
+"INF 1220","Introduction à la programmation","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"INF 1250","Introduction aux bases de données","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"INF 1425","Algorithmique et structures de données","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"INF 1427","Architecture des ordinateurs","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"INF 1429","Systèmes d'exploitation","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"INF 1420","Interfaces humain-machine","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"INF 2005","Programmation orientée objet avec C++","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"INF 6450","Gestion de l'information avec XML","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"INF 1421","Apprentissage machine","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"INF 1423","Vision numérique et applications","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"INF 1426","Traitement d'images","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"INF 6460","Recherche et filtrage d'informations","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"INF 9004","Informatique des entrepôts de données","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"SCI 1016","Introduction à la science des données","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"SCI 1018","Statistiques avec R","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"SCI 1031","Visualisation et analyse de données spatiales avec R","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"INF 1160","Les réseaux d'entreprise","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"INF 1165","Réseaux et sécurité informatique","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"ADM 2006","Les systèmes d'information de gestion","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"MQT 2420","Récherche opérationnelle","Cours avec examen",6010,"Informatique ","Informatique et technologies de l'information"
+"ADM 6050","Analytique d'affaires","Cours avec examen",810,"Technologie de l'information","Informatique et technologies de l'information"
+"INF 6104","Recherche d'informations et web","Cours avec examen",810,"Technologie de l'information","Informatique et technologies de l'information"
+"INF 6408","Informatique de l'analyse multidimensionnelle","Cours avec examen",810,"Technologie de l'information","Informatique et technologies de l'information"
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",810,"Technologie de l'information","Informatique et technologies de l'information"
+"ADM 6020","Stratégies en affaires électroniques","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"ADM 6040","Gestion stratégique des technologies de l'information","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"ADM 6042","Les systèmes de l'information et la gestion organisationnelle","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"ADM 6044","Gestion de projet en technologie de l'information","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"ADM 6046","Gestion de la sécurité des technologies de l'information","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"ADM 6048","Impartition des technologies de l'information","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"ADM 6050","Analytique d'affaires","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"INF 6104","Recherche d'informations et web","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"INF 6408","Informatique de l'analyse multidimensionnelle","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",1811,"Sciences (technologie de l'information), profil avec mémoire","Informatique et technologies de l'information"
+"ADM 6020","Stratégies en affaires électroniques","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"ADM 6040","Gestion stratégique des technologies de l'information","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"ADM 6042","Les systèmes de l'information et la gestion organisationnelle","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"ADM 6044","Gestion de projet en technologie de l'information","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"ADM 6046","Gestion de la sécurité des technologies de l'information","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"ADM 6048","Impartition des technologies de l'information","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"ADM 6050","Analytique d'affaires","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"INF 6104","Recherche d'informations et web","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"INF 6408","Informatique de l'analyse multidimensionnelle","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",1810,"Sciences (technologie de l'information), profil sans mémoire","Informatique et technologies de l'information"
+"LIN 4003","Overview of English Language Varieties and Cultures","Cours avec examen",82,"Approfondissement de l'anglais","Lettres et langues"
+"FRA 1002","Maîtrise du farnçais écrit","Cours avec examen",73,"Perfectionnement en français écrit","Lettres et langues"
+"FRA 3005","Rédaction fondamentale","Cours avec examen",73,"Perfectionnement en français écrit","Lettres et langues"
+"PHI 1010","L'organisation de la pensée","Cours avec examen",73,"Perfectionnement en français écrit","Lettres et langues"
+"TRA 4040","Traduction de l'espagnol au français: aspects culturels et linguistiques","Cours avec examen",9020,"Initiation à la traduction en français et en espagnol","Lettres et langues"
+"LIN 4033","Terminologie fondamentale","Cours avec examen",9020,"Initiation à la traduction en français et en espagnol","Lettres et langues"
+"TRA 4011","Iniciación a la traducción profesional: francés-español","Cours avec examen",9020,"Initiation à la traduction en français et en espagnol","Lettres et langues"
+"ANG 3001","Listening and Speaking","Cours avec examen",81,"Anglais fonctionnel","Lettres et langues"
+"ESP 2000","Curso de español para principiantes","Cours avec examen",105,Espagnol,"Lettres et langues"
+"ESP 2001","La comunicación general en español","Cours avec examen",105,Espagnol,"Lettres et langues"
+"ESP 4001","La lectura y la redacción en español","Cours avec examen",105,Espagnol,"Lettres et langues"
+"FRA 2140","Compétences en frasnçais langue seconde 2","Cours avec examen",229,"Français langue seconde","Lettres et langues"
+"HIS 2002","Histoire culturelle du comique au Québec","Cours avec examen",114,"Littérature populaire","Lettres et langues"
+"LIN 1001","Langue et société","Cours avec examen",921,"Sciences du langage","Lettres et langues"
+"LIN 3010","Développement du langage","Cours avec examen",921,"Sciences du langage","Lettres et langues"
+"LIN 4003","Overview of English Language Varieties and Cultures","Cours avec examen",4924,"Langue anglaise","Lettres et langues"
+"ANG 4017","International Business English","Cours avec examen",4924,"Langue anglaise","Lettres et langues"
+"ESP 4001","La lectura y la redacción en español","Cours avec examen",4652,"Langue et cultures hispaniques","Lettres et langues"
+"TRA 4011","Iniciación a la traducción profesional: francés-español","Cours avec examen",4652,"Langue et cultures hispaniques","Lettres et langues"
+"TRA 4040","Traduction de l'espagnol au français: aspects culturels et linguistiques","Cours avec examen",4652,"Langue et cultures hispaniques","Lettres et langues"
+"COM 3030","La communication interculturelle: une introduction","Cours avec examen",4652,"Langue et cultures hispaniques","Lettres et langues"
+"FRA 3005","Rédaction fondamentale","Cours avec examen",4652,"Langue et cultures hispaniques","Lettres et langues"
+"FRA 3005","Rédaction fondamentale","Cours avec examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"ESP 4001","La lectura y la redacción en español","Cours avec examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"LIN 4003","Overview of English Language Varieties and Cultures","Cours avec examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"TRA 4011","Iniciación a la traducción profesional: francés-español","Cours avec examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"COM 5000","Communication organisationnelle","Cours avec examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"RPL 2003","Introduction aux relations publiques","Cours avec examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"RPL 2004","Le plan de communication","Cours avec examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"COM 3000","Droits et enjeux de la communication","Cours avec examen",4424,"Pratiques rédactionnelles","Lettres et langues"
+"FRA 3005","Rédaction fondamentale","Cours avec examen",6378,"Culture et expressions écrites","Lettres et langues"
+"HIS 2002","Histoire culturelle du comique au Québec","Cours avec examen",6378,"Culture et expressions écrites","Lettres et langues"
+"COM 2000","Histoire des communications","Cours avec examen",6378,"Culture et expressions écrites","Lettres et langues"
+"COM 3000","Droits et enjeux de la communication","Cours avec examen",6378,"Culture et expressions écrites","Lettres et langues"
+"HIS 1060","Introduction à l'histoire du Québec","Cours avec examen",6378,"Culture et expressions écrites","Lettres et langues"
+"LIN 1001","Langue et société","Cours avec examen",6378,"Culture et expressions écrites","Lettres et langues"
+"PHI 2011","Épistémologie des sciences et des techniques","Cours avec examen",6378,"Culture et expressions écrites","Lettres et langues"
+"POL 3000","Québec : état et société","Cours avec examen",6378,"Culture et expressions écrites","Lettres et langues"
+"SHS 2100","Société et sociétés","Cours avec examen",6378,"Culture et expressions écrites","Lettres et langues"
+"LIN 1001","Langue et société","Cours avec examen",6632,"Langue et linguistique","Lettres et langues"
+"LIN 3010","Développement du langage","Cours avec examen",6632,"Langue et linguistique","Lettres et langues"
+"ESP 4001","La lectura y la redacción en español","Cours avec examen",6632,"Langue et linguistique","Lettres et langues"
+"ANG 3001","Listening and Speaking","Cours avec examen",6632,"Langue et linguistique","Lettres et langues"
+"ANG 4017","International Business English","Cours avec examen",6632,"Langue et linguistique","Lettres et langues"
+"LIN 4033","Terminologie fondamentale","Cours avec examen",6632,"Langue et linguistique","Lettres et langues"
+"TRA 4011","Iniciación a la traducción profesional: francés-español","Cours avec examen",6632,"Langue et linguistique","Lettres et langues"
+"TRA 4040","Traduction de l'espagnol au français: aspects culturels et linguistiques","Cours avec examen",6632,"Langue et linguistique","Lettres et langues"
+"FRA 3005","Rédaction fondamentale","Cours avec examen",6632,"Langue et linguistique","Lettres et langues"
+"PHI 1010","L'organisation de la pensée","Cours avec examen",4372,"Études pluridisciplinaires",Pluridisciplinaire
+"COM 2000","Histoire des communications","Cours avec examen",7695,Arts,Pluridisciplinaire
+"ENV 1101","Introduction à la gestion des ressources naturelles","Cours avec examen",7695,Arts,Pluridisciplinaire
+"PHI 2011","Épistémologie des sciences et des techniques","Cours avec examen",7695,Arts,Pluridisciplinaire
+"PSY 3010","Psychologie du travail et des organisations","Cours avec examen",7695,Arts,Pluridisciplinaire
+"SHS 2100","Société et sociétés","Cours avec examen",7695,Arts,Pluridisciplinaire
+"SOC 1014","Méthodologie de la recherche sociale 2","Cours avec examen",7695,Arts,Pluridisciplinaire
+"SCI 1018","Statistiques avec R","Cours avec examen",4401,"Science et technologie",Sciences
+"SCI 1031","Visualisation et analyse de données spatiales avec R","Cours avec examen",4401,"Science et technologie",Sciences
+"ADM 3028","Len enjeux éthiques, légaux et sociétaux des TI","Cours avec examen",4401,"Science et technologie",Sciences
+"HIS 1075","Histoire des sciences au Québec","Cours avec examen",4401,"Science et technologie",Sciences
+"ENV 1101","Introduction à la gestion des ressources naturelles","Cours avec examen",4401,"Science et technologie",Sciences
+"ENV 2010","Gestion des ressources: faune et habitat","Cours avec examen",4401,"Science et technologie",Sciences
+"ENV 3111","Gestion environnementale des ressources forestières","Cours avec examen",4401,"Science et technologie",Sciences
+"ENV 3114","Agroforesterie et développement durable","Cours avec examen",4401,"Science et technologie",Sciences
+"GEO 1001","Introduction à la géographie physique","Cours avec examen",4401,"Science et technologie",Sciences
+"ENV 3013",Écotoxicologie,"Cours avec examen",4401,"Science et technologie",Sciences
+"ENV 4014","Technologies d'assainissement et prévention de la pollution","Cours avec examen",4401,"Science et technologie",Sciences
+"ENV 4016","Améganement du territoire et environnement","Cours avec examen",4401,"Science et technologie",Sciences
+"INF 1250","Introduction aux bases de données","Cours avec examen",4401,"Science et technologie",Sciences
+"INF 1425","Algorithmique et structures de données","Cours avec examen",4401,"Science et technologie",Sciences
+"SCI 1016","Introduction à la science des données","Cours avec examen",4401,"Science et technologie",Sciences
+"INF 1220","Introduction à la programmation","Cours avec examen",4401,"Science et technologie",Sciences
+"INF 2005","Programmation orientée objet avec C++","Cours avec examen",4401,"Science et technologie",Sciences
+"INF 1165","Réseaux et sécurité informatique","Cours avec examen",4401,"Science et technologie",Sciences
+"INF 6400","Gestion de connaissances et informatique","Cours avec examen",4401,"Science et technologie",Sciences
+"INF 6450","Gestion de l'information avec XML","Cours avec examen",4401,"Science et technologie",Sciences
+"COM 3030","La communication interculturelle: une introduction","Cours avec examen",675,"Études internationales et interculturelles","Sciences humaines et sociales"
+"ADM 3012","Gestion de la diversité culturelle","Cours avec examen",675,"Études internationales et interculturelles","Sciences humaines et sociales"
+"ECO 2015","Économie internationale","Cours avec examen",675,"Études internationales et interculturelles","Sciences humaines et sociales"
+"INT 1010","Introduction au développement international","Cours avec examen",675,"Études internationales et interculturelles","Sciences humaines et sociales"
+"INT 2020","Théories internationales et mondialisation","Cours avec examen",675,"Études internationales et interculturelles","Sciences humaines et sociales"
+"POL 4000","Politique étrangère des États-Unis","Cours avec examen",675,"Études internationales et interculturelles","Sciences humaines et sociales"
+"ANG 4017","International Business English","Cours avec examen",675,"Études internationales et interculturelles","Sciences humaines et sociales"
+"TRA 4040","Traduction de l'espagnol au français: aspects culturels et linguistiques","Cours avec examen",675,"Études internationales et interculturelles","Sciences humaines et sociales"
+"PSY 1015","Intrduction à la psichométrie","Cours avec examen",259,"Introduction à la psychologie","Sciences humaines et sociales"
+"PSY 1110","Intrduction à l'histoire de la psychologie","Cours avec examen",259,"Introduction à la psychologie","Sciences humaines et sociales"
+"PSY 1200","Développement de l'enfant","Cours avec examen",259,"Introduction à la psychologie","Sciences humaines et sociales"
+"PSY 3005","Psychologie sociale","Cours avec examen",259,"Introduction à la psychologie","Sciences humaines et sociales"
+"STA 1001","Méthodes quantitatives en sciences humaines","Cours avec examen",259,"Introduction à la psychologie","Sciences humaines et sociales"
+"ECO 2011","Économie du Québec","Cours avec examen",683,"Études québécoises","Sciences humaines et sociales"
+"HIS 1060","Introduction à l'histoire du Québec","Cours avec examen",683,"Études québécoises","Sciences humaines et sociales"
+"HIS 2002","Histoire culturelle du comique au Québec","Cours avec examen",683,"Études québécoises","Sciences humaines et sociales"
+"POL 3000","Québec : état et société","Cours avec examen",683,"Études québécoises","Sciences humaines et sociales"
+"PSY 1200","Développement de l'enfant","Cours avec examen",228,"Psychologie du développement","Sciences humaines et sociales"
+"PSY 1210","Psychologie d l'adolescence","Cours avec examen",228,"Psychologie du développement","Sciences humaines et sociales"
+"PSY 3005","Psychologie sociale","Cours avec examen",199,"Psychologie sociale","Sciences humaines et sociales"
+"PSY 3010","Psychologie du travail et des organisations","Cours avec examen",199,"Psychologie sociale","Sciences humaines et sociales"
+"INT 1010","Introduction au développement international","Cours avec examen",4076,"Études internationales","Sciences humaines et sociales"
+"ADM 3007","Initiatives de développement local et d'économie sociale","Cours avec examen",4076,"Études internationales","Sciences humaines et sociales"
+"ECO 2021","Économie responsable","Cours avec examen",4076,"Études internationales","Sciences humaines et sociales"
+"INT 2010","Migrations internationales","Cours avec examen",4076,"Études internationales","Sciences humaines et sociales"
+"INT 2030","Coopération internationale, gouvernance et développement démocratique","Cours avec examen",4076,"Études internationales","Sciences humaines et sociales"
+"ADM 3012","Gestion de la diversité culturelle","Cours avec examen",4076,"Études internationales","Sciences humaines et sociales"
+"ADM 4015","Modèles internationaux de gestion des ressources humaines","Cours avec examen",4076,"Études internationales","Sciences humaines et sociales"
+"COM 3030","La communication interculturelle: une introduction","Cours avec examen",4076,"Études internationales","Sciences humaines et sociales"
+"ECO 2015","Économie internationale","Cours avec examen",4076,"Études internationales","Sciences humaines et sociales"
+"COM 3000","Droits et enjeux de la communication","Cours avec examen",4076,"Études internationales","Sciences humaines et sociales"
+"INT 2020","Théories internationales et mondialisation","Cours avec examen",4076,"Études internationales","Sciences humaines et sociales"
+"POL 4000","Politique étrangère des États-Unis","Cours avec examen",4076,"Études internationales","Sciences humaines et sociales"
+"POL 4600","Dynamiques de pouvoirs au Moyen-Orient","Cours avec examen",4076,"Études internationales","Sciences humaines et sociales"
+"ECO 2011","Économie du Québec","Cours avec examen",5683,"Études québécoises","Sciences humaines et sociales"
+"HIS 1060","Introduction à l'histoire du Québec","Cours avec examen",5683,"Études québécoises","Sciences humaines et sociales"
+"HIS 1071","La société québécoise de la crise à l'après-guerre (1920-1960)","Cours avec examen",5683,"Études québécoises","Sciences humaines et sociales"
+"HIS 1072","La société québécoise de la Révolution tranquile (1960-1980)","Cours avec examen",5683,"Études québécoises","Sciences humaines et sociales"
+"HIS 4000","Nouvelle France : origines d'un peuple","Cours avec examen",5683,"Études québécoises","Sciences humaines et sociales"
+"POL 3000","Québec : état et société","Cours avec examen",5683,"Études québécoises","Sciences humaines et sociales"
+"HIS 1075","Histoire des sciences au Québec","Cours avec examen",5683,"Études québécoises","Sciences humaines et sociales"
+"HIS 2002","Histoire culturelle du comique au Québec","Cours avec examen",5683,"Études québécoises","Sciences humaines et sociales"
+"PSY 1013","Méthodes de recherche en psychologie","Cours avec examen",4350,Psychologie,"Sciences humaines et sociales"
+"PSY 1110","Intrduction à l'histoire de la psychologie","Cours avec examen",4350,Psychologie,"Sciences humaines et sociales"
+"PSY 1200","Développement de l'enfant","Cours avec examen",4350,Psychologie,"Sciences humaines et sociales"
+"PSY 1210","Psychologie d l'adolescence","Cours avec examen",4350,Psychologie,"Sciences humaines et sociales"
+"PSY 3005","Psychologie sociale","Cours avec examen",4350,Psychologie,"Sciences humaines et sociales"
+"PSY 3007","Psychologie en contexte de diversité culturelle","Cours avec examen",4350,Psychologie,"Sciences humaines et sociales"
+"PSY 3010","Psychologie du travail et des organisations","Cours avec examen",4350,Psychologie,"Sciences humaines et sociales"
+"PSY 1015","Intrduction à la psichométrie","Cours avec examen",4350,Psychologie,"Sciences humaines et sociales"
+"STA 1001","Méthodes quantitatives en sciences humaines","Cours avec examen",4350,Psychologie,"Sciences humaines et sociales"
+"SHS 2100","Société et sociétés","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"COM 1021","Techniques d'animation et d'intervention","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"PHI 2011","Épistémologie des sciences et des techniques","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"PHI 3009","Introduction à la logique et aux probabilités","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"STA 1001","Méthodes quantitatives en sciences humaines","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"ADM 1404","Travail et société","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"ADM 3007","Initiatives de développement local et d'économie sociale","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"ECO 2011","Économie du Québec","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"ECO 2400","Analyse macroéconomique","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"ECO 3003","Économie du travail","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"PSY 3010","Psychologie du travail et des organisations","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"RIN 2013","Conciliation emploi-famille et temps de travail","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"COM 2000","Histoire des communications","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"HIS 1060","Introduction à l'histoire du Québec","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"HIS 1071","La société québécoise de la crise à l'après-guerre (1920-1960)","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"HIS 1072","La société québécoise de la Révolution tranquile (1960-1980)","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"HIS 1075","Histoire des sciences au Québec","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"HIS 4000","Nouvelle France : origines d'un peuple","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"POL 3000","Québec : état et société","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"POL 4000","Politique étrangère des États-Unis","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"POL 4600","Dynamiques de pouvoirs au Moyen-Orient","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"COM 3000","Droits et enjeux de la communication","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"COM 3030","La communication interculturelle: une introduction","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"HIS 2002","Histoire culturelle du comique au Québec","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"LIN 1001","Langue et société","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"PSY 3005","Psychologie sociale","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"SOC 4002","Sociétés industrielle et postindustrielle","Cours avec examen",4373,"Sciences sociales","Sciences humaines et sociales"
+"SAM 4110","Développement affectif de l'enfant de 0 à 12 ans et prévention en santé mentale","Cours avec examen",3578,"Santé mentale","Sciences humaines et sociales"

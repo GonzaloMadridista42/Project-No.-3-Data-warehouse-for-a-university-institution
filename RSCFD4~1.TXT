@@ -1,0 +1,9 @@
+e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_ProfilDeFormationÉtudiant,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours,e_NomDuprogramme,e_NuméroDuProgramme
+Isaac,Ouellet,82823433,OUEI05129937,Administration,"Été 2021","ADM 2006","Les systèmes d'information de gestion",A,"Baccalauréat en administration (cheminement général)",7764
+Isaac,Ouellet,82823433,OUEI05129937,Administration,"Été 2021","ECO 1300","Analyse microéconomique",C,"Baccalauréat en administration (cheminement général)",7764
+Isaac,Ouellet,82823433,OUEI05129937,Administration,"Été 2021","DRT 1060","Droit des affaires",B,"Baccalauréat en administration (cheminement général)",7764
+Isaac,Ouellet,82823433,OUEI05129937,Administration,"Été 2021","FIN 1020","Administration financière 1",A,"Baccalauréat en administration (cheminement général)",7764
+Aurelie,Lafontaine,90903573,LAFA30039024,Administration,"Hiver 2021","ECO 2400","Analyse macroéconomique",A,"Baccalauréat en administration (cheminement général)",7764
+Aurelie,Lafontaine,90903573,LAFA30039024,Administration,"Hiver 2021","ADM 1420","Gestion des opérations",A,"Baccalauréat en administration (cheminement général)",7764
+Aurelie,Lafontaine,90903573,LAFA30039024,Administration,"Hiver 2021","MQT 2001","Statistiques appliquées à la gestion",A,"Baccalauréat en administration (cheminement général)",7764
+Aurelie,Lafontaine,90903573,LAFA30039024,Administration,"Hiver 2021","ADM 1402","Entreprise et société",B,"Baccalauréat en administration (cheminement général)",7764

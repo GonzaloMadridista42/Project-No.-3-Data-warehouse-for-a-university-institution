@@ -1,0 +1,100 @@
+CREATE DATABASE Entrepôt_De_Données_Université_Téluq;
+USE Entrepôt_De_Données_Université_Téluq;   
+
+##Création de la table Étudiant:
+CREATE TABLE IF NOT EXISTS Etudiant(
+   e_Prénom VARCHAR(50) NOT NULL,
+   e_Nom VARCHAR(50) NOT NULL,
+   e_Adresse VARCHAR(200) NOT NULL,
+   e_Téléphone VARCHAR(50) NOT NULL,
+   e_NuméroEtudiant INT NOT NULL,
+   e_AdresseCourriel VARCHAR(100) NOT NULL,
+   e_MotDePasse VARCHAR(50) NOT NULL,
+   e_CodePermanent VARCHAR(50) NOT NULL,
+   e_Sexe VARCHAR(50) NOT NULL,
+   e_DateDeNaissance DATE NOT NULL,
+   e_SessionÉtudes VARCHAR(100) NOT NULL,
+   e_ProfilDeFormationEtudiant VARCHAR(100) NOT NULL,
+   e_SigleDuCours VARCHAR(50) NOT NULL,
+   e_TitreDuCours VARCHAR(200) NOT NULL,
+   e_NoteFinaleDuCours VARCHAR(50) NOT NULL,
+   e_NomDuProgramme VARCHAR(200) NOT NULL,
+   e_NuméroDuProgramme INT NOT NULL,
+   e_ProfilDeFormationDuProgramme VARCHAR(100) NOT NULL,
+   
+   PRIMARY KEY(e_NuméroEtudiant,e_CodePermanent),
+   FOREIGN KEY(e_SigleDuCours) REFERENCES Cours(c_SigleDuCours),
+   FOREIGN KEY(e_TitreDuCours) REFERENCES Cours(c_TitreDuCours),
+   FOREIGN KEY(e_NomDuProgramme) REFERENCES ProgrammeUniversitaire(pr_NomDuProgramme),
+   FOREIGN KEY(e_NuméroDuProgramme) REFERENCES ProgrammeUniversitaire(pr_NuméroDuProgramme),
+   FOREIGN KEY(e_ProfilDeFormationDuProgramme) REFERENCES ProgrammeUniversitaire(pr_ProfilDeFormationDuProgramme));
+
+##Création des indexes des clés primaires de la table etudiant:
+CREATE INDEX i_e_NuméroEtudiant ON Etudiant(e_NuméroEtudiant);
+CREATE INDEX i_e_CodePermanent ON Etudiant(e_CodePermanent);
+CREATE INDEX FK_e_ProfilDeFormationDuProgramme ON ProgrammeUniversitaire(pr_ProfilDeFormationDuProgramme);
+
+##Ici on modifie (altère) la table Etudiant. On dit à SQL que l'attribut e_SigleDuCours est la clé étrangère de la table Etudiant:
+ALTER TABLE Etudiant ADD CONSTRAINT FK_e_SigleDuCours FOREIGN KEY(e_SigleDuCours) REFERENCES Cours(c_SigleDuCours);
+
+##Ici on modifie (altère) la table Etudiant. On dit à SQL que l'attribut e_TitreDuCours est la clé étrangère de la table Etudiant:
+ALTER TABLE Etudiant ADD CONSTRAINT FK_e_TitreDuCours FOREIGN KEY(e_TitreDuCours) REFERENCES Cours(c_TitreDuCours);
+
+##Ici on modifie (altère) la table Etudiant. On dit à SQL que l'attribut e_NomDuProgramme est la clé étrangère de la table Etudiant:
+ALTER TABLE Etudiant ADD CONSTRAINT FK_e_NomDuProgramme FOREIGN KEY(e_NomDuProgramme) REFERENCES ProgrammeUniversitaire(pr_NomDuProgramme);
+
+##Ici on modifie (altère) la table Etudiant. On dit à SQL que l'attribut e_NuméroDuProgramme est la clé étrangère de la table Etudiant:
+ALTER TABLE Etudiant ADD CONSTRAINT FK_e_NuméroDuProgramme FOREIGN KEY(e_NuméroDuProgramme) REFERENCES ProgrammeUniversitaire(pr_NuméroDuProgramme);
+
+##Ici on modifie (altère) la table Etudiant. On dit à SQL que l'attribut e_ProfilDeFormationDuProgramme est la clé étrangère de la table Etudiant:
+ALTER TABLE Etudiant ADD CONSTRAINT FK_e_ProfilDeFormationDuProgramme FOREIGN KEY(e_ProfilDeFormationDuProgramme) REFERENCES ProgrammeUniversitaire(pr_ProfilDeFormationDuProgramme);
+
+##Création de la table ProgrammeUniversitaire:       
+CREATE TABLE IF NOT EXISTS ProgrammeUniversitaire(
+   pr_NomDuProgramme VARCHAR(200) NOT NULL,
+   pr_NuméroDuProgramme INT NOT NULL,
+   pr_TypeDeProgramme VARCHAR(100) NOT NULL,
+   pr_ProfilDeFormationDuProgramme VARCHAR(100) NOT NULL,
+   pr_CycleEtudes VARCHAR(100) NOT NULL,
+   pr_Département VARCHAR(200) NOT NULL,
+   
+   PRIMARY KEY(pr_NomDuProgramme,pr_NuméroDuProgramme));
+
+##Création des indexes des clés primaires de la table ProgrammePniversitaire:
+CREATE INDEX i_pr_NomDuProgramme ON ProgrammeUniversitaire(pr_NomDuProgramme); 
+CREATE INDEX i_pr_NuméroDuProgramme ON ProgrammeUniversitaire(pr_NuméroDuProgramme);
+
+##Création de la table Cours:       
+CREATE TABLE IF NOT EXISTS Cours(
+   c_SigleDuCours VARCHAR(50) NOT NULL,
+   c_TitreDuCours VARCHAR(200) NOT NULL,
+   c_DescriptionDuCours VARCHAR(200) NOT NULL,
+   c_TypeDuCours VARCHAR(100) NOT NULL,
+   c_NombreDeCredits INT NOT NULL,
+   c_ChargeHebdomadaire VARCHAR(100) NOT NULL,
+   c_CycleEtudes VARCHAR(100) NOT NULL,
+   c_CoursPrealable VARCHAR(50) NOT NULL,
+   c_DepartementResponsable VARCHAR(100) NOT NULL,
+   c_ProfilDeFormationDuProgramme VARCHAR(100) NOT NULL,
+   c_NuméroDuProgramme INT NOT NULL,
+   
+   PRIMARY KEY(c_SigleDuCours,c_TitreDuCours),
+   
+   FOREIGN KEY(c_CycleEtudes) REFERENCES ProgrammeUniversitaire(pr_CycleEtudes),
+   FOREIGN KEY(c_ProfilDeFormationDuProgramme) REFERENCES ProgrammeUniversitaire(pr_ProfilDeFormationDuProgramme),
+   FOREIGN KEY(c_NuméroDuProgramme) REFERENCES ProgrammeUniversitaire(pr_NuméroDuProgramme));   
+
+##Création des indexes des clés primaires de la table Cours:
+CREATE INDEX i_c_SigleDuCours ON Cours(c_SigleDuCours); 
+CREATE INDEX i_c_TitreDuCours ON Cours(c_TitreDuCours);
+CREATE INDEX FK_c_CycleEtudes ON ProgrammeUniversitaire(pr_CycleEtudes);   
+CREATE INDEX FK_c_ProfilDeFormationDuProgramme ON ProgrammeUniversitaire(pr_ProfilDeFormationDuProgramme);
+
+##Ici on modifie (altère) la table Cours. On dit à SQL que l'attribut c_CycleEtudes est la clé étrangère de la table Cours:
+ALTER TABLE Cours ADD CONSTRAINT FK_c_CycleEtudes FOREIGN KEY(c_CycleEtudes) REFERENCES ProgrammeUniversitaire(pr_CycleEtudes);
+
+##Ici on modifie (altère) la table Cours. On dit à SQL que l'attribut c_ProfilDeFormationDuProgramme est la clé étrangère de la table Cours:
+ALTER TABLE Cours ADD CONSTRAINT FK_c_ProfilDeFormationDuProgramme FOREIGN KEY(c_ProfilDeFormationDuProgramme) REFERENCES ProgrammeUniversitaire(pr_ProfilDeFormationDuProgramme);
+
+##Ici on modifie (altère) la table Cours. On dit à SQL que l'attribut c_NumeroDuProgramme est la clé étrangère de la table Cours:
+ALTER TABLE Cours ADD CONSTRAINT FK_c_NuméroDuProgramme FOREIGN KEY(c_NuméroDuProgramme) REFERENCES ProgrammeUniversitaire(pr_NuméroDuProgramme);

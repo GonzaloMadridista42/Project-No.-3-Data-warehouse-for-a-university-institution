@@ -1,0 +1,8 @@
+Page web d'un canal de Youtube montrant les deux façons d'importer des données d'un fichier CSV, peut importe son poids en mémoire:
+
+https://www.youtube.com/watch?v=OnXB3ZRrOW0
+
+Page web trouvé sur Google, montrant la manière d'éliminer/résoudre l'erreur du logiciel MySQl Workbench MySQL Error 1452:
+
+https://bobcares.com/blog/mysql-error-1452/
+

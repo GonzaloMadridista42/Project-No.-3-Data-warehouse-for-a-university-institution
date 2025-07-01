@@ -1,0 +1,35 @@
+##Requête #13:
+SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_ProfilDeFormationÉtudiant,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours,e_NomDuProgramme,e_NuméroDuProgramme,e_ProfilDeFormationDuProgramme 
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant
+WHERE e_ProfilDeFormationÉtudiant='Administration';
+
+##Requête #14:
+SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_ProfilDeFormationÉtudiant,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours,e_NomDuprogramme,e_NuméroDuProgramme,e_ProfilDeFormationDuProgramme 
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant
+WHERE e_NomDuprogramme='Baccalauréat en administration (concentration en management)' AND e_NuméroDuProgramme='6768';
+
+##Requête #15:
+SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_ProfilDeFormationÉtudiant,e_SessionÉtudes,e_NoteFinaleDuCours,e_NomDuProgramme,e_NuméroDuProgramme,e_ProfilDeFormationDuProgramme 
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant
+WHERE e_NuméroDuProgramme=4128;
+
+##Requête #16:
+SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_ProfilDeFormationÉtudiant,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours,e_NomDuProgramme,e_NuméroDuProgramme,e_ProfilDeFormationDuProgramme 
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant
+WHERE e_ProfilDeFormationDuProgramme='Science des données';
+
+##Requête #17:
+SELECT e_Prénom,e_Nom,e_Sexe,e_CodePermanent,e_ProfilDeFormationÉtudiant,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours,e_NomDuProgramme,e_NuméroDuProgramme,e_ProfilDeFormationDuProgramme
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant
+WHERE e_NuméroDuProgramme=9007 AND e_Sexe='Feminin';
+
+##Requête #18:
+SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_ProfilDeFormationÉtudiant,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours,e_NomDuProgramme,e_NuméroDuProgramme,e_ProfilDeFormationDuProgramme 
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant
+WHERE e_NuméroDuProgramme=4401 AND e_SessionÉtudes='Automne 2022';
+
+##Requête #19:
+SELECT c_SigleDuCours,c_TitreDuCours,c_TypeDuCours,c_NuméroDuProgramme,c_ProfilDeFormationDuprogramme,c_DépartementResponsable 
+FROM Entrepôt_De_Données_Université_Téluq.Cours
+WHERE c_TypeDuCours='Cours avec examen';
+

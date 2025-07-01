@@ -1,0 +1,42 @@
+Instruction nécessaires pour créer d'autres types de requêtes, au besoin et selon le type de besoin d'information:
+
+1.- Consulter le document en format Visio, du schéma de cube de données, en forme d'étoile, de l'antrepôt de données de l'Université Téluq Montréal, 
+    fourni en pièce jointe avec le courriel envoyé par l'auteur du projet numéro 3.
+2.- Consulter le document en format CSV (Excel), des dimensions Programme universitaire et Cours, pour consulter et obtenir les données associées des 
+    programmes universitaires (nom du programme, numéro du programme etc) et cours (sigle du cours, titre du cours etc) créées et offerts par l'Université Téluq Montréal.
+
+3.- En ce qui a trait les sessions d'études des étudiants de l'Université Téluq, figurant dans la dimension Étudiant, seulements les sessions suivantes apparaissent dans 
+    cette même dimension Étudiant, du cube de données, de l'entrepôt de données, de l'Université Téluq montréal:
+
+    -Hiver 2020.
+    -Été 2020.
+    -Automne 2020.
+    -Hiver 2021.
+    -Été 2021.
+    -Automne 2021.
+    -Hiver 2022.
+    -Été 2022.
+    -Automne 2022.
+    -Hiver 2023.
+    -Été 2023.
+
+Informationst très importantes, et faits saillants de l'entrepôt de données de l'Université Téluq Montréal, associé au projet 3 de INF 4018:
+
+1.- Un programme d'études est de deux types: Premier cycle et deuxième cycle.
+2.- Un cours fait partie intégrante de au moins un ou plusieurs programmes d'études.
+3.- Un étudiant, en contexte d'études universitaires NORMALES, étudie 4 cours par session. Cela veut dire qu'un même cours PEUT ÊTRE RÉALISÉ PAR PLUSIEURS ÉTUDIANTS, soit
+    à une même session d'études, ou dans divers session d'études, que ce soient consécutifs ou non.
+4.- Il se peut que certains étudiants aient étudié d'autres cours à une session ultérieure à celle dont l'entrepôt de données du projet numéro 3 possède des données de cet étudiant. Dans ce cas, cet entrepôt de données
+    peut avoir soit un, deux ou trois enregistrements associés à cet étudiant, en lien avec la session suivante de celle dont l'entrepôt de données possède en premier.
+    Par exemple, l'antrepôt de données du projet numéro 3 peut montrer 4 enregistrements d'un étudiant X, qui a étudie à la session Hiver 2020, et plus bas cet entrepôt de données peut montrer 3,2 ou 1 autre(s) enregistrement(s) de 
+    ce même étudiant, qui a étudié à la session d'Été 2020! 
+4.- Il y a certains cours dont le type a été définie, par l'auteur de l'entrepôt de données du projet numéro 3, avec la phrase "A définir prochainement". Cela est dù au fait que,
+    l'information sur le type de cours, de ce cours n'était pas présent à la page web de ce même cours, cette page web qui est https://www.teluq.ca/site/etudes/offre/cours/TELUQ/ABC%201234/.
+5.- Il y a certains cours, dont le cours préalable pour réaliser ce même cours, ne figure pas dans la page web de ce même cours, ou cette information est manquante à cause que ce cours préalable
+    est en phase de création et de publication, dans la page web de l'Université Téluq Montréal. Alors, et à cause de ce fait, l'auteur de l'entrepôt de données du projet numéro 3, a décidé d'ajouter
+    la phrase "Information manquante", dans l'attribut Cours préalable, de la dimension Cours, de l'entrepôt de données de ce projet. 
+
+ 
+
+  
+      

@@ -1,0 +1,20 @@
+pr_NomDuprogramme,pr_NuméroDuProgramme,pr_CycleÉtudes,pr_TypeDeProgramme,pr_ProfilDeFormationDuprogramme,pr_Département
+"Programme court d'inititation aux fondements de la gestion",477,"Premier cycle","Attestation d'études","Inititation aux fondements de la gestion",Administration
+"Programme court en développement économique local et communautaire",121,"Premier cycle","Attestation d'études","Développement économique local et communautaire",Administration
+"Programme court en gestion du tourisme",535,"Premier cycle","Attestation d'études","Gestion du tourisme",Administration
+"Programme court en marketing",975,"Premier cycle","Attestation d'études",Marketing,Administration
+"Programme court sur mesure en gestion d'entreprise",421,"Premier cycle","Attestation d'études","Gestion d'entreprise",Administration
+"Certificat en administration",4397,"Premier cycle",Certificat,Administration,Administration
+"Certificat en administration de services",4480,"Premier cycle",Certificat,"Administration de services",Administration
+"Certificat en gestion des services de santé et des services sociaux",4459,"Premier cycle",Certificat,"Gestion des services de santé et des services sociaux",Administration
+"Certificat en en gestion du tourisme",4734,"Premier cycle",Certificat,"Gestion du tourisme",Administration
+"Certificat en gestion du travail de bureau",4386,"Premier cycle",Certificat,"Gestion du travail de bureau",Administration
+"Certificat en management",4084,"Premier cycle",Certificat,Management,Administration
+"Baccalauréat en administration (cheminement général)",7764,"Premier cycle",Baccalauréat,"Administration (cheminement général)",Administration
+"Baccalauréat en administration (cheminement général bilingue- français/anglais)",7364,"Premier cycle",Baccalauréat,"Administration (cheminement général bilingue - français/anglais)",Administration
+"Baccalauréat en administration (concentration en développement local et économie sociale)",6771,"Premier cycle",Baccalauréat,"Administration (développement local et économie sociale)",Administration
+"Baccalauréat en administration (concentration en gestion des services de santé et des services sociaux)",6773,"Premier cycle",Baccalauréat,"Administration ( gestion des services de santé et des services sociaux)",Administration
+"Baccalauréat en administration (concentration en management)",6768,"Premier cycle",Baccalauréat,"Administration (management)",Administration
+"Baccalauréat en administration (concentration en marketing)",6769,"Premier cycle",Baccalauréat,"Administration (marketing)",Administration
+"Programme court en gestion de projets créatifs",740,"Deuxième cycle","Attestation d'études","Gestion de projets créatifs",Administration
+"Programme court en organisation des services de santé et des services sociaux",684,"Deuxième cycle","Attestation d'études","Organisation des services de santé et des services sociaux",Administration

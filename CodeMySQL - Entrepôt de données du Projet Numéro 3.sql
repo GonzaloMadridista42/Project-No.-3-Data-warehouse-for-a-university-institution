@@ -1,0 +1,1 @@
+SELECT * FROM Entrepôt_De_Données_Université_Téluq.ProgrammeUniversitaire;

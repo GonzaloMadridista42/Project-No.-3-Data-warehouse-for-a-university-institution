@@ -1,0 +1,43 @@
+SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_SessionÉtudes,e_NoteFinaleDuCours 
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant
+WHERE e_SessionÉtudes='Hiver 2020'
+
+UNION
+
+SELECT c_SigleDuCours,c_TitreDuCours,c_TypeDuCours,c_NuméroDuProgramme,c_ProfilDeFormationDuprogramme,c_DépartementResponsable 
+FROM Entrepôt_De_Données_Université_Téluq.Cours
+WHERE c_TypeDuCours='Cours sans examen';
+
+SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_SessionÉtudes,e_NoteFinaleDuCours 
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant
+WHERE e_SessionÉtudes='Hiver 2020'
+
+UNION
+
+SELECT c_SigleDuCours,c_TitreDuCours,c_TypeDuCours,c_NombreDeCrédits,c_NuméroDuProgramme,c_ProfilDeFormationDuprogramme 
+FROM Entrepôt_De_Données_Université_Téluq.Cours
+WHERE c_NombreDeCrédits=3;
+
+SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_SessionÉtudes,e_NoteFinaleDuCours 
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant
+WHERE e_SessionÉtudes='Hiver 2020'
+
+UNION
+
+SELECT c_SigleDuCours,c_TitreDuCours,c_TypeDuCours,c_NombreDeCrédits,c_ChargeHebdomadaire,c_DépartementResponsable 
+FROM Entrepôt_De_Données_Université_Téluq.Cours
+WHERE c_ChargeHebdomadaire>0;
+
+SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_SessionÉtudes,e_NoteFinaleDuCours 
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant
+WHERE e_SessionÉtudes='Hiver 2020'
+
+UNION
+
+SELECT c_SigleDuCours,c_TitreDuCours,c_TypeDuCours,c_CoursPréalable,c_NombreDeCrédits,c_ChargeHebdomadaire 
+FROM Entrepôt_De_Données_Université_Téluq.Cours
+WHERE c_CoursPréalable='INF 1220';
+
+SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_SessionÉtudes,e_NoteFinaleDuCours,c_SigleDuCours,c_TitreDuCours,c_TypeDuCours,c_CoursPréalable,c_NombreDeCrédits,c_ChargeHebdomadaire
+FROM Entrepôt_De_Données_Université_Téluq.Etudiant,Entrepôt_De_Données_Université_Téluq.Cours
+WHERE e_SessionÉtudes='Hiver 2020' AND c_CoursPréalable='INF 1220';
