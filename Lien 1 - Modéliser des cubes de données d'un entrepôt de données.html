@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="hasSidebar hasPageActions hasBreadcrumb conceptual has-default-focus theme-light" lang="fr-fr" dir="ltr" data-css-variable-support="true" data-authenticated="false" data-auth-status-determined="false" data-target="docs" x-ms-format-detection="none">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta property="og:title" content="Vue d’ensemble des cubes OLAP pour les analyses avancées" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://learn.microsoft.com/fr-fr/system-center/scsm/olap-cubes-overview" />
+			<meta property="og:description" content="Fournit une vue d’ensemble des cubes OLAP Service Manager pour l’analytique avancée." />
+
+	<meta property="og:image" content="https://learn.microsoft.com/en-us/media/logos/logo-ms-social.png" />
+
+	<meta property="og:image:alt" content="Microsoft Logo" />
+
+	<meta name="twitter:card" content="summary" />
+
+	<meta name="twitter:site" content="@docsmsft" />
+
+	<meta name="color-scheme" content="light dark">
+
+
+	<meta name="author" content="jyothisuri" />
+<meta name="breadcrumb_path" content="/system-center/breadcrumb/toc.json" />
+<meta name="depot_name" content="SC.SystemCenterDocs" />
+<meta name="description" content="Fournit une vue d’ensemble des cubes OLAP Service Manager pour l’analytique avancée." />
+<meta name="document_id" content="539e1131-bbe9-8ca6-c258-0fd2b3c5266d" />
+<meta name="document_version_independent_id" content="92e07d94-59e4-1c15-bae1-f78e157898cc" />
+<meta name="gitcommit" content="https://github.com/MicrosoftDocs/SystemCenterDocs-pr/blob/3e60bd80d9a6d3d9cd2983f34c3ac5a161a7789a/SystemCenterDocs/scsm/olap-cubes-overview.md" />
+<meta name="loc_file_id" content="Github-58165238.live.SC.SystemCenterDocs.scsm/olap-cubes-overview.md" />
+<meta name="loc_source_id" content="Github-58165238#live" />
+<meta name="loc_version" content="2022-08-25T17:33:59.6651454Z" />
+<meta name="locale" content="fr-fr" />
+<meta name="manager" content="evansma" />
+<meta name="monikers" content="sc-sm-1801" />
+<meta name="monikers" content="sc-sm-1807" />
+<meta name="monikers" content="sc-sm-2016" />
+<meta name="monikers" content="sc-sm-2019" />
+<meta name="monikers" content="sc-sm-2022" />
+<meta name="ms.assetid" content="36e556eb-3db1-4900-be1a-a44dc0073d3e" />
+<meta name="ms.author" content="jsuri" />
+<meta name="ms.contentlocale" content="fr-fr" />
+<meta name="ms.custom" content="na" />
+<meta name="ms.date" content="05/25/2022" />
+<meta name="ms.prod" content="system-center" />
+<meta name="ms.reviewer" content="na" />
+<meta name="ms.suite" content="na" />
+<meta name="ms.technology" content="service-manager" />
+<meta name="ms.tgt_pltfrm" content="na" />
+<meta name="ms.topic" content="article" />
+<meta name="ms.translationtype" content="MT" />
+<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/SystemCenterDocs-pr/blob/live/SystemCenterDocs/scsm/olap-cubes-overview.md" />
+<meta name="page_type" content="conceptual" />
+<meta name="schema" content="Conceptual" />
+<meta name="site_name" content="Docs" />
+<meta name="toc_rel" content="toc.json" />
+<meta name="updated_at" content="2022-09-26 09:18 PM" />
+<meta name="word_count" content="5772" />
+
+
+
+
+	<meta name="cmProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/5ecdb94c-57c5-43de-99a0-9481a4a63663" data-source="generated" />
+
+	<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/60932d05-feee-4685-a73b-595e25dd9318" data-source="generated" />
+
+	<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/cbe4ca68-43ac-4375-aba5-5945a6394c20" data-source="generated" />
+
+	
+
+	<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/SystemCenterDocs-pr/blob/live/SystemCenterDocs/scsm/olap-cubes-overview.md" />
+<link href="https://learn.microsoft.com/fr-fr/system-center/scsm/olap-cubes-overview" rel="canonical">
+	<title>Vue d’ensemble des cubes OLAP pour les analyses avancées | Microsoft Learn</title>
+
+		<link rel="stylesheet" href="/_themes/docs.theme/master/fr-fr/_themes/styles/58c394e6.site-ltr.css ">
+
+	
+
+	<script id="msdocs-script">
+	var msDocs = {
+		data: {
+			timeOrigin: Date.now(),
+			contentLocale: 'fr-fr',
+			contentDir: 'ltr',
+			userLocale: 'fr-fr',
+			userDir: 'ltr',
+			pageTemplate: 'Conceptual',
+			brand: '',
+			context: {
+			},
+			hasBinaryRating: true,
+			hasGithubIssues: false,
+			standardFeedback: false,
+			showFeedbackReport: false,
+			enableTutorialFeedback: false,
+			feedbackSystem: 'None',
+			feedbackGitHubRepo: '',
+			feedbackProductUrl: '',
+			extendBreadcrumb: false,
+			isEditDisplayable: false,
+			hideViewSource: false,
+			hasPageActions: true,
+			hasPrintButton: true,
+			hasBookmark: true,
+			hasShare: true,
+			hasRecommendations: true,
+			contributors: [
+						{ name: "jyothisuri", url: "https://github.com/jyothisuri" },
+						{ name: "v-pgaddala", url: "https://github.com/v-pgaddala" },
+						{ name: "JYOTHIRMAISURI", url: "https://github.com/JYOTHIRMAISURI" },
+						{ name: "v-anesh", url: "https://github.com/v-anesh" },
+						{ name: "VSC-Service-Account", url: "https://github.com/VSC-Service-Account" },
+						{ name: "georgewallace", url: "https://github.com/georgewallace" },
+						{ name: "bandersmsft", url: "https://github.com/bandersmsft" },
+						{ name: "rayne-wiselman", url: "https://github.com/rayne-wiselman" },
+						{ name: "v-thepet", url: "https://github.com/v-thepet" }
+],
+		},
+		functions:{}
+	};
+	</script>
+	<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+	<script src="https://js.monitor.azure.com/scripts/c/ms.jsll-3.min.js"></script>
+
+	<script src="/_themes/docs.theme/master/fr-fr/_themes/global/67a45209.deprecation.js"></script>
+		<script src="/_themes/docs.theme/master/fr-fr/_themes/scripts/96544cf9.index-docs.js"></script>
+</head>
+
+<body lang="fr-fr" dir="ltr">
+	<div class="header-holder has-default-focus">
+		<a href="#main" class="skip-to-main-link has-outline-color-text visually-hidden-until-focused position-fixed has-inner-focus focus-visible top-0 left-0 right-0 padding-xs has-text-centered has-body-background" tabindex="1">Passer au contenu principal</a>
+
+		<div hidden id="cookie-consent-holder"></div>
+
+		<div id="unsupported-browser" style="
+			background-color: white;
+			color: black;
+			padding: 16px;
+			border-bottom: 1px solid grey;"
+			hidden
+		>
+			<div style="max-width: 800px; margin: 0 auto;">
+				<p style="font-size: 24px">Ce navigateur n’est plus pris en charge.</p>
+				<p style="font-size: 16px; margin-top: 16px;">Effectuez une mise à niveau vers Microsoft Edge pour tirer parti des dernières fonctionnalités, des mises à jour de sécurité et du support technique.</p>
+				<div style="margin-top: 12px;">
+					<a href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+						style="
+						background-color: #0078d4;
+						border: 1px solid #0078d4;
+						color: white;
+						padding: 6px 12px;
+						border-radius: 2px;
+						display: inline-block;
+						">
+Télécharger Microsoft Edge					</a>
+					<a href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+						style="
+							background-color: white;
+							padding: 6px 12px;
+							border: 1px solid #505050;
+							color: #171717;
+							border-radius: 2px;
+							display: inline-block;
+							">
+Plus d’informations sur Internet Explorer et Microsoft Edge					</a>
+				</div>
+			</div>
+
+		</div>
+		<!-- liquid-tag banners global -->
+		<div id="headerAreaHolder" data-bi-name="header">
+<header role="banner" itemscope="itemscope" itemtype="http://schema.org/Organization">
+	<div class="nav-bar">
+		<div class="nav-bar-brand">
+			<a itemprop="url" href="https://www.microsoft.com" aria-label="Microsoft" class="nav-bar-button">
+				<div class="nav-bar-logo has-background-image theme-display is-light" role="presentation" aria-hidden="true" itemprop="logo" itemscope="itemscope"></div>
+				<div class="nav-bar-logo has-background-image theme-display is-dark is-high-contrast" role="presentation" aria-hidden="true" itemprop="logo" itemscope="itemscope"></div>
+			</a>
+		</div>
+	</div>
+	<div class="is-hidden"></div>
+</header>		</div>
+
+
+			<div id="content-header" class="content-header uhf-container has-padding has-default-focus border-bottom-none" data-bi-name="content-header">
+				<div class="content-header-controls margin-xxs margin-inline-sm-tablet">
+					<button type="button" class="contents-button button button-sm margin-right-xxs" data-bi-name="contents-expand" aria-haspopup="true" data-contents-button>
+						<span class="icon"><span class="docon docon-menu" aria-hidden="true"></span></span>
+						<span class="contents-expand-title">
+Table des matières						</span>
+					</button>
+					<button type="button" class="ap-collapse-behavior ap-expanded button button-sm" data-bi-name="ap-collapse" aria-controls="action-panel">
+						<span class="icon"><span class="docon docon-exit-mode" aria-hidden="true"></span></span>
+						<span>Quitter le mode focus</span>
+					</button>
+				</div>
+			</div>
+
+		<div id="disclaimer-holder" class="has-overflow-hidden has-default-focus">
+			<!-- liquid-tag banners sectional -->
+		</div>
+	</div>
+
+	<div class="mainContainer  uhf-container has-default-focus" data-bi-name="body">
+
+		<div class="columns has-large-gaps is-gapless-mobile ">
+
+			<div id="left-container" class="left-container is-hidden-mobile column is-one-third-tablet is-one-quarter-desktop">
+				<nav id="affixed-left-container" class="margin-top-sm-tablet position-fixed display-flex flex-direction-column" role="navigation" aria-label="Principal"></nav>
+			</div>
+
+			<!-- .primary-holder -->
+			<section class="primary-holder column is-two-thirds-tablet is-three-quarters-desktop">
+				<!--div.columns -->
+				<div class="columns is-gapless-mobile has-large-gaps ">
+
+
+					<div id="main-column" class="column  is-full is-8-desktop">
+
+						<main id="main" role="main" data-bi-name="content" lang="fr-fr" dir="ltr">
+							<!-- article-header -->
+							<div id="article-header" class="background-color-body margin-top-sm-tablet margin-bottom-xs display-none-print">
+								<div class="display-flex align-items-center ">
+									<details id="article-header-breadcrumbs-overflow-popover" class="popover" data-for="article-header-breadcrumbs">
+										<summary class="button button-clear button-primary button-sm" aria-label="Toutes les barres de navigation">
+											<span class="icon">
+												<span class="docon docon-more"></span>
+											</span>
+										</summary>
+										<div id="article-header-breadcrumbs-overflow" class="popover-content padding-none">
+
+										</div>
+									</details>
+									<bread-crumbs id="article-header-breadcrumbs" class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop" id="page-breadcrumbs"></bread-crumbs>
+
+									<div id="article-header-page-actions"  class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch">
+
+										<a
+											id="lang-link-tablet"
+											class="button button-primary button-clear button-sm display-none display-inline-flex-tablet"
+											title="Lire en anglais" data-bi-name="language-toggle"
+											data-read-in-link
+											hidden>
+											<span class="icon margin-none" aria-hidden="true" data-read-in-link-icon>
+												<span class="docon docon-locale-globe"></span>
+											</span>
+											<span class="is-visually-hidden" data-read-in-link-text>Lire en anglais</span>
+										</a>
+
+											<button
+												type="button"
+												class="collection button button-clear button-sm button-primary display-none display-inline-flex-tablet"
+												data-list-type="collection"
+												data-bi-name="collection"
+												title="Ajouter à la collection">
+												<span class="icon margin-none" aria-hidden="true">
+													<span class="docon docon-circle-addition"></span>
+												</span>
+												<span class="collection-status is-visually-hidden">Enregistrer</span>
+											</button>
+										
+
+										
+
+										
+
+										
+
+
+										
+										<details class="popover popover-right" id="article-header-page-actions-overflow">
+											<summary class="justify-content-flex-start button button-clear button-sm button-primary" aria-label="Autres actions">
+												<span class="icon" aria-hidden="true">
+													<span class="docon docon-more-vertical"></span>
+												</span>
+											</summary>
+											<div class="popover-content padding-none">
+													<button
+														data-page-action-item="overflow-mobile"
+														type="button"
+														class="justify-content-flex-start button-block button-sm has-inner-focus button button-clear display-none-tablet"
+														aria-label="Contenu"
+														data-bi-name="contents-expand"
+														data-contents-button
+														data-popover-close>
+														<span class="icon">
+															<span class="docon docon-editor-list-bullet" aria-hidden="true"></span>
+														</span>
+														<span class="contents-expand-title">Table des matières</span>
+													</button>
+
+												<a
+													id="lang-link-overflow"
+													class="justify-content-flex-start button-sm has-inner-focus button button-clear button-block display-none-tablet"
+													title="Lire en anglais" data-bi-name="language-toggle"
+													data-page-action-item="overflow-mobile"
+													data-check-hidden="true"
+													data-read-in-link
+													hidden
+													>
+													<span class="icon" aria-hidden="true" data-read-in-link-icon>
+														<span class="docon docon-locale-globe"></span>
+													</span>
+													<span data-read-in-link-text>Lire en anglais</span>
+												</a>
+
+													<button
+														type="button"
+														class="collection justify-content-flex-start button button-clear button-sm has-inner-focus button-block display-none-tablet"
+														data-list-type="collection"
+														data-bi-name="collection"
+														title="Ajouter à la collection"
+														data-page-action-item="overflow-mobile"
+														data-check-hidden="true"
+														data-popover-close>
+														<span class="icon" aria-hidden="true">
+															<span class="docon docon-circle-addition"></span>
+														</span>
+														<span class="collection-status">Enregistrer</span>
+													</button>
+
+
+
+
+													<button
+														class="button button-block button-clear button-sm justify-content-flex-start has-inner-focus"
+														title="Imprimer"
+														type="button"
+														aria-label="Imprimer"
+														data-bi-name="print"
+														data-page-action-item="overflow-all"
+														data-popover-close
+														data-print-page
+														data-check-hidden="true"
+														hidden>
+														<span class="icon" aria-hidden="true">
+															<span class="docon docon-print"></span>
+														</span>
+														<span>Imprimer</span>
+													</button>
+
+													<div aria-hidden="true" class="margin-none display-none-tablet border-top" data-page-action-item="overflow-all"></div>
+
+													
+														<a class="button button-clear button-sm has-inner-focus button-block text-decoration-none justify-content-flex-start share-twitter" data-bi-name="twitter" data-page-action-item="overflow-all">
+															<span class="icon" aria-hidden="true">
+																<span class="docon docon-brand-twitter"></span>
+															</span>
+															<span>Twitter</span>
+														</a>
+														<a class="button button-clear button-sm has-inner-focus button-block text-decoration-none justify-content-flex-start share-linkedin" data-bi-name="linkedin" data-page-action-item="overflow-all">
+															<span class="icon" aria-hidden="true">
+																<span class="docon docon-brand-linkedin"></span>
+															</span>
+															<span>LinkedIn</span>
+														</a>
+														<a class="button button-clear button-sm button-block has-inner-focus text-decoration-none justify-content-flex-start share-facebook" data-bi-name="facebook" data-page-action-item="overflow-all">
+															<span class="icon" aria-hidden="true">
+																<span class="docon docon-brand-facebook"></span>
+															</span>
+															<span>Facebook</span>
+														</a>
+														<a class="button button-clear button-sm button-block has-inner-focus text-decoration-none justify-content-flex-start share-email" data-bi-name="email" data-page-action-item="overflow-all">
+															<span class="icon" aria-hidden="true">
+																<span class="docon docon-mail-message-fill"></span>
+															</span>
+															<span>Courrier</span>
+														</a>
+												
+											</div>
+										</details>
+										
+									</div>
+								</div>
+							</div>
+							<!-- end article-header -->
+
+
+							<div class="">
+								<button type="button" class="border contents-button button button-clear button-sm is-hidden-tablet has-inner-focus" aria-label="Contenu" data-bi-name="contents-expand" data-contents-button hidden>
+									<span class="icon">
+										<span class="docon docon-editor-list-bullet" aria-hidden="true"></span>
+									</span>
+									<span class="contents-expand-title">Table des matières</span>
+								</button>
+							</div>
+
+							<!-- end mobile-contents button  -->
+
+							<div class="content ">
+
+
+								<h1 id="overview-of-service-manger-olap-cubes-for-advanced-analytics">Vue d’ensemble des cubes OLAP Service Manager pour l’analytique avancée</h1>
+
+
+									<div class="display-flex justify-content-space-between align-items-center flex-wrap-wrap page-metadata-container">
+										<div class="margin-right-xxs">
+											<ul class="metadata page-metadata" data-bi-name="page info" lang="fr-fr" dir="ltr">
+													<li>
+Article													</li>
+													<li>
+														<time class="is-invisible" data-article-date aria-label="Date de révision de l’article" datetime="2022-09-26T21:18:00Z" data-article-date-source="git">09/26/2022</time>
+													</li>
+															<li class="readingTime">28 minutes de lecture</li>
+														<li class="contributors-holder display-none-print">
+															<button aria-label="Voir tous les contributeurs" class="contributors-button link-button" data-bi-name="contributors" title="Voir tous les contributeurs">
+																	9 contributeurs
+															</button>
+														</li>
+											</ul>
+										</div>
+
+<div id="user-feedback" class="margin-block-xxs display-none-print" data-hide-on-archived>
+	<button
+		id="user-feedback-button"
+		class="button button-sm button-clear button-primary"
+		type="button"
+		data-bi-name="user-feedback-button"
+		data-user-feedback-button
+	>
+		<span class="icon" aria-hidden="true">
+			<span class="docon docon-like"></span>
+		</span>
+		<span>Commentaires</span>
+	</button>
+</div>
+									</div>
+
+										<nav id="center-doc-outline" class="doc-outline is-hidden-desktop display-none-print" data-bi-name="intopic toc" role="navigation" aria-label="Plan de l'article">
+											<h3>Dans cet article</h3>
+										</nav>
+
+								<!-- <content> -->
+									<div data-moniker="sc-sm-1801 sc-sm-1807">
+<div class="IMPORTANT">
+<p>Important</p>
+<p>Cette version de Service Manager a atteint la fin du support, nous vous recommandons de <a href="/fr-fr/system-center/scsm/upgrade-service-manager" data-linktype="absolute-path">procéder à une mise à niveau vers Service Manager 2022</a>.</p>
+</div>
+</div>
+<p>Dans Service Manager, les données présentes dans l’entrepôt de données peuvent être consolidées à partir de différentes sources. Il est présenté via Service Manager à l’aide de cubes de données MICROSOFT Online Analytical Processing (OLAP) prédéfinis et personnalisés. En bref, l’analytique avancée dans Service Manager consiste à publier, afficher et manipuler des données de cube, généralement dans Microsoft Excel ou Microsoft SharePoint. Excel est principalement utilisé pour afficher et manipuler les données. SharePoint, quant à lui, est essentiellement utilisé pour la publication et le partage des données de cube.</p>
+<p>Service Manager comprend un entrepôt de données à l’échelle de System Center. Par conséquent, les données d’Operations Manager, de Configuration Manager et de Service Manager peuvent être consolidées dans l’entrepôt de données, où vous pouvez facilement utiliser plusieurs vues de données pour obtenir les informations souhaitées. Cette interface vous permet également de placer les données dans le même entrepôt de données que vos propres sources personnalisées, telles que les applications SAP ou autre application tierce de gestion des ressources humaines. Cette consolidation crée un modèle de données commun et permet d'effectuer des analyses enrichies qui vous permettront de constituer un entrepôt de données pour votre service informatique, et de répondre ainsi à l'ensemble de vos besoins en matière de décisionnel et de création de rapports.</p>
+<p>Lorsque vos données se trouvent dans un modèle commun, vous avez la possibilité de manipuler des informations et d'avoir des définitions communes, ainsi qu'une taxonomie commune pour l'ensemble de votre entreprise. Pour cela, il vous suffit de déployer des cubes de données OLAP et d'accéder aux informations des cubes, à l'aide d'outils standard, tels qu'Excel et SharePoint. Cela permet à vos utilisateurs d'employer des compétences qu'ils possèdent déjà. Vous contrôlez la définition de votre logique métier de manière centralisée. Par exemple, vous pouvez définir des indicateurs de performance clés, tels que des seuils de temps moyen de résolution des incidents, et des valeurs de seuil (vert, jaune ou rouge). Toutes ces options peuvent être sélectionnées au même endroit, ce qui facilite l'utilisation des données. En outre, la définition commune apparaît dans tous les rapports Excel ou tableaux de bord SharePoint.</p>
+<h2 id="about-service-manager-olap-cubes">À propos de Service Manager cubes OLAP</h2>
+<p>Les cubes OLAP (Online Analytical Processing) sont une fonctionnalité de Service Manager qui utilisent l’infrastructure d’entrepôt de données existante pour fournir des fonctionnalités décisionnels en libre-service aux utilisateurs finaux.</p>
+<p>Un cube OLAP est une structure de données supérieure aux bases de données relationnelles grâce à une analyse rapide des données. Les cubes peuvent afficher et additionner de grandes quantités de données, tout en permettant de parcourir le contenu des points de données. De cette façon, les données peuvent être regroupées, segmentées et désécrites en fonction des besoins pour gérer la plus grande variété de questions pertinentes pour la zone d’intérêt d’un utilisateur.</p>
+<p>Les éditeurs de logiciels ou les développeurs informatiques disposant d’une connaissance opérationnelle des cubes OLAP peuvent créer des packs d’administration pour définir leurs propres cubes OLAP extensibles et personnalisables basés sur l’infrastructure de l’entrepôt de données. Ces cubes sont stockés dans SQL Server Analysis Services (SSAS). Les outils d'aide à la décision libre-service tels qu'Excel et SQL Server Reporting Services (SSRS) peuvent vous permettre de cibler ces cubes dans SSAS, et ainsi de les utiliser pour analyser les données de plusieurs façons.</p>
+<p>Les bases de données qu'une entreprise utilise pour stocker l'ensemble de ses transactions et enregistrements sont appelées bases de données de traitement transactionnel en ligne (OLTP). Ces bases de données comprennent généralement des enregistrements entrés l'un après l'autre, qui contiennent un grand nombre d'informations pouvant être utilisées par les responsables stratégie pour prendre des décisions avisées concernant leur entreprise. Toutefois, les bases de données qui sont utilisées pour stocker ces données n'ont pas été conçues pour l'analyse. Par conséquent, la récupération de réponses en provenant est à la fois coûteuse et laborieuse. Les bases de données OLAP sont des bases de données spécialisées conçues pour aider à l'extraction de ces informations décisionnelles.</p>
+<p>Les cubes OLAP sont en quelque sorte l'apport final d'une solution d'entrepôt de données. Le cube OLAP, également appelé cube multidimensionnel ou hypercube, est une structure de données SQL Server Analysis Services (SSAS) créée à l'aide de bases de données OLAP, qui permet une analyse quasi-instantanée des données. La topologie du système est indiquée dans l'illustration suivante.</p>
+<p><img src="media/olap-cubes-overview/ops-dw2012.png?view=sc-sm-2022" alt="Diagramme du Service Manager 2016 DW" data-linktype="relative-path"></p>
+<p>L'intérêt du cube OLAP est que les données qu'il contient peuvent être agrégées. Aux yeux de l'utilisateur, le cube semble avoir les réponses à l'avance, car les assortiments de valeurs y sont déjà précalculés. Le cube peut renvoyer les réponses à de nombreuses questions presque instantanément, sans avoir à interroger la base de données de source OLAP.</p>
+<p>L’objectif principal de Service Manager cubes OLAP est de donner aux développeurs de logiciels ou aux développeurs informatiques la possibilité d’effectuer une analyse quasi instantanée des données à des fins d’analyse historique et de tendance. Service Manager procédez comme suit :</p>
+<ul>
+<li>Il permet de définir les cubes OLAP des packs d'administration qui seront créés automatiquement dans SSAS une fois le pack d'administration déployé.</li>
+<li>Il effectue une maintenance automatique du cube sans intervention de l'utilisateur, qui se traduit notamment par des tâches de traitement, de partitionnement, de traduction et de localisation, et de modifications des schémas.</li>
+<li>Il permet aux utilisateurs d'utiliser les outils d'aide à la décision libre-service tels qu'Excel, pour analyser les données de plusieurs façons.</li>
+<li>Il enregistre les rapports Excel générés pour référence ultérieure.</li>
+</ul>
+<p>Pour voir comment les cubes de l’entrepôt de données sont représentés dans la console Service Manager, accédez à <strong>l’espace</strong> de travail Data Warehouse, puis cliquez sur <strong>Cubes</strong>.</p>
+<h2 id="service-manager-olap-cubes">Service Manager cubes OLAP</h2>
+<p>L'illustration suivante est une capture d'écran de SQL Server Business Intelligence Development Studio (BIDS) montrant les principaux éléments requis pour les cubes OLAP. Ces éléments sont la source de données, la vue de source de données, les cubes et les dimensions. Les sections suivantes abordent les différents éléments du cube OLAP, ainsi que les actions possibles.</p>
+<p><img src="media/olap-cubes-overview/ops-cubedimensions.png?view=sc-sm-2022" alt="Image de l'architecture de cube" data-linktype="relative-path"></p>
+<h3 id="data-source">Source de données</h3>
+<p>Une source de données est l'origine de toutes les données contenues dans un cube OLAP. Un cube OLAP se connecte à une source de données pour lire et traiter des données brutes afin d'effectuer des calculs et des agrégations pour les mesures qui lui sont associées. La source de données pour tous les cubes OLAP Service Manager est les data marts, qui incluent les data marts pour Operations Manager et Configuration Manager. Les informations d'authentification de la source de données doivent être stockées dans SQL Server Analysis Services (SSAS) afin d'établir le niveau d'autorisations approprié.</p>
+<h3 id="data-source-view">Vue de source de données</h3>
+<p>La vue de source de données (DSV) est une collection de vues qui représentent la dimension, les faits et les tables de débogueur de la source de données, telles que les data marts Service Manager. La vue de source de données contient toutes les relations établies entre les tables, telles que les clés primaires et étrangères. En d'autres termes, la vue de source de données spécifie la manière dont la base de données SSAS sera mappée vers le schéma relationnel, et fournit une couche d'abstraction par-dessus la base de données relationnelle. Grâce à cette couche d'abstraction, des relations peuvent être définies entre les tables de faits et de dimensions, même s'il n'existe aucune relation dans la base de données relationnelle source. Les calculs nommés, les mesures personnalisées et les nouveaux attributs peuvent également être définis dans la vue de source de données qui peut ne pas exister nativement dans le schéma de dimensions de l'entrepôt de données. Par exemple, un calcul nommé qui définit une valeur booléenne pour <em>incidents résolus</em> calcule la valeur comme true si l’état d’un incident est résolu ou fermé. À l’aide du calcul nommé, Service Manager pouvez ensuite définir une mesure pour afficher des informations utiles telles que le pourcentage d’incidents résolus, le nombre total d’incidents résolus et le nombre total d’incidents qui ne sont pas résolus.</p>
+<p>Un autre exemple de calcul nommé est <em>ReleasesImplementedOnSchedule</em>. Ce calcul nommé permet une vérification rapide de l'état d'intégrité des enregistrements de version dont la date de fin est antérieure ou identique à la date de fin planifiée.</p>
+<h4 id="olap-cubes">cubes OLAP</h4>
+<p>Un cube OLAP est une structure de données supérieure aux bases de données relationnelles grâce à une analyse rapide des données. Les cubes OLAP peuvent afficher et additionner de grandes quantités de données tout en fournissant aux utilisateurs un accès pouvant faire l’objet d’une recherche à tous les points de données afin que les données puissent être regroupées, segmentées et désécrites en fonction des besoins pour gérer la plus grande variété de questions pertinentes pour la zone d’intérêt d’un utilisateur.</p>
+<h4 id="dimensions">Dimensions</h4>
+<p>Une dimension dans SSAS fait référence à une dimension de l’entrepôt de données Service Manager. Dans Service Manager, une dimension équivaut approximativement à une classe de pack d’administration. Chaque classe de pack d'administration possède une liste de propriétés. Les dimensions, quant à elles, contiennent chacune une liste d'attributs, où chacun d'eux est mappé vers une propriété de classe. Les dimensions permettent de filtrer, de regrouper et d'étiqueter des données. Par exemple, vous pouvez filtrer les ordinateurs par système d'exploitation, et les groupes de personnes des catégories par âge ou par sexe. Les données peuvent ensuite être classées par hiérarchies naturelles et catégories afin de permettre une analyse plus approfondie. Les dimensions peuvent également avoir des hiérarchies naturelles pour permettre aux utilisateurs de « descendre dans la hiérarchie » vers des niveaux de détail plus détaillés. Par exemple, la dimension Date possède une hiérarchie pouvant être détaillée par année, trimestre, mois, semaine et jour.</p>
+<p>L'illustration suivante montre un cube OLAP contenant les dimensions Date, Region et Product.</p>
+<p><img src="media/olap-cubes-overview/ops-dimensions.png?view=sc-sm-2022" alt="Diagramme des dimensions de cube" data-linktype="relative-path"></p>
+<p>Par exemple, les membres de l’équipe Microsoft peuvent souhaiter obtenir un résumé rapide et simple des ventes de la console de jeu Xbox One dans la version applicable. Ils peuvent l'explorer au niveau du détail pour obtenir les chiffres des ventes pour une période plus ciblée. Les analystes d’entreprise souhaitent peut-être examiner la façon dont les ventes de consoles Xbox One ont été affectées par le lancement de la nouvelle conception de console et le Kinect pour Xbox One. Cela leur permet de connaître les tendances actuelles des ventes, ainsi que les éventuelles révisions nécessaires de la stratégie commerciale. Grâce au filtrage par dimension Date, ces informations peuvent être rapidement fournies et utilisées. Ce découpage des données est possible uniquement parce que les dimensions ont été conçues avec des attributs et des données pouvant être facilement filtrées et regroupées par client.</p>
+<p>Dans Service Manager, tous les cubes OLAP partagent un ensemble commun de dimensions. Toutes les dimensions utilisent le mini-Data Warehouse principal comme source, même lorsqu'il existe plusieurs mini-Data Warehouse. L'existence de plusieurs mini-Data Warehouse peut entraîner des erreurs de clé de dimension pendant le traitement du cube.</p>
+<h4 id="measure-group">Groupe de mesures</h4>
+<p>Un groupe de mesures correspond à ce que l'on appelle un fait dans l'entrepôt de données. De la même façon que les faits de l'entrepôt de données contiennent des mesures numériques, les groupes de mesures contiennent les mesures d'un cube OLAP. Toutes les mesures de cube OLAP dérivées d'une même table de faits appartenant à une vue de source de données peuvent également être considérées comme un groupe de mesures. Toutefois, dans certains cas, il est possible d'avoir plusieurs tables de faits desquelles seront dérivées les mesures d'un cube OLAP. Les mesures ayant le même niveau de détail sont rassemblées au sein d'un groupe de mesures. Les groupes de mesures permettent de définir les données à charger dans le système, la façon dont elles doivent être chargées, ainsi que la façon dont elles sont liées au cube multidimensionnel.</p>
+<p>Chaque groupe de mesures contient également une liste de partitions, où les données sont contenues dans des sections distinctes et non superposées. Les groupes de mesures comprennent également la conception d'agrégation, qui définit les ensembles de données précondensées qui sont calculés pour chaque groupe de mesures afin d'améliorer les performances des requêtes utilisateur.</p>
+<h4 id="measures">Mesures</h4>
+<p>Les mesures sont des valeurs numériques que les utilisateurs peuvent découper, agréger et analyser. Elles constituent l'une des principales raisons pour lesquelles les cubes OLAP doivent être créés à l'aide de l'infrastructure d'entreposage des données. À l'aide de SSAS, vous pouvez créer des cubes OLAP qui appliqueront des règles d'entreprise et des calculs pour mettre en forme et afficher les mesures dans un format personnalisable. Lors du développement de cubes OLAP, vous consacrerez la majeure partie de votre temps à déterminer et définir les mesures qui devront être affichées, ainsi que la façon dont elles devront être calculées.</p>
+<p>Les mesures sont des valeurs qui sont généralement mappées vers les colonnes numériques d'une table de faits de l'entrepôt de données, mais peuvent également être créées dans les attributs des dimensions (dégénérées ou non). Ces mesures sont les valeurs analysées les plus importantes d'un cube OLAP. Elles constituent en outre l'intérêt principal des utilisateurs finaux qui parcourent le contenu d'un cube OLAP. ActivityTotalTimeMeasure est l'une des mesures présentes dans l'entrepôt de données. ActivityTotalTimeMeasure provient d'ActivityStatusDurationFact qui représente la durée que reste une activité dans un état donné. Le niveau de détail d'une mesure est constitué de toutes les dimensions référencées. Par exemple, le niveau de détail du fait de relation <em>ComputerHostsOperatingSystem</em> est constitué des dimensions Computer et Operating System.</p>
+<p>Les fonctions d'agrégation sont calculées à l'aide des mesures pour permettre l'analyse de données supplémentaires. La fonction d'agrégation la plus courante est Sum. L'une des requêtes courantes de cube OLAP, par exemple, additionne la durée totale de toutes les activités dont l'état est <em>In Progress</em>. Les autres fonctions d'agrégation courantes sont notamment Min, Max et Count.</p>
+<p>Une fois les données brutes traitées au sein du cube OLAP, les utilisateurs peuvent exécuter des calculs et des requêtes plus complexes à l'aide d'expressions multidimensionnelles (MDX), afin de définir leurs propres expressions de mesures et membres calculés. Les expressions multidimensionnelles constituent la norme en matière d'interrogation et d'accès aux données stockées sur les systèmes OLAP. SQL Server n'a pas été conçu pour fonctionner avec le modèle de données pris en charge par les bases de données multidimensionnelles.</p>
+<h4 id="drill-down">Descendre dans la hiérarchie</h4>
+<p>Lorsqu'un utilisateur explore en détail les données d'un cube OLAP, il peut les analyser à différents niveaux de synthèse. Le niveau de détail des données change à mesure que l'utilisateur descend dans la hiérarchie (« drill down »). À mesure qu'il descend dans la hiérarchie, l'utilisateur passe du résumé aux détails des informations. Voici quelques exemples d'exploration des détails :</p>
+<ul>
+<li>Exploration des données démographiques des États-Unis, puis de l'État de Washington, puis de la région de Seattle, puis de la ville de Redmond, puis de la société Microsoft.</li>
+<li>Exploration des chiffres de vente pour les consoles Xbox One pour l’année civile 2015, puis le quatrième trimestre de l’année, puis le mois de décembre, puis la semaine avant Noël, et enfin la veille de Noël.</li>
+</ul>
+<h4 id="drill-through">Extraire</h4>
+<p>Lorsque les utilisateurs <em>explorent</em> les données, ils souhaitent voir toutes les transactions individuelles qui ont contribué aux données agrégées du cube OLAP. En d'autres termes, ils peuvent récupérer des données davantage synthétisées pour une valeur de mesure donnée. Par exemple, lorsque vous accédez aux chiffres de ventes relatifs à un mois et à une catégorie de produit en particulier, vous pouvez extraire ces données pour afficher la liste de chacune des lignes de table contenues dans cette cellule de données.</p>
+<p>Il est courant de confondre les termes « descendre dans la hiérarchie » et « explorer » entre eux. La principale différence entre eux est qu’une exploration fonctionne sur une hiérarchie prédéfinie de données, par exemple aux États-Unis, puis à Washington, puis à Seattle dans le cube OLAP. L'extraction, quant à elle, permet d'accéder directement à un niveau de détail moins élevé, et de récupérer un ensemble de lignes provenant d'une source de données et ayant été agrégées au sein d'une même cellule.</p>
+<h4 id="key-performance-indicator">Indicateur de performance clé</h4>
+<p>Les organisations peuvent utiliser des indicateurs de performance clés (KPI) pour évaluer la santé de leur entreprise, ainsi que leurs performances, en mesurant les progrès réalisés dans le cadre des objectifs prédéfinis. Les indicateurs de performance clés sont des mesures pouvant être définies pour évaluer les progrès réalisés dans le cadre des objectifs prédéfinis. Généralement, un indicateur de performance clé possède une valeur cible et une valeur réelle représentant un objectif quantitatif, essentiel à la réussite de l'entreprise. Les indicateurs de performance clés apparaissent généralement au sein de groupes, sur un tableau de bord affichant une vue synthétisée de l'état de santé global de l'entreprise.</p>
+<p>Un exemple d'indicateur de performance clé est le fait de pouvoir effectuer toutes les demandes de modification en 48 heures. Un indicateur de performance clé peut servir à calculer le pourcentage de demandes de modification ayant été effectuées au cours de cette période. Vous pouvez créer des tableaux de bord pour représenter visuellement les indicateurs de performance clés. Par exemple, vous pouvez souhaiter définir la valeur cible d'indicateur de performance clé sur 75 % (des demandes de modification effectuées en 48 heures).</p>
+<h4 id="partitions">Partitions</h4>
+<p>Une partition est une structure de données qui contient une partie ou la totalité des données d'un groupe de mesures. Chaque groupe de mesures est divisé en partitions. Une partition définit le sous-ensemble de données de faits qui est chargé dans le groupe de mesures. SSAS Standard Edition n'autorise qu'une seule partition par groupe de mesures, tandis que SSAS Enterprise Edition permet aux groupes de mesures de contenir plusieurs partitions. Bien que simples à comprendre pour l'utilisateur final, les partitions ont un impact considérable sur les performances et l'extensibilité des cubes OLAP. Toutes les partitions d'un groupe de mesures se trouvent toujours dans la même base de données physique.</p>
+<p>Les partitions permettent à un administrateur de mieux gérer un cube OLAP et d’améliorer les performances d’un cube OLAP. Par exemple, vous pouvez supprimer ou retraiter les données dans une partition d'un groupe de mesures sans affecter le reste du groupe de mesures. Lorsque vous chargez des nouvelles données dans une table de faits, seules les partitions devant contenir les nouvelles données sont affectées.</p>
+<p>Le partitionnement améliore également les performances de traitement et de requête pour les cubes OLAP. SSAS peut traiter plusieurs partitions en parallèle, conduisant à une utilisation beaucoup plus efficace des ressources processeur et mémoire sur le serveur. Lors de l'exécution d'une requête, SSAS extrait, traite et regroupe les données à partir de plusieurs partitions. Seules les partitions qui contiennent les données relatives à une requête sont analysées, ce qui réduit la quantité globale des entrées et sorties.</p>
+<p>Un exemple de stratégie de partitionnement consiste à placer les données de faits pour chaque mois dans une partition mensuelle. À la fin de chaque mois, les nouvelles données passent dans une nouvelle partition, ce qui conduit à une distribution physique des données avec des valeurs qui ne superposent pas.</p>
+<h4 id="aggregations">Agrégations</h4>
+<p>Les agrégations dans un cube OLAP sont des ensembles de données résumés au préalable. Ils sont similaires à une instruction SQL SELECT munie d'une clause GROUP BY. SSAS peut utiliser ces agrégations lorsqu'il répond aux requêtes afin de réduire la quantité de calculs nécessaires, ce qui lui permet de répondre rapidement à l'utilisateur. Les agrégations intégrées dans le cube OLAP réduisent la quantité d'agrégations que SSAS a effectuées au moment de la requête. La création d'agrégations correctes peut considérablement améliorer les performances des requêtes. Ce processus évolue souvent tout au long de la durée de vie du cube OLAP à mesure que ses requêtes et son utilisation changent.</p>
+<p>Un ensemble de base d'agrégations est généralement créé et il sera utile pour la plupart des requêtes sur le cube OLAP. Les agrégations sont créées pour chaque partition d'un cube OLAP dans un groupe de mesures. Lors de la génération d'une agrégation, certains attributs des dimensions sont inclus dans le jeu de données résumé au préalable. Les utilisateurs peuvent interroger rapidement les données selon ces agrégations lorsqu'ils parcourent le cube OLAP. Les agrégations doivent être conçues avec soin, car le nombre d'agrégations potentielles est tellement grand que la création de tous occuperait une quantité excessive d'espace de stockage et prendrait beaucoup de temps.</p>
+<p>Service Manager utilise les deux options suivantes quand elle génère et conçoit des agrégations dans Service Manager cubes OLAP :</p>
+<ul>
+<li>Les gains de performance atteignent</li>
+<li>Optimisation basée sur l'utilisation</li>
+</ul>
+<p>L'option Les gains de performance atteignent définit le pourcentage d'agrégations créées. Par exemple, la définition de cette option sur la valeur par défaut et la valeur recommandée de 30 % signifie que les agrégations seront conçues pour donner au cube OLAP un gain de performance estimé à 30 %. Toutefois, cela ne signifie pas que 30 % des agrégations possibles seront générées.</p>
+<p>L'optimisation basée sur l'utilisation permet à SSAS de journaliser les demandes de données de sorte que lorsqu'une requête est exécutée, les informations sont chargées dans le processus de conception d'agrégation. Ensuite, SSAS passe en revue les données et recommande les agrégations qui doivent être générées pour fournir le meilleur gain de performance possible.</p>
+<h2 id="service-manager-cube-partitioning">partitionnement de cube Service Manager</h2>
+<p>Chacun des groupes de mesures d'un cube est divisé en partitions, lesquelles définissent chacune une portion de données de fait qui est chargée dans un groupe de mesures. SQL Server Analysis Services (SSAS) sur SQL Server Standard Edition n’autorise qu’une seule partition par groupe de mesures, tandis que plusieurs partitions sont autorisées dans le Êdition Entreprise. Bien que simples à comprendre pour l'utilisateur final, les partitions ont un impact considérable sur les performances et l'extensibilité. Par exemple, elles peuvent être traitées séparément et en parallèle. Ils peuvent avoir des conceptions d’agrégation différentes. Il est possible de retraiter une partition sans affecter les autres partitions du même groupe de mesures. En outre, SSAS analyse uniquement les partitions qui contiennent les données nécessaires à une requête particulière, ce qui peut améliorer considérablement les performances des requêtes.</p>
+<p>Le partitionnement d'un cube est effectué à chaque maintenance de l'entrepôt de données, qui, par défaut, est exécutée toutes les heures. Le module de processus qui est exécuté s'appelle ManageCubePartitions. Il est toujours exécuté après l'étape CreateMartPartitions. Ces données de dépendance sont stockées dans la table infra.moduletriggercondition.</p>
+<p>La bibliothèque de liens dynamiques (DLL) principale qui gère le partitionnement se trouve dans la DLL de l'utilitaire de l'entrepôt nommée Microsoft.EnterpriseManagement.Warehouse.Utility, dans la classe PartitionUtil. Il existe dans cette classe une méthode ManagePartitions() qui gère l'ensemble de la maintenance des partitions. La DLL de maintenance de l'entrepôt de données Microsoft.EnterpriseManagement.Warehouse.Maintenance, et la DLL OLAP de l'entrepôt de données Microsoft.EnterpriseManagement.Warehouse.Olap, appellent toutes les deux Microsoft.EnterpriseManagement.Warehouse.Utility pour gérer les partitions pendant la maintenance et le déploiement des cubes. La gestion des partitions est donc effectuée dans la DLL commune de l'utilitaire de l'entrepôt de données afin d'éviter toute duplication de code ou de logique.</p>
+<p>Les tâches suivantes peuvent être effectuées lors de la maintenance du partitionnement des cubes :</p>
+<ul>
+<li>Créer des partitions</li>
+<li>Suppression de partitions</li>
+<li>Mise à jour des limites des partitions</li>
+</ul>
+<p>Pour ce faire, la table SQL etl.TablePartition est lue afin de connaître toutes les partitions de faits qui ont été créées pour un groupe de mesures donné. Les actions suivantes se produisent :</p>
+<ol>
+<li>Démarrez le traitement du cube pour chaque groupe de mesures du cube en question.</li>
+<li>Obtenez toutes les partitions de la table etl.TablePartition pour le groupe de mesures en question.</li>
+<li>Supprimez toutes les partitions qui sont présentes dans le groupe de mesures, mais absentes de la table etl.TablePartition.</li>
+<li>Ajoutez toutes les partitions récemment créées qui n'existent que dans la table etl.TablePartition.</li>
+<li>Mettez à jour les partitions susceptibles d'avoir été modifiées en les comparant à RangeStartDate et RangeEndDate dans la table etl.TablePartition.</li>
+</ol>
+<p>N'oubliez pas les éléments suivants concernant le traitement des cubes :</p>
+<ul>
+<li>Seuls les groupes de mesures ciblés sur les faits contiennent plusieurs partitions dans SQL Server Standard Edition. Par défaut, les groupes de mesures et les dimensions contiennent une seule partition. Par conséquent, la partition ne possède pas de conditions de limites.</li>
+<li>Les limites d'une partition sont définies par une liaison de requête basée sur des datekey qui correspondent à ceux de la partition de fait correspondante dans la table etl.TablePartition.</li>
+</ul>
+<h2 id="service-manager-olap-cube-deployment">déploiement de cube OLAP Service Manager</h2>
+<p>Le déploiement de cube de traitement analytique en ligne (OLAP) utilise l’infrastructure de déploiement Service Manager pour créer des cubes OLAP dans la base de données SQL Server Analysis Services (SSAS).</p>
+<p>Pour résumer, un élément déployable retourne un agent de déploiement avec un ensemble de ressources sérialisées qui sont utilisées pour créer le cube OLAP dans la base de données SSAS. Pour les cubes OLAP, le nom de l'objet déployable est CubeDeployable pour l'élément SystemCenterCube, et CubeExtensionDeployable pour l'élément CubeExtension. L'agent de déploiement de ces deux éléments est CubeDeployer.</p>
+<p>La table dbo.Selector de la base de données DWStagingAndConfig contient une entrée pour chacun des éléments de pack d'administration SystemCenterCube et CubeExtension. Le moteur de déploiement utilise ces métadonnées si un traitement de déploiement supplémentaire est nécessaire pour l'un des éléments de pack d'administration, lors de l'importation du pack dans l'entrepôt de données à l'aide d'une tâche MPSync.</p>
+<p>Les déploiements utilisent l'API AMO (Analysis Management Objects) pour créer et modifier tous les composants de cube de la base de données SSAS. AMO est utilisée en mode déconnecté, car l'élément CubeDeployable ne possède pas de connexion à la base de données SSAS. L'utilisation d'AMO en mode déconnecté permet de créer l'arborescence entière d'objets AMO sans établir de connexion au serveur. Service Manager sérialise ensuite la hiérarchie des objets en tant que ressources de flux et les attache à l’objet de déploiement passé à l’infrastructure de déploiement. L'objet d'agent de déploiement est ensuite désérialisé. Il établit alors une connexion à la base de données SSAD, puis crée les objets en envoyant les requêtes appropriées au serveur.</p>
+<p>Seuls les objets principaux peuvent être sérialisés. Dans AMO, les objets principaux sont considérés comme des classes représentant un objet complet ou entité complète, et non comme faisant partie d'un autre objet. Les objets principaux sont notamment Server, Cube et Dimension, qui sont tous des entités autonomes. Toutefois, DimensionAttribute, n'est pas un objet principal, car il peut uniquement être créé comme faisant partie d'un objet principal parent de Dimension. DimensionAttribute, par conséquent, est un objet secondaire. La conception d'un cube OLAP se concentre sur la création de tous les objets principaux nécessaires aux cubes, ainsi que sur tous les objets secondaires dépendants. Ces objets majeurs sont les objets qui seront sérialisés et, finalement, désérialisés avant la création des objets dans la base de données SSAS.</p>
+<p>Les ressources qui englobent les objets principaux doivent être créées dans un ordre spécifique pour que le déploiement soit réussi et réponde aux exigences des éléments de cube OLAP en matière de dépendance. Les deux listes suivantes illustrent la séquence de déploiement des éléments SystemCenterCube et CubeExtension, respectivement :</p>
+<ol>
+<li>Éléments DataSourceView</li>
+<li>Éléments de dimension</li>
+<li>Élément de dimension de date</li>
+<li>Élément de cube</li>
+<li>Éléments DataSourceView</li>
+<li>Élément de cube</li>
+</ol>
+<h2 id="service-manager-olap-cube-processing">Service Manager traitement du cube OLAP</h2>
+<p>Lorsqu'un cube OLAP a été déployé et que toutes ses partitions ont été créées, il est prêt à être traité en vue de son affichage. Le traitement d'un cube est la dernière étape qui suit l'extraction, la transformation et le chargement (ETL). Ces étapes sont effectuées de la façon suivante :</p>
+<ol>
+<li>Extraction : extrait les données du système source</li>
+<li>Transformation : applique les fonctions afin de rendre les données conformes au schéma de dimensions standard</li>
+<li>Chargement : charge les données dans le mini-Data Warehouse en vue de leur consommation</li>
+<li>Processus : charge les données dans le cube OLAP depuis le mini-Data Warehouse pour permettre l'exploration des données</li>
+</ol>
+<p>Le traitement d'un cube OLAP se produit lorsque toutes les agrégations du cube sont calculées, et que celui-ci est chargé avec ces agrégations et ses données. Les tables de dimensions et de faits sont lues, puis les données sont calculées et chargées dans le cube. Lors de la conception d'un cube OLAP, le traitement doit faire l'objet d'une attention particulière, en raison des conséquences potentiellement importantes dans un environnement de production comprenant des millions d'enregistrements. Un processus complet de toutes les partitions dans un tel environnement peut prendre n’importe où de jours à semaines, ce qui peut rendre l’infrastructure et les cubes Service Manager inutilisables pour les utilisateurs finaux. Il est recommandé de désactiver la planification du traitement des cubes non utilisés afin d'éviter la surcharge du système.</p>
+<p>Le traitement du cube OLAP se compose de deux tâches distinctes :</p>
+<ol>
+<li>Traitement des dimensions</li>
+<li>Traitement des partitions</li>
+</ol>
+<p>Chaque cube OLAP a un travail de traitement correspondant dans la console Service Manager et s’exécute sur une planification configurable par l’utilisateur. Chacun de ces types de tâche de traitement est décrit dans les sections suivantes.</p>
+<h3 id="dimension-processing">Traitement des dimensions</h3>
+<p>Lorsqu'une nouvelle dimension est ajoutée à la base de données SQL Server Analysis Server (SSAS), elle doit faire l'objet d'un traitement complet afin que son état reflète un tel traitement. Toutefois, une fois la dimension traitée, il n'est pas garanti qu'elle sera de nouveau traitée lors du traitement d'un autre cube la ciblant. En ne rétraissant pas automatiquement la dimension, Service Manager ne peut pas traiter chaque dimension pour chaque cube. Ceci est d'autant plus valable si la dimension a été traitée récemment, car il est peu probable que de nouvelles données n'aient pas encore été traitées. Une classe singleton définie dans le pack d'administration Microsoft.SystemCenter.Datawarehouse.OLAP.Base nommée Microsoft.SystemCenter.Warehouse.Dimension.ProcessingInterval permet d'optimiser l'efficacité du traitement. En voici un exemple :</p>
+<pre><code>&lt;!-- This singleton class defines the minimum interval of time in minutes that must elapse before a shared dimension is reprocessed. --&gt;   
+&lt;ClassType ID=&quot;Microsoft.SystemCenter.Warehouse.Dimension.ProcessingInterval&quot; Accessibility=&quot;Public&quot; Abstract=&quot;false&quot; Base=&quot;AdminItem!System.AdminItem&quot; Singleton=&quot;true&quot;&gt;  
+&lt;Property ID=&quot;IntervalInMinutes&quot; Type=&quot;int&quot; Required=&quot;true&quot; DefaultValue=&quot;60&quot;/&gt;  
+&lt;/ClassType&gt;  
+</code></pre>
+<p>Cette classe singleton contient une propriété, <em>IntervalInMinutes</em>, qui décrit la fréquence de traitement d'une dimension. Par défaut, cette propriété est définie sur 60 minutes. Par exemple, si une dimension a été traitée à 15 h 05 alors qu'un autre cube la ciblant a été traité à 15 h 45, la dimension ne sera pas retraitée. L'inconvénient de cette approche est la probabilité accrue d'erreurs relatives aux clés de dimension. Un mécanisme de nouvelle tentative gère les erreurs de clé de dimension afin de traiter à nouveau la dimension, puis la partition de cube. Pour plus d’informations sur les échecs de traitement, consultez la section « Problèmes courants liés au débogage et à la résolution des problèmes ».</p>
+<p>Après le traitement complet d'une dimension, un traitement incrémentiel est exécuté à l'aide de <em>ProcessUpdate</em> . Le seul autre cas dans lequel <em>ProcessFull</em> est exécuté est lorsque le schéma d'une dimension est modifié, car celle-ci retourne à un état non traité. Rappelez-vous que si <em>ProcessFull</em> est exécuté sur une dimension, tous les cubes concernés, ainsi que leurs partitions, passeront à l'état non traité et devront faire l'objet d'un traitement complet lors de la prochaine exécution planifiée.</p>
+<h3 id="partition-processing">Traitement des partitions</h3>
+<p>Le traitement des partitions doit faire l'objet d'une attention particulière. En effet, le retraitement d'une partition volumineuse se révèle très lent et utilise de nombreuses ressources processeur sur le serveur qui héberge SSAS. En règle générale, le traitement des partitions est plus long que celui des dimensions. Contrairement au traitement de dimensions, le traitement de partitions n'a aucun effet secondaire sur les autres objets. Les deux seuls types de traitement exécutés sur System Center - Service Manager cubes OLAP sont ProcessFull et ProcessAdd.</p>
+<p>Comme pour les dimensions, la création de partitions dans un cube OLAP nécessite l'exécution d'une tâche ProcessFull pour que les partitions puissent être interrogées. La tâche ProcessFull étant une opération coûteuse, elle ne doit être exécutée que lorsque cela est nécessaire, par exemple, lors de la création d'une partition ou de la mise à jour d'une ligne. Dans les scénarios dans lesquels des lignes ont été ajoutées et aucune ligne n’a été mise à jour, Service Manager pouvez effectuer une tâche ProcessAdd. Pour ce faire, Service Manager utilise des filigranes et d’autres métadonnées. Plus précisément, les tables etl.cubepartition et etl.tablepartition sont interrogées afin de déterminer le type de traitement à effectuer.</p>
+<p>Le diagramme suivant montre comment Service Manager détermine le type de traitement à effectuer en fonction des données de filigrane.</p>
+<p><img src="media/olap-cubes-overview/ops-cubeprocessing.png?view=sc-sm-2022" alt="Diagramme du traitement du cube" data-linktype="relative-path"></p>
+<p>Lorsqu’une tâche ProcessAdd est effectuée, Service Manager limite l’étendue de la requête à l’aide de filigranes. Par exemple, si la valeur d'InsertedBatchId est de 100 et celle de WatermarkBatchId est de 50, la requête chargera uniquement les données du mini-Data Warehouse où la valeur d'InsertedBatchId est comprise entre 50 et 100.</p>
+<p>Enfin, il est important de noter que Service Manager ne prend pas en charge le traitement manuel des cubes OLAP à l’aide de SSAS ou de Business Intelligence Development Studio. Le traitement des cubes en dehors des méthodes fournies dans System Center - Service Manager, y compris la console Service Manager et les applets de commande Service Manager, ne met pas à jour les tables de filigrane. Par conséquent, des problèmes d'intégrité des données sont possibles. Si vous avez retraité le cube manuellement par erreur, une solution de contournement possible consiste à annuler manuellement le traitement du cube OLAP, de la même manière. Ensuite, la prochaine fois que Service Manager traite le cube, il effectue automatiquement une tâche ProcessFull, car les partitions sont dans un état non traité. De cette façon, tous les filigranes et toutes les métadonnées seront mis à jour, et les éventuels problèmes d'intégrité des données seront résolus.</p>
+<h2 id="maintain-service-manager-olap-cubes">Gérer Service Manager cubes OLAP</h2>
+<p>Les sections suivantes abordent les meilleures pratiques de maintenance des cubes de traitement analytique en ligne (OLAP).</p>
+<h3 id="periodically-reprocess-analysis-services-dimensions">Retraiter régulièrement les dimensions Analysis Services</h3>
+<p>Selon les meilleures pratiques SQL Server Analysis Services (SSAS), il est recommandé d'effectuer régulièrement un traitement complet des dimensions SSAS. Le traitement complet des dimensions permet de reconstruire les index et d'optimiser le stockage des données multidimensionnelles, ce qui a pour effet d'améliorer les performances des requêtes et des cubes qui peuvent se dégrader avec le temps. Ce processus est similaire à celui de la défragmentation régulière du disque dur d'un ordinateur.</p>
+<p>Toutefois, l'un des inconvénients du traitement complet des dimensions SSAS est que tous les cubes OLAP concernés passent à l'état non traité, alors qu'ils doivent également faire l'objet d'un traitement complet afin de pouvoir retourner à l'état dans lequel ils étaient au moment de la requête. Service Manager ne traite pas explicitement les dimensions SSAS. Par conséquent, vous devez décider du moment auquel effectuer cette tâche de maintenance.</p>
+<h3 id="memory-considerations">Considérations relatives à la mémoire</h3>
+<p>Si vous exécutez toutes les opérations de type extraction, transformation et chargement (ETL) de l'entrepôt de données, ainsi que toutes les fonctions de cube OLAP sur le même serveur, vous devrez prévoir les besoins en mémoire du système d'exploitation, de l'entrepôt de données et de SQL Server Analysis Services, afin de garantir que le serveur pourra faire face aux opérations exécutées simultanément nécessitant de nombreuses ressources. La planification est particulièrement importante, car le traitement des cubes OLAP nécessite beaucoup de mémoire.</p>
+<h2 id="next-steps">Étapes suivantes</h2>
+<ul>
+<li><a href="olap-cubes-mps?view=sc-sm-2022" data-linktype="relative-path">Modéliser des cubes OLAP dans les packs d’administration</a>.</li>
+</ul>
+
+							</div>
+
+							<div id="assertive-live-region" role="alert" aria-live="assertive" class="visually-hidden" aria-relevant="additions" aria-atomic="true"></div>
+							<div id="polite-live-region" role="status" aria-live="polite" class="visually-hidden" aria-relevant="additions" aria-atomic="true"></div>
+							<!-- </content> -->
+
+						</main>
+
+
+
+
+						<!-- recommendations section -->
+							<section id="recommendations-section" data-bi-name="recommendations" class="display-none-print"></section>
+							<section id="right-rail-recommendations-mobile" data-bi-name="recommendations" class="display-none-desktop margin-top-xxs" hidden></section>
+						<!-- end recommendations section -->
+
+							<section id="right-rail-learning-resources-mobile" class="display-none-desktop margin-top-xxs" data-bi-name="learning-resources-card" hidden></section>
+							<section id="right-rail-qna-mobile" class="display-none-desktop margin-top-xxs" data-bi-name="qna-link-card" hidden></section>
+
+						<!-- feedback section -->
+						<!-- end feedback section -->
+
+						<!-- feedback report section -->
+						<!-- end feedback report section -->
+
+							<section id="right-rail-events-mobile" class="display-none-desktop margin-top-xs" data-bi-name="events-card" hidden></section>
+
+						<div class="border-top is-visible-interactive has-default-focus margin-top-sm ">
+
+
+
+	<footer id="footer-interactive" data-bi-name="footer" class="footer-layout">
+	<div class="display-flex is-full-height padding-right-lg-desktop">
+			<a
+				data-mscc-ic="false"
+				class="locale-selector-link button button-clear flex-shrink-0"
+				href="#"
+				data-bi-name="select-locale">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-world"></span>
+					</span>
+					<span class="local-selector-link-text"></span></a>
+		<div class="margin-inline-xs flex-shrink-0">
+<div class="dropdown has-caret-up">
+	<button class="dropdown-trigger button button-clear button-sm has-inner-focus theme-dropdown-trigger"
+		aria-controls="theme-menu-interactive" aria-expanded="false" title="Thème" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span>Thème</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu-interactive" role="menu">
+		<ul class="theme-selector padding-xxs" role="none">
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="light">
+					<span class="theme-light margin-right-xxs">
+						<span
+							class="theme-selector-icon css-variable-support border display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>
+Clair					</span>
+				</button>
+			</li>
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="dark">
+					<span class="theme-dark margin-right-xxs">
+						<span
+							class="border theme-selector-icon css-variable-support display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>
+Sombre					</span>
+				</button>
+			</li>
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="high-contrast">
+					<span class="theme-high-contrast margin-right-xxs">
+						<span
+							class="border theme-selector-icon css-variable-support display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>
+Contraste élevé					</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+</div>
+		</div>
+	</div>
+	<ul class="links" data-bi-name="footerlinks">
+		<li class="manage-cookies-holder" hidden></li>
+				<li><a data-mscc-ic="false" href="/fr-fr/previous-versions/" data-bi-name="archivelink">Versions antérieures</a></li>
+				<li><a data-mscc-ic="false" href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog" data-bi-name="bloglink">Blog</a></li>
+				<li><a data-mscc-ic="false" href="/fr-fr/contribute/" data-bi-name="contributorGuide">Collaboration</a></li>
+					<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Confidentialité &amp; cookies</a></li>
+				<li><a data-mscc-ic="false" href="/fr-fr/legal/termsofuse" data-bi-name="termsofuse">Conditions d'utilisation</a></li>
+				<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?linkid=2121428" data-bi-name="conformanceDisclosure ">Accessibilité</a></li>
+				<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Marques</a></li>
+		<li>&copy; Microsoft 2022</li>
+	</ul>
+</footer>
+						</div>
+
+					</div>
+
+						<div
+							class="font-size-sm right-container column is-4-desktop display-none display-block-desktop"
+							data-bi-name="pageactions"
+							role="complementary"
+							aria-label="Actions sur la page">
+
+							<div id="affixed-right-container" class="margin-top-sm-tablet doc-outline is-vertically-scrollable" data-bi-name="right-column">
+								<section id="right-rail-events" data-bi-name="events-card" class="margin-bottom-xxs" hidden></section>
+								<section id="right-rail-recommendations" data-bi-name="recommendations" class="margin-bottom-xxs" hidden></section>
+								<nav id="side-doc-outline" data-bi-name="intopic toc" role="navigation" aria-label="Plan de l'article">
+									<h3>Dans cet article</h3>
+								</nav>
+								<section id="right-rail-learning-resources" class="margin-top-xxs" data-bi-name="learning-resources-card" hidden></section>
+								<section id="right-rail-qna" class="margin-top-xxs" data-bi-name="qna-link-card" hidden></section>
+							</div>
+						</div>
+
+				</div>
+				<!--end of div.columns -->
+
+			</section>
+			<!--end of .primary-holder -->
+
+			<!-- interactive container -->
+			<aside id="interactive-container" class="interactive-container is-visible-interactive column has-body-background-dark ">
+			</aside>
+			<!-- end of interactive container -->
+		</div>
+
+	</div>
+	<!--end of .mainContainer -->
+
+	<section class="border-top has-default-focus is-hidden-interactive margin-top-sm ">
+
+
+
+	<footer id="footer" data-bi-name="footer" class="footer-layout uhf-container has-padding" role="contentinfo">
+	<div class="display-flex is-full-height padding-right-lg-desktop">
+			<a
+				data-mscc-ic="false"
+				class="locale-selector-link button button-clear flex-shrink-0"
+				href="#"
+				data-bi-name="select-locale">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-world"></span>
+					</span>
+					<span class="local-selector-link-text"></span></a>
+		<div class="margin-inline-xs flex-shrink-0">
+<div class="dropdown has-caret-up">
+	<button class="dropdown-trigger button button-clear button-sm has-inner-focus theme-dropdown-trigger"
+		aria-controls="theme-menu" aria-expanded="false" title="Thème" data-bi-name="theme">
+		<span class="icon">
+			<span class="docon docon-sun" aria-hidden="true"></span>
+		</span>
+		<span>Thème</span>
+	</button>
+	<div class="dropdown-menu" id="theme-menu" role="menu">
+		<ul class="theme-selector padding-xxs" role="none">
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="light">
+					<span class="theme-light margin-right-xxs">
+						<span
+							class="theme-selector-icon css-variable-support border display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>
+Clair					</span>
+				</button>
+			</li>
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="dark">
+					<span class="theme-dark margin-right-xxs">
+						<span
+							class="border theme-selector-icon css-variable-support display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>
+Sombre					</span>
+				</button>
+			</li>
+			<li class="theme display-block" role="menuitem">
+				<button class="button button-clear button-sm theme-control button-block justify-content-flex-start"
+					data-theme-to="high-contrast">
+					<span class="theme-high-contrast margin-right-xxs">
+						<span
+							class="border theme-selector-icon css-variable-support display-inline-block has-body-background"
+							aria-hidden="true">
+							<svg class="svg" xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 22 14">
+								<rect width="22" height="14" class="has-fill-body-background" />
+								<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+								<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+								<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+								<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+								<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+								<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+							</svg>
+						</span>
+					</span>
+					<span>
+Contraste élevé					</span>
+				</button>
+			</li>
+		</ul>
+	</div>
+</div>
+		</div>
+	</div>
+	<ul class="links" data-bi-name="footerlinks">
+		<li class="manage-cookies-holder" hidden></li>
+				<li><a data-mscc-ic="false" href="/fr-fr/previous-versions/" data-bi-name="archivelink">Versions antérieures</a></li>
+				<li><a data-mscc-ic="false" href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog" data-bi-name="bloglink">Blog</a></li>
+				<li><a data-mscc-ic="false" href="/fr-fr/contribute/" data-bi-name="contributorGuide">Collaboration</a></li>
+					<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-bi-name="privacy">Confidentialité &amp; cookies</a></li>
+				<li><a data-mscc-ic="false" href="/fr-fr/legal/termsofuse" data-bi-name="termsofuse">Conditions d'utilisation</a></li>
+				<li><a data-mscc-ic="false" href="https://go.microsoft.com/fwlink/?linkid=2121428" data-bi-name="conformanceDisclosure ">Accessibilité</a></li>
+				<li><a data-mscc-ic="false" href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" data-bi-name="trademarks">Marques</a></li>
+		<li>&copy; Microsoft 2022</li>
+	</ul>
+</footer>
+	</section>
+
+	<div id="action-panel" role="region" aria-label="Volet des actions" class="action-panel has-default-focus" tabindex="-1"></div>
+</body>
+</html>

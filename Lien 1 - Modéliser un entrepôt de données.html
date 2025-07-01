@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="fr" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="utf-8">
+	<title>Conception d'un entrepôt de données</title>
+	<link rel="canonical" href="https://grim.developpez.com/cours/businessintelligence/concepts/conception-datawarehouse/">
+	<meta name="generator" content="developpez-com">
+	<meta name="description" content="Conception d'entrepôt de données .">
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Conception d'un entrepôt de données" />
+	<meta property="og:image" content="https://www.developpez.com/template/images/logo.png" />
+	<meta property="og:url" content="https://grim.developpez.com/cours/businessintelligence/concepts/conception-datawarehouse/" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:site_name" content="Developpez.com" />
+	<meta property="twitter:card" content="summary" />
+	<meta property="twitter:url" content="https://grim.developpez.com/cours/businessintelligence/concepts/conception-datawarehouse/" />
+	<meta property="twitter:description" content="Conception d'entrepôt de données ." />
+	<meta property="twitter:title" content="Conception d'un entrepôt de données" />
+	<meta property="twitter:image" content="https://www.developpez.com/template/images/logo.png" />
+	<script src="/template/scripts/jquery-3.4.1.js"></script>
+	<script src="/template/scripts/bootstrap/popper.js"></script>
+	<script src="/template/scripts/bootstrap/bootstrap.bundle.min.js"></script>
+	<script src="/template/scripts/bootstrap/bootstrap.js"></script>
+	<link rel="stylesheet" href="/template/css/bootstrap/bootstrap.css" />
+	<link rel="stylesheet" href="/template/css/bootstrap/bootstrap-social.css" />
+	<link rel="stylesheet" href="/template/fonts/fontawesome/css/all.min.css" />
+	<link rel="stylesheet" href="/template/fonts/fontawesome/css/fontawesome.min.css" />
+	<script async src="https://www.developpez.com/ws/compteurarticle"></script>
+	<script async src="https://www.developpez.com/ws/pageview/url/grim,cours,businessintelligence,concepts,conception-datawarehouse/"></script>
+	<script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+	<script>
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+	</script>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="/template/favicon.ico" />
+	<link rel="image_src" href="https://www.developpez.com/facebook-icon.png" />
+	<link rel="stylesheet" type="text/css" href="/template/css/gabarit.css?1630596300" />
+	<link rel="stylesheet" type="text/css" media="print" href="/template/css/printer.css" />
+	<script src="/template/scripts/gabarit.js?1630596300"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="/template/kit/developpez-kit-generation.css?1645957229" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/template/kit/code.css?1658778493" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/template/kit/lightbox.css?1630596300" />
+	<script src="/template/kit/developpez-kit-generation.js"></script>
+	<script src="/template/kit/lightbox.js"></script>
+	<script src="/template/kit/fonctions-kit.js"></script>
+	<!--[if lt IE 9]>
+	<script src="/template/kit/html5_ie.js"></script>
+	<![endif]-->
+	<!--[if IE 9]><link rel="stylesheet" type="text/css" href="/template/kit/ie9.css" /><![endif]-->
+	<!--[if IE 8]><link rel="stylesheet" type="text/css" href="/template/kit/ie8.css" /><![endif]-->
+	<!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/template/kit/ie.css" /><![endif]-->
+	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/template/kit/ie7.css" /><![endif]-->
+	<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="/template/kit/ie6.css" /><![endif]-->
+	<!--[if lt IE 9]><script type="text/javascript" src="/template/kit/html5_ie.js"></script><![endif]-->
+
+</head>
+<body>
+	<header>
+
+	<div id="gabarit_b1">
+		<div id="gabarit_connexion">
+	<form>
+		<div><span>Identifiant</span><input type="text" class="form_input form-control" id="formloginConnexion" /><span>Mot de passe</span><input type="password" class="form_input form-control" id="formpassConnexion"/><input type="button" value="Connexion" id="formbuttonConnexion" class="btn btn-primary" /><div id="loadingConnexion" class="spinner-border text-light" role="status"><span class="sr-only">Loading...</span></div></div><a id="mdpoublier" href="http://www.developpez.net/forums/login.php?do=lostpw">Mot de passe oublié ?</a><a id="inscriptionConnexion" href="https://www.developpez.net/forums/inscription/" class="btn btn-primary">Je m'inscris ! (gratuit)</a>	
+	</form>
+</div>		<div id="gabarit-barreRecherche" style="display:none;"><form action="https://www.google.fr" target="_blank">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-8110924381468607:6449306375" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="12" />
+    <input type="submit" name="sa" value="Rechercher" />
+  </div>
+</form></div>
+<div id="gabarit-new-logo" role="gabarit-accueil">
+	<a href="https://www.developpez.com"><img src="/template/images/logo-dvp-h55.png" alt="logo dvp" width="48" height="55" /></a>
+	<a href="https://www.developpez.com"><span class="dvp"></span></a>
+	<span class="triangle"></span>
+</div>
+<div id="gabarit_recherche">
+	<div class="gabarit-btn-menu profil dn" role="gabarit-profil"></div>
+	<div class="gabarit-btn-menu profil dn" role="gabarit-connecter"><span></span><a id="gabaritRepereLogout" class="btn btn-primary"></a></div>
+	<div class="gabarit-btn-menu contacts" role="gabarit-contacts"></div>
+	<div class="gabarit-btn-menu recherche" role="gabarit-recherche"></div>
+</div>
+
+<div id="gabarit_superieur">
+	<nav>
+	<ul>
+		<li><a href="https://www.developpez.net/forums/" title="">Forums</a></li>
+		<li><a href="https://general.developpez.com/cours/" title="">Tutoriels</a></li>
+		<li><a href="https://general.developpez.com/faq/" title="">FAQ</a></li>
+		<li><a href="https://www.developpez.net/forums/blogs/" title="">Blogs</a></li>
+		<li><a href="https://chat.developpez.com/" title="">Chat</a></li>
+		<li><a href="https://www.developpez.com/newsletter/">Newsletter</a></li>
+		<li><a href="https://emploi.developpez.com/" title="">Emploi</a></li>
+		<li><a href="https://etudes.developpez.com/">Études</a></li>
+		<li><a href="https://droit.developpez.com/" title="">Droit</a></li>
+		<li><a href="https://club.developpez.com/">Club</a></li>
+	</ul>
+	</nav>
+</div>	</div>
+	<nav>
+
+<ul id="gabarit_menu" style="padding-left:56px;">
+	<li><a href="https://www.developpez.com" data-idrub="1" data-niv="1" style="padding:0;"><div id="gabarit_home"></div></a>
+			</li>
+	<li><a href="https://solutions-entreprise.developpez.com" data-idrub="86" data-niv="1" class="gabarit_selection">DI/DSI Solutions d&#039;entreprise<!----></a>
+			<ul class="gabarit_sousmenu">
+				<li><a href="https://solutions-entreprise.developpez.com" data-idrub="86" data-niv="2">DI/DSI Solutions d&#039;entreprise</a></li>
+				<li><a href="https://abbyy.developpez.com" data-idrub="147" data-niv="2">ABBYY</a></li>
+				<li><a href="https://big-data.developpez.com" data-idrub="126" data-niv="2">Big Data</a></li>
+				<li><a href="https://bpm.developpez.com" data-idrub="134" data-niv="2">BPM</a></li>
+				<li><a href="https://business-intelligence.developpez.com" data-idrub="61" data-niv="2">Business Intelligence</a></li>
+				<li><a href="https://data-science.developpez.com" data-idrub="151" data-niv="2">Data Science</a></li>
+				<li><a href="https://solutions-entreprise.developpez.com/erp-pgi/presentation-erp-pgi/" data-idrub="91" data-niv="2">ERP / PGI</a></li>
+				<li><a href="https://crm.developpez.com" data-idrub="92" data-niv="2">CRM</a></li>
+				<li><a href="https://sas.developpez.com" data-idrub="93" data-niv="2">SAS</a></li>
+				<li><a href="https://sap.developpez.com" data-idrub="106" data-niv="2">SAP</a></li>
+				<li><a href="https://www.developpez.net/forums/f1664/systemes/windows/windows-serveur/biztalk-server/" data-idrub="115" data-niv="2">Microsoft BizTalk Server</a></li>
+				<li><a href="https://talend.developpez.com" data-idrub="118" data-niv="2">Talend</a></li>
+				<li><a href="https://droit.developpez.com" data-idrub="132" data-niv="2">Droit informatique et entreprise</a></li>
+			</ul></li>
+	<li><a href="https://cloud-computing.developpez.com" data-idrub="103" data-niv="1">Cloud<!----></a>
+			<ul class="gabarit_sousmenu">
+				<li><a href="https://cloud-computing.developpez.com" data-idrub="103" data-niv="2">Cloud Computing</a></li>
+				<li><a href="https://oracle.developpez.com" data-idrub="25" data-niv="2">Oracle</a></li>
+				<li><a href="https://windows-azure.developpez.com" data-idrub="107" data-niv="2">Azure</a></li>
+				<li><a href="https://ibmcloud.developpez.com" data-idrub="135" data-niv="2">IBM Cloud</a></li>
+			</ul></li>
+	<li><a href="https://intelligence-artificielle.developpez.com" data-idrub="143" data-niv="1">IA<!----></a>
+			<ul class="gabarit_sousmenu">
+				<li><a href="https://intelligence-artificielle.developpez.com" data-idrub="143" data-niv="2">Intelligence artificielle</a></li>
+			</ul></li>
+	<li><a href="https://alm.developpez.com" data-idrub="42" data-niv="1">ALM<!--<span class="gabarit_tooltip">Cycle de vie du logiciel</span>--></a>
+			<ul class="gabarit_sousmenu">
+				<li><a href="https://alm.developpez.com" data-idrub="42" data-niv="2">ALM</a></li>
+				<li><a href="https://agile.developpez.com" data-idrub="146" data-niv="2">Agile</a></li>
+				<li><a href="https://merise.developpez.com" data-idrub="43" data-niv="2">Merise</a></li>
+				<li><a href="https://uml.developpez.com" data-idrub="12" data-niv="2">UML</a></li>
+			</ul></li>
+	<li><a href="https://microsoft.developpez.com" data-idrub="150" data-niv="1">Microsoft<!----></a>
+			<ul class="gabarit_sousmenu">
+				<li><a href="https://microsoft.developpez.com" data-idrub="150" data-niv="2">Microsoft</a></li>
+				<li><a href="https://dotnet.developpez.com" data-idrub="20" data-niv="2">.NET</a></li>
+				<li><a href="https://office.developpez.com" data-idrub="54" data-niv="2">Microsoft Office</a></li>
+				<li><a href="https://visualstudio.developpez.com" data-idrub="84" data-niv="2">Visual Studio</a></li>
+				<li><a href="https://windows.developpez.com" data-idrub="17" data-niv="2">Windows</a></li>
+				<li><a href="https://dotnet.developpez.com/aspnet/" data-idrub="83" data-niv="2">ASP.NET</a></li>
+				<li><a href="https://dotnet.developpez.com/csharp/" data-idrub="81" data-niv="2">C#</a></li>
+				<li><a href="https://dotnet.developpez.com/vbnet/" data-idrub="82" data-niv="2">VB.NET</a></li>
+				<li><a href="https://windows-azure.developpez.com" data-idrub="107" data-niv="2">Azure</a></li>
+			</ul></li>
+	<li><a href="https://java.developpez.com" data-idrub="4" data-niv="1">Java<!--<span class="gabarit_tooltip">Plateforme et langage Java</span>--></a>
+			<ul class="gabarit_sousmenu">
+				<li><a href="https://java.developpez.com" data-idrub="4" data-niv="2">Java</a></li>
+				<li><a href="https://javaweb.developpez.com" data-idrub="97" data-niv="2">Java Web</a></li>
+				<li><a href="https://spring.developpez.com" data-idrub="87" data-niv="2">Spring</a></li>
+				<li><a href="https://android.developpez.com" data-idrub="95" data-niv="2">Android</a></li>
+				<li><a href="https://eclipse.developpez.com" data-idrub="55" data-niv="2">Eclipse</a></li>
+				<li><a href="https://netbeans.developpez.com" data-idrub="66" data-niv="2">NetBeans</a></li>
+			</ul></li>
+	<li><a href="https://web.developpez.com" data-idrub="8" data-niv="1">Dév. Web<!--<span class="gabarit_tooltip">Développement Web et Webmarketing</span>--></a>
+			<ul class="gabarit_sousmenu">
+				<li><a href="https://web.developpez.com" data-idrub="8" data-niv="2">Développement et hébergement Web</a></li>
+				<li><a href="https://ajax.developpez.com" data-idrub="85" data-niv="2">AJAX</a></li>
+				<li><a href="https://apache.developpez.com" data-idrub="71" data-niv="2">Apache</a></li>
+				<li><a href="https://asp.developpez.com" data-idrub="10" data-niv="2">ASP</a></li>
+				<li><a href="https://css.developpez.com" data-idrub="51" data-niv="2">CSS</a></li>
+				<li><a href="https://dart.developpez.com" data-idrub="125" data-niv="2">Dart</a></li>
+				<li><a href="https://flash.developpez.com" data-idrub="41" data-niv="2">Flash / Flex</a></li>
+				<li><a href="https://javascript.developpez.com" data-idrub="45" data-niv="2">JavaScript</a></li>
+				<li><a href="https://nodejs.developpez.com" data-idrub="141" data-niv="2">NodeJS</a></li>
+				<li><a href="https://php.developpez.com" data-idrub="9" data-niv="2">PHP</a></li>
+				<li><a href="https://ruby.developpez.com" data-idrub="53" data-niv="2">Ruby &amp; Rails</a></li>
+				<li><a href="https://typescript.developpez.com" data-idrub="127" data-niv="2">TypeScript</a></li>
+				<li><a href="https://web-semantique.developpez.com" data-idrub="111" data-niv="2">Web sémantique</a></li>
+				<li><a href="https://webmarketing.developpez.com" data-idrub="80" data-niv="2">Webmarketing</a></li>
+				<li><a href="https://xhtml.developpez.com" data-idrub="50" data-niv="2">(X)HTML</a></li>
+			</ul></li>
+	<li><a href="https://edi.developpez.com" data-idrub="90" data-niv="1">EDI<!--<span class="gabarit_tooltip">Environnements de Développement Intégré</span>--></a>
+			<ul class="gabarit_sousmenu">
+				<li><a href="https://edi.developpez.com" data-idrub="90" data-niv="2">EDI</a></li>
+				<li><a href="https://4d.developpez.com" data-idrub="39" data-niv="2">4D</a></li>
+				<li><a href="https://delphi.developpez.com" data-idrub="2" data-niv="2">Delphi</a></li>
+				<li><a href="https://eclipse.developpez.com" data-idrub="55" data-niv="2">Eclipse</a></li>
+				<li><a href="https://jetbrains.developpez.com" data-idrub="144" data-niv="2">JetBrains</a></li>
+				<li><a href="https://labview.developpez.com" data-idrub="72" data-niv="2">LabVIEW</a></li>
+				<li><a href="https://netbeans.developpez.com" data-idrub="66" data-niv="2">NetBeans</a></li>
+				<li><a href="https://matlab.developpez.com" data-idrub="58" data-niv="2">MATLAB</a></li>
+				<li><a href="https://scilab.developpez.com" data-idrub="120" data-niv="2">Scilab</a></li>
+				<li><a href="https://visualstudio.developpez.com" data-idrub="84" data-niv="2">Visual Studio</a></li>
+				<li><a href="https://wind.developpez.com" data-idrub="74" data-niv="2">WinDev</a></li>
+				<li><a href="https://vb.developpez.com" data-idrub="5" data-niv="2">Visual Basic 6</a></li>
+				<li><a href="https://lazarus.developpez.com" data-idrub="96" data-niv="2">Lazarus</a></li>
+				<li><a href="https://qt-creator.developpez.com" data-idrub="109" data-niv="2">Qt Creator</a></li>
+			</ul></li>
+	<li><a href="https://programmation.developpez.com" data-idrub="119" data-niv="1">Programmation<!--<span class="gabarit_tooltip">Programmation et langages de programmation applicatifs</span>--></a>
+			<ul class="gabarit_sousmenu">
+				<li><a href="https://programmation.developpez.com" data-idrub="119" data-niv="2">Programmation</a></li>
+				<li><a href="https://algo.developpez.com" data-idrub="47" data-niv="2">Débuter - Algorithmique</a></li>
+				<li><a href="https://jeux.developpez.com" data-idrub="38" data-niv="2">2D - 3D - Jeux</a></li>
+				<li><a href="https://asm.developpez.com" data-idrub="16" data-niv="2">Assembleur</a></li>
+				<li><a href="https://c.developpez.com" data-idrub="3" data-niv="2">C</a></li>
+				<li><a href="https://cpp.developpez.com" data-idrub="59" data-niv="2">C++</a></li>
+				<li><a href="https://d.developpez.com" data-idrub="123" data-niv="2">D</a></li>
+				<li><a href="https://go.developpez.com" data-idrub="124" data-niv="2">Go</a></li>
+				<li><a href="https://kotlin.developpez.com" data-idrub="145" data-niv="2">Kotlin</a></li>
+				<li><a href="https://objective-c.developpez.com" data-idrub="117" data-niv="2">Objective C</a></li>
+				<li><a href="https://pascal.developpez.com" data-idrub="7" data-niv="2">Pascal</a></li>
+				<li><a href="https://perl.developpez.com" data-idrub="29" data-niv="2">Perl</a></li>
+				<li><a href="https://python.developpez.com" data-idrub="27" data-niv="2">Python</a></li>
+				<li><a href="https://rust.developpez.com" data-idrub="137" data-niv="2">Rust</a></li>
+				<li><a href="https://swift.developpez.com" data-idrub="128" data-niv="2">Swift</a></li>
+				<li><a href="https://qt.developpez.com" data-idrub="65" data-niv="2">Qt</a></li>
+				<li><a href="https://xml.developpez.com" data-idrub="11" data-niv="2">XML</a></li>
+				<li><a href="https://general.developpez.com/cours/" data-idrub="21" data-niv="2">Autres</a></li>
+			</ul></li>
+	<li><a href="https://sgbd.developpez.com" data-idrub="13" data-niv="1">SGBD<!--<span class="gabarit_tooltip">Systèmes de Gestion de Bases de Données</span>--></a>
+			<ul class="gabarit_sousmenu">
+				<li><a href="https://sgbd.developpez.com" data-idrub="13" data-niv="2">SGBD &amp; SQL</a></li>
+				<li><a href="https://4d.developpez.com" data-idrub="39" data-niv="2">4D</a></li>
+				<li><a href="https://access.developpez.com" data-idrub="19" data-niv="2">Access</a></li>
+				<li><a href="https://big-data.developpez.com" data-idrub="126" data-niv="2">Big Data</a></li>
+				<li><a href="https://data-science.developpez.com" data-idrub="151" data-niv="2">Data Science</a></li>
+				<li><a href="https://db2.developpez.com" data-idrub="36" data-niv="2">DB2</a></li>
+				<li><a href="https://firebird.developpez.com" data-idrub="73" data-niv="2">Firebird</a></li>
+				<li><a href="https://interbase.developpez.com" data-idrub="32" data-niv="2">InterBase</a></li>
+				<li><a href="https://mysql.developpez.com" data-idrub="31" data-niv="2">MySQL</a></li>
+				<li><a href="https://nosql.developpez.com" data-idrub="114" data-niv="2">NoSQL</a></li>
+				<li><a href="https://postgresql.developpez.com" data-idrub="33" data-niv="2">PostgreSQL</a></li>
+				<li><a href="https://oracle.developpez.com" data-idrub="25" data-niv="2">Oracle</a></li>
+				<li><a href="https://sybase.developpez.com" data-idrub="37" data-niv="2">Sybase</a></li>
+				<li><a href="https://sqlserver.developpez.com" data-idrub="34" data-niv="2">SQL-Server</a></li>
+				<li><a href="https://mongodb.developpez.com" data-idrub="148" data-niv="2">MongoDB</a></li>
+			</ul></li>
+	<li><a href="https://office.developpez.com" data-idrub="54" data-niv="1">Office<!--<span class="gabarit_tooltip">Bureautique pour l'entreprise</span>--></a>
+			<ul class="gabarit_sousmenu">
+				<li><a href="https://office.developpez.com" data-idrub="54" data-niv="2">Microsoft Office</a></li>
+				<li><a href="https://access.developpez.com" data-idrub="19" data-niv="2">Access</a></li>
+				<li><a href="https://excel.developpez.com" data-idrub="75" data-niv="2">Excel</a></li>
+				<li><a href="https://word.developpez.com" data-idrub="76" data-niv="2">Word</a></li>
+				<li><a href="https://outlook.developpez.com" data-idrub="77" data-niv="2">Outlook</a></li>
+				<li><a href="https://powerpoint.developpez.com" data-idrub="78" data-niv="2">PowerPoint</a></li>
+				<li><a href="https://sharepoint.developpez.com" data-idrub="79" data-niv="2">SharePoint</a></li>
+				<li><a href="https://project.developpez.com" data-idrub="99" data-niv="2">Microsoft Project</a></li>
+				<li><a href="https://openoffice-libreoffice.developpez.com" data-idrub="116" data-niv="2">OpenOffice &amp; LibreOffice</a></li>
+			</ul></li>
+	<li><a href="https://mobiles.developpez.com" data-idrub="94" data-niv="1">Mobiles<!--<span class="gabarit_tooltip">Logiciels et matériels mobiles</span>--></a>
+			<ul class="gabarit_sousmenu">
+				<li><a href="https://mobiles.developpez.com" data-idrub="94" data-niv="2">Mobiles</a></li>
+				<li><a href="https://android.developpez.com" data-idrub="95" data-niv="2">Android</a></li>
+				<li><a href="https://ios.developpez.com" data-idrub="101" data-niv="2">iOS</a></li>
+			</ul></li>
+	<li><a href="https://systeme.developpez.com" data-idrub="30" data-niv="1">Systèmes<!--<span class="gabarit_tooltip">Logiciels et matériels systèmes</span>--></a>
+			<ul class="gabarit_sousmenu">
+				<li><a href="https://systeme.developpez.com" data-idrub="30" data-niv="2">Systèmes</a></li>
+				<li><a href="https://windows.developpez.com" data-idrub="17" data-niv="2">Windows</a></li>
+				<li><a href="https://linux.developpez.com" data-idrub="18" data-niv="2">Linux</a></li>
+				<li><a href="https://arduino.developpez.com" data-idrub="142" data-niv="2">Arduino</a></li>
+				<li><a href="https://securite.developpez.com" data-idrub="40" data-niv="2">Sécurité</a></li>
+				<li><a href="https://hardware.developpez.com" data-idrub="64" data-niv="2">Hardware</a></li>
+				<li><a href="https://hpc.developpez.com" data-idrub="139" data-niv="2">HPC</a></li>
+				<li><a href="https://mac.developpez.com" data-idrub="57" data-niv="2">Mac</a></li>
+				<li><a href="https://raspberry-pi.developpez.com" data-idrub="131" data-niv="2">Raspberry Pi</a></li>
+				<li><a href="https://reseau.developpez.com" data-idrub="70" data-niv="2">Réseau</a></li>
+				<li><a href="https://green-it.developpez.com" data-idrub="104" data-niv="2">Green IT</a></li>
+				<li><a href="https://embarque.developpez.com" data-idrub="110" data-niv="2">Systèmes embarqués</a></li>
+				<li><a href="https://virtualisation.developpez.com" data-idrub="108" data-niv="2">Virtualisation</a></li>
+			</ul></li>
+</ul>
+
+<ul id="gabarit_barre1"><li><a href="https://solutions-entreprise.developpez.com">DI/DSI Solutions d&#039;entreprise</a></li><li><a href="https://abbyy.developpez.com">ABBYY</a></li><li><a href="https://big-data.developpez.com">Big Data</a></li><li><a href="https://bpm.developpez.com">BPM</a></li><li class="gabarit_selection"><a href="https://business-intelligence.developpez.com">Business Intelligence</a></li><li><a href="https://data-science.developpez.com">Data Science</a></li><li><a href="https://solutions-entreprise.developpez.com/erp-pgi/presentation-erp-pgi/">ERP / PGI</a></li><li><a href="https://crm.developpez.com">CRM</a></li><li><a href="https://sas.developpez.com">SAS</a></li><li><a href="https://sap.developpez.com">SAP</a></li><li><a href="https://www.developpez.net/forums/f1664/systemes/windows/windows-serveur/biztalk-server/">Microsoft BizTalk Server</a></li><li><a href="https://talend.developpez.com">Talend</a></li><li><a href="https://droit.developpez.com">Droit</a></li></ul>
+
+<div id="gabarit_barre2">
+	<a class="gabarit_social gabarit_facebook" href="http://www.facebook.com/pages/Business-Intelligence/108537925849662" target="_blank" title="Retrouver Developpez sur Facebook"></a>
+	<a class="gabarit_social gabarit_twitter" href="http://twitter.com/BI_DVP" target="_blank" title="Retrouver Developpez sur Twitter"></a>
+	<a class="gabarit_social gabarit_rss" href="http://Business-Intelligence.developpez.com/index/rss" target="_blank" title="Flux RSS"></a>
+	<ul>
+<li><a href="https://business-intelligence.developpez.com/">ACCUEIL BI</a></li><li><a href="http://www.developpez.com/redirect/1925">JASPERSOFT</a></li><li><a href="https://www.developpez.net/forums/f38/bases-donnees/business-intelligence/">FORUMS BI</a></li><li><a href="https://business-intelligence.developpez.com/cours/">TUTORIELS BI</a></li><li><a href="https://business-intelligence.developpez.com/livres/">LIVRES BI</a></li><li><a href="https://business-intelligence.developpez.com/faq/">FAQ BI</a></li><li><a href="http://dico.developpez.com/html/theme19.php">GLOSSAIRE BI</a></li><li><a href="https://business-intelligence.developpez.com/telecharger/">SOURCES BI</a></li><li><a href="https://business-intelligence.developpez.com/blogs/">BLOGS BI</a></li>	</ul>
+</div>
+
+</nav>
+
+
+	</header>
+	<section>
+
+	<div id="gabarit_pubBB">
+		<div id="gabarit_pub0"></div><div id="ui61jf0h" class="dvpb0" style="display: inline-block; width: 728px; height: 90px"></div>
+	</div>
+
+	<div class="contenuPage">
+		<article class="ArticleComplet" itemscope itemtype="https://schema.org/Article">
+<meta itemprop="genre" content="informatique"/>
+<meta itemprop="inLanguage" content="fr-FR"/>
+		<h1 class="titre-article" itemprop="name">Conception d'un entrepôt de données (Data Warehouse)</h1><section>
+
+<nav class="nav-sommaire" role="navigation">
+<h2 class="TitreHeader ToggleGecko">Table des mati&egrave;res<img class="ToggleImgPlier" title="Plier" alt="Plier" src="/template/kit/fleche-haut-bleue.png"/><img class="ToggleImgDeplier" title="Déplier" alt="Déplier" src="/template/kit/fleche-bas-bleue.png" style="display:none;"/></h2>
+<ul id="nav_sommaire_ul_principal" class="nav-sommaire-ul">
+    <li><a class="summaryIndent0" href="#LI">I. Introduction</a></li>
+    <li><a class="summaryIndent0" href="#LII">II. Concepts fondamentaux</a><ul class="nav-sommaire-ul IndentationII">
+      
+      <li><a class="summaryIndent1" href="#LII-A">II-A. Entrepôt de données (Data Warehouse)</a></li>
+      <li><a class="summaryIndent1" href="#LII-B">II-B. Data Mart, ou magasin de données</a></li>
+      <li><a class="summaryIndent1" href="#LII-C">II-C. Dimension</a></li>
+      <li><a class="summaryIndent1" href="#LII-D">II-D. Fait</a></li>
+      <li><a class="summaryIndent1" href="#LII-E">II-E. ETL, ou ETC pour les francophiles</a></li>
+      <li><a class="summaryIndent1" href="#LII-F">II-F. Étoile</a></li>
+      <li><a class="summaryIndent1" href="#LII-G">II-G. Flocon</a></li>
+    </ul></li>
+    <li><a class="summaryIndent0" href="#LIII">III. Modélisation en étoile, un cas</a><ul class="nav-sommaire-ul IndentationIII">
+      
+      
+      <li><a class="summaryIndent1" href="#LIII-A">III-A. Le cas</a></li>
+      <li><a class="summaryIndent1" href="#LIII-B">III-B. L'analyse</a></li>
+      <li><a class="summaryIndent1" href="#LIII-C">III-C. La solution</a></li>
+    </ul></li>
+    <li><a class="summaryIndent0" href="#LIV">IV. Modélisation en flocon, un cas</a></li>
+    <li><a class="summaryIndent0" href="#LV">V. Conception d'entrepôts de données</a><ul class="nav-sommaire-ul IndentationV">
+      
+      
+      <li><a class="summaryIndent1" href="#LV-A">V-A. Constellation</a></li>
+      <li><a class="summaryIndent1" href="#LV-B">V-B. Construire un entrepôt de données, un vrai !</a></li>
+    </ul></li>
+    <li><a class="summaryIndent0" href="#LVI">VI. Critique des méthodes de conception d'entrepôts</a></li>
+    <li><a class="summaryIndent0" href="#LVII">VII. Conclusion</a></li>
+    <li><a class="summaryIndent0" href="#LVIII">VIII. Remerciements</a></li>
+  </ul></nav>
+
+<div class="contenu">
+
+<section itemprop="about" class="SectionSynopsis">
+    <p>Nous avons vu dans mes articles précédents ce qu'était le BI, ce que comprenait un environnement décisionnel et qu'il avait comme concept central l'entrepôt de données ou le Data Warehouse.<br/>
+		Intéressons-nous maintenant à comment concevoir un entrepôt de données. Quelle structure permet-elle d'avoir les fonctionnalités requises pour un entrepôt de données ? Quelles sont les techniques utilisées pour bien concevoir ? Quels sont les indicateurs d'une bonne conception ? Ce mini cours commencera par introduire (ou réintroduire) les concepts fondamentaux de l'informatique décisionnelle (nécessaires pour la compréhension de cet article), continuera par l'explication des méthodes de conception d'entrepôt de données via une étude de cas, et terminera par une critique de ces techniques et une conclusion mentionnant les indicateurs d'une bonne conception d'entrepôt. ♪</p>
+  <p class="TextNbrVues">Article lu <span id="NbrVues">&nbsp;</span> fois.</p></section><div class="InfoAuthArtBook">
+	<section class="SectionAuteurs">
+	<h2 class="TitreHeader">Les deux auteurs</h2>
+<p class="auteur" itemprop="name" itemscope itemtype="http://schema.org/Person"><a itemprop="url" class="auteur" href="https://www.developpez.net/forums/u179073/ygrim/"><span itemprop="author">Yazid Grim</span></a><a class="homepage" href="https://www.developpez.com/user/profil/179073/ygrim/"><img src="https://www.developpez.net/forums/images/ranks/pro.png" title="Profil Pro" alt="Profil Pro" style="vertical-align:middle;"/></a><a class="homepage" href="https://grim.developpez.com"><img src="/template/kit/kitbm-site-personnel.png" title="Business Intelligen(ce)" alt="Site personnel" style="vertical-align:middle;"/></a></p>
+<p class="auteur" itemprop="name" itemscope itemtype="http://schema.org/Person"><a itemprop="url" class="auteur" href="https://www.developpez.net/forums/u107845/Fleur-Anne.Blain/"><span itemprop="author">Fleur-Anne.Blain</span></a><a class="homepage" href="https://www.developpez.com/user/profil/107845/Fleur-Anne.Blain/"><img src="https://www.developpez.net/forums/images/ranks/pro.png" title="Profil Pro" alt="Profil Pro" style="vertical-align:middle;"/></a></p>
+</section>
+<section class="SectionInformationArticle">
+<h2 class="TitreHeader">L'article</h2>
+
+<p class="InfoArticle">Publi&eacute;&nbsp;le&nbsp;<span itemprop="datePublished">2 mars 2005 </span></p><p>
+<span class="lientelechargementpdf"><a class="lientelechargement" href="https://grim.developpez.com/cours/businessintelligence/concepts/conception-datawarehouse/Conception-Datawarehouse.pdf" title="Télécharger la version PDF de cet article.">Version PDF</a></span>
+<span class="lientelechargementzip"><a class="lientelechargement" href="https://grim.developpez.com/cours/businessintelligence/concepts/conception-datawarehouse/Conception-Datawarehouse.zip" title="Télécharger la version HTML de cet article.">Version hors-ligne</a></span></p>
+<p><span class="lientelechargementebook"><a class="lientelechargement" href="https://grim.developpez.com/cours/businessintelligence/concepts/conception-datawarehouse/Conception-Datawarehouse.epub" title="Télécharger la version ePub de l'article compatible avec la plupart des liseuses non Kindle (Amazon).">ePub</a></span>, <span class="lientelechargementebook"><a class="lientelechargement" href="https://grim.developpez.com/cours/businessintelligence/concepts/conception-datawarehouse/Conception-Datawarehouse.azw" title="Télécharger la version Azw spécifique aux liseuses Kindle (Amazon).">Azw</a></span> et <span class="lientelechargementebook"><a class="lientelechargement" href="https://grim.developpez.com/cours/businessintelligence/concepts/conception-datawarehouse/Conception-Datawarehouse.mobi" title="Télécharger la version Mobi de l'article compatible avec les liseuses Amazon.">Mobi</a></span></p>
+</section>
+<section class="SectionBookmarks">
+<h2 class="TitreHeader">Liens&nbsp;sociaux</h2>
+<div class="InfoBookmarks"><a title="Viadeo" href="http://www.viadeo.com/shareit/share/?url=https%3A%2F%2Fgrim.developpez.com%2Fcours%2Fbusinessintelligence%2Fconcepts%2Fconception-datawarehouse%2F&amp;Title=Conception+d%27un+entrep%C3%83%C2%B4t+de+donn%C3%83%C2%A9es+%28Data+Warehouse%29" rel="nofollow"><img alt="Viadeo" src="https://www.developpez.com/template/kit/kitbm-viadeo.png"/></a>&nbsp;<a title="Twitter" href="http://twitter.com/timeline/home?status=https%3A%2F%2Fgrim.developpez.com%2Fcours%2Fbusinessintelligence%2Fconcepts%2Fconception-datawarehouse%2F" rel="nofollow"><img alt="Twitter" src="https://www.developpez.com/template/kit/kitbm-twitter.png"/></a>&nbsp;<a title="Facebook" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fgrim.developpez.com%2Fcours%2Fbusinessintelligence%2Fconcepts%2Fconception-datawarehouse%2F" rel="nofollow"><img alt="Facebook" src="https://www.developpez.com/template/kit/kitbm-facebook.png"/></a>&nbsp;<a title="Google +" href="https://plus.google.com/share?url=https%3A%2F%2Fgrim.developpez.com%2Fcours%2Fbusinessintelligence%2Fconcepts%2Fconception-datawarehouse%2F" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>&nbsp;<script src="https://platform.linkedin.com/in.js">lang: fr_FR</script>
+			<script type="IN/Share" data-url="$url"></script>&nbsp;</div>
+</section></div><section itemprop="articleBody" class="articleBody">
+    
+		<h2 class="TitreSection0" id="LI">I. Introduction<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h2><div class="BlocSection0">
+      
+      <p>Nous avons vu dans mes articles précédents ce qu'était le BI, ce que comprenait un environnement décisionnel et qu'il avait comme concept central l'entrepôt de données ou le Data Warehouse.<br/>
+		Intéressons-nous maintenant à comment concevoir un entrepôt de données. </p>
+      <ul class="ListeDVP">
+        <li>Quelle structure permet-elle d'avoir les fonctionnalités requises pour un entrepôt de données ?</li>
+        <li>Quelles sont les techniques utilisées pour bien concevoir ?</li>
+        <li>Quels sont les indicateurs d'une bonne conception ?</li>
+      </ul>
+      <p>Ce mini cours commencera par introduire (ou réintroduire) les concepts fondamentaux de l'informatique décisionnelle (nécessaires pour la compréhension de cet article), continuera par l'explication des méthodes de conception d'entrepôt de données via une étude de cas, et terminera par une critique de ces techniques et une conclusion mentionnant les indicateurs d'une bonne conception d'entrepôt. </p>
+    </div>
+    
+		<h2 class="TitreSection0" id="LII">II. Concepts fondamentaux<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h2><div class="BlocSection0">
+      
+      
+		<h3 class="TitreSection1" id="LII-A">II-A. Entrepôt de données (Data Warehouse)<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h3><div class="BlocSection1">
+        
+        <p>J'estime en avoir assez parlé <a class="lienArticle https" href="https://grim.developpez.com/articles/concepts/bi-intro/">ici</a> et <a class="lienArticle https" href="https://blog.developpez.com/index.php?blog=178&amp;cat=1315">ici</a> : mais un peu de répétition ne fait pas de mal !!!<br/>
+		Un entrepôt de données, ou data Warehouse, est une vision centralisée et universelle de toutes les informations de l'entreprise. C'est une structure (comme une base de données) qui a pour but, contrairement aux bases de données, de regrouper les données de l'entreprise pour des fins analytiques et pour aider à la décision stratégique. La décision stratégique étant une action entreprise par les décideurs de l'entreprise et qui vise à améliorer, quantitativement ou qualitativement, la performance de l'entreprise. En gros, c'est un gigantesque tas d'informations épurées, organisées, historisées et provenant de plusieurs sources de données, servant aux analyses et à l'aide à la décision. L'entrepôt de données est l'élément central de l'informatique décisionnelle à l'heure où j'écris ce tutoriel. En effet, l'entrepôt de données est le meilleur moyen que les professionnels ont trouvé pour modéliser de l'information pour des fins d'analyse, et il ne serait pas étonnant que d'ici quelques années un nouveau concept apparaisse pour révolutionner l'informatique décisionnelle… Mais intéressons-nous à ce qui existe pour l'instant… </p>
+      </div>
+      
+		<h3 class="TitreSection1" id="LII-B">II-B. Data Mart, ou magasin de données<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h3><div class="BlocSection1">
+        
+        <p>Les Data Warehouses étant, en général, très volumineux et très complexes à concevoir, on a décidé de les diviser en bouchées plus faciles à créer et entretenir. Ce sont les Data Marts. On peut faire des divisions par fonction (un data mart pour les ventes, pour les commandes, pour les ressources humaines) ou par sous-ensemble organisationnel (un data mart par succursale). Nous verrons plus tard comment organiser les data marts pour créer un entrepôt proprement dit. </p>
+      </div>
+      
+		<h3 class="TitreSection1" id="LII-C">II-C. Dimension<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h3><div class="BlocSection1">
+        
+        <p>Lorsqu'on fait un schéma de BD pour un système d'information classique, on parle en termes de tables et de relations, une table étant une représentation d'une entité et une relation une technique pour lier ces entités. Et bien en BI, on parle en termes de Dimension et de Faits. C'est une autre approche des données, on entend par dimensions les axes avec lesquels on veut faire l'analyse. Il peut y avoir une dimension client, une dimension produit, une dimension géographie (pour faire des analyses par secteur géographique), etc. </p>
+        <p><b>Une dimension est tout ce qu'on utilisera pour faire nos analyses</b>. </p>
+      </div>
+      
+		<h3 class="TitreSection1" id="LII-D">II-D. Fait<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h3><div class="BlocSection1">
+        
+        <p>Les faits, en complément aux dimensions, sont ce sur quoi va porter l'analyse. Ce sont des tables qui contiennent des informations opérationnelles et qui relatent la vie de l'entreprise. On aura des tables de faits pour les ventes (chiffre d'affaire net, quantités et montants commandés, quantités facturées, quantités retournées, volumes des ventes, etc.) par exemple ou sur les stocks (nombre d'exemplaires d'un produit en stock, niveau de remplissage du stock, taux de roulement d'une zone, etc.), ou peut être sur les ressources humaines (performances des employés, nombre de demandes de congés, nombre de démissions, taux de roulement des employés, etc.). </p>
+        <p><b>Un fait est tout ce qu'on voudra analyser</b>. </p>
+      </div>
+      
+		<h3 class="TitreSection1" id="LII-E">II-E. ETL, ou ETC pour les francophiles<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h3><div class="BlocSection1">
+        
+        <p>L'ETL, dont j'ai expliqué les fondements dans <a class="lienArticle https" href="https://grim.developpez.com/articles/concepts/bi-intro/#LV-C-2" target="_blank">cet article</a>, sert à transposer le modèle entité-relation des bases de données de production ainsi que les autres modèles utilisés dans les opérations de l'entreprise, en modèle à base de dimensions et de faits (nous verrons ces modèles dans les deux prochaines définitions). </p>
+      </div>
+      
+		<h3 class="TitreSection1" id="LII-F">II-F. Étoile<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h3><div class="BlocSection1">
+        
+        <p>Une étoile est une façon de mettre en relation les dimensions et les faits dans un entrepôt de données. Nous le verrons plus tard, mais le principe est que les dimensions sont directement reliées à un fait (schématiquement, ça fait comme une étoile). </p>
+      </div>
+      
+		<h3 class="TitreSection1" id="LII-G">II-G. Flocon<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h3><div class="BlocSection1">
+        
+        <p>Un autre modèle de mise en relation des dimensions et des faits dans un entrepôt de données. Le principe étant qu'il peut exister des hiérarchies de dimensions et qu'elles sont reliées aux faits, ça fait comme un flocon :) </p>
+        <div class="imgtext-info">
+          <p>Note : les flocons et les étoiles peuvent être vus comme une manière de diviser les entrepôts de données et les magasins de données. On peut les voir comme l'atome de l'informatique décisionnelle : le plus petit élément avec lequel ont peut faire des analyses et avec lequel ont peut faire des magasins de données qui, mis ensemble, forment un entrepôt de données. </p>
+        </div>
+      </div>
+    </div>
+    
+		<h2 class="TitreSection0" id="LIII">III. Modélisation en étoile, un cas<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h2><div class="BlocSection0">
+      
+      <p>Nous allons utiliser un exemple pour expliquer la modélisation en étoile. L'important en BI est de toujours garder à l'esprit que ce que nous faisons est différent des bases de données traditionnelles. Le schéma créé sera accessible par les utilisateurs et doit donc être le plus simple et explicite possible ! </p>
+      
+		<h3 class="TitreSection1" id="LIII-A">III-A. Le cas<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h3><div class="BlocSection1">
+        
+        <p>On vous demande de créer un data Mart (une étoile) pour l'analyse de l'activité des représentants d'une entreprise de vente d'imprimantes. Le chef d'entreprise veut savoir ce qui se passe pour ses vendeurs. Les employés font ils leur travail, quelle est la zone de couverture des vendeurs, ou sont les endroits où les vendeurs sont le moins efficaces, quelle est la moyenne de ventes des représentants, etc., etc. L'entreprise possède un système de gestion de ressources humaines, un système de gestion des ventes et des feuilles de route avec des informations concernant les vendeurs : kilomètres parcourus, litres d'essence utilisée, frais de voyage, ventes, promesses de vente, etc. </p>
+      </div>
+      
+		<h3 class="TitreSection1" id="LIII-B">III-B. L'analyse<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h3><div class="BlocSection1">
+        
+        <div class="imgtext-info">
+          <p>Note : cette méthode m'a été apprise à l'université Sherbrooke par Monsieur R. Laurin. </p>
+        </div>
+        <p>Notre objectif est d'analyser l'activité des représentants. Il semble que nous ayons toutes les informations pour ce faire… Mais dans différents systèmes. </p>
+        <p>Commençons l'analyse. </p>
+        <p>Le but du jeu est de déceler les axes d'analyses (les dimensions) avec leurs attributs ainsi que les éléments à analyser (les faits). La meilleure façon de ce faire, selon moi, est l'étude approfondie de ce qui se passe dans l'entreprise : documents échangés, rapports périodiques, interviews des personnes clés, étude des besoins. Il faut vraiment faire un travail d'acteur, et rentrer dans la peau de chaque utilisateur, savoir comment les analystes organisent leurs raisonnements, savoir ce que voient les décideurs avant de décider, connaître les indicateurs de bonne santé de l'entreprise et de la concurrence. Un vrai travail de fourmi et des heures de plaisir :) </p>
+        <p>Les techniques d'acquisition d'information et d'analyse des besoins étant un sujet à eux seuls, je passerais la main pour ce point … Nous supposerons que tout a été fait selon les règles de l'art et nous nous contenterons de compiler :) </p>
+        <p>Une manière très pratique de modéliser un cas en BI se fait comme suit : </p>
+        <div class="TextAlign-center"><table class="tableau" style="border-width:2px;width:80%;" border="1">
+          <tr>
+            <th class="colonne_entete" style="text-align:center;">&nbsp;</th>
+            <th class="colonne_entete" style="text-align:center;">
+              <p>
+                <b>Date</b>
+              </p>
+            </th>
+            <th class="colonne_entete" style="text-align:center;">
+              <p>
+                <b>Vendeur</b>
+              </p>
+            </th>
+            <th class="colonne_entete" style="text-align:center;">
+              <p>
+                <b>Produit</b>
+              </p>
+            </th>
+            <th class="colonne_entete" style="text-align:center;">
+              <p>
+                <b>Zone géographique</b>
+              </p>
+            </th>
+            <th class="colonne_entete" style="text-align:center;">
+              <p>
+                <b>Client</b>
+              </p>
+            </th>
+          </tr>
+          <tr>
+            <td class="colonne" style="">&nbsp;</td>
+            <td class="colonne" style="">
+              <p>Années</p>
+            </td>
+            <td class="colonne" style="">
+              <p>Nom</p>
+            </td>
+            <td class="colonne" style="">
+              <p>Catégorie</p>
+            </td>
+            <td class="colonne" style="">
+              <p>Pays</p>
+            </td>
+            <td class="colonne" style="">
+              <p>Nom</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="colonne" style="">&nbsp;</td>
+            <td class="colonne" style="">
+              <p>Mois</p>
+            </td>
+            <td class="colonne" style="">
+              <p>Prénom</p>
+            </td>
+            <td class="colonne" style="">
+              <p>Type</p>
+            </td>
+            <td class="colonne" style="">
+              <p>Province</p>
+            </td>
+            <td class="colonne" style="">
+              <p>Adresse</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="colonne" style="">&nbsp;</td>
+            <td class="colonne" style="">
+              <p>Jours</p>
+            </td>
+            <td class="colonne" style="">
+              <p>Salaire</p>
+            </td>
+            <td class="colonne" style="">
+              <p>Groupe</p>
+            </td>
+            <td class="colonne" style="">
+              <p>Ville</p>
+            </td>
+            <td class="colonne" style="">
+              <p>Pays</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="colonne" style="">&nbsp;</td>
+            <td class="colonne" style="">
+              <p>Heures</p>
+            </td>
+            <td class="colonne" style="">&nbsp;</td>
+            <td class="colonne" style="">&nbsp;</td>
+            <td class="colonne" style="">&nbsp;</td>
+            <td class="colonne" style="">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="colonne" style="">
+              <p><b>Analyse :</b> consommation d'essence, Qte commandée, Qte précommandée, kilométrage, nombre de visites, etc.</p>
+            </td>
+            <td class="colonne" style="">&nbsp;</td>
+            <td class="colonne" style="">&nbsp;</td>
+            <td class="colonne" style="">&nbsp;</td>
+            <td class="colonne" style="">&nbsp;</td>
+            <td class="colonne" style="">&nbsp;</td>
+          </tr>
+        </table></div>
+        <p>Explications : le tableau suivant a été rempli pendant la phase d'analyse, en posant des questions aux décideurs du type : </p>
+        <ul class="ListeDVP">
+          <li>que voulez-vous analyser (la dernière ligne du tableau) ?</li>
+          <li>quels sont vos critères d'analyse (la première ligne du tableau) ? </li>
+          <li>jusqu'à quel niveau de détail voulez-vous aller (les cellules è l'intérieur) ?</li>
+        </ul>
+        <div class="imgtext-warning">
+          <p>Remarque : L'axe du temps (dimension Temps) est toujours présent dans un entrepôt de données, c'est le type d'analyse le plus commun et le plus fréquent en entreprise. </p>
+        </div>
+        <p>La structure d'un entrepôt étant plus rigide que les systèmes conventionnels (se basent sur des ETL, des validations créées par l'homme, etc.), il est capital d'avoir une analyse des besoins exhaustive et conforme aux attentes des décideurs. </p>
+        <p>Il faut savoir : </p>
+        <ul class="ListeDVP">
+          <li>d'où provient chaque champ ? </li>
+          <li>comment transite l'information ? </li>
+          <li>où trouver l'information voulue ?</li>
+        </ul>
+        <p>Se poser des questions du type : </p>
+        <ul class="ListeDVP">
+          <li>ai-je assez de données pour répondre aux besoins ? </li>
+          <li>sinon, qu'est-ce que cela impliquerait de les créer ? </li>
+          <li>comment alimenter mes dimensions ? </li>
+          <li>comment alimenter mes faits ? </li>
+          <li>comment valider mes chargements ? </li>
+          <li>etc., etc., etc.</li>
+        </ul>
+        <p>Vous pouvez penser que c'est de la paranoïa (comme certains clients) et croire que tous ces problèmes n'apparaîtront pas forcément. Mais rappelez-vous qu'un entrepôt, ça coûte très cher, et qu'un entrepôt avec des données incomplètes, invalides ou non conformes à la demande est tout simplement à mettre à la poubelle… </p>
+      </div>
+      
+		<h3 class="TitreSection1" id="LIII-C">III-C. La solution<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h3><div class="BlocSection1">
+        
+        <p>La modélisation en étoile découle naturellement du tableau ci-dessus, il en résulte le schéma suivant : </p>
+        <div class="div-figure"><figure class="figure-center"><img class="figure-img-caption" src="./images/etoile.GIF" alt="Schéma en étoile" width="349" height="323"/><figcaption class="figure-img-caption TextAlign-center">Schéma en étoile</figcaption></figure></div>
+        <p>Vous comprenez maintenant pourquoi on appelle ce schéma « modèle en étoile ».<br/>
+		Toutes les dimensions sont directement reliées à la table de faits, qui contient les données à analyser. Plusieurs remarques sont à faire pour ce schéma.</p>
+        <ul class="ListeDVP">
+          <li>La table de fait contient se qu'on appelle des « mesures », des champs (numériques pour la plupart) sur lesquels on va faire nos analyses, on peut y trouver le montant des ventes nettes, les quantités vendues, les kilomètres parcourus, les quantités en pré commande, etc. La table de faits est reliée aux dimensions par des relations (1, n). Pour analyser une ligne de fait par client par exemple, il faut qu'il y ait une relation entre cette ligne et la dimension client.</li>
+          <li>Les tables de dimension contiennent les éléments qu'utiliseront les décideurs pour voir la table de faits. Les utilisateurs pourront ainsi apprécier les montants des ventes par vendeur, par client, ou le kilométrage pour un vendeur pour un client donné (pour voir si ce client est rentable), calculer le coût de revient d'un produit par rapport aux activités des vendeurs, etc.</li>
+          <li>On n'utilise JAMAIS la clé d'un système de production comme clé de dimension : pour préserver l'historique des modifications dans l'entrepôt de données (<a class="lienArticle https" href="https://grim.developpez.com/articles/concepts/slow-changing-dimension/">voir l'article sur la gestion de l'historique dans un entrepôt de données</a>).</li>
+          <li>La granularité des tables de dimensions et de faits doit être la même : imaginez que la table de faits regroupe les informations par heures et que la table de dimension du temps gère les minutes, il ne sera pas possible de lier la dimension temps et la table de faits (multi détermination).</li>
+          <li>Chaque ligne de la table de faits doit avoir une relation avec chacune des tables de dimensions : dans le cas contraire, on aurait perte d'information ou analyse erronée.</li>
+          <li>Il n'existe de relations qu'entre les dimensions et les tables de faits. Il sera beaucoup trop compliqué de gérer et d'utiliser des dimensions liées entre elles. N'oubliez pas que le schéma doit être assimilable par des non-informaticiens pour pouvoir l'exploiter. N'ayons pas peur de créer des doublons !</li>
+        </ul>
+      </div>
+    </div>
+    
+		<h2 class="TitreSection0" id="LIV">IV. Modélisation en flocon, un cas<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h2><div class="BlocSection0">
+      
+      <p>La modélisation en flocon étant une variante de la modélisation en étoile, nous prendrons le même cas avec la même analyse.<br/>
+		Il faut savoir que la modélisation en flocon existe pour des raisons de performances. En effet, des dimensions de plusieurs millions de lignes peuvent poser des problèmes de lenteur lors de l'exploitation des données.<br/>
+		Le principe de la modélisation en flocon est de créer des hiérarchies de dimensions, de telle manière à avoir moins de lignes par dimensions. Vous me direz que cela va en contradiction avec la dernière remarque de la modélisation en étoile, et je vous dirai que vous avez raison, à la seule chose près que la performance prime sur la structure. C'est la seule façon que les gens ont trouvée pour avoir des résultats clairs et rapides.<br/>
+		Le schéma d'une modélisation en flocon pourrait être comme suit : </p>
+      <div class="div-figure"><figure class="figure-center"><a data-lightbox="lightbox[article]" href="./images/flocon.gif"><img class="ImgCliquable figure-img-caption" src="./images/flocon.gif" alt="Modélisation en flocon" width="250" height="325"/></a><figcaption class="figure-img-caption TextAlign-center">Modélisation en flocon</figcaption></figure></div>
+      <p>Conseil : ne « floconisez » pas à tort et à travers. En effet, pour garder une structure simple, gérable et compréhensible, utilisez le plus possible la modélisation en étoile. La modélisation en flocon n'intervenant que lorsque des problèmes de performances apparaissent ou sont facilement prédictibles.<br/>
+		Une règle informelle en BI préconise de floconner que si l'on a la relation (1-1000). C'est-à-dire que si l'on réussit à créer une hiérarchie de deux dimensions avec une ligne de la dimension père (groupe produit par exemple) faisant référence à plus de 1000 lignes de la dimension fille (produit par exemple). Dans ce cas, il est peut-être temps de penser aux flocons. </p>
+      <div class="imgtext-warning">
+        <p>Note : cette règle fût émise en prenant en considération les technologies logicielles et matérielles actuelles. Il ne serait pas étonnant, à mon sens, de voir disparaître la modélisation en flocon avec les avancées technologiques (rapidité des disques durs, technologies OLAP, etc.) </p>
+      </div>
+    </div>
+    
+		<h2 class="TitreSection0" id="LV">V. Conception d'entrepôts de données<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h2><div class="BlocSection0">
+      
+      <p>Je sais ce que vous vous dites : mais ce n’est pas ce qu'on vient de faire là !! Relisez les titres et voyez si je parle d'entrepôts :)<br/>
+		Plus sérieusement, un entrepôt de données, un vrai, selon la définition officielle et pas celle des commerciaux, est une vue complète et centralisée des données de l'entreprise. La modélisation en étoile ou en flocon, elle, ne s'intéresse qu'à la conception d'un sous-ensemble d'entrepôt, une seule table de fait. On ne peut même pas dire qu'une étoile ou un flocon représente un data Mart, car une fonction de l'entreprise peut comporter plusieurs tables de faits. La fonction commerciale d'une entreprise peut comporter une étoile pour les ventes, un flocon pour les commandes, une autre étoile pour les retours, etc.<br/>
+		Ce qui est juste, c'est qu'un entrepôt de données est l'ensemble de ces étoiles et/ou flocons. Mais comment organiser tout ça ? </p>
+      
+		<h3 class="TitreSection1" id="LV-A">V-A. Constellation<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h3><div class="BlocSection1">
+        
+        <p>Vous remarquez que tous ces termes sont empruntés à l'astronomie et à la météo : étoile, flocon, constellation. Hubert Reeves n'a qu'à bien se tenir :)<br/>
+		Une constellation est une série d'étoiles (tu m'étonnes !) ou de flocons reliés entre eux par des dimensions. Il s'agit donc d'étoiles avec des dimensions en commun. Un environnement décisionnel idéal serait une place ou il serait possible de naviguer d'étoile en étoile, de constellation en constellation et de Data Mart en DataMart à la recherche de l'information si précieuse.<br/>
+		Un des indicateurs clés d'une bonne conception d'entrepôt est la grosseur des constellations. En effet, plus la constellation est grosse, plus cela veut dire que vous avez réutilisé vos dimensions, et qui dit réutilisation de dimension, dit dimensions complètes, centralisées et avec une vue orientée entreprise.<br/>
+		Je m'explique. </p>
+        <p>En conception d'entrepôt, il ne faut pas se casser la tête, dès qu'une dimension existante ne correspond pas parfaitement aux besoins d'une nouvelle étoile, on en crée une autre, même si elle est « presque » comme la dimension que nous allions utiliser. C'est pour cela qu'il faut créer, autant que possible, des dimensions génériques et qui soient vraies tout le temps, pour toutes les fonctions de l'entreprise. Ces dimensions pourront être réutilisées et assurer une pérennité des données. Et si de telles dimensions ne peuvent pas être créées, il ne faut pas avoir de remords à créer des dimensions similaires, mais adaptées aux besoins de la nouvelle étoile. Mais si vous voyez que dans chaque étoile vous êtes obligés de créer une nouvelle dimension « client » par exemple, posez-vous des questions sur votre conception. </p>
+      </div>
+      
+		<h3 class="TitreSection1" id="LV-B">V-B. Construire un entrepôt de données, un vrai !<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h3><div class="BlocSection1">
+        
+        <p>Récapitulons, nous avons vu comment créer une étoile ou un flocon, nous avons vu que les data marts sont des étoiles regroupées par fonction ou par utilité dans l'entreprise et nous savons qu'un entrepôt est l'ensemble de tous les data marts de l'entreprise. Nous savons faire une étoile, mais comment les regrouper pour mettre en œuvre un entrepôt de données ? Et bien trois méthodes s'offrent à nous : </p>
+        <ul class="ListeDVP">
+          <li><b>Top-Down :</b> c'est la méthode la plus lourde, la plus contraignante et la plus complète en même temps. Elle consiste en la conception de tout l'entrepôt (i.e. : toutes les étoiles), puis en la réalisation de ce dernier. Imaginez le travail qu'une telle méthode implique : savoir à l'avance toutes les dimensions et tous les faits de l'entreprise, puis réaliser tout ça… Le seul avantage que cette méthode comporte est qu'elle offre une vision très claire et très conceptuelle des données de l'entreprise ainsi que du travail à faire ;</li>
+          <li><b>Bottom-Up : </b>c'est l'approche inverse, elle consiste à créer les étoiles une par une, puis les regrouper par des niveaux intermédiaires jusqu'à obtention d'un véritable entrepôt pyramidal avec une vision d'entreprise. L'avantage de cette méthode est qu'elle est simple à réaliser (une étoile à la fois), l'inconvénient est le volume de travail d'intégration pour obtenir un entrepôt de données ainsi que la possibilité de redondances entre les étoiles (car elles sont faites indépendamment les unes des autres) ;</li>
+          <li><b>Middle-Out :</b> c'est l'approche hybride, et conseillée par les professionnels du BI. Elle consiste en la conception totale de l'entrepôt de données (i.e. : concevoir toutes dimensions, tous les faits, toutes les relations), puis créer des divisions plus petites et plus gérables et les mettre en œuvre. Cela équivaut à découper notre conception par éléments en commun et réaliser les découpages un par un. Cette méthode tire le meilleur des deux précédentes sans avoir les contraintes. Il faut juste noter que cette méthode implique, parfois, des compromis de découpage (dupliquer des dimensions identiques pour des besoins pratiques).</li>
+        </ul>
+      </div>
+    </div>
+    
+		<h2 class="TitreSection0" id="LVI">VI. Critique des méthodes de conception d'entrepôts<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h2><div class="BlocSection0">
+      
+      <p>C'est très humblement que j'ajoute cette section, car je ne suis pas un chef de file dans le domaine. Le BI me passionne, je lis énormément sur le sujet, mais je n'ai pas encore proposé de méthode de conception :) </p>
+      <p>Mon avis est que les méthodes décrites plus haut sont une très bonne façon de faire du BI avec les moyens techniques d'aujourd'hui. Bien que nous appliquions des compromis entre conception logique et réelle (étoile et flocon) et bien que la réalisation ne ressemble pas toujours à la conception (création de tables d'agrégats, division de tables pour des questions de performance, recréation de dimensions identiques pour des questions de performance, etc.), la représentation des données à base de dimensions et de faits offre un regard très analytique sur le data de l'entreprise et permet de sublimer les limitations du modèle relationnel en troisième forme normale en matière de manipulation de gros volumes des données. </p>
+      <p>Il reste que, en utilisant ces méthodes régulièrement, l'on se rend compte qu'il y a beaucoup de bidouillage et beaucoup de gestion d'intégrité manuelle (grâce aux ETL), à un point tel que si l'on n'est pas extrêmement rigoureux dans sa gestion de projet, l'environnement décisionnel peut facilement se transformer en une vraie usine à gaz. </p>
+      <p>En résumé, étant la meilleure manière de faire du décisionnel pour l'instant, la modélisation en étoile reste une façon très efficace d'organiser les données pour des fins d'analyse. Mais le temps, et la veille technologique, nous diront s'il existera une meilleure manière de faire du décisionnel avec les nouvelles technologies logicielles et matérielles. </p>
+    </div>
+    
+		<h2 class="TitreSection0" id="LVII">VII. Conclusion<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h2><div class="BlocSection0">
+      
+      <p>Je citerais, en conclusion, les éléments qui vous feront déduire que votre conception est bonne : </p>
+      <ul class="ListeDVP">
+        <li>que votre entrepôt de données permettra de faire toutes les opérations analytiques et donnera aux décideurs des moyens chiffrés pour évaluer les faits voulus ;</li>
+        <li>que vos dimensions seront orientées entreprise et pas fonction, avoir le plus possible des dimensions génériques et réutilisables ;</li>
+        <li>pas trop de flocons dans votre entrepôt, si c'est le cas, pensez plutôt à changer de serveur ou de moteur de stockage. C'est plus une technique d'optimisation que de conception ;</li>
+        <li>avoir des noms d'attributs et de tables compréhensibles par les utilisateurs.</li>
+        <li>documenter, documenter, documenter. N'oubliez pas qu'un entrepôt non documenté est un entrepôt qu'on ne peut pas faire évoluer, comprendre ou modifier. Gare à la rétention d'information !! ;</li>
+        <li>n'oubliez pas, pendant votre phase d'analyse, de lister les outputs et les questionnements des analystes et décideurs de votre entreprise. Ceux-ci serviront de fil conducteur tout au long de votre projet.</li>
+      </ul>
+    </div>
+    
+		<h2 class="TitreSection0" id="LVIII">VIII. Remerciements<a class="HautPage" href="#" title="Haut de page">&#9650;</a></h2><div class="BlocSection0">
+      
+      <p>Encore un grand merci à toute l'équipe de développez.com pour leur soutien et leurs conseils avisés qui ont contribué à l'aboutissement de ce document. Mention spéciale pour l'équipe de correcteurs, Olsimare et à Adrien Artero ;) </p>
+    </div>
+  </section><section class="articleBody"><p>Vous avez aimé ce tutoriel ? Alors partagez-le en cliquant sur les boutons suivants : <a title="Viadeo" href="http://www.viadeo.com/shareit/share/?url=https%3A%2F%2Fgrim.developpez.com%2Fcours%2Fbusinessintelligence%2Fconcepts%2Fconception-datawarehouse%2F&amp;Title=Conception+d%27un+entrep%C3%83%C2%B4t+de+donn%C3%83%C2%A9es+%28Data+Warehouse%29" rel="nofollow"><img alt="Viadeo" src="https://www.developpez.com/template/kit/kitbm-viadeo.png"/></a>&nbsp;<a title="Twitter" href="http://twitter.com/timeline/home?status=https%3A%2F%2Fgrim.developpez.com%2Fcours%2Fbusinessintelligence%2Fconcepts%2Fconception-datawarehouse%2F" rel="nofollow"><img alt="Twitter" src="https://www.developpez.com/template/kit/kitbm-twitter.png"/></a>&nbsp;<a title="Facebook" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fgrim.developpez.com%2Fcours%2Fbusinessintelligence%2Fconcepts%2Fconception-datawarehouse%2F" rel="nofollow"><img alt="Facebook" src="https://www.developpez.com/template/kit/kitbm-facebook.png"/></a>&nbsp;<a title="Google +" href="https://plus.google.com/share?url=https%3A%2F%2Fgrim.developpez.com%2Fcours%2Fbusinessintelligence%2Fconcepts%2Fconception-datawarehouse%2F" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a>&nbsp;<script src="https://platform.linkedin.com/in.js">lang: fr_FR</script>
+			<script type="IN/Share" data-url="$url"></script>&nbsp;</p></section><footer class="licence" role="contentinfo">Ce document est issu de http://www.developpez.com et reste la propriété exclusive de son auteur. La copie, modification et/ou distribution par quelque moyen que ce soit est soumise à l'obtention préalable de l'autorisation de l'auteur. </footer></div>
+
+</section>
+</article>
+		
+<script>
+	$(function() {
+		if ($("#gabarit_pubBB").is(":hidden"))
+			$('.contenuPage').attr('style', 'min-height:auto;padding-top:20px !important');
+	$("#gabarit_voiraussi").load("https://www.developpez.com/voiraussi/index/rubrique/61/");
+	$("#gabarit_encartemploi").load("https://www.developpez.com/ws/offres?alt=3&utf8=1");
+});
+</script>
+<img src="https://compteur.developpez.com/compter-61" alt="" width="1" height="1" style="position: absolute; left: 1px; top: 1px">
+<img src="https://compteur.developpez.com/show_i.php/61/0" alt="" width="1" height="1" style="position: absolute; left: 1px; top: 1px">
+<img src="https://compt.developpez.com/compter-61" alt="" width="1" height="1" style="position: absolute; left: 1px; top: 1px">
+<script>$(function(){$("#ui61jf0h").load("/template/ui61jf0h"+'0'+".jpg");$("#rw61tu5k").load("/template/rw61tu5k"+'0'+".jpg");});</script>
+<style type="text/css">@media screen and (max-width: 975px) { #ui61jf0h, #rw61tu5k { display:none !important; } }</style>
+</div>
+
+	</section>
+
+	<div id="gabarit_megaban_bas"><div id="rw61tu5k" class="dvpb5" style="display: inline-block; width: 728px; height: 90px"></div><div id="gabarit_pub5"></div></div>
+	<div id="gabarit_voiraussi"></div>
+	<div id="gabarit_encartemploi_desactive"></div>
+
+	<footer>
+
+	<div id="gabarit_responsable">
+				<a href="https://club.developpez.com/contacts/contribuer">Contacter</a> le responsable de la rubrique Business Intelligence
+			</div>
+
+	<ul id="gabarit_pied">
+		<li><a href="https://club.developpez.com/contacts/">Nous contacter</a>
+		<li><a href="https://www.developpez.com/participez/">Participez</a>
+	<li><a href="https://www.developpez.com/hebergement/">H&eacute;bergement</a>
+	<li><a href="https://www.developpez.com/advertising/">Publicit&eacute; / Advertising</a>
+	<li><a href="https://www.developpez.com/legal/">Informations l&eacute;gales</a>
+			<li>Partenaire : <a href="https://www.planethoster.com/fr/" target="_blank" rel="noopener">H&eacute;bergement Web</a>
+		</ul>
+
+<p id="gabarit_copyright">&copy; 2000-2022 - www.developpez.com</p>
+
+
+	</footer>
+<!-- Google Analytics general -->
+<script>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28115938-1']);
+  _gaq.push(['_setDomainName', 'developpez.com']);
+  _gaq.push(['_setCustomVar', 1, 'rubrique', 'business-intelligence', 3]);
+  _gaq.push(['_setCustomVar', 2, 'type', 'Tutoriel', 3]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	var ga = document.createElement('script'); ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+</body>
+</html>
+		
