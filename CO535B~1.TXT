@@ -1,0 +1,108 @@
+CREATE DATABASE projet_jegere;
+USE projet_jegere;
+     CREATE TABLE IF NOT EXISTS client(
+       IDClient INT NOT NULL,NomClient VARCHAR(45) NOT NULL,
+       Adresse VARCHAR(100) NOT NULL,Téléphone VARCHAR(45) NOT NULL,
+       AdresseCourriel VARCHAR(45) NOT NULL,
+       NomPays VARCHAR(50),
+       PRIMARY KEY(IDClient,NomClient));      
+
+     CREATE TABLE IF NOT EXISTS projet(IDProjet INT NOT NULL,
+     IDClient INT NOT NULL,
+     NomProjet VARCHAR(200) NOT NULL,
+     DateDébut DATE NOT NULL,
+     DateFin DATE NOT NULL,
+     IDResponsable INT NOT NULL,
+     PRIMARY KEY(IDProjet,NomProjet)
+     FOREIGN KEY('IDClient') REFERENCES 
+      );
+     
+
+     
+
+
+     CREATE TABLE IF NOT EXISTS employé(IDEmployé INT NOT NULL,NomEmployé VARCHAR(200) NOT NULL,Adresse VARCHAR(100) NOT NULL,Téléphone VARCHAR(45) NOT NULL,AdresseCourriel VARCHAR(45) NOT NULL,PRIMARY KEY(IDEmployé,NomEmployé));
+     CREATE TABLE IF NOT EXISTS ressourcesprojet(IDProjet INT NOT NULL,IDEmployé INT NOT NULL,nbrHeures INT NOT NULL,prixHeure FLOAT NOT NULL);
+     CREATE TABLE IF NOT EXISTS étape(IDÉtape INT NOT NULL,NomÉtape VARCHAR(200) NOT NULL,Livrable VARCHAR(200) NOT NULL,PRIMARY KEY(IDÉtape,NomÉtape));
+     CREATE TABLE IF NOT EXISTS étapesxprojet(IDÉtape INT NOT NULL,IDProjet INT NOT NULL,DateDébut DATE NOT NULL,DateFin DATE NOT NULL);
+    
+
+
+
+     ALTER TABLE client ADD CONSTRAINT Check_IDClient CHECK(IDClient>0 AND IDClient<=200);
+     ALTER TABLE client ADD CONSTRAINT Check_Adresse_1 CHECK(Adresse>0 AND Adresse<=20000);
+     ALTER TABLE client ADD CONSTRAINT Check_Téléphone_1 CHECK(Téléphone BETWEEN 0000000000 AND 1111111111);
+     ALTER TABLE client ADD CONSTRAINT Check_Téléphone_2 CHECK(Téléphone IN("514","450","438","418","819"));
+     ALTER TABLE client ADD CONSTRAINT Check_Adresse_Courriel_1 CHECK(".ca" AND ".qc.ca");
+     ALTER TABLE projet ADD CONSTRAINT Check_ID_Projet_1 CHECK(IDProjet>0 AND IDProjet<=200);
+     ALTER TABLE projet ADD CONSTRAINT FK_IDClient FOREIGN KEY(IDClient) REFERENCES client(IDClient);
+     ALTER TABLE projet ADD CONSTRAINT Check_Date_Début_1 CHECK(DateDébut BETWEEN 010100 AND 311299);
+     ALTER TABLE projet ADD CONSTRAINT Check_Date_Début_2 CHECK(DateDébut<DateFin);
+     ALTER TABLE projet ADD CONSTRAINT Check_Date_Fin_1 CHECK(DateFin BETWEEN 101000 AND 311299);
+     ALTER TABLE projet ADD CONSTRAINT Check_ID_Responsable CHECK(IDResponsable>0 AND IDResponsable<=1000);
+     ALTER TABLE employé ADD CONSTRAINT Check_ID_Employé_1 CHECK(IDEmployé>0 AND IDEmployé<=2000);
+     ALTER TABLE employé ADD CONSTRAINT Check_Adresse_2 CHECK(Adresse>0 AND Adresse<=20000);
+     ALTER TABLE employé ADD CONSTRAINT Check_Téléphone_3 CHECK(Téléphone BETWEEN 0000000000 AND 1111111111);
+     ALTER TABLE employé ADD CONSTRAINT Check_Téléphone_4 CHECK(Téléphone IN("514","450","438","418","819")); 
+     ALTER TABLE employé ADD CONSTRAINT Check_Adresse_Courriel_2 CHECK(".ca" AND ".qc.ca");
+     ALTER TABLE ressourcesprojet ADD CONSTRAINT Check_ID_Projet_2 CHECK(IDProjet>0 AND IDProjet<=200);
+     ALTER TABLE ressourcesprojet ADD CONSTRAINT FK_ID_Projet_1 FOREIGN KEY(IDProjet) REFERENCES projet(IDProjet);
+     ALTER TABLE ressourcesprojet ADD CONSTRAINT Check_ID_Employé_2 CHECK(IDEmployé>0 AND IDEmployé<=2000);
+     ALTER TABLE ressourcesprojet ADD CONSTRAINT FK_ID_Employé_1 FOREIGN KEY(IDEmployé) REFERENCES employé(IDEmployé);
+     ALTER TABLE ressourcesprojet ADD CONSTRAINT Check_nbrHeures CHECK(nbrHeures>0 AND nbrHeures<=22000);
+     ALTER TABLE ressourcesprojet ADD CONSTRAINT Check_prixHeure CHECK(prixHeure>0 AND prixHeure<=10000);
+     ALTER TABLE étape ADD CONSTRAINT Check_ID_Étape_1 CHECK(IDÉtape>0 AND IDÉtape<=200);
+     ALTER TABLE étapexprojet ADD CONSTRAINT Check_ID_Étape_2 CHECK(IDÉtape>0 AND IDÉtape<=200);
+     ALTER TABLE étapexprojet ADD CONSTRAINT FK_ID_Étape_1 FOREIGN KEY(IDÉtape) REFERENCES étape(IDÉtape);
+     ALTER TABLE étapexprojet ADD CONSTRAINT Check_ID_Projet_3 CHECK(IDProjet>0 AND IDProjet<=200);
+     ALTER TABLE étapexprojet ADD CONSTRAINT FK_IDProjet_2 FOREIGN KEY(IDProjet) REFERENCES projet(IDProjet);
+     ALTER TABLE étapexprojet ADD CONSTRAINT Check_Date_Début_3 CHECK(DateDébut BETWEEN 010100 and 311299);
+     ALTER TABLE étapexprojet ADD CONSTRAINT Check_Date_Début_4 CHECK(DateDébut<DateFin);
+     ALTER TABLE étapexprojet ADD CONSTRAINT Check_Date_Fin_2 CHECK(DateFin BETWEEN 010100 AND 311299);
+     ALTER TABLE étapexprojet ADD CONSTRAINT FK_Date_Début_1 FOREIGN KEY(DateDébut) REFERENCES projet(DateDébut);
+     ALTER TABLE étapexprojet ADD CONSTRAINT FK_Date_Fin_1 FOREIGN KEY(DateFin) REFERENCES projet(DateFin);
+    
+    INSERT INTO client(IDClient,NomClient,Adresse,Téléphone,AdresseCourriel) VALUES
+    (321,"Financière Québec","1234 Rue de La Montagne, Trois Rivières, Québec",8193765244,"info@fquebec.ca"),
+    (345,"Services Comptable Garneau","8721 Rue St-Laurent, Montréal, Québec", 5143217896,"services@comptablegarneau.ca");
+     
+    INSERT INTO projet(IDProjet,IDClient,NomProjet,DateDébut,DateFin,IDResponsable) VALUES
+    (1,321,"Devéloppement du site web","2011-08-01","2012-06-20",1876),
+    (2,321,"Maintenance du système de ressources humaines","2012-05-01","2012-07-23",2231),
+    (3,345,"Devéloppement du système de gestion de fournisseurs","2011-11-01","2012-07-24",2231);
+
+    INSERT INTO employé(IDEmployé,NomEmployé,Adresse,Téléphone,AdresseCourriel) VALUES
+    (1876,"Martin Rey","3345, Avenue Poirier, Montréal, Québec",5149871245,"martin.rey@jegere.ca"), 
+    (2231,"Jean Pierre Bordeau","2309, Boulevard PIE X11, Québec, Québec",4186573298,"jean.bordeau@jegere.ca"),
+    (4354,"Louise Gagnon","2101, Boulevard Bois Franc, Trois Rivières, Québec",8196574028,"louise.gagnon@jegere.ca"),  
+    (1212,"Marie St-Jérôme","1111, Avenue Jean Francois, Montréal, Québec",5144932876,"marie.stjerome@jegere.ca"); 
+    
+    INSERT INTO ressourcesprojet(IDProjet,IDEmployé,nbrHeures,prixHeure)  VALUES                         
+    (1,1876,500,65),
+    (1,4354,200,31),
+    (2,2231,250,55),
+    (3,2231,500,65), 
+    (3,1212,3000,35),
+    (3,1876,2000,35);
+    
+    INSERT INTO étape(IDÉtape,NomÉtape,Livrable) VALUES
+    (1,"Démarrage","Définition de la base du projet(objectifs, chef du projet)"),
+    (2,"Prévision","Planification du projet(perimètre, activités, ressources, requis, coûts)"),
+    (3,"Réalisation","Exécution du plan du projet"),
+    (4,"Surveillance et maitrise","Rapport de performance"),
+    (5,"Clôture","Document de clotûre du projet");
+    
+    INSERT INTO étapesxProjet(IDÉtape,IDProjet,DateDébut,DateFin) VALUES
+    (1,1,"2011-07-01","2011-09-01"),
+    (2,1,"2011-09-02","2011-11-30"),
+    (3,1,"2011-12-01","2012-07-07"),
+    (4,1,"2012-07-08","2012-12-20"),
+    (1,2,"2012-05-01","2012-05-10"),
+    (2,2,"2012-05-11","2012-06-01"), 
+    (3,2,"2012-06-02","2012-07-01"),
+    (4,2,"2012-07-01","2012-07-21"),
+    (5,2,"2012-07-22","2012-07-23"),
+    (1,3,"2011-11-01","2012-01-20"),
+    (2,3,"2012-01-21","2012-04-01"),
+    (3,3,"2012-04-02","2012-06-26");
+

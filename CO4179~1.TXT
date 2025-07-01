@@ -1,0 +1,122 @@
+CREATE DATABASE projet_jegere;
+USE projet_jegere;
+
+CREATE TABLE IF NOT EXISTS client(
+   c_IDClient INT NOT NULL,
+   c_NomClient VARCHAR(45) NOT NULL,
+   c_Adresse VARCHAR(200) NOT NULL,
+   c_Telephone VARCHAR(45) NOT NULL,
+   c_AdresseCourriel VARCHAR(200) NOT NULL,
+   c_NomPays VARCHAR(50),
+   PRIMARY KEY(c_IDClient,c_NomClient)); 
+   
+   CREATE INDEX C_c_IDClient ON client(c_IDClient);
+   CREATE INDEX C_c_NomClient ON client(c_NomClient);
+       
+CREATE TABLE IF NOT EXISTS projet(
+   p_IDProjet INT NOT NULL,
+   p_IDClient INT NOT NULL,
+   p_NomProjet VARCHAR(200) NOT NULL,
+   p_DateDebut DATE NOT NULL,
+   p_DateFin DATE NOT NULL,
+   p_IDResponsable INT NOT NULL,
+   PRIMARY KEY(p_IDProjet,p_NomProjet,p_DateDebut,p_DateFin),
+   FOREIGN KEY(p_IDClient) REFERENCES client(c_IDClient));
+   
+   CREATE INDEX P_p_IDProjet ON projet(p_IDProjet); 
+   CREATE INDEX P_p_NomProjet ON projet(p_NomProjet); 
+   CREATE INDEX P_p_IDClient ON projet(p_IDClient); 
+   CREATE INDEX FK_P_p_DateDebut ON projet(p_DateDebut); 
+   CREATE INDEX FK_P_p_DateFin ON projet(p_DateFin);
+   
+   ALTER TABLE projet ADD CONSTRAINT FK_P_p_IDClient FOREIGN KEY(p_IDClient) REFERENCES client(c_IDClient);
+      
+CREATE TABLE IF NOT EXISTS employe(
+       em_IDEmploye INT NOT NULL,
+       em_NomEmploye VARCHAR(200) NOT NULL,
+       em_Adresse VARCHAR(100) NOT NULL,
+       em_Telephone VARCHAR(45) NOT NULL,
+       em_AdresseCourriel VARCHAR(200) NOT NULL,
+       PRIMARY KEY(em_IDEmploye,em_NomEmploye));  
+
+CREATE INDEX EM_em_IDEmploye ON employe(em_IDEmploye);
+CREATE INDEX EM_em_NomEmploye ON employe(em_NomEmploye);
+
+CREATE TABLE IF NOT EXISTS ressourcesprojet(
+       rp_IDProjet INT NOT NULL,
+       rp_IDEmploye INT NOT NULL,
+       rp_nbrHeures INT NOT NULL,
+       rp_prixHeure FLOAT NOT NULL);
+
+CREATE INDEX RP_rp_IDProjet ON ressourcesprojet(rp_IDProjet); 
+CREATE INDEX RP_rp_IDEmploye ON ressourcesprojet(rp_IDEmploye);
+       
+ALTER TABLE ressourcesprojet ADD CONSTRAINT FK_RP_rp_IDProjet FOREIGN KEY(rp_IDProjet) REFERENCES projet(p_IDProjet);
+ALTER TABLE ressourcesprojet ADD CONSTRAINT FK_RP_rp_IDEmploye FOREIGN KEY(rp_IDEmploye) REFERENCES employe(em_IDEmploye);
+
+CREATE TABLE IF NOT EXISTS etape(
+    et_IDEtape INT NOT NULL,
+    et_NomEtape VARCHAR(200) NOT NULL,
+    et_Livrable VARCHAR(200) NOT NULL,
+    PRIMARY KEY(et_IDEtape,et_NomEtape));
+
+CREATE INDEX ET_et_IDEtape ON etape(et_IDEtape);
+CREATE INDEX ET_et_NomEtape ON etape(et_NomEtape);
+
+CREATE TABLE IF NOT EXISTS etapesxprojet(
+    ep_IDEtape INT NOT NULL,
+    ep_IDProjet INT NOT NULL,
+    ep_DateDebut DATE NOT NULL,
+    ep_DateFin DATE NOT NULL);
+ 
+ CREATE INDEX FK_EP_ep_IDEtape ON etapesxprojet(ep_IDEtape);
+ CREATE INDEX FK_EP_ep_IDProjet ON etapesxprojet(ep_IDProjet); 
+ CREATE INDEX FK_EP_ep_DateDebut ON etapesxprojet(ep_DateDebut); 
+ CREATE INDEX FK_EP_ep_DateFin ON etapesxprojet(ep_DateFin);
+ 
+ ALTER TABLE etapesxprojet ADD CONSTRAINT FK_EP_ep_IDEtape_1 FOREIGN KEY(e_IDEtape) REFERENCES etape(e_IDEtape);
+ ALTER TABLE etapesxprojet ADD CONSTRAINT FK_EP_ep_IDProjet_1 FOREIGN KEY (p_IDProjet) REFERENCES projet(p_IDProjet);
+  
+ INSERT INTO client(c_IDClient,c_NomClient,c_Adresse,c_Telephone,c_AdresseCourriel) VALUES
+    (321,"Financière Québec","1234 Rue de La Montagne, Trois Rivières, Québec",8193765244,"info@fquebec.ca"),
+    (345,"Services Comptable Garneau","8721 Rue St-Laurent, Montréal, Québec", 5143217896,"services@comptablegarneau.ca");
+     
+ INSERT INTO projet(p_IDProjet,p_IDClient,p_NomProjet,p_DateDebut,p_DateFin,p_IDResponsable) VALUES
+    (1,321,"Devéloppement du site web","2011-08-01","2012-06-20",1876),
+    (2,321,"Maintenance du système de ressources humaines","2012-05-01","2012-07-23",2231),
+    (3,345,"Devéloppement du système de gestion de fournisseurs","2011-11-01","2012-07-24",2231);
+
+ INSERT INTO employe(em_IDEmploye,ew_NomEmploye,em_Adresse,em_Telephone,em_AdresseCourriel) VALUES
+    (1876,"Martin Rey","3345, Avenue Poirier, Montréal, Québec",5149871245,"martin.rey@jegere.ca"), 
+    (2231,"Jean Pierre Bordeau","2309, Boulevard PIE X11, Québec, Québec",4186573298,"jean.bordeau@jegere.ca"),
+    (4354,"Louise Gagnon","2101, Boulevard Bois Franc, Trois Rivières, Québec",8196574028,"louise.gagnon@jegere.ca"),  
+    (1212,"Marie St-Jérôme","1111, Avenue Jean Francois, Montréal, Québec",5144932876,"marie.stjerome@jegere.ca"); 
+    
+ INSERT INTO ressourcesprojet(rp_IDProjet,rp_IDEmploye,rp_nbrHeures,rp_prixHeure) VALUES                         
+    (1,1876,500,65),
+    (1,4354,200,31),
+    (2,2231,250,55),
+    (3,2231,500,65), 
+    (3,1212,3000,35),
+    (3,1876,2000,35);
+    
+ INSERT INTO etape(et_IDEtape,et_NomEtape,et_Livrable) VALUES
+    (1,"Démarrage","Définition de la base du projet(objectifs, chef du projet)"),
+    (2,"Prévision","Planification du projet(perimètre, activités, ressources, requis, coûts)"),
+    (3,"Réalisation","Exécution du plan du projet"),
+    (4,"Surveillance et maitrise","Rapport de performance"),
+    (5,"Clôture","Document de clotûre du projet");
+    
+ INSERT INTO etapesxprojet(ep_IDEtape,ep_IDProjet,ep_DateDebut,ep_DateFin) VALUES
+    (1,1,"2011-07-01","2011-09-01"),
+    (2,1,"2011-09-02","2011-11-30"),
+    (3,1,"2011-12-01","2012-07-07"),
+    (4,1,"2012-07-08","2012-12-20"),
+    (1,2,"2012-05-01","2012-05-10"),
+    (2,2,"2012-05-11","2012-06-01"), 
+    (3,2,"2012-06-02","2012-07-01"),
+    (4,2,"2012-07-01","2012-07-21"),
+    (5,2,"2012-07-22","2012-07-23"),
+    (1,3,"2011-11-01","2012-01-20"),
+    (2,3,"2012-01-21","2012-04-01"),
+    (3,3,"2012-04-02","2012-06-26"); 

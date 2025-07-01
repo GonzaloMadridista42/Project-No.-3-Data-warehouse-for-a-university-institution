@@ -1,8 +1,8 @@
-CREATE SCHEMA Projet_JeGere;
+CREATE DATABASE Projet_JeGere;
 USE Projet_JeGere;
-     CREATE TABLE IF NOT EXISTS Client(IDClient INT NOT NULL,NomClient VARCHAR(45) NOT NULL,Adresse VARCHAR(45) NOT NULL,Téléphone VARCHAR(45) NOT NULL,AdresseCourriel VARCHAR(45) NOT NULL,NomPays VARCHAR(50),PRIMARY KEY(IDClient,NomClient));
+     CREATE TABLE IF NOT EXISTS Client(IDClient INT NOT NULL,NomClient VARCHAR(45) NOT NULL,Adresse VARCHAR(100) NOT NULL,Téléphone VARCHAR(45) NOT NULL,AdresseCourriel VARCHAR(45) NOT NULL,NomPays VARCHAR(50),PRIMARY KEY(IDClient,NomClient));
      CREATE TABLE IF NOT EXISTS Projet(IDProjet INT NOT NULL,IDClient INT NOT NULL,NomProjet VARCHAR(45) NOT NULL,DateDébut DATE NOT NULL,DateFin DATE NOT NULL,IDResponsable INT NOT NULL, PRIMARY KEY(IDProjet,NomProjet));
-     CREATE TABLE IF NOT EXISTS Employé(IDEmployé INT NOT NULL,NomEmployé VARCHAR(45) NOT NULL,Adresse VARCHAR(45) NOT NULL,Téléphone VARCHAR(45) NOT NULL,AdresseCourriel VARCHAR(45) NOT NULL,PRIMARY KEY(IDEmployé,NomEmployé));
+     CREATE TABLE IF NOT EXISTS Employé(IDEmployé INT NOT NULL,NomEmployé VARCHAR(45) NOT NULL,Adresse VARCHAR(100) NOT NULL,Téléphone VARCHAR(45) NOT NULL,AdresseCourriel VARCHAR(45) NOT NULL,PRIMARY KEY(IDEmployé,NomEmployé));
      CREATE TABLE IF NOT EXISTS RessourcesProjet(IDProjet INT NOT NULL,IDEmployé INT NOT NULL,nbrHeures INT NOT NULL,prixHeure FLOAT NOT NULL);
      CREATE TABLE IF NOT EXISTS Étape(IDÉtape INT NOT NULL,NomÉtape VARCHAR(45) NOT NULL,Livrable VARCHAR(45) NOT NULL,PRIMARY KEY(IDÉtape,NomÉtape));
      CREATE TABLE IF NOT EXISTS ÉtapesxProjet(IDÉtape INT NOT NULL,IDProjet INT NOT NULL,DateDébut DATE NOT NULL,DateFin DATE NOT NULL);
@@ -10,7 +10,7 @@ USE Projet_JeGere;
      ALTER TABLE Client ADD CONSTRAINT Check_IDClient CHECK(IDClient>0 AND IDClient<=200);
      ALTER TABLE Client ADD CONSTRAINT Check_Adresse_1 CHECK(Adresse>0 AND Adresse<=20000);
      ALTER TABLE Client ADD CONSTRAINT Check_Téléphone_1 CHECK(Téléphone BETWEEN 0000000000 AND 1111111111);
-     ALTER TABLE Client ADD CONSTRAINT Check_Adresse_Courriel_1 CHECK(".ca" OR ".qc.ca");
+     ALTER TABLE Client ADD CONSTRAINT Check_Adresse_Courriel_1 CHECK(".ca" AND ".qc.ca");
      ALTER TABLE Projet ADD CONSTRAINT Check_ID_Projet_1 CHECK(IDProjet>0 AND IDProjet<=200);
      ALTER TABLE Projet ADD CONSTRAINT FK_IDClient FOREIGN KEY(IDClient) REFERENCES Client(IDClient);
      ALTER TABLE Projet ADD CONSTRAINT Check_Date_Début_1 CHECK(DateDébut BETWEEN 010100 AND 311299);
@@ -20,7 +20,7 @@ USE Projet_JeGere;
      ALTER TABLE Employé ADD CONSTRAINT Check_ID_Employé_1 CHECK(IDEmployé>0 AND IDEmployé<=2000);
      ALTER TABLE Employé ADD CONSTRAINT Check_Adresse_2 CHECK(Adresse>0 AND Adresse<=20000);
      ALTER TABLE Employé ADD CONSTRAINT Check_Téléphone_2 CHECK(Téléphone BETWEEN 0000000000 AND 1111111111);
-     ALTER TABLE Employé ADD CONSTRAINT Check_Adresse_Courriel_2 CHECK(".ca" OR ".qc.ca");
+     ALTER TABLE Employé ADD CONSTRAINT Check_Adresse_Courriel_2 CHECK(".ca" AND ".qc.ca");
      ALTER TABLE RessourcesProjet ADD CONSTRAINT Check_ID_Projet_2 CHECK(IDProjet>0 AND IDProjet<=200);
      ALTER TABLE RessourcesProjet ADD CONSTRAINT FK_ID_Projet_1 FOREIGN KEY(IDProjet) REFERENCES Projet(IDProjet);
      ALTER TABLE RessourcesProjet ADD CONSTRAINT Check_ID_Employé_2 CHECK(IDEmployé>0 AND IDEmployé<=2000);
@@ -28,8 +28,8 @@ USE Projet_JeGere;
      ALTER TABLE RessourcesProjet ADD CONSTRAINT Check_nbrHeures CHECK(nbrHeures>0 AND nbrHeures<=22000);
      ALTER TABLE RessourcesProjet ADD CONSTRAINT Check_prixHeure CHECK(prixHeure>0 AND prixHeure<=10000);
      ALTER TABLE Étape ADD CONSTRAINT Check_ID_Étape_1 CHECK(IDÉtape>0 AND IDÉtape<=200);
-     ALTER TABLE ÉtapexProjet ADD CONSTRAINT Check_Étape_2 CHECK(IDÉtape>0 AND IDÉtape<=200);
-     ALTER TABLE ÉtapexProjet ADD CONSTRAINT FK_ID_Étape_2 FOREIGN KEY(IDÉtape) REFERENCES Étape(IDÉtape);
+     ALTER TABLE ÉtapexProjet ADD CONSTRAINT Check_ID_Étape_2 CHECK(IDÉtape>0 AND IDÉtape<=200);
+     ALTER TABLE ÉtapexProjet ADD CONSTRAINT FK_ID_Étape_1 FOREIGN KEY(IDÉtape) REFERENCES Étape(IDÉtape);
      ALTER TABLE ÉtapexProjet ADD CONSTRAINT Check_ID_Projet_3 CHECK(IDProjet>0 AND IDProjet<=200);
      ALTER TABLE ÉtapexProjet ADD CONSTRAINT FK_IDProjet_2 FOREIGN KEY(IDProjet) REFERENCES Projet(IDProjet);
      ALTER TABLE ÉtapexProjet ADD CONSTRAINT Check_Date_Début_3 CHECK(DateDébut BETWEEN 010100 and 311299);
@@ -42,7 +42,7 @@ USE Projet_JeGere;
     (321,"Financière Québec","1234 Rue de La Montagne, Trois Rivières, Québec",8193765244,"info@fquebec.ca"),
     (345,"Services Comptable Garneau","8721 Rue St-Laurent, Montréal, Québec", 5143217896,"services@comptablegarneau.ca");
      
-    INSERT INTO Employé(IDProjet,NomProjet,Adresse,Téléphone,AdresseCourriel) VALUES
+    INSERT INTO Employé(IDEmployé,NomEmployé,Adresse,Téléphone,AdresseCourriel) VALUES
     (1876,"Martin Rey","3345, Avenue Poirier, Montréal, Québec",5149871245,"martin.rey@jegere.ca"), 
     (2231,"Jean Pierre Bordeau","2309, Boulevard PIE X11, Québec, Québec",4186573298,"jean.bordeau@jegere.ca"),
     (4354,"Louise Gagnon","2101, Boulevard Bois Franc, Trois Rivières, Québec",8196574028,"louise.gagnon@jegere.ca"),  
