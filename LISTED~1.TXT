@@ -1,0 +1,31 @@
+INF 9004 - Travail Noté #3:
+
+Requete qui répond à la question #1:
+
+select
+{([Product].[Drink].Children)} on columns,
+{([Time].[1997].Children)} on rows
+from [Sales]
+where {[Measures].[Unit Sales]}
+
+Requete qui répond à la question #2:
+
+select
+{(TopCount([Product].[Drink].Children,1,[Measures].[Unit Sales]))} on columns,
+{([Time].[1997].Children)} on rows
+from [Sales]
+
+Requete qui répond à la question #3:
+
+select
+
+CrossJoin({[Measures].[Unit Sales]},
+          {[Product].[Drink].Children}) on columns,
+
+CrossJoin({[Time].[1997].Children},
+          {[Gender].Children}) on rows
+
+from [Sales]
+
+
+

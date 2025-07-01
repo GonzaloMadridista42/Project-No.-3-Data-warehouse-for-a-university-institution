@@ -1,0 +1,96 @@
++INF 9004 - Travail Noté #3:
+
+Requête qui répond à la question #1:
+
+select
+{([Product].[Drink].Children)} on columns,
+{([Time].[1997].Children)} on rows
+from [Sales]
+where {[Measures].[Unit Sales]}
+
+Requête qui répond à la question #2:
+
+select
+{(TopCount([Product].[Drink].Children,1,[Measures].[Unit Sales]))} on columns,
+{([Time].[1997].Children)} on rows
+from [Sales]
+
+Requête qui répond à la question #3:
+
+select
+
+CrossJoin({[Measures].[Unit Sales]},
+          {[Product].[Drink].Children}) on columns,
+
+CrossJoin({[Time].[1997].Children},
+          {[Gender].Children}) on rows
+
+from [Sales]
+
+Requête qui répond à la question #4:
+
+select
+
+{[All Stores].[USA].[CA].Children} on rows,
+{[Measures].[Store Sales]} on columns
+
+from [Sales]
+
+
+Une autre version de cette requête, si on veut savoir le total des unités vendues et le revenu produit par ces unités:
+
+select
+
+{[All Stores].[USA].[CA].Children} on rows,
+{[Measures].[Store Sales],
+ [Measures].[Unit Sales]} on columns
+
+from [Sales]
+
+Ces deux requêtes donnent une ligne vide, afin de l'éliminer de la liste des magasins, pour le calcul de leurs revenus, il faut utiliser la fonction Filter.
+
+Les voici les deux requêtes ci-dessus, avec cette fonction Filter:
+
+Requête originale de la question #4:
+
+select
+Filter({[All Stores].[USA].[CA].Children},[Measures].[Store Sales]>0) on rows,
+{[Measures].[Store Sales]} on columns
+from [Sales]
+
+Requête modifiée de la question #4:
+
+select
+Filter({[All Stores].[USA].[CA].Children},[Measures].[Store Sales]>0) on rows,
+{[Measures].[Store Sales],[Measures].[Unit Sales]} on columns
+from [Sales]
+
+Requête qui répond à la question #5:
+
+with
+Member [Measures].[ROI]
+as(([Measures].[Store Sales]-[Measures].[Store Cost])/[Measures].[Store Cost]),solve_order=0
+
+Member [Measures].[%]
+as([Measures].[ROI]),
+format_string="Percent", solve_order=1
+
+Member [Measures].[Performance]
+as
+iif([Measures].[%] > 1.5, "+",
+iif([Measures].[%] < 1.5, "-",
+iif([Measures].[%] =1.5,"=", "null")))
+
+select
+{
+ [Measures].[Store Sales],
+ [Measures].[Store Cost],
+ [Measures].[ROI],
+ [Measures].[%],
+ [Measures].[Performance] 
+} on columns,
+
+[Product].[Drink].Children on rows
+
+from [Sales]
+

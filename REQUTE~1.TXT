@@ -1,132 +1,62 @@
-Requêtes de base fonctionnelles à 100% - Version Finale
+INF 9004 - Semaine 10 - Questions d'approfondissement
 
-Requêtes permettant de montrer, de manière claire, précise et concise, les notes des étudiants de l'Université Téluq Montréal:
+Question a):
 
-Ensemble de requêtes SQL, permettant de consulter les trois dimensions, du cube de données, avec un schéma en étoile, du entrepôt de données de 
-l'Université Téluq montreal (requêtes de base qui ont été conçues pour les utiliser avec l'instruction UNION, ce qui est à proscrire pour le cas du projet 3):
+select
+{[Product].[All Products].[Drink].[Alcoholic Beverages],
+ [Product].[All Products].[Drink].[Dairy]} on columns,
 
-Requêtes programmés pourque SQL Workbench consulte la dimension Étudiant:
+{[Gender].[M],[Gender].[F]} on rows
+from [Sales]
+where {[Measures].[Store Cost]}
 
-Requête #1:
+R�sultat de cette requ�te:
+ 
+Results:
+[Measures].[Store Cost] [Product].[Drink].[Alcoholic Beverages]	[Product].[Drink].[Dairy]
+[Gender].[M]	                                       2,775.70	                 1,446.45
+[Gender].[F]	                                       2,801.08	                 1,384.47
 
-SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours 
-FROM Entrepôt_De_Données_Université_Téluq.Etudiant
-WHERE e_SessionÉtudes='Hiver 2020';
+Question b):
 
-Requête #2:
+Requ�te #1:
 
-SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_ProfilDeFormationÉtudiant,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours 
-FROM Entrepôt_De_Données_Université_Téluq.Etudiant
-WHERE e_ProfilDeFormationÉtudiant='Administration';
+select
+{([Product].[Drink])} on columns,
 
-Requête #3:
+{([Time].[1997],[Measures].[Store Cost]),
+ ([Time].[1997],[Measures].[Unit Sales])} on rows
 
-SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_ProfilDeFormationÉtudiant,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours,e_NomDuprogramme,e_NuméroDuProgramme 
-FROM Entrepôt_De_Données_Université_Téluq.Etudiant
-WHERE e_NomDuprogramme='Baccalauréat en administration (cheminement général)' AND e_NuméroDuProgramme='7764';
+from [Sales]
 
-Requête #4:
+R�sultat de cette requ�te:
 
-SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_ProfilDeFormationDuProgramme,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours 
-FROM Entrepôt_De_Données_Université_Téluq.Etudiant
-WHERE e_ProfilDeFormationDuProgramme='Gouvernance des technologies de l''information';
+Results:
+ 	                                [Product].[Drink]
+[Time].[1997]	[Measures].[Store Cost]	        19,477.23
+[Time].[1997]	[Measures].[Unit Sales]	           24,597
 
-Requête #5:
+Requ�te #2:
 
-SELECT e_Prénom,e_Nom,e_Sexe,e_CodePermanent,e_NomDuProgramme,e_NuméroDuProgramme,e_ProfilDeFormationDuProgramme,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours
-FROM Entrepôt_De_Données_Université_Téluq.Etudiant
-WHERE e_NomDuProgramme='Majeure en informatique'AND e_Sexe='Masculin';
+select
+{([Product].[Drink])} on columns,
 
-Requête #5A:
+{[Measures].[Store Cost],
+ [Measures].[Unit Sales]} on rows
 
-SELECT e_Prénom,e_Nom,e_NuméroÉtudiant,e_CodePermanent,e_ProfilDeFormationÉtudiant,e_SessionÉtudes,e_SigleDuCours,e_TitreDuCours,e_NoteFinaleDuCours,e_ProfilDeFormationDuProgramme 
-FROM Entrepôt_De_Données_Université_Téluq.Etudiant
-WHERE e_ProfilDeFormationDuProgramme='Administration (cheminement général)';
+from [Sales]
 
+where
+{
+ [Time].[1997]
+}
 
-Requêtes programmés pourque SQL Workbench consulte la dimension Programme universitaire:
+R�sultat de cette requ�te:
 
-Requête #6:
-
-SELECT pr_NomDuprogramme,pr_NuméroDuProgramme,pr_TypeDeProgramme,pr_ProfilDeFormationDuprogramme 
-FROM Entrepôt_De_Données_Université_Téluq.ProgrammeUniversitaire
-WHERE pr_TypeDeProgramme='Baccalauréat';
-
-Requête #7:
-
-SELECT pr_NomDuprogramme,pr_NuméroDuProgramme,pr_CycleÉtudes,pr_TypeDeProgramme,pr_ProfilDeFormationDuprogramme 
-FROM Entrepôt_De_Données_Université_Téluq.ProgrammeUniversitaire
-WHERE pr_CycleÉtudes='Deuxième cycle';
-
-Requête #8:
-
-SELECT pr_NomDuprogramme,pr_NuméroDuProgramme,pr_CycleÉtudes,pr_TypeDeProgramme,pr_ProfilDeFormationDuprogramme,pr_Département 
-FROM Entrepôt_De_Données_Université_Téluq.ProgrammeUniversitaire
-WHERE pr_Département='Administration';
-
-Requêtes programmés pourque SQL Workbench consulte la dimension Programme universitaire:
-
-Requête #6 modifiée: ajout des attributs pr_CycleÉtudes et pr_Département:
-
-SELECT pr_NomDuprogramme,pr_NuméroDuProgramme,pr_TypeDeProgramme,pr_CycleÉtudes,pr_ProfilDeFormationDuprogramme,pr_Département 
-FROM Entrepôt_De_Données_Université_Téluq.ProgrammeUniversitaire
-WHERE pr_TypeDeProgramme='Baccalauréat';
-
-Requête #7 modifiée: ajout de l'attribut pr_Département:
-
-SELECT pr_NomDuprogramme,pr_NuméroDuProgramme,pr_CycleÉtudes,pr_TypeDeProgramme,pr_ProfilDeFormationDuprogramme,pr_Département 
-FROM Entrepôt_De_Données_Université_Téluq.ProgrammeUniversitaire
-WHERE pr_CycleÉtudes='Deuxième cycle';
-
-Requêtes programmés pourque SQL Workbench consulte la dimension Cours:
-
-Requête #9:
-
-SELECT c_SigleDuCours,c_TitreDuCours,c_TypeDuCours 
-FROM Entrepôt_De_Données_Université_Téluq.Cours
-WHERE c_TypeDuCours='Cours sans examen';
-
-Requête #10:
-
-SELECT c_SigleDuCours,c_TitreDuCours,c_TypeDuCours,c_NombreDeCrédits 
-FROM Entrepôt_De_Données_Université_Téluq.Cours
-WHERE c_NombreDeCrédits=3;
-
-Requête #11:
-
-SELECT c_SigleDuCours,c_TitreDuCours,c_TypeDuCours,c_NombreDeCrédits,c_ChargeHebdomadaire 
-FROM Entrepôt_De_Données_Université_Téluq.Cours
-WHERE c_ChargeHebdomadaire>0;
-
-Requête #12:
-
-SELECT c_SigleDuCours,c_TitreDuCours,c_TypeDuCours,c_CoursPréalable,c_NombreDeCrédits,c_ChargeHebdomadaire 
-FROM Entrepôt_De_Données_Université_Téluq.Cours
-WHERE c_CoursPréalable='INF 1220';
-
-Requêtes nécessaires pour faire compiler correctement l'instruction SQL UNION:
-
-Requêtes programmés pourque SQL Workbench consulte la dimension Cours:
-
-Requête #9 modifiée: ajout des attributs c_NuméroDuProgramme,c_ProfilDeFormationDuprogramme et c_DépartementResponsable:
-
-SELECT c_SigleDuCours,c_TitreDuCours,c_TypeDuCours,c_NuméroDuProgramme,c_ProfilDeFormationDuprogramme,c_DépartementResponsable 
-FROM Entrepôt_De_Données_Université_Téluq.Cours
-WHERE c_TypeDuCours='Cours sans examen';
-
-Requête #10 modifiée: ajout des attributs c_NuméroDuProgramme et c_ProfilDeFormationDuprogramme:
-
-SELECT c_SigleDuCours,c_TitreDuCours,c_TypeDuCours,c_NombreDeCrédits,c_NuméroDuProgramme,c_ProfilDeFormationDuprogramme
-FROM Entrepôt_De_Données_Université_Téluq.Cours
-WHERE c_NombreDeCrédits=3;
-
-Requête #11 modifiée: ajout de l'attribut c_DépartementResponsable:
-
-SELECT c_SigleDuCours,c_TitreDuCours,c_TypeDuCours,c_NombreDeCrédits,c_ChargeHebdomadaire,c_DépartementResponsable 
-FROM Entrepôt_De_Données_Université_Téluq.Cours
-WHERE c_ChargeHebdomadaire>0;
-
-
+Results:
+[Time].[1997] 	        [Product].[Drink]
+[Measures].[Store Cost]	        19,477.23
+[Measures].[Unit Sales]	           24,597
 
 
 

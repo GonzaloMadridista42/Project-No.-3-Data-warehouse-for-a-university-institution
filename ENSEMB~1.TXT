@@ -1,0 +1,133 @@
+Concepts de base de la programmation et création de requêtes de type OLAP, avec Mondrian:
+
+select [Time].[1997] on columns (1)
+from [Sales]
+select [Product].[Food] on columns (2)
+from [Sales]
+select [Product].[Food].[Baked Goods] on columns (3).  
+from [Sales]
+
+La requête suivante est équivalente à celle de (2):
+
+select [Product].[All Products].[Food].[Baked Goods] on columns
+from [Sales]
+
+La requête suivante permet de visionner le contenu d'un tuple global, général, de la table Sales:
+Un tuple est une suite de plusieurs membres entre parentheses séparés par une virgule :
+
+select ([Time].[1997], [Product].[Food]) on columns
+from [Sales]
+
+La requête suivante permet de visionner le contenu des tuples d'un membre particulier, dans ce cas, ce sera le membre Baked Goods:
+
+select ([Product].[All Products].[Food].[Baked Goods],[Time].[1997]) on columns
+from [Sales]
+
+La requête suivante permet de vissionner un autre type de membre, dans ce cas, ce sera le membre Customer Count:
+
+select ([Product].[All Products].[Food].[Baked Goods],[Time].[1997],[Measures].[Customer Count]) on columns
+from [Sales]
+
+La requête suivante permet de visionner le contenu de deux membres (mesures) différents, chacun ayant ses propres membres et attributs:
+
+select
+{
+  ([Measures].[Unit Sales],
+  [Product].[All Products].[Food].[Baked Goods]),
+  ([Measures].[Store Sales],
+  [Product].[All Products].[Food].[Baked Goods])
+}
+on columns
+from [Sales]
+
+La requête suivante permet de réaliser les mêmes calculs que ceux de la requpete précédente ci-dessus, mais en énumérant des catégories de produits:
+
+select
+{
+([Measures].[Unit Sales], [Product].[Food]),
+([Measures].[Unit Sales], [Product].[Drink])
+}
+on columns
+from [Sales]
+
+La requête suivante permet de réaliser les mêmes calculs que ceux de la requpete précédente ci-dessus, mais les mesures et les dimensions, ainsi que les niveaux hiérarchiques varient en même temps:
+
+select
+{
+([Measures].[Unit Sales], [Product].[Food]),
+([Measures].[Store Sales], [Product].[Food].[Baked Goods])
+}
+on columns
+from [Sales]
+
+La requête suivante est du même principe de calcul que la précédente ci-dessus, sauf que cette requête contient un seul élément:
+
+select
+{
+([Time].[1997])
+}
+on columns
+from [Sales]
+
+Le voici le prototype d'une requête MDX:
+
+select [<axis_specification>
+[, <specification_des_axes>...]]
+from [<specification_d_un_cube>]
+[where [<specification_de_filtres>]]
+
+La requête suivante prend en considération la spécification des axes (rows et columns), pour obtenir les unités vendues, par an, de sporduits Food et Drink:
+
+select
+{
+  ([Measures].[Unit Sales], [Product].[Food]),
+  ([Measures].[Unit Sales], [Product].[Drink])
+} 
+
+on columns,
+{
+  ([Time].[1997]),
+  ([Time].[1998])
+} 
+
+on rows
+from [Sales]
+
+Les requêtes suivantes permettent d'obtenir des données des ventes des consommateurs masculins de produits variés:
+
+select
+{
+  ([Measures].[Unit Sales], [Product].[Food]),
+  ([Measures].[Unit Sales], [Product].[Drink])
+}
+
+on columns,
+{
+  ([Time].[1997]),
+  ([Time].[1998])
+}
+
+on rows
+from [Sales]
+where
+{
+  ([Gender].[M])
+}
+
+La requête suivante permet d'obtenir des données provenant de mesures autres que les mesures par défaut:
+
+select
+{([Product].[Drink])}on columns,
+{([Time].[1997])} on rows
+from [Sales]
+where {[Measures].[Store Cost]}
+
+Finalement, on peut ajouter des commentaires dans du code MDX de trois façons:
+
+// Commentaire en fin de ligne. 
+
+-- Commentaire en fin de ligne. 
+
+/*
+   Commentaire sur plusieurs lignes
+*/

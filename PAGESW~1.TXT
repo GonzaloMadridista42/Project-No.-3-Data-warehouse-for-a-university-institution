@@ -1,8 +1,3 @@
-Page web d'un canal de Youtube montrant les deux façons d'importer des données d'un fichier CSV, peut importe son poids en mémoire:
-
-https://www.youtube.com/watch?v=OnXB3ZRrOW0
-
-Page web trouvé sur Google, montrant la manière d'éliminer/résoudre l'erreur du logiciel MySQl Workbench MySQL Error 1452:
-
-https://bobcares.com/blog/mysql-error-1452/
-
+https://fr.wikipedia.org/wiki/Arbre_enracin%C3%A9#:~:text=En%20th%C3%A9orie%20des%20graphes%2C%20un,racine%20ont%20un%20unique%20parent.
+https://hal.archives-ouvertes.fr/hal-00320650/document
+https://www.google.com/search?hl=fr&sxsrf=APq-WBvMrf_iBQf-EsLvT08XkE0UYhpY7w:1649612639892&q=arbre+enracin%C3%A9+entrep%C3%B4ts+de+donn%C3%A9es&spell=1&sa=X&ved=2ahUKEwjmuqv7hYr3AhUyVt8KHQ_2AzYQBSgAegQIARA3&biw=1366&bih=625&dpr=1
